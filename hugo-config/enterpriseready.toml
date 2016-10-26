@@ -1,0 +1,14 @@
+baseurl = "https://www.enterpriseready.io"
+languageCode = "en-us"
+title = "EnterpriseReady"
+theme = "hugo-theme-enterpriseready"
+metadataformat = "yaml"
+
+[taxonomies]
+feature = "features"
+
+[params]
+  description = "EnterpriseReady"
+  copyright = "Replicated, Inc."
+  edit_link = "https://github.com/enterpriseready/enterpriseready/edit/master/docs/"
+  search = true

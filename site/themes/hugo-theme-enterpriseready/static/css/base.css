@@ -1,0 +1,421 @@
+/* Base Styles */
+
+* {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+hr {
+    height: 1px;
+    background-color: #DEDEDE;
+    border: none;
+    width: 1200px;
+    margin: 50px auto;
+}
+strong {
+    font-weight: 400;
+}
+.date {
+    font-weight: 500;
+    color: #ee5042;
+}
+.read-more {
+    border: 1px solid #979797;
+    padding: 5px 8px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #979797;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.read-more:hover {
+    color: white;
+    background-color: #979797;
+}
+@media (max-width: 550px) {
+    hr {
+        width: 100%;
+        margin: 30px auto;
+    }
+}
+
+/* Nav */
+
+#nav {
+    padding: 25px 50px 5px;
+    background-color: #ee5042;
+}
+#nav ul {
+    float: right;
+    margin-right: 10px;
+}
+#nav ul li {
+    float: left;
+    margin-top: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+@media (max-width: 550px) {
+    #nav {
+        padding: 25px 5% 5px;
+    }
+}
+
+/* Inner Nav */
+
+#inner-nav {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #DEDEDE;
+}
+#inner-nav ul {
+    float: right;
+    margin-right: 10px;
+}
+#inner-nav ul li {
+    float: left;
+    margin-top: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* Breadcrumbs */
+
+#breadcrumbs {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ee5042;
+    font-weight: 300
+}
+#breadcrumbs span {
+    margin: 0px 6px;
+}
+#breadcrumbs span:last-child {
+    color: #222;
+}
+#breadcrumbs a {
+    color: #222;
+}
+#breadcrumbs a:hover {
+    color: #ee5042;
+}
+
+/* Main */
+
+#main {
+    background-color: #ee5042;
+    padding: 30px 0px 50px;
+    margin-top: -25px;
+}
+#main h1, #main h4 {
+    color: white;
+}
+
+/* Intro */
+
+#intro {
+    padding: 0px 100px 0px;
+}
+#intro p {
+    font-size: 14px;
+}
+#intro .row {
+    margin-bottom: 40px;
+}
+#intro .row:last-child {
+    margin-bottom: 0px;
+}
+@media (max-width: 550px) {
+    #intro {
+        padding: 50px 5% 0px;
+    }
+    #intro .row {
+        margin-bottom: 0px;
+    }
+}
+
+/* Checklist */
+
+#checklist {
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+#checklist .checklist-icon {
+    width: 60px;
+    min-height: 60px;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 2px;
+}
+#checklist h3 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+#checklist h2+ p {
+    width: 650px;
+    margin: 0px auto;
+}
+@media (max-width: 550px) {
+    #checklist h2+ p {
+        width: 90%;
+        margin: 20px;
+    }
+}
+#checklist .company-links {
+    display: block;
+}
+#checklist .row {
+    margin-top: 30px;
+}
+@media (max-width: 550px) {
+    #checklist .row {
+        margin-top: 0px;
+    }
+    #checklist .column {
+        margin-bottom: 10px;
+    }
+}
+.company-tag {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.company-tag a {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    line-height: 26px;
+}
+
+/* Top Article */
+
+#top-article img {
+    float: right;
+    margin-bottom: 20px;
+}
+@media (max-width: 550px) {
+    #top-article img {
+        display: none;
+    }
+}
+#top-article h3 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+
+#footer p {
+    font-size: 10px;
+}
+#footer a {
+    font-weight: 500;
+}
+
+/* Subscribe */
+
+#subscribe input[type="email"] {
+    width: 325px;
+}
+@media (max-width: 550px) {
+    #subscribe input {
+        width: 100%!important;
+    }
+    #subscribe .three {
+        display: none;
+    }
+}
+
+/* Article */
+
+#article {
+    padding: 10px 12%;
+}
+#article .checklist-icon {}
+.article-feature {
+    width: 250px;
+    padding: 25px;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+#article p {
+    font-size: 16px;
+    line-height: 1.8
+}
+#article ul {
+    margin-left: 15px;
+}
+#article ul li {
+    list-style: disc;
+}
+#article h1 {
+    text-align: center;
+}
+#article h1, #article h2 {
+    padding-top: 2.5rem;
+}
+#article h4 {
+    margin: 25px 0px 0px;
+    font-weight: 400;
+}
+#article img {
+    display: block;
+    margin: 35px auto;
+    max-width: 100%;
+}
+#article ol li {
+    list-style: decimal;
+    list-style-position: inside;
+}
+#article ol li ul li {
+    list-style: disc;
+    list-style-position: inside;
+}
+#article #article-nav {
+    border-bottom: 1px solid #DEDEDE;
+    height: 49px;
+}
+#article #article-nav a {
+    display: block;
+    padding: 15px 0px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    float: left;
+    font-size: 12px;
+}
+#article #article-nav a:hover, #article #article-nav a:focus {
+    border-bottom: 3px solid #ee5042;
+    padding-bottom: 13px;
+    color: #ee5042;
+}
+@media (max-width: 550px) {
+    #article {
+        padding: 0 5%;
+    }
+    .article-feature {
+        width: 90%;
+        margin: 10px 0px 20px;
+        padding: 5%;
+    }
+    #article #article-nav a {
+        font-size: 10px;
+        margin-right: 25px;
+    }
+    #article #article-nav a:hover {
+        border-bottom: 3px solid #ee5042;
+        padding-bottom: 16px;
+    }
+    #article img {
+        max-width: 100%;
+    }
+}
+
+.feather img {
+  cursor: pointer;
+}
+
+/* Breakdowns */
+
+#breakdowns .three {
+    min-height: 250px;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+}
+#breakdowns .three div {
+    height: 125px;
+    width: 150px;
+    position: relative;
+    margin: 0px auto
+}
+#breakdowns .three div img {
+    max-width: 125px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#breakdowns .row p {
+    font-size: 12px;
+    padding: 0px 15px;
+}
+@media (max-width: 550px) {
+    #breakdowns .three {
+        margin-bottom: 20px;
+    }
+}
+
+/* SaaS Feature Table */
+
+#feature-table {
+    padding: 10px 0px;
+}
+#feature-table {
+    width: 1200px;
+    margin: 0px auto 25px;
+
+}
+#feature-table::-webkit-scrollbar {
+    -webkit-appearance: none;
+    height: 3px;
+}
+#feature-table::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 0px rgba(255, 255, 255, .5);
+}
+
+@media (max-width: 550px) {
+    #feature-table {
+        width: 100%;
+        margin: 0 5%;
+        overflow-x: scroll;
+        background: -webkit-linear-gradient(left, rgba(173, 183, 191, 0) 0, rgba(173, 183, 191, 0.2) 100%);
+        background: linear-gradient(to right, rgba(173, 183, 191, 0) 0, rgba(173, 183, 191, 0.2) 100%);
+        background-size: 10px 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    #feature-table div {
+
+    }
+}
+
+
+/* Tool Tip */
+
+#tool-tip {
+    float: left;
+}
+.tool-tip {
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    z-index: 1;
+}
+.tool-tip ul li {
+    padding: 10px 15px 0px;
+}
+.tool-tip ul li:last-child {
+    border: none;
+    padding-bottom: none;
+}
+.tool-tip ul hr {
+    width: 100%;
+    margin: 0px;
+}

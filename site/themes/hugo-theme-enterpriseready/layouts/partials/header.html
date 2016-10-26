@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    {{ partial "meta.html" . }}
+    {{ partial "favicon.html" . }}
+    {{ .Scratch.Add "title" "" }}{{ if isset .Site.Data.titles .Title }}{{ .Scratch.Set "title" (index .Site.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
+    <title>{{ .Scratch.Get "title" }}</title>
+    {{ partial "style.html" . }}
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">      
+</head>
+<body>
+  <body class="" data-url="{{ .RelPermalink }}">
+<div class="container" id="inner-nav">
+    <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    <ul>
+        <li>Powered by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+    </ul>
+</div>

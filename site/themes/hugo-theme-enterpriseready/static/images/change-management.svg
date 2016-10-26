@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700px" height="306px" viewBox="0 0 700 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Change Management</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Change-Management">
+            <g id="Browser">
+                <rect id="Rectangle-8" fill="#DEDEDE" x="0" y="0" width="700" height="306" rx="3"></rect>
+                <g id="Browser-Top" transform="translate(13.000000, 11.000000)">
+                    <circle id="Oval-1" fill="#F76461" cx="3.5" cy="7.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#FDBC4F" cx="13.5" cy="7.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#40C754" cx="23.5" cy="7.5" r="3.5"></circle>
+                    <rect id="Search-Bar" fill="#FFFFFF" x="137" y="0" width="400" height="15" rx="3"></rect>
+                    <text id="http://enterpriserea" font-family="SourceSansPro-Light, Source Sans Pro" font-size="8" font-weight="300" fill="#85828E">
+                        <tspan x="297.9" y="11">http://enterpriseready.io</tspan>
+                    </text>
+                </g>
+                <g id="Background" transform="translate(0.000000, 35.000000)">
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="5" y="0" width="690" height="271"></rect>
+                    <rect id="Rectangle-2" fill="#F4F4F4" x="695" y="0" width="5" height="271"></rect>
+                    <rect id="Rectangle-2" fill="#F4F4F4" x="0" y="0" width="5" height="271"></rect>
+                </g>
+            </g>
+            <rect id="Rectangle-3" fill="#F2F2F2" x="100" y="285" width="500" height="1"></rect>
+            <g id="Group-16" transform="translate(173.000000, 105.000000)" fill="#E94D4A">
+                <polygon id="Rectangle-11" stroke="#E94D4A" stroke-width="4" fill-opacity="0.2" points="15 19.8333931 0 0 60 0 75 19.8333931 60 40 0 40"></polygon>
+                <polygon id="Rectangle-11" opacity="0.400000006" points="85 19.8333931 70 0 130 0 145 19.8333931 130 40 70 40"></polygon>
+                <polygon id="Rectangle-11" opacity="0.600000024" points="155 19.8333931 140 0 200 0 215 19.8333931 200 40 140 40"></polygon>
+                <polygon id="Rectangle-11" opacity="0.800000012" points="225 19.8333931 210 0 270 0 285 19.8333931 270 40 210 40"></polygon>
+                <polygon id="Rectangle-11" points="295 19.8333931 280 0 340 0 355 19.8333931 340 40 280 40"></polygon>
+            </g>
+            <g id="Group-16" transform="translate(173.000000, 165.000000)" fill="#963EAA">
+                <polygon id="Rectangle-11" opacity="0.200000003" points="15 19.8333931 0 0 60 0 75 19.8333931 60 40 0 40"></polygon>
+                <polygon id="Rectangle-11" opacity="0.400000006" points="85 19.8333931 70 0 130 0 145 19.8333931 130 40 70 40"></polygon>
+                <polygon id="Rectangle-11" stroke="#963EAA" stroke-width="4" fill-opacity="0.6" points="155 19.8333931 140 0 200 0 215 19.8333931 200 40 140 40"></polygon>
+                <polygon id="Rectangle-11" opacity="0.800000012" points="225 19.8333931 210 0 270 0 285 19.8333931 270 40 210 40"></polygon>
+                <polygon id="Rectangle-11" points="295 19.8333931 280 0 340 0 355 19.8333931 340 40 280 40"></polygon>
+            </g>
+            <g id="Group-16" transform="translate(173.000000, 225.000000)" fill="#50AD54">
+                <polygon id="Rectangle-11" opacity="0.200000003" points="15 19.8333931 0 0 60 0 75 19.8333931 60 40 0 40"></polygon>
+                <polygon id="Rectangle-11" opacity="0.400000006" points="85 19.8333931 70 0 130 0 145 19.8333931 130 40 70 40"></polygon>
+                <polygon id="Rectangle-11" opacity="0.600000024" points="155 19.8333931 140 0 200 0 215 19.8333931 200 40 140 40"></polygon>
+                <polygon id="Rectangle-11" opacity="0.800000012" points="225 19.8333931 210 0 270 0 285 19.8333931 270 40 210 40"></polygon>
+                <polygon id="Rectangle-11" stroke="#136A17" stroke-width="4" points="295 19.8333931 280 0 340 0 355 19.8333931 340 40 280 40"></polygon>
+            </g>
+            <rect id="Rectangle-3" fill="#F2F2F2" x="100" y="84" width="500" height="1"></rect>
+            <text id="Versions" font-family="Roboto, sans-serif" font-size="16" font-weight="normal" fill="#222222">
+                <tspan x="100" y="75">Versions</tspan>
+            </text>
+            <text id="ADMIN-UI" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
+                <tspan x="104.564453" y="129">ADMIN UI</tspan>
+            </text>
+            <text id="CRM" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
+                <tspan x="131.171875" y="188">CRM</tspan>
+            </text>
+            <text id="TEAM-SETTINGS" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
+                <tspan x="65.3300781" y="248">TEAM SETTINGS</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
