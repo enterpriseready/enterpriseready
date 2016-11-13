@@ -14,24 +14,30 @@ There are several standards that will allow your customers to manage users in a 
 
 ## Basics:
 SAML can be a little overwhelming to start. While the XML syntax of SAML is complex, the overall solution isn't hard to understand once you understand the common language:
-- **SAML** The standard that different systems, written by different vendors have agreed to use when communicating.  
-- **SCIM** While SAML provides a login and authentication flow, SCIM is a relatively new standard that provides a provisioning and deprovisioning flow.  
-- **IdP** The IdP is the identity provider. This is the directory or database that contains the actual user and group accounts. For example, if a large organization manages their users in Microsoft Active Directory, then AD is the IdP in this SAML environment.  
-- **SP** The SP is the Service Provider. This is the application that is attempting to authenticate (probably your application).  
+- **SAML:** The standard that different systems, written by different vendors have agreed to use when communicating.  
+- **SCIM:** While SAML provides a login and authentication flow, SCIM is a relatively new standard that provides a provisioning and deprovisioning flow.  
+- **IdP:** The IdP is the identity provider. This is the directory or database that contains the actual user and group accounts. For example, if a large organization manages their users in Microsoft Active Directory, then AD is the IdP in this SAML environment.  
+- **SP:** The SP is the Service Provider. This is the application that is attempting to authenticate (probably your application).  
 
-## Advanced:
-Once you've decided to support SAML, it's important to test your implementation with all of the common IdPs and SPs (Bitium, Centrify, Okta, OneLogin, Ping, AD, LDAP). In addition to testing, provide your customer with specific integration instructions for connecting the IdP to your application.
+## Integrating SAML
+If your application currently has a self-managed user table for authentication and you decide to add SAML support, you can minimize the risk and effort by learning what you will need to do.
+
+### Implementation
+When a product changes from only self-authenticating users to having multiple options for authentication, it's tempting to emulate the current user model in your system. This isn't a good idea because the different types of user objects have different properties and it isn't often a perfect match.
+
+You will need to consider changes to your system in the following areas:
+
+1. A new team admin page. Your team administrators will need to have a place to manage their SAML certificates and redirect URIs to configure their accounts.  
+1. A custom login page for teams. This can be difficult because "regular" users will continue to log in on the login page, but SAML users will need to know about a custom page for their own team to log in. One common solution is to have an internal table of redirect URLs for SAML users and to replace your login screen with a form that only collects email address. Once your API has the email address, you can make a decision about whether to prompt for the password or to redirect this user to a custom SAML login page.  
+1. Admin accounts. Consider allowing admins to maintain the ability to login with a username and password. This can be useful to ensure that they don’t lose access to their account due to misconfiguration.  
+
+Once you've decided to support SAML, it's important to test your implementation with all of the common IdPs and SPs ([Bitium](https://www.bitium.com), [Centrify](https://www.centrify.com/), [Okta](httpw://www.okta.com), [OneLogin](https://www.onelogin.com), [Ping Identity](https://www.pingidentity.com), AD, LDAP). In addition to testing, provide your customer with specific integration instructions for connecting the IdP to your application.
+
+To get started developing, you should set up several different IdPs services to use and test with. Pick commonly used IdPs that are easy to set up. Some good starting points are to create a Windows server on AWS, GCE or Azure and install Active Directory. Initially, it might make sense to just start with a mock Identity Provider like the one freely available at https://idp.bitium.com. Once your application works against this mock IdP, then start testing it on Active Directory, FreeIPA, 389, OpenLDAP, and others.
+
+There are some services to help jumpstart you so you don't have to understand, parse or write anything in XML also. Consider using Bitium's [B.A.S.E.](https://base.bitium.com) service to get started. It can connect to any IdP and allows you to start making the product changes to your own site immediately, without having to look for and build SAML libraries.
 
 Additionally, you should consider integrating with OAuth Federation flows for Google Apps, Slack, Salesforce, GitHub and other flows. There are some services ([Auth0](https://www.auth0.com)) to help implement multiple OAuth provides without writing additional code.
-
-### Admin SAML Setup
-Your application will need to provide a method for the Administrator to connect their Identity Provider and test the login. This form will frequently ask for an x.509 certificate, login url, and more.
-
-**Admin accounts**  
-Consider allowing admins to maintain the ability to login with a username and password. This can be useful to ensure that they don’t lose access to their account due to misconfiguration.
-
-### User Auth Flow
-Single Sign On users don’t have passwords for your application so they are often given a separate login screen option. There are different product experiences available here. One common solution is to have an internal table of redirect URLs for SAML users and to replace your login screen with a form that only collects email address. Once your API has the email address, you can make a decision about whether to prompt for the password or to redirect this user to a custom SAML login page.
 
 ### Deep linking
 The SAML spec supports authentication on deep-linked content through the RelayState parameter. Ensure that your application communicates & honors this when it is received after authentication.
