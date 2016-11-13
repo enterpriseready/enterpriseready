@@ -265,6 +265,11 @@ strong {
 }
 #article ul li {
     list-style: disc;
+    font-size: 16px;
+}
+#article ol li {
+    list-style: disc;
+    font-size: 16px;
 }
 #article h1 {
     text-align: center;
