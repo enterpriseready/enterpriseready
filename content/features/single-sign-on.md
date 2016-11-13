@@ -39,6 +39,10 @@ There are some services to help jumpstart you so you don't have to understand, p
 
 Additionally, you should consider integrating with OAuth Federation flows for Google Apps, Slack, Salesforce, GitHub and other flows. There are some services ([Auth0](https://www.auth0.com)) to help implement multiple OAuth provides without writing additional code.
 
+### Converting from standard to SAML login
+Your users don't want to lose their history when their login is changed from a plain user-based login to a SAML login. It's important to think about how to manage this binding. In our review of [Slack's SAML Integration](/slack/sso), there's a good example of how this could work.
+
+
 ### Deep linking
 The SAML spec supports authentication on deep-linked content through the RelayState parameter. Ensure that your application communicates & honors this when it is received after authentication.
 
@@ -48,4 +52,7 @@ If you’re not using the SCIM protocol, you’ll likely want to change the stat
 ### Documenting
 While most end users will be familiar with their SSO platform of choice, it can be useful to provide step-by-step walk throughs for each major provider.
 
-## Examples
+## Examples:
+| [Tear down of Slack's SSO](/slack/sso) |
+| -------------------------- |
+| <img src="/slack/images/saml-options.png" width="250px" /> |
