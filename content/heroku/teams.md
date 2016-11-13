@@ -4,8 +4,8 @@ title = "Heroku Teams"
 features = ["teams"]
 type = "breakdown"
 feature = "teams"
-company = "heroky"
-+++ 
+company = "Heroku"
++++
 
 Team functionality drives collaboration, which is why Heroku introduced Teams for people to build and collaborate on apps together.
 
@@ -55,4 +55,3 @@ Collaborating Apps
 Heroku also provides collaboration outside of teams, inside of personal apps. For any Personal Heroku app you can add collaborators.
 
 ![enter description here](https://i.imgur.com/KRBWo4t.png)
-
