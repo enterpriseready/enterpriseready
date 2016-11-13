@@ -12,7 +12,9 @@ hr {
     border: none;
     width: 1200px;
     margin: 50px auto;
+    size: 10px;
 }
+
 strong {
     font-weight: 400;
 }
@@ -270,10 +272,20 @@ strong {
 #article h1, #article h2 {
     padding-top: 2.5rem;
 }
+#article h2 {
+  color: red;
+}
+
 #article h4 {
     margin: 25px 0px 0px;
     font-weight: 400;
 }
+
+#article hr {
+  margin: 0px 0px 20px 0px;
+  width: 100%;
+}
+
 #article img {
     display: block;
     margin: 35px auto;

@@ -11,6 +11,7 @@ Security isn't a topic to discuss by itself, it should be part of the conversati
 For the purpose of this guide we’re going to focus on product related security issues. These be broken into 3 primary categories of development: security, ops security and product security. We also recommend a detailed review of the [security controls recommended by OWASP](https://www.owasp.org/index.php/Category:Control).
 
 ## Ops
+----  
 **Communication security**  
 TLS all the things (including internal server-to-server communication). It's just not acceptable to use unencrypted communication inside your datacenter.
 
@@ -46,6 +47,7 @@ If using Docker, enable Content Trust to ensure the image lifecycle is securely 
 All of the best security measures in place aren't enough if you don't have monitoring in place to know when you've been compromised. Invest in detailed monitoring that will alert you when unexpected events occur such as SSH connections from new IP addresses, high network throughput, high CPU, new processes running on servers, etc.
 
 ## Development
+----  
 **Code reviews**  
 Require that all code is reviewed by a separate person than the author. This will help eliminate rogue actors from introducing intentional or unintentional security bugs into your system.
 
@@ -77,19 +79,20 @@ Ensure that API endpoints are not susceptible to [cross-site request forgery](ht
 **SQL Injections**  
 Ensure that all calls to your database are sanitized and using a parameterized library to prevent [SQL injections](https://xkcd.com/327/).
 
-**Random Number Seed**
+**Random Number Seed**  
 Seed random number generators appropriately for the language you are using. Often, random numbers are used to create session ids or user ids. The UUID v4 format is random, and it's important to read the docs or code for your uuid library to determine if you are responsible for seeding.
 
 ## Product
+----  
 **Password security**  
 Many applications require that users sign up and will have to store passwords to allow the user to log in again. You will have to be able to explain the following features around password security:  
-- How are passwords stored? (bcrypt is a great answer)
-- Do you enforce a minimum password strength?
-- Do you have a configurable password expiration policy?
-- Do you prevent password reuse when changing a password?
-- How can a password be reset when needed?
-- Can a user enable a second factor login requirement?
-- Can an organization enforce 2 factor login for all users?
+- How are passwords stored? (bcrypt is a great answer)  
+- Do you enforce a minimum password strength?  
+- Do you have a configurable password expiration policy?  
+- Do you prevent password reuse when changing a password?  
+- How can a password be reset when needed?  
+- Can a user enable a second factor login requirement?  
+- Can an organization enforce 2 factor login for all users?  
 
 **API Tokens**  
 API Tokens are often treated less securely than passwords, but they are just as powerful as a logged in user. Treat tokens with the same level of security as you would passwords.
