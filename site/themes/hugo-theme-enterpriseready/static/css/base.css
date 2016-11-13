@@ -293,7 +293,7 @@ strong {
 
 #article img {
     display: block;
-    margin: 35px auto;
+    margin: 0px;
     max-width: 100%;
 }
 
