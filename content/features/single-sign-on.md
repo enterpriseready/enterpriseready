@@ -12,14 +12,14 @@ Enterprises use a large number of services with a large number of end users. It 
 
 There are several standards that will allow your customers to manage users in a single directly. The leading standard is [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language). However, OAuth based systems for federation via Google Apps, Salesforce, Slack & GitHub are also becoming quite popular.
 
-### Basics:
+## Basics:
 SAML can be a little overwhelming to start. While the XML syntax of SAML is complex, the overall solution isn't hard to understand once you understand the common language:
 - **SAML** The standard that different systems, written by different vendors have agreed to use when communicating.  
 - **SCIM** While SAML provides a login and authentication flow, SCIM is a relatively new standard that provides a provisioning and deprovisioning flow.  
 - **IdP** The IdP is the identity provider. This is the directory or database that contains the actual user and group accounts. For example, if a large organization manages their users in Microsoft Active Directory, then AD is the IdP in this SAML environment.  
 - **SP** The SP is the Service Provider. This is the application that is attempting to authenticate (probably your application).  
 
-### Advanced:
+## Advanced:
 Once you've decided to support SAML, it's important to test your implementation with all of the common IdPs and SPs (Bitium, Centrify, Okta, OneLogin, Ping, AD, LDAP). In addition to testing, provide your customer with specific integration instructions for connecting the IdP to your application.
 
 Additionally, you should consider integrating with OAuth Federation flows for Google Apps, Slack, Salesforce, GitHub and other flows. There are some services ([Auth0](https://www.auth0.com)) to help implement multiple OAuth provides without writing additional code.
