@@ -13,3 +13,5 @@ At the most basic level you need reporting. Reporting tells your customer what h
 
 ## Analytics
 The next level is analytics. Analytics gives your customers an understanding of what to expect in the future. Analytics generally go deeper than how the product is being used. Instead, analytics gives your customer key insights into their business based on the data that your application collects.
+
+## Examples

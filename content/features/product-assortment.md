@@ -21,4 +21,5 @@ Feature bloat can kill the simplicity and utility of SaaS products over time. Gr
 
 This type of product assortment is exemplified by the example companies below and quickly differentiated from the [popular utility-based pricing model](http://preview.enterpriseready.io/blog/utility-pricing).
 
-## Examples: [Google](/google/product-assortment), [Slack](/slack/product-assortment), [Zendesk](/zendesk/product-assortment)
+## Examples:
+[Google](/google/product-assortment), [Slack](/slack/product-assortment), [Zendesk](/zendesk/product-assortment)

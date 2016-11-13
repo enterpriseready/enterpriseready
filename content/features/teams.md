@@ -28,5 +28,5 @@ The fact that it needs to be included as a critical, EnterpriseReady feature und
 1. **Sub-teams** - for large companies a single team would become too unwieldy. Instead, these enterprises will require that they can create a federated account of multiple teams with different settings (but likely unified billing) for each.
 
 
-## Examples: [Asana](/asana/teams), [Heroku](/heroku/teams)
-
+## Examples:
+[Asana](/asana/teams), [Heroku](/heroku/teams)
