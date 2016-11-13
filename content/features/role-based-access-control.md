@@ -33,4 +33,5 @@ Role assignment is best integrated into the invitation and user management flow.
 ### Communicating restricted functionality
 Once you restrict functionality from users it is important to consider their experience when they encounter the touch points with such features. Ie, if a user can’t invite users, ensure that the “invite user” button is disabled with a clear designation that it is disabled due to insufficient permissions.
 
-## Examples: [HubSpot](/hubspot/role-based-access-control), [Intercom](/intercom/role-based-access-control)
+## Examples:
+[HubSpot](/hubspot/role-based-access-control), [Intercom](/intercom/role-based-access-control)

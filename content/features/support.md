@@ -27,3 +27,5 @@ Your enterprise customers will expect some visibility into your roadmap. They wa
 Your customers will eventually ask for things like business insurance, source code escrow and indemnification. These aren’t really product features but they’re important to understand as they’ll come up in enterprise contract negotiations. They’ll also need to understand that your product is built with application security in mind, often the deliverable is an application security document. Tactical: A few great law blogs & your lawyer.
 
 Developer mechanics: 1) How to deal with source code escrow. 2) How to document your architecture, think about threat modeling and deliver a technical product security document.
+
+## Examples

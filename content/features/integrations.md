@@ -24,3 +24,5 @@ Enterprises use different applications than most individual developers or small 
 Provide detailed and regularly updated documentation that explicitly shows how to enable various integrations (most require some screenshots of the integrating service).
 
 [Segment.com](http://segment.com/) and many other integration focused companies actually group the various applications that customers are integrating with into buckets… if a customer is using a piece of Oracle’s suite they know they’re spending a lot of money on that software so they can bucket it into a higher priced plan.
+
+## Examples

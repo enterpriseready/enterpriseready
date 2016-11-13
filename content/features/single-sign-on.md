@@ -39,3 +39,4 @@ If you’re not using the SCIM protocol, you’ll likely want to change the stat
 ### Documenting
 While most end users will be familiar with their SSO platform of choice, it can be useful to provide step-by-step walk throughs for each major provider.
 
+## Examples

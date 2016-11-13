@@ -33,6 +33,11 @@ strong {
     color: white;
     background-color: #979797;
 }
+
+.examples {
+    margin-left: 10px;
+}
+
 @media (max-width: 550px) {
     hr {
         width: 100%;
