@@ -114,3 +114,6 @@ Many enterprise buyers will ask you to provide documentation around your securit
 - Security Policies
 - Security Forms
 - White Papers
+
+## Examples  
+[Box](/box/product-security)
