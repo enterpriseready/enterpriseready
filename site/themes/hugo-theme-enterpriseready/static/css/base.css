@@ -12,7 +12,9 @@ hr {
     border: none;
     width: 1200px;
     margin: 50px auto;
+    size: 10px;
 }
+
 strong {
     font-weight: 400;
 }
@@ -33,6 +35,11 @@ strong {
     color: white;
     background-color: #979797;
 }
+
+.examples {
+    margin-left: 10px;
+}
+
 @media (max-width: 550px) {
     hr {
         width: 100%;
@@ -89,7 +96,8 @@ strong {
     font-size: 12px;
     text-transform: uppercase;
     color: #ee5042;
-    font-weight: 300
+    font-weight: 300;
+    margin-bottom: 1.5em;
 }
 #breadcrumbs span {
     margin: 0px 6px;
@@ -258,6 +266,11 @@ strong {
 }
 #article ul li {
     list-style: disc;
+    font-size: 16px;
+}
+#article ol li {
+    list-style: disc;
+    font-size: 16px;
 }
 #article h1 {
     text-align: center;
@@ -265,15 +278,26 @@ strong {
 #article h1, #article h2 {
     padding-top: 2.5rem;
 }
+#article h2 {
+  color: red;
+}
+
 #article h4 {
     margin: 25px 0px 0px;
     font-weight: 400;
 }
+
+#article hr {
+  margin: 0px 0px 20px 0px;
+  width: 100%;
+}
+
 #article img {
     display: block;
-    margin: 35px auto;
+    margin: 0px;
     max-width: 100%;
 }
+
 #article ol li {
     list-style: decimal;
     list-style-position: inside;
@@ -394,6 +418,9 @@ strong {
     }
 }
 
+.pull-right {
+  float: right;
+}
 
 /* Tool Tip */
 
@@ -418,4 +445,9 @@ strong {
 .tool-tip ul hr {
     width: 100%;
     margin: 0px;
+}
+
+.clearfix {
+  clear:both;
+  height: 0;
 }

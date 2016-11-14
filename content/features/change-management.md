@@ -4,7 +4,7 @@ title = "Change Management"
 features = ["change-management"]
 type = "feature"
 hero = "/images/change-management.svg"
-+++ 
++++
 
 The operational procedures of many large enterprise organizations generally encourage adherence to written change management policies. For SaaS vendors embracing these procedures means integrating with change controls. There are two different layers to change management SaaS vendors should consider from a product perspective: 1) application level updates to product made by the SaaS vendor 2) account level updates to settings and configurations.
 
@@ -30,4 +30,5 @@ Many modern SaaS applications are moving out of the back office productivity too
 1. Apply changes to production systems
 1. Rollback changes to production systems
 
-## Example: [Zendesk](/zendesk/change-management)
+## Examples:
+[Zendesk](/zendesk/change-management)
