@@ -9,11 +9,15 @@
         </ul>
       </div>
     </div>
-    <span>//</span> {{ .Params.company }}</div>
+    <span>//</span> {{ .Params.company }}
+    <div class="pull-right">
+      <a href="https://github.com/enterpriseready/enterpriseready/edit/master/content/{{ .File.Path }}">Edit this page</a>
+    </div>
+  </div>
 
-    <div class="container" id="article">
+  <div class="container" id="article">
 
-      <h1>{{.Title}}</h1>
+    <h1>{{.Title}}</h1>
 
-      {{ .Content }}
-      {{ partial "footer.html" . }}
+    {{ .Content }}
+    {{ partial "footer.html" . }}
