@@ -518,3 +518,14 @@ strong {
   clear:both;
   height: 0;
 }
+
+/* note */
+
+.admonition {
+    background: #dddddd;
+    border-radius: 3px;
+    color: #666666;
+    font-size: 14px;
+    padding: .85em 1.5em 0.01em;
+    margin: 1em 0em 1em;
+}
