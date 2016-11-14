@@ -1,99 +1,118 @@
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
-  <head>
-    <meta charset="utf-8">
-    {{ partial "meta.html" . }}
-    {{ partial "favicon.html" . }}
-    {{ .Scratch.Add "title" "" }}{{ if isset .Site.Data.titles .Title }}{{ .Scratch.Set "title" (index .Site.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
+
+<head>
+    <meta charset="utf-8"> {{ partial "meta.html" . }} {{ partial "favicon.html" . }} {{ .Scratch.Add "title" "" }}{{ if isset .Site.Data.titles .Title }}{{ .Scratch.Set "title" (index .Site.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
     <title>{{ .Scratch.Get "title" }}</title>
     {{ partial "style.html" . }}
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
     <script src="//code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="/js/base.js"></script>
     <script type="text/javascript" src="/js/featherlight.min.js"></script>
     <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
+
 <body>
     <div class="container" id="inner-nav" style="border:none">
-        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
-        <ul>
-            <li style="padding-left:10px"><a href="../#features">The Feature Guides</a></li>
-            <li style="padding-left:10px">|</li>
-            <li style="padding-left:10px"><a href="../#examples">Example Implementations</a></li>
-            <li style="padding-left:10px">|</li>
-            <li style="padding-left:10px"><a href="../#background">Project Background</a></li>
-            <li style="padding-left:10px">|</li>
-            <li style="padding-left:10px">Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
-        </ul>
+
+        <div id="menu"><a href="#">Menu</a></div>
+        <script>
+            $(document).ready(function() {
+                $("#menu").click(function() {
+                    $(".menu").slideToggle("fast", function() {
+
+                    });
+                });
+            });
+        </script>
+
+        <p align="center">
+            <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+        </p>
+
+        <div class="menu">
+            <ul>
+                <li style="font-size:16px;color:#BD422D">Menu</li>
+                <li><hr/></li>
+                <li><a href="../#features">The Feature Guides</a></li>
+                <li><a href="../#examples">Example Implementations</a></li>
+                <li><a href="../#background">Project Background</a></li>
+                <li>Powered by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+
+            </ul>
+
+        </div>
+
     </div>
 
 
     <div class="container" id="checklist">
-      <a name="features"></a>
+        <a name="features"></a>
         <h2 align="center">The EnterpriseReady Feature Guides</h2>
-        <p align="center">Based on study of the <a href="/blog/saas-feature-table">50 leading SaaS application product packages</a> identified the following 10 feature categories as the differentiating "enterprise" features. Each feature includes several tear downs of example implementations and a detailed spec for building your own.</p>
+        <p align="center">Based on study of the <a href="/blog/saas-feature-table">50 leading SaaS application product packages</a> identified the following 10 feature categories as the differentiating "enterprise" features. Each feature includes several tear downs of
+            example implementations and a detailed spec for building your own.</p>
 
         <div class="row">
-          <div class="one columns">
-            &nbsp;
-          </div>
-          <div class="five columns">
-            <h3><a href="features/product-assortment">Product Assortment</a></h3>
-            <p>Offer different versions of a product to meet the differing needs of enterprise buyers.</p>
-            <p><a class="read-more" href="features/product-assortment">Read More</a><a class="read-more examples" href="features/product-assortment#examples">View Examples</a></p>
-          </div>
-          <div class="five columns">
-            <h3><a href="features/single-sign-on">Single Sign On</a></h3>
-            <p>Enables enterprises to manage users across multiple applications from a single, central directory.</p>
-            <p><a class="read-more" href="features/single-sign-on">Read More</a><a class="read-more examples" href="features/single-sign-on#examples">View Examples</a></p>
-          </div>
+            <div class="one columns">
+                &nbsp;
+            </div>
+            <div class="five columns">
+                <h3><a href="features/product-assortment">Product Assortment</a></h3>
+                <p>Offer different versions of a product to meet the differing needs of enterprise buyers.</p>
+                <p><a class="read-more" href="features/product-assortment">Read More</a><a class="read-more examples" href="features/product-assortment#examples">View Examples</a></p>
+            </div>
+            <div class="five columns">
+                <h3><a href="features/single-sign-on">Single Sign On</a></h3>
+                <p>Enables enterprises to manage users across multiple applications from a single, central directory.</p>
+                <p><a class="read-more" href="features/single-sign-on">Read More</a><a class="read-more examples" href="features/single-sign-on#examples">View Examples</a></p>
+            </div>
         </div>
 
         <div class="row">
-          <div class="one columns">
-            &nbsp;
-          </div>
-          <div class="five columns">
-            <h3><a href="features/audit-log">Audit Logs</a></h3>
-            <p>Provide admins with a detailed trail of account activity.</p>
-            <p><a class="read-more" href="features/audit-log">Read More</a><a class="read-more examples" href="features/audit-log#examples">View Examples</a></p>
-          </div>
-          <div class="five columns">
-            <h3><a href="features/role-based-access-control">Role Based Access Control</a></h3>
-            <p>Allow for the separation of privileges by user role.</p>
-            <p><a class="read-more" href="features/role-based-access-control">Read More</a><a class="read-more examples" href="features/role-based-access-control#examples">View Examples</a></p>
-          </div>
+            <div class="one columns">
+                &nbsp;
+            </div>
+            <div class="five columns">
+                <h3><a href="features/audit-log">Audit Logs</a></h3>
+                <p>Provide admins with a detailed trail of account activity.</p>
+                <p><a class="read-more" href="features/audit-log">Read More</a><a class="read-more examples" href="features/audit-log#examples">View Examples</a></p>
+            </div>
+            <div class="five columns">
+                <h3><a href="features/role-based-access-control">Role Based Access Control</a></h3>
+                <p>Allow for the separation of privileges by user role.</p>
+                <p><a class="read-more" href="features/role-based-access-control">Read More</a><a class="read-more examples" href="features/role-based-access-control#examples">View Examples</a></p>
+            </div>
         </div>
 
         <div class="row">
-          <div class="one columns">
-            &nbsp;
-          </div>
-          <div class="five columns">
-            <h3><a href="features/change-management">Change Management</a></h3>
-            <p>Empowering admin with tools and collateral to roll out features and product changes to their end users.</p>
-            <p><a class="read-more" href="features/change-management">Read More</a><a class="read-more examples" href="features/change-management#examples">View Examples</a></p>
-          </div>
-          <div class="five columns">
-            <h3><a href="features/product-security">Product Security</a></h3>
-            <p>Demonstrable application security through best practices.</p>
-            <p><a class="read-more" href="features/product-security">Read More</a><a class="read-more examples" href="features/product-security#examples">View Examples</a></p>
-          </div>
+            <div class="one columns">
+                &nbsp;
+            </div>
+            <div class="five columns">
+                <h3><a href="features/change-management">Change Management</a></h3>
+                <p>Empowering admin with tools and collateral to roll out features and product changes to their end users.</p>
+                <p><a class="read-more" href="features/change-management">Read More</a><a class="read-more examples" href="features/change-management#examples">View Examples</a></p>
+            </div>
+            <div class="five columns">
+                <h3><a href="features/product-security">Product Security</a></h3>
+                <p>Demonstrable application security through best practices.</p>
+                <p><a class="read-more" href="features/product-security">Read More</a><a class="read-more examples" href="features/product-security#examples">View Examples</a></p>
+            </div>
         </div>
         <div class="row">
-          <div class="one column">
-            &nbsp;
-          </div>
-          <div class="five columns">
-            <h3><a href="features/deployment-model">Deployment Model</a></h3>
-            <p>Vendor Managed vs. Buyer Managed. Single Tenant vs. Multi Tenant. Private Cloud vs. On-prem.</p>
-            <p><a class="read-more" href="features/deployment-model">Read More</a><a class="read-more examples" href="features/deployment-model#examples">View Examples</a></p>
-          </div>
-          <div class="five columns">
-            <h3><a href="features/teams">Team Management</a></h3>
-            <p>Enable collaboration with coworkers in an account that is centrally managed.</p>
-            <p><a class="read-more" href="features/teams">Read More</a><a class="read-more examples" href="features/teams#examples">View Examples</a></p>
-          </div>
+            <div class="one column">
+                &nbsp;
+            </div>
+            <div class="five columns">
+                <h3><a href="features/deployment-model">Deployment Model</a></h3>
+                <p>Vendor Managed vs. Buyer Managed. Single Tenant vs. Multi Tenant. Private Cloud vs. On-prem.</p>
+                <p><a class="read-more" href="features/deployment-model">Read More</a><a class="read-more examples" href="features/deployment-model#examples">View Examples</a></p>
+            </div>
+            <div class="five columns">
+                <h3><a href="features/teams">Team Management</a></h3>
+                <p>Enable collaboration with coworkers in an account that is centrally managed.</p>
+                <p><a class="read-more" href="features/teams">Read More</a><a class="read-more examples" href="features/teams#examples">View Examples</a></p>
+            </div>
         </div>
         <h2 align="center" style="margin-top:2em;">---- Work in progress guides ----<h2>
         <div class="row">
@@ -127,108 +146,118 @@
 <div class="container" id="breakdowns">
   <a name="examples"></a>
     <h2 align="center">Company Feature Tear Downs</h2>
-    <p align="center">Detailed analysis of how the top SaaS companies implement each feature.</p>
-    <div class="row">
-      <div class="three columns">
-        <div>
-            <img src="https://i.imgur.com/c0AAnE5.png" align="center" width="150px" />
-        </div>
-        <p align="center" class="company-tag">
-          Feature analysis
-          <br/>
-          <a href="/zendesk/product-assortment">Product Assortment</a><br />
-          <a href="/zendesk/audit-log">Audit Log</a><br />
-          <a href="/zendesk/change-management">Change Management</a><br />
+        <p align="center">Detailed analysis of how the top SaaS companies implement each feature.</p>
+        <div class="row">
+            <div class="three columns">
+                <div>
+                    <img src="https://i.imgur.com/c0AAnE5.png" align="center" width="150px" />
+                </div>
+                <p align="center" class="company-tag">
+                    Feature analysis
+                    <br/>
+                    <a href="/zendesk/product-assortment">Product Assortment</a><br />
+                    <a href="/zendesk/audit-log">Audit Log</a><br />
+                    <a href="/zendesk/change-management">Change Management</a><br />
 
-        </p>
-      </div>
-      <div class="three columns">
-        <div>
-            <img src="/images/breakdown-logos/heroku.png" align="center" width="150px" />
-        </div>
-        <p align="center" class="company-tag">
-          Feature analysis
-          <br/>
-          <a href="/heroku/teams">Teams</a><br />
-        </p>
-      </div>
-      <div class="three columns">
-        <div>
-            <img src="/images/breakdown-logos/google.png" align="center" width="150px" />
-        </div>
-        <p align="center" class="company-tag">
-          Feature analysis
-          <br/>
-          <a href="/google/product-assortment">Product Assortment</a><br />
-          <a href="/google/audit-log">Audit Log</a>
-        </p>
-      </div>
-      <div class="three columns">
-        <div>
-          <img src="/images/breakdown-logos/slack-logo.png" align="center" width="150px" />
-        </div>
-        <p align="center" class="company-tag">
-          Feature analysis
-          <br/>
-          <a href="/slack/product-assortment">Product Assortment</a><br />
-        </p>
-      </div>
+                </p>
+            </div>
+            <div class="three columns">
+                <div>
+                    <img src="/images/breakdown-logos/heroku.png" align="center" width="150px" />
+                </div>
+                <p align="center" class="company-tag">
+                    Feature analysis
+                    <br/>
+                    <a href="/heroku/teams">Teams</a><br />
+                </p>
+            </div>
+            <div class="three columns">
+                <div>
+                    <img src="/images/breakdown-logos/google.png" align="center" width="150px" />
+                </div>
+                <p align="center" class="company-tag">
+                    Feature analysis
+                    <br/>
+                    <a href="/google/product-assortment">Product Assortment</a><br />
+                    <a href="/google/audit-log">Audit Log</a>
+                </p>
+            </div>
+            <div class="three columns">
+                <div>
+                    <img src="/images/breakdown-logos/slack-logo.png" align="center" width="150px" />
+                </div>
+                <p align="center" class="company-tag">
+                    Feature analysis
+                    <br/>
+                    <a href="/slack/product-assortment">Product Assortment</a><br />
+                    <a href="/slack/sso">Single Sign-On</a>
+                </p>
+            </div>
 
+        </div>
     </div>
-</div>
     <hr />
     <div class="container" id="intro">
-    <a name="background"></a>
-    <div class="row" style="margin-top:35px">
-      <div class="one-half column">
-          <h2 id="who-its-for">Who it’s for</h2>
-<p>EnterpriseReady is targeted at SaaS founders, product managers and engineering team leads.</p>
-      </div>
-      <div class="one-half column">
-          <h2 id="what-it-is">What it is</h2>
-<p>A guide to creating or enhancing a SaaS product to capture more value and be more widely adopted by enterprise customers.</p>
-      </div>
-      </div>
-      <div class="row">
-      <h2 id="who-its-from">Who it’s from</h2>
-<p>We run a company called Replicated that enables SaaS applications to create an enterprise installable version of their product to be distributed behind the firewall. We’ve built and sold a SaaS company previously. We work closely with many SaaS founders and teams. In order to be successful with the Replicated platform, SaaS companies generally need a baseline of features that enterprise customers want.</p>
-      </div>
+        <a name="background"></a>
+        <div class="row" style="margin-top:35px">
+            <div class="one-half column">
+                <h2 id="who-its-for">Who it’s for</h2>
+                <p>EnterpriseReady is targeted at SaaS founders, product managers and engineering team leads.</p>
+            </div>
+            <div class="one-half column">
+                <h2 id="what-it-is">What it is</h2>
+                <p>A guide to creating or enhancing a SaaS product to capture more value and be more widely adopted by enterprise customers.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h2 id="who-its-from">Who it’s from</h2>
+            <p>We run a company called Replicated that enables SaaS applications to create an enterprise installable version of their product to be distributed behind the firewall. We’ve built and sold a SaaS company previously. We work closely with many
+                SaaS founders and teams. In order to be successful with the Replicated platform, SaaS companies generally need a baseline of features that enterprise customers want.</p>
+        </div>
     </div>
 
     <hr />
 
-<div class="container" id="subscribe">
-    <h2 align="center">Subscribe for the latest EnterpriseReady tips.</h2>
-    <div class="row">
-      <div class="three columns">
-          &nbsp;
-      </div>
-      <div class="seven columns">
-          <form action="http://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
-              <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com">
-              <input class="button" type="submit" value="Submit">
-          </form>
+    <div class="container" id="subscribe">
+        <h2 align="center">Subscribe for the latest EnterpriseReady tips.</h2>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                <form action="http://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com">
+                    <input class="button" type="submit" value="Submit">
+                </form>
 
-      </div>
+            </div>
+        </div>
+
     </div>
-
-</div>
 
     <hr />
 
-<div class="container" id="footer">
-    <p align="right">© EnterpriseReady 2016 · Powered by <a href="https://www.replicated.com" target="_blank">Replicated</a></p>
-</div>
+    <div class="container" id="footer">
+        <p align="right">© EnterpriseReady 2016 · Powered by <a href="https://www.replicated.com" target="_blank">Replicated</a></p>
+    </div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-61420213-5', 'auto');
-  ga('send', 'pageview');
-</script>
+        ga('create', 'UA-61420213-5', 'auto');
+        ga('send', 'pageview');
+    </script>
     <!-- End Document–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>

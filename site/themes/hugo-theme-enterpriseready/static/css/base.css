@@ -54,7 +54,7 @@ strong {
     background-color: #ee5042;
 }
 #nav ul {
-    float: right;
+    float: left;
     margin-right: 10px;
 }
 #nav ul li {
@@ -79,15 +79,54 @@ strong {
     border-bottom: 1px solid #DEDEDE;
 }
 #inner-nav ul {
-    float: right;
-    margin-right: 10px;
+  margin-left: 15px;
 }
 #inner-nav ul li {
-    float: left;
-    margin-top: 20px;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 12px;
+    line-height: 18px;
+}
+
+#inner-nav ul li a {
+  color: white;
+  font-weight:400;
+}
+
+#menu {
+  float:left;
+  position:absolute;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:500;
+}
+
+.menu {
+  display:none;
+  background-color:#ee5042;
+  z-index:1;
+  width:100%;
+  padding: 25px 15px 10px;
+  color: white;
+}
+
+.menu hr {
+  width: 99%;
+  background-color: #BD422D;
+  margin: 5px 0px;
+  padding: 0px;
+}
+
+@media (max-width: 550px) {
+  .menu {
+    padding: 20px 0px 5px;
+  }
+
+  .menu hr {
+    width:96%;
+    background-color: white;
+  }
+
 }
 
 /* Breadcrumbs */
@@ -96,7 +135,8 @@ strong {
     font-size: 12px;
     text-transform: uppercase;
     color: #ee5042;
-    font-weight: 300
+    font-weight: 300;
+    margin-bottom: 1.5em;
 }
 #breadcrumbs span {
     margin: 0px 6px;
@@ -417,6 +457,9 @@ strong {
     }
 }
 
+.pull-right {
+  float: right;
+}
 
 /* Tool Tip */
 
