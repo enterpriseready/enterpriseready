@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Product Security"
-features = ["product-security"]
+featureslug = "product-security"
 type = "feature"
 hero = "/images/product-security.svg"
 +++
