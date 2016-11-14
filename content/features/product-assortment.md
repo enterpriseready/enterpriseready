@@ -21,20 +21,23 @@ Feature bloat can kill the simplicity and utility of SaaS products over time. Gr
 
 This type of product assortment is exemplified by the example companies below and quickly differentiated from the [popular utility-based pricing model](/blog/utility-pricing).
 
+
 ## Examples:
 
+<DIV style="float:left">
+<a href="/slack/product-assortment"><img src="/slack/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Slack Product Assortment](/slack/product-assortment)
+</DIV>
 
-<a href="/google/product-assortment"><div style="background-color:#1EC659;width:250px;padding:50px 0px;border-radius:3px;float:left;margin:0px 5px;">
-  <h3 align="center" style="color:white">Google</h3>
-  <p align="center" style="text-transform:uppercase;color:white;font-weight400">Product Assortment</p>
-</div></a>
+<DIV style="float:left">
+<a href="/zendesk/product-assortment"><img src="/zendesk/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Zendesk Product Assortment](/zendesk/product-assortment)
+</DIV>
 
-<a href="/slack/product-assortment"><div style="background-color:#563B58;width:250px;padding:50px 0px;border-radius:3px;float:left;margin:0px 5px;">
-  <h3 align="center" style="color:white">Slack</h3>
-  <p align="center" style="text-transform:uppercase;color:white;font-weight400">Product Assortment</p>
-</div></a>
-
-<a href="/zendesk/product-assortment"><div style="background-color:#38A9BA;width:250px;padding:50px 0px;border-radius:3px;float:left;margin:0px 5px;">
-  <h3 align="center" style="color:white">Zendesk</h3>
-  <p align="center" style="text-transform:uppercase;color:white;font-weight400">Product Assortment</p>
-</div></a>
+<DIV style="float:left">
+<a href="/google/product-assortmentl"><img src="/google/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Google Product Assortment](/google/product-assortment)
+</DIV>

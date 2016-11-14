@@ -63,6 +63,14 @@ By default an audit log should generally be kept for 1-3 years. The specific def
 If there are significant lags between collection and reporting availability, those times should be made known to the account admin viewing the logs.
 
 ## Examples:
-| [Tear down of Google’s Great Audit Log](/google/audit-log) | [Tear down of Zendesk’s Lacking Audit Log](/zendesk/audit-log) |
-| -------------------------- | --------------- |
-| ![enter image description here](https://i.imgur.com/wHWGc92.png) | ![enter image description here](https://i.imgur.com/JkWU3zr.png) | 	
+<DIV style="float:left">
+<a href="/google/audit-log"><img src="/google/images/example.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Google Audit Log](/google/audit-log)
+</DIV>
+
+<DIV style="float:left">
+<a href="/zendesk/audit-log"><img src="/zendesk/images/example.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Zendesk Audit Log](/zendesk/audit-log)
+</DIV>
