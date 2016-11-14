@@ -1,11 +1,11 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Zendesk Audit Log"
-features = ["audit-logs"]
+featureslug = "audit-logs"
 type = "breakdown"
 feature = "audit logs"
 company = "zendesk"
-+++ 
++++
 
 The [Zendesk audit log](https://support.zendesk.com/hc/en-us/articles/203663196-Viewing-the-Audit-log-for-changes-Enterprise-) is available only to Enterprise level customers. It includes the basic audit logging features in that it tracks Who, What, When and Where. However, it lacks many of the features that make audit logs a critical enterprise ready feature.
 
@@ -45,4 +45,3 @@ As mentioned earlier there is an API for the audit trail, but it isn’t availab
 
 ### Not Centralized
 Ticket level audit events are not captured in the primary audit trail making it very hard to get a clear picture of the complete activity in an account.
-

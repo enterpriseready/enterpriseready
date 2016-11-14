@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Audit Logs"
-features = ["audit-logs"]
+featuresslug = "audit-logs"
 type = "feature"
 hero = "/images/audit-log.svg"
 +++

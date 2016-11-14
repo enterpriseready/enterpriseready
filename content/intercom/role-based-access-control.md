@@ -2,9 +2,10 @@
 date = "2016-10-25T00:00:00Z"
 title = "Intercom Role Based Access Control"
 feature = "role based access control"
+featureslug = "role-based-access-control"
 company = "intercom"
 type = "breakdown"
-+++ 
++++
 
 Intercom is an application to communicate with your customers. Because so many people within an organization would need access to an application like this it was important that Intercom introduced Role Based Access Controls or user permissions.
 

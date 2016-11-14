@@ -1,11 +1,11 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Asana Teams"
-features = ["teams"]
+featureslug = "teams"
 type = "breakdown"
 feature = "teams"
 company = "asana"
-+++ 
++++
 
 Asana is one of the premier project management tools amongst the sea of PM applications. Asana’s application is designed to help teams improve communication, organization and collaboration. This makes it a great service to analyze for Team functionality.
 

@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Support & SLA"
-features = ["support"]
+featureslug = "support"
 type = "feature"
 hero = "/images/support.svg"
 +++
