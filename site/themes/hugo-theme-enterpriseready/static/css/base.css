@@ -417,6 +417,9 @@ strong {
     }
 }
 
+.pull-right {
+  float: right;
+}
 
 /* Tool Tip */
 
