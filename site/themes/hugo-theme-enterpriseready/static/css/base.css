@@ -96,7 +96,8 @@ strong {
     font-size: 12px;
     text-transform: uppercase;
     color: #ee5042;
-    font-weight: 300
+    font-weight: 300;
+    margin-bottom: 1.5em;
 }
 #breadcrumbs span {
     margin: 0px 6px;
