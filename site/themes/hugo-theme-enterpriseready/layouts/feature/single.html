@@ -29,15 +29,16 @@
           <hr />
         </ul>
       </div>
+    </div>
+    <span>//</span>{{.Title}}
+    <div class="pull-right">
+      <a href="https://github.com/enterpriseready/enterpriseready/edit/master/content/{{ .File.Path }}">Edit this page</a>
+    </div>
   </div>
-  <span>//</span>{{.Title}}
-</div>
+  <div class="container" id="article">
+    <p align="center"><img src="{{ .Params.hero }}" /></p>
 
+    <h1>{{.Title}}</h1>
 
-    <div class="container" id="article">
-      <p align="center"><img src="{{ .Params.hero }}" /></p>
-
-      <h1>{{.Title}}</h1>
-
-      {{ .Content }}
-      {{ partial "footer.html" . }}
+    {{ .Content }}
+    {{ partial "footer.html" . }}
