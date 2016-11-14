@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Role Based Access Control"
-features = ["role-based-access-control"]
+featureslug = "role-based-access-control"
 type = "feature"
 hero = "/images/role-based-access-control.svg"
 +++
