@@ -6,7 +6,9 @@ type = "feature"
 hero = "/images/deployment-model.svg"
 +++
 
-This might come off entirely as a self-serving feature… so much so that we debated if we should even list it. However, since we thought it was important enough to build an entire company around we decided it was important enough to list here. Plus, there is no one better suited to talk about it than us.
+{{< note >}}
+*This might come off entirely as a self-serving feature… so much so that we debated if we should even list it. However, since we thought it was important enough to build an entire company around we decided it was important enough to list here. Plus, there is no one better suited to talk about it than us.*
+{{< /note >}}
 
 Many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. The reason enterprises ask for this can vary. For many industry verticals like financial services, legal, health care, governments and industrial the reasons often come down to security and compliance. Other application categories like developer tools, ops, data science, BI, security tools that integrate with internal systems that are already running on private networks. Below are the common methods for delivering applications to customers:
 
