@@ -109,7 +109,7 @@ strong {
 .menu ul li {
   float: left;
   margin: 0px 8px;
-  color: #BD422D;
+  color: #CCC;
 }
 
 @media (max-width: 550px) {
