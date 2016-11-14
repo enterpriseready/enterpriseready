@@ -116,4 +116,8 @@ Many enterprise buyers will ask you to provide documentation around your securit
 - White Papers
 
 ## Examples  
-[Box](/box/product-security)
+<DIV style="float:left">
+<a href="/box/product-security"><img src="/box/images/example.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Box Product Security](/box/product-security)
+</DIV>
