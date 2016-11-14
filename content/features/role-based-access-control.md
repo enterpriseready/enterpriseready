@@ -12,7 +12,7 @@ Many times when SaaS applications first launch team functionality, they start ou
 
 We’ve included screen-by-screen tear downs of the RBAC implementations of both [HubSpot](/spotlight/hubspot) & [Intercom](/spotlight/intercom).
 
-### At the most basic level:
+## At the most basic level:
 Very simple implementations of RBAC start by simply allowing users to be identified as read-only. These users are able to view all features and resources, but not make any changes.
 
 ### The standard functionality:
@@ -24,7 +24,7 @@ Eventually, customers require more fine-tuned control over which roles have read
 1. Reporting users- can only access reporting features (and likely not modify any additional resources).
 1. Feature only users - limiting users to use only one application specific feature or another.
 
-### Advanced functionality:
+## Advanced functionality:
 At some point most advanced enterprise software solutions offer the ability to customize the roles with specific read/write, read-only or no-access permissions for each feature individually. This is often messy and many software products prefer to not have the screen of checkboxes to custom provision a role or account.
 
 ### How to integrate
