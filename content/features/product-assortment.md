@@ -25,19 +25,19 @@ This type of product assortment is exemplified by the example companies below an
 ## Examples:
 
 <DIV style="float:left">
-<a href="/github/deployment-model"><img src="/slack/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<a href="/slack/product-assortment"><img src="/slack/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
 <DIV class="clearfix"></DIV>
 ### [Slack Product Assortment](/slack/product-assortment)
 </DIV>
 
 <DIV style="float:left">
-<a href="/github/deployment-model"><img src="/zendesk/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<a href="/zendesk/product-assortment"><img src="/zendesk/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
 <DIV class="clearfix"></DIV>
 ### [Zendesk Product Assortment](/zendesk/product-assortment)
 </DIV>
 
 <DIV style="float:left">
-<a href="/github/deployment-model"><img src="/google/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<a href="/google/product-assortmentl"><img src="/google/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
 <DIV class="clearfix"></DIV>
 ### [Google Product Assortment](/google/product-assortment)
 </DIV>
