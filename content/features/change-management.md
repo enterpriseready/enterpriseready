@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Change Management"
-features = ["change-management"]
+featuresslug = "change-management"
 type = "feature"
 hero = "/images/change-management.svg"
 +++

@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "GitHub Deployment Model"
-features = ["audit-logs"]
+featureslug = "deployment-model"
 type = "breakdown"
 feature = "Deployment Model"
 company = "github"

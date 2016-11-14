@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Slack Single Sign On"
-features = ["single-sign-on"]
+featureslug = "single-sign-on"
 type = "breakdown"
 feature = "single sign on"
 company = "slack"

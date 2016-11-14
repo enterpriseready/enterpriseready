@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Deployment Models"
-features = ["deployment-model"]
+featureslug = "deployment-model"
 type = "feature"
 hero = "/images/deployment-model.svg"
 +++

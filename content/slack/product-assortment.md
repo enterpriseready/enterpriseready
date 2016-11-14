@@ -1,11 +1,11 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Slack Product Assortment"
-features = ["product-assortment"]
+featureslug = "product-assortment"
 type = "breakdown"
 feature = "product assortment"
 company = "slack"
-+++ 
++++
 
 Slack leverages vertical product assortment to create different packages that meet the needs of different customer segments. The packages are primarily defined by the features they add. Just like most SaaS applications, those features generally fall into the EnterpriseReady feature categories as illustrated below.
 
@@ -36,4 +36,3 @@ Notes:
 Some amount of conversation needs to be about the app specific features and why are they being pay-walled.
 
 These quantity driven feature limitations allow free users to experience the value without being able to put undo stress on the system and encourage an upgrade to take full advantage. If you’re using Slack with a group of friends, you probably don’t care about any of the features you’re missing. The real drivers for the paid accounts are the administrative features that are only available in these versions & that appeal directly to business buyers.
-

@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Reporting & Analytics"
-features = ["advanced-reporting"]
+featureslug = "advanced-reporting"
 type = "feature"
 hero = "/images/advanced-reporting.svg"
 +++

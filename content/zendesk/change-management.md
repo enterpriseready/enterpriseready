@@ -1,11 +1,11 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Zendesk Change Management"
-features = ["change-management"]
+featureslug = "change-management"
 type = "breakdown"
 feature = "change management"
 company = "zendesk"
-+++ 
++++
 
 Zendesk enables customers who purchase the enterprise plan to leverage their [Sandbox feature](https://support.zendesk.com/hc/en-us/articles/203661826-Testing-changes-in-your-sandbox-Enterprise-) for change management.
 
