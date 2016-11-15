@@ -423,10 +423,19 @@ strong {
   background-color: #F8F8F8;
   margin-right: 30px;
   width: 280px;
+  overflow: hidden;
+}
+
+.example:hover {
+  border-color: #CCC;
+  -webkit-box-shadow: 0 8px 6px -6px #ccc;
+   -moz-box-shadow: 0 8px 6px -6px #ccc;
+        box-shadow: 0 8px 6px -6px #ccc;
 }
 
 .example img {
   border-bottom: 1px solid #DFDFDF;
+
 }
 
 .example h3 {
