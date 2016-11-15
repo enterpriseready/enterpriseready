@@ -120,8 +120,5 @@ Many enterprise buyers will ask you to provide documentation around your securit
 Have a written and published Information Security Policy for how you will treat data and access to all data. Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
 
 ## Examples  
-<DIV style="float:left">
-<a href="/box/product-security"><img src="/box/images/example.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Box Product Security](/box/product-security)
-</DIV>
+{{< example title="Box Product Security" url="/box/product-security" image="/box/images/example.png" >}}
+{{< /example >}}
