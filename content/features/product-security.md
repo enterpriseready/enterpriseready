@@ -18,24 +18,23 @@ TLS all the things (including internal server-to-server communication). It's jus
 **Automation**  
 Reproducibility is key to ensuring consistent and intended environments by removing opportunity for human error. Without scripted and reproducible deployments, you will end up with a collection of unaudited, artisanally configured servers that could have undetected security vulnerabilities on them.
 
-**Intrusion security**  
+**Automatically Block Attacks**  
 There are some external products and services that can help detect when your network has been compromised and even automatically block access to bad actors. Some examples of products to evaluate are: [SignalSciences](https://www.signalsciences.com), [Tenable](https://www.tenable.com), [AlienVault](https://www.alienvault.com) or [Snort](https://www.snort.org).
 
 **API Rate Limiting**
 Without rate limiting, your API is subject to brute force attacks. Consider enforcing rate limits in an upstream load balancer. It's also recommended that unauthenticated requests have a considerably lower rate limit than authenticated requests.
 
-
 **DDOS prevention**  
 If you've prevented rogue traffic from accessing your servers and network, it's still possible for external services to block anyone else from using your service by creating a distributed, denial-of-service attack. To prevent this, it's recommended to use a 3rd party service such as [Cloudflare](https://www.cloudflare.com) or [Akamai](https://www.akamai.com) who have experience managing DDOS attacks.
 
-**Server security**  
+**Network Access Control**  
 Create private networks by leveraging cloud hosting features such as VPCs and VPN connections when possible. Don't treat your office location as an extension of this network. Anyone who needs to access the production network should have a VPN connection from their own device.
 
 **Public Footprint**  
 Servers should not have public IP addresses unless absolutely needed. All unnecessary ports should be blocked. Only allow SSH connections from internal (VPN) connections. Moving the SSH port to a different port isn't a secure solution.
 
 **Data security**  
-Encryption, least privilege, deletion, auditing use of privileges
+Encryption, least privilege, deletion, auditing use of privileges. When possible (which should be all of the time), leverage systems to encrypt data while at rest. Store PII (Personally Identifiable Information) in separate systems. Be aware of any compliance and regulatory processes that are specific to your industry and be prepared to explain how you follow them.
 
 **Separation of roles**  
 Most large enterprises will require that you have different roles for development, ops, monitoring, etc. It's important to be able to provide this, but there isn't a requirement that a single person cannot be in multiple roles. It should be structured so that a developer who also has SSH access to production servers cannot be assuming both roles simultaneously though.
@@ -46,13 +45,19 @@ If using Docker, enable Content Trust to ensure the image lifecycle is securely 
 **Monitoring**  
 All of the best security measures in place aren't enough if you don't have monitoring in place to know when you've been compromised. Invest in detailed monitoring that will alert you when unexpected events occur such as SSH connections from new IP addresses, high network throughput, high CPU, new processes running on servers, etc.
 
+**Enable and Enforce Two Factor Auth**  
+For any system that support two-factor authentication, you should require that your own employees and contractors enable this feature. Many product even have a way to enforce it for all members of your team.  
+
 ## Development
 ----  
 **Code reviews**  
 Require that all code is reviewed by a separate person than the author. This will help eliminate rogue actors from introducing intentional or unintentional security bugs into your system.
 
 **Static code analysis**  
-When possible, leverage [automated tools](https://www.codeclimate.com) to inspect code changes for vulnerabilities.
+When possible, leverage automation tools such as [Checkmarx](https://www.checkmarx.com), [Veracode](https://www.veracode.com/) and others to inspect code changes for security vulnerabilities.
+
+**Test Dependencies**  
+While it's common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like [Snyk](https://www.snyk.io) are available to help automatically monitor and scan these.
 
 **Dev environments**  
 Your development environments should be isolated from production and staging systems. Each development environment should not be able to access production databases and resources. Any secrets that are required for your environment should be different in dev than in production or staging.
@@ -63,21 +68,17 @@ Having a current product architecture document is a prerequisite for being able 
 **Encryption Primitives**  
 ensure that encryption methods are not “homegrown”. Use industry defined standards when encrypting data. Also, it's important to know your (potential) buyer. Common standards like RSA and AES are frequently accepted.
 
-
 **Continuous threat modeling**  
 Identify and document your trust boundaries and threat models in your system early. Continue to update these docs as your system evolves. Knowing where the trust boundaries are and where the biggest threat could come from will help you prioritize solutions.
 
 **Feature security design reviews**  
 All changes that have a design review should focus on a security review also. If you aren't an expert in security, bring an expert in who can show you where the weak points are and design a way to harden these before writing the new system.
 
-**Vaults**  
-Your code should use a vault to store secrets when possible. Consider using Hashicorp Vault, Amazon KVS or Torus.sh for this.
+**Secret Management**  
+Your code should use a vault to store secrets when possible. Consider using [Hashicorp Vault](https://www.vaultproject.io/) or [Torus.sh](https://www.torus.sh/) for this.
 
-**CSRF**  
-Ensure that API endpoints are not susceptible to [cross-site request forgery](https://www.veracode.com/security/csrf). This is important on any API.
-
-**SQL Injections**  
-Ensure that all calls to your database are sanitized and using a parameterized library to prevent [SQL injections](https://xkcd.com/327/).
+**Application Security**  
+Read the [OWASP Top 10 Vulnerabilities](https://www.veracode.com/directory/owasp-top-10), near the bottom of that page, labeled A1-A10, and think about how someone could use these vulnerabilities to gain access to your system, databases or network  
 
 **Random Number Seed**  
 Seed random number generators appropriately for the language you are using. Often, random numbers are used to create session ids or user ids. The UUID v4 format is random, and it's important to read the docs or code for your uuid library to determine if you are responsible for seeding.
@@ -86,7 +87,7 @@ Seed random number generators appropriately for the language you are using. Ofte
 ----  
 **Password security**  
 Many applications require that users sign up and will have to store passwords to allow the user to log in again. You will have to be able to explain the following features around password security:  
-- How are passwords stored? (bcrypt is a great answer)  
+- How are passwords stored? (bcrypt is a great answer, but make sure it's including a salt.)  
 - Do you enforce a minimum password strength?  
 - Do you have a configurable password expiration policy?  
 - Do you prevent password reuse when changing a password?  
@@ -114,6 +115,9 @@ Many enterprise buyers will ask you to provide documentation around your securit
 - Security Policies
 - Security Forms
 - White Papers
+
+**Information Security Policy**  
+Have a written and published Information Security Policy for how you will treat data and access to all data. Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
 
 ## Examples  
 <DIV style="float:left">
