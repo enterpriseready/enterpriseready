@@ -416,6 +416,25 @@ strong {
   cursor: pointer;
 }
 
+.example {
+  float: left;
+  border-radius: 4px;
+  border: 1px solid #DFDFDF;
+  background-color: #F8F8F8;
+  margin-right: 30px;
+  width: 280px;
+}
+
+.example img {
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.example h3 {
+  padding: 15px;
+}
+
+
+
 /* Breakdowns */
 
 #breakdowns .three {
