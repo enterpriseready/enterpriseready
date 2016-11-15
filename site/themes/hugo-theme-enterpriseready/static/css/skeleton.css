@@ -123,8 +123,8 @@ body {
 h1, h2 {
   margin-top: 0rem;
   margin-bottom: 1rem;
-  font-weight: 100;
-  color:#222;
+  font-weight: 700;
+  color:#323232;
 }
 
 h3, h4, h5, h6 {
@@ -134,8 +134,12 @@ h3, h4, h5, h6 {
   color:#595959;
 }
 
+h3 {
+  color: #323232;;
+}
+
 h1 { font-size: 40px; line-height: 1.2;  letter-spacing: -.05rem;}
-h2 { font-size: 26px; line-height: 1.25; letter-spacing: -.05rem;}
+h2 { font-size: 36px; line-height: 1.7;}
 h3 { font-size: 20px; line-height: 1.3;  letter-spacing: -.05rem;}
 h4 { font-size: 18px; line-height: 1.35; letter-spacing: -.05rem; font-style: italic;}
 h5 { font-size: 16px; line-height: 1.5;  letter-spacing: -.05rem; }
@@ -152,9 +156,10 @@ h6 { font-size: 14px; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  font-size:16px;
+  font-size:18px;
   margin-top: 0;
-  font-weight: 300;
+  font-weight: 400;
+  color: #878787;
 }
 
 @media (max-width: 550px) {
@@ -168,9 +173,12 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #ee5042;
-text-decoration: none;}
+  text-decoration: none;
+}
 a:hover {
-  color: #eea642; }
+  color: #eea642;
+  cursor: pointer;
+}
 
 
 /* Buttons
