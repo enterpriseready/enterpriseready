@@ -224,6 +224,20 @@ strong {
     }
 }
 
+h3.section-header {
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: normal;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.header-desc-copy {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 /* Checklist */
 
 #checklist {
@@ -241,21 +255,17 @@ strong {
     margin-bottom: 10px;
     padding: 10px 10px 2px;
 }
-#checklist h3 {
-    font-weight: 500;
-    margin-bottom: 12px;
-    font-size: 18px;
-}
 #checklist p {
   font-size: 16px;
   margin-bottom: 20px;
 }
 #checklist h3.section-header {
   margin-bottom: 40px;
-  font-weight: 700;
-  line-height: 1.7;
-  letter-spacing: normal;
-  font-size: 30px;
+}
+#checklist .article-header {
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-size: 18px;
 }
 #checklist h2 + p {
     width: 650px;
@@ -282,15 +292,8 @@ strong {
     }
 }
 .company-tag {
-    font-size: 12px;
-    text-transform: uppercase;
+    font-size: 18px;
     font-weight: 500;
-}
-.company-tag a {
-    font-weight: 300;
-    font-size: 14px;
-    text-align: left;
-    line-height: 26px;
 }
 
 .article-icon {
@@ -535,13 +538,22 @@ span.tm {
 
 /* Breakdowns */
 
+.breakdowns-wrapper {
+  background-color: #F5F5F5;
+  padding: 50px 0 60px;
+}
+#breakdowns .row {
+  margin-top: 40px;
+}
 #breakdowns .three {
     min-height: 250px;
-    border: 1px solid #DEDEDE;
-    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 0 18px 20px;
+    background: #ffffff;
 }
 #breakdowns .three div {
-    height: 125px;
+    height: 110px;
     width: 150px;
     position: relative;
     margin: 0px auto
@@ -556,13 +568,28 @@ span.tm {
     margin: auto;
 }
 #breakdowns .row p {
-    font-size: 12px;
-    padding: 0px 15px;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #323232;
 }
 @media (max-width: 550px) {
     #breakdowns .three {
         margin-bottom: 20px;
     }
+}
+
+.analysis-list {
+  margin: 0;
+  list-style-type: none;
+}
+.analysis-list li {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.analysis-list li a {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
 }
 
 /* SaaS Feature Table */
