@@ -64,7 +64,5 @@ If there are significant lags between collection and reporting availability, tho
 
 ## Examples:
 {{< example title="Google Audit Log" url="/google/audit-log" image="/google/images/example.png" >}}
-{{< /example >}}
 
 {{< example title="Zendesk Audit Log" url="/zendesk/audit-log" image="/zendesk/images/example.png" >}}
-{{< /example >}}
