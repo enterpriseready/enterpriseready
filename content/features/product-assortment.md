@@ -20,21 +20,9 @@ EnterpriseReady products recognize that the needs of large organizations differ 
 Feature bloat can kill the simplicity and utility of SaaS products over time. Great products should be easy for new customers to get started with immediately, but have the power to satisfy the needs of advanced power users. One way to accomplish this is to only offer a subset of functionality to customers who self-select into a less complicated (and less expensive) version of the product. These starter plans can be a great way to get adoption into large customers through a grassroots or bottom-up software adoption model made popular by the likes of Yammer, Slack, GitHub, Salesforce, Dropbox and Atlassian.
 
 ## Examples:
+----   
+{{< example title="Slack Product Assortment" url="/slack/product-assortment" image="/slack/images/example_pa.png" >}}
 
-<DIV style="float:left">
-<a href="/slack/product-assortment"><img src="/slack/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Slack Product Assortment](/slack/product-assortment)
-</DIV>
+{{< example title="Zendesk Product Assortment" url="/zendesk/product-assortment" image="/zendesk/images/example_pa.png" >}}
 
-<DIV style="float:left">
-<a href="/zendesk/product-assortment"><img src="/zendesk/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Zendesk Product Assortment](/zendesk/product-assortment)
-</DIV>
-
-<DIV style="float:left">
-<a href="/google/product-assortmentl"><img src="/google/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Google Product Assortment](/google/product-assortment)
-</DIV>
+{{< example title="Google Product Assortment" url="/google/product-assortment" image="/google/images/example_pa.png" >}}

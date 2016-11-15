@@ -32,7 +32,6 @@ There is a lot to consider when delivering a version that your customers can ins
 **VM Images** - For vendors who would offer their enterprise version as an “appliance”, the VM route wraps up the application along with all of it’s dependancies including the host OS into a machine image (`.ova` or as an AMI for [distribution in AWS](https://aws.amazon.com/marketplace/)).  
 **Docker Images** - Docker offers an unprecedented level of application portability and as such, it can be very useful for deploying enterprise applications into unfamiliar environments. Customers manage the host OS and therefore are responsible for OS patches and updates. Docker images are versioned with layers and offer native support for mounting volumes… both features make application updates less painful than other solutions. [Replicated](https://wwww.replicated.com) has continued to focus on using Docker images as the foundation for application portability into enterprise environments.  
 
-## Examples  
-<a href="/github/deployment-model"><img src="/github/images/ghe.png" width="300px" align="left" style="margin:0;"/></a>
-<div class="clearfix"></div>
-### [GitHub Deployment Options](/github/deployment-model)
+## Examples
+----   
+{{< example title="GitHub Deployment Options" url="/github/deployment-model" image="/github/images/example.png" >}}

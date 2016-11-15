@@ -29,14 +29,7 @@ The fact that it needs to be included as a critical, EnterpriseReady feature und
 
 
 ## Examples:
-<DIV style="float:left">
-<a href="/asana/teams"><img src="/asana/images/example.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Asana Team Management](/asana/teams)
-</DIV>
+----   
+{{< example title="Asana Team Management" url="/asana/teams" image="/asana/images/example.png" >}}
 
-<DIV style="float:left">
-<a href="/heroku/teams"><img src="/heroku/images/example.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Heroku Team Management](/heroku/teams)
-</DIV>
+{{< example title="Heroku Team Management" url="/heroku/teams" image="/heroku/images/example.png" >}}

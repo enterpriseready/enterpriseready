@@ -54,8 +54,5 @@ If you’re not using the SCIM protocol, you’ll likely want to change the stat
 While most end users will be familiar with their SSO platform of choice, it can be useful to provide step-by-step walk throughs for each major provider.
 
 ## Examples:
-<DIV style="float:left">
-<a href="/slack/sso"><img src="/slack/images/example_sso.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Slack Single Sign On](/slack/sso)
-</DIV>
+----   
+{{< example title="Slack Single Sign On" url="/slack/sso" image="/slack/images/example.png" >}}
