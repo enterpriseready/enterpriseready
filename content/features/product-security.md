@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Product Security"
-features = ["product-security"]
+featureslug = "product-security"
 type = "feature"
 hero = "/images/product-security.svg"
 +++
@@ -114,3 +114,10 @@ Many enterprise buyers will ask you to provide documentation around your securit
 - Security Policies
 - Security Forms
 - White Papers
+
+## Examples  
+<DIV style="float:left">
+<a href="/box/product-security"><img src="/box/images/example.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Box Product Security](/box/product-security)
+</DIV>

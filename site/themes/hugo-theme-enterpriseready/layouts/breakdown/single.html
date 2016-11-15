@@ -2,12 +2,7 @@
 
 <div class="container" id="breadcrumbs">
   <div id="tool-tip">
-    <a href="#">{{ .Params.feature }}</a>
-      <div class="tool-tip">
-        <ul>
-          <li><a href="/features/single-sign-on">Single Sign On</a></li>
-        </ul>
-      </div>
+    <a href="/features/{{ .Params.featureslug }}">{{ .Params.feature }}</a>
     </div>
     <span>//</span> {{ .Params.company }}
     <div class="pull-right">

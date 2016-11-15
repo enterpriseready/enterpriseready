@@ -1,12 +1,11 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Support & SLA"
-features = ["support"]
+featureslug = "support"
 type = "feature"
 hero = "/images/support.svg"
 +++
 
-## (Work in progress…)
 ## SLA (Service Level Agreement)
 ### Uptime
 This is a common request from enterprise customers. Generally they’ll want a contractual guarantee that your service will be in service 99.9% of the time… they might even push for "five 9s… 99.999%. This is less of a product feature, but the likely solution to achieving high availability often lies in being able to run your application in multiple availability regions. Example: Heroku; Tactical: NewRelic SLA Reporting & Zendesk/support tools

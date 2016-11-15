@@ -1,11 +1,11 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "HubSpot Role Based Access Control"
-features = ["role-based-access-control"]
+featureslug = "role-based-access-control"
 type = "breakdown"
 feature = "role based access control"
 company = "hubspot"
-+++ 
++++
 
 HubSpot [introduced roles & permissions](http://blog.hubspot.com/customers/bid/157944/Introducing-6-Different-HubSpot-User-Roles) about 4 years ago. In doing so, they enabled their customers to provide role based access control to application functionality.
 

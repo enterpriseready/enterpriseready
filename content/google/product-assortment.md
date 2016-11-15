@@ -1,11 +1,11 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Google Apps Product Assortment"
-features = ["product-assortment"]
+featureslug = "product-assortment"
 type = "breakdown"
 feature = "product assortment"
 company = "google"
-+++ 
++++
 
 Google Apps for Work is the business focused version of the popular and free to consumers, Google Apps products shown below:
 

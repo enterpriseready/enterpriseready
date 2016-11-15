@@ -1,11 +1,11 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Zendesk Product Assortment"
-features = ["product-assortment"]
+featureslug = "product-assortment"
 type = "breakdown"
 feature = "product assortment"
 company = "zendesk"
-+++ 
++++
 
 ![enter description here](https://i.imgur.com/tkjc1CE.png)
 

@@ -54,7 +54,7 @@ strong {
     background-color: #ee5042;
 }
 #nav ul {
-    float: right;
+    float: left;
     margin-right: 10px;
 }
 #nav ul li {
@@ -76,18 +76,85 @@ strong {
     margin-top: 25px;
     margin-bottom: 25px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #DEDEDE;
+
 }
 #inner-nav ul {
-    float: right;
-    margin-right: 10px;
+  margin-left: 15px;
 }
 #inner-nav ul li {
-    float: left;
-    margin-top: 20px;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 12px;
+    line-height: 18px;
+}
+
+#inner-nav ul li a {
+  font-weight:400;
+}
+
+#menu {
+  display: none;
+  float:left;
+  position:absolute;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:500;
+}
+
+.menu ul {
+  float: right;
+  margin-top: 20px;
+}
+
+.menu ul li {
+  float: left;
+  margin: 0px 8px;
+  color: #CCC;
+}
+
+@media (max-width: 550px) {
+  #menu {
+    display: block;
+  }
+  .logo {
+    text-align: center;
+  }
+}
+
+.mobile_menu {
+  display:none;
+  background-color:#ee5042;
+  z-index:1;
+  width:100%;
+  padding: 25px 15px 10px;
+  color: white;
+}
+
+.mobile_menu hr {
+  width: 99%;
+  background-color: #BD422D;
+  margin: 5px 0px;
+  padding: 0px;
+}
+
+.mobile_menu a{
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .menu {
+    display: none;
+  }
+
+  .mobile_menu {
+    padding: 20px 0px 5px;
+  }
+
+  .mobile_menu hr {
+    width:96%;
+    background-color: white;
+  }
+
 }
 
 /* Breadcrumbs */
@@ -129,7 +196,7 @@ strong {
     padding: 0px 100px 0px;
 }
 #intro p {
-    font-size: 14px;
+    font-size: 16px;
 }
 #intro .row {
     margin-bottom: 40px;
@@ -450,4 +517,15 @@ strong {
 .clearfix {
   clear:both;
   height: 0;
+}
+
+/* note */
+
+.admonition {
+    background: #dddddd;
+    border-radius: 3px;
+    color: #666666;
+    font-size: 14px;
+    padding: .85em 1.5em 0.01em;
+    margin: 1em 0em 1em;
 }

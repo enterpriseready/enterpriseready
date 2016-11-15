@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Product Assortment"
-features = ["product-assortment"]
+featureslug = "product-assortment"
 type = "feature"
 hero = "/images/product-assortment.svg"
 +++
@@ -19,7 +19,22 @@ EnterpriseReady products recognize that the needs of large organizations differ 
 ## Simplifying the Small Customer Experience
 Feature bloat can kill the simplicity and utility of SaaS products over time. Great products should be easy for new customers to get started with immediately, but have the power to satisfy the needs of advanced power users. One way to accomplish this is to only offer a subset of functionality to customers who self-select into a less complicated (and less expensive) version of the product. These starter plans can be a great way to get adoption into large customers through a grassroots or bottom-up software adoption model made popular by the likes of Yammer, Slack, GitHub, Salesforce, Dropbox and Atlassian.
 
-This type of product assortment is exemplified by the example companies below and quickly differentiated from the [popular utility-based pricing model](/blog/utility-pricing).
-
 ## Examples:
-[Google](/google/product-assortment), [Slack](/slack/product-assortment), [Zendesk](/zendesk/product-assortment)
+
+<DIV style="float:left">
+<a href="/slack/product-assortment"><img src="/slack/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Slack Product Assortment](/slack/product-assortment)
+</DIV>
+
+<DIV style="float:left">
+<a href="/zendesk/product-assortment"><img src="/zendesk/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Zendesk Product Assortment](/zendesk/product-assortment)
+</DIV>
+
+<DIV style="float:left">
+<a href="/google/product-assortmentl"><img src="/google/images/example_pa.png" width="300px" align="left" style="margin:0;"/></a>
+<DIV class="clearfix"></DIV>
+### [Google Product Assortment](/google/product-assortment)
+</DIV>
