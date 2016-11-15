@@ -31,8 +31,5 @@ Many modern SaaS applications are moving out of the back office productivity too
 1. Rollback changes to production systems
 
 ## Examples:
-<DIV style="float:left">
-<a href="/zendesk/change-management"><img src="/zendesk/images/example.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Zendesk Change Management](/zendesk/change-management)
-</DIV>
+----   
+{{< example title="Zendesk Change Management" url="/zendesk/change-management" image="/zendesk/images/example.png" >}}
