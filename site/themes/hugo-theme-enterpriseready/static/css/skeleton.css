@@ -193,18 +193,19 @@ input[type="button"] {
   padding: 0 30px;
   color: #555;
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid #bbb;
   cursor: pointer;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  transition: all .2s;
+}
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -224,8 +225,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #EE5042;
+  border-color: #EE5042; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -237,8 +238,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #C73C2F;
+  border-color: #C73C2F; }
 
 
 /* Forms
@@ -285,7 +286,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #E85A4F;
+  border: 1px solid #4990E2;
   outline: 0; }
 label,
 legend {

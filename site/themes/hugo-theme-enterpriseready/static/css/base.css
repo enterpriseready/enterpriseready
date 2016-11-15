@@ -232,6 +232,12 @@ h3.section-header {
   margin-bottom: 12px;
 }
 
+h3.section-header.sub {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #434343;
+}
+
 .header-desc-copy {
   width: 100%;
   max-width: 500px;
@@ -379,13 +385,34 @@ span.tm {
 /* Footer */
 
 #footer p {
-    font-size: 10px;
-}
-#footer a {
-    font-weight: 500;
+  margin: 0;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
 }
 
+#footer a {
+  display: inline-block;
+  vertical-align: -9px;
+  margin-left: 3px;
+  background: url('../images/replicated_logo_footer@2x.png');
+  background-size: 110px 26px;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 26px;
+}
+
+.footer-wrapper {
+  padding: 20px 0;
+  background: #002E4B;
+}
+
+
 /* Subscribe */
+
+.subscribe-wrapper {
+  padding: 40px 0 25px;
+}
 
 #subscribe input[type="email"] {
     width: 325px;
@@ -560,6 +587,11 @@ span.tm {
   font-weight: 400;
   font-size: 14px;
   text-align: left;
+}
+
+.background-wrapper {
+  padding: 60px 0;
+  border-bottom: 1px solid #D6D6D6;
 }
 
 /* SaaS Feature Table */
