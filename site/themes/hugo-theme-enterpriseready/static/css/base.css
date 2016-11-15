@@ -422,6 +422,7 @@ strong {
   border: 1px solid #DFDFDF;
   background-color: #F8F8F8;
   margin-right: 30px;
+  margin-bottom: 30px;
   width: 280px;
   overflow: hidden;
 }
@@ -429,8 +430,8 @@ strong {
 .example:hover {
   border-color: #CCC;
   -webkit-box-shadow: 0 8px 6px -6px #ccc;
-   -moz-box-shadow: 0 8px 6px -6px #ccc;
-        box-shadow: 0 8px 6px -6px #ccc;
+  -moz-box-shadow: 0 8px 6px -6px #ccc;
+  box-shadow: 0 8px 6px -6px #ccc;
 }
 
 .example img {
