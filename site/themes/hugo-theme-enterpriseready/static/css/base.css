@@ -361,7 +361,7 @@ strong {
 
 #article img {
     display: block;
-    margin: 0px;
+    margin: 35px auto;
     max-width: 100%;
 }
 
