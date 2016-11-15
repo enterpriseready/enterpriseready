@@ -121,4 +121,3 @@ Have a written and published Information Security Policy for how you will treat 
 
 ## Examples  
 {{< example title="Box Product Security" url="/box/product-security" image="/box/images/example.png" >}}
-{{< /example >}}
