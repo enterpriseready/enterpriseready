@@ -54,7 +54,7 @@ For any system that support two-factor authentication, you should require that y
 Require that all code is reviewed by a separate person than the author. This will help eliminate rogue actors from introducing intentional or unintentional security bugs into your system.
 
 **Static code analysis**  
-When possible, leverage automation tools such as [Checkmarx](), [Veracode](), and others to inspect code changes for vulnerabilities.
+When possible, leverage automation tools such as [Checkmarx](https://www.checkmarx.com), [Veracode](https://www.veracode.com/) and others to inspect code changes for security vulnerabilities.
 
 **Test Dependencies**  
 While it's common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like [Snyk](https://www.snyk.io) are available to help automatically monitor and scan these.
