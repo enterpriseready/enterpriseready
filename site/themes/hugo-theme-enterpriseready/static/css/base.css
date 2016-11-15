@@ -23,17 +23,17 @@ strong {
     color: #ee5042;
 }
 .read-more {
-    border: 1px solid #979797;
+    border: 1px solid #D0D0D0;
     padding: 5px 8px;
-    font-weight: 400;
-    font-size: 12px;
-    color: #979797;
-    border-radius: 3px;
-    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ee5042;
+    border-radius: 4px;
+    transition: border .2s;
 }
 .read-more:hover {
-    color: white;
-    background-color: #979797;
+  border-color: #ee5042;
+  color: #ee5042;
 }
 
 .examples {
@@ -179,6 +179,17 @@ strong {
     color: #ee5042;
 }
 
+/* Masthead */
+
+.masthead-wrapper {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.masthead-wrapper .container {
+  max-width: 740px;
+}
+
 /* Main */
 
 #main {
@@ -231,10 +242,22 @@ strong {
     padding: 10px 10px 2px;
 }
 #checklist h3 {
-    font-weight: 400;
-    margin-bottom: 5px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-size: 18px;
 }
-#checklist h2+ p {
+#checklist p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#checklist h3.section-header {
+  margin-bottom: 40px;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: normal;
+  font-size: 30px;
+}
+#checklist h2 + p {
     width: 650px;
     margin: 0px auto;
 }
@@ -248,7 +271,7 @@ strong {
     display: block;
 }
 #checklist .row {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 @media (max-width: 550px) {
     #checklist .row {
@@ -268,6 +291,70 @@ strong {
     font-size: 14px;
     text-align: left;
     line-height: 26px;
+}
+
+.article-icon {
+  min-height: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.article-icon span {
+  position: absolute;
+  display: block;
+  background-repeat: no-repeat;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span.pa {
+  background: url('../images/article-icons/product-assortment@2x.png');
+  background-size: 173px 82px;
+  width: 173px;
+  height: 82px;
+}
+span.sso {
+  background: url('../images/article-icons/sso@2x.png');
+  background-size: 84px 100px;
+  width: 84px;
+  height: 100px;
+}
+span.al {
+  background: url('../images/article-icons/audit-logs@2x.png');
+  background-size: 202px 92px;
+  width: 202px;
+  height: 92px;
+}
+span.rbac {
+  background: url('../images/article-icons/rbac@2x.png');
+  background-size: 191px 87px;
+  width: 191px;
+  height: 87px;
+}
+span.cm {
+  background: url('../images/article-icons/change-management@2x.png');
+  background-size: 239px 86px;
+  width: 239px;
+  height: 86px;
+}
+span.ps {
+  background: url('../images/article-icons/product-security@2x.png');
+  background-size: 67px 75px;
+  width: 67px;
+  height: 75px;
+}
+span.dm {
+  background: url('../images/article-icons/deployment-model@2x.png');
+  background-size: 230px 83px;
+  width: 230px;
+  height: 83px;
+}
+span.tm {
+  background: url('../images/article-icons/team-management@2x.png');
+  background-size: 170px 81px;
+  width: 170px;
+  height: 81px;
 }
 
 /* Top Article */
