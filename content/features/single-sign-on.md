@@ -10,14 +10,15 @@ Single Sign On (SSO) allows your customers to manage their team’s users outsid
 
 Enterprises use a large number of services with a large number of end users. It nearly impossible to manage hundreds, thousands or tens of thousands of users across tens or hundreds of different applications. For this reason, enterprises have been using Single Sign On (or directory services) to manage the provisioning, deprovisioning and permissioning of accounts and privileges for many years.
 
-There are several standards that will allow your customers to manage users in a single directly. The leading standard is [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language). However, OAuth based systems for federation via Google Apps, Salesforce, Slack & GitHub are also becoming quite popular.
+There are several standards that will allow your customers to manage users in a single directly. The leading standard is [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language). However, OAuth & OpenID-Connect based systems for federation via Google Apps, Salesforce, Slack & GitHub are also becoming quite popular.
 
 ## Basics:
-SAML can be a little overwhelming to start. While the XML syntax of SAML is complex, the overall solution isn't hard to understand once you understand the common language:
+SAML can be a little overwhelming to start. While the XML syntax of SAML is complex, the overall solution isn't hard to understand once you understand the common language:  
 - **SAML:** The standard that different systems, written by different vendors have agreed to use when communicating.  
-- **SCIM:** While SAML provides a login and authentication flow, SCIM is a relatively new standard that provides a provisioning and deprovisioning flow.  
-- **IdP:** The IdP is the identity provider. This is the directory or database that contains the actual user and group accounts. For example, if a large organization manages their users in Microsoft Active Directory, then AD is the IdP in this SAML environment.  
+- **SCIM:** While SAML provides a login and authentication flow, [SCIM](http://www.simplecloud.info/) is a relatively new and yet to be widely adopted standard that provides a provisioning and deprovisioning flow.  
+- **IdP:** The IdP is the identity provider. This is the directory or database that contains the actual user and group accounts. For example, if a large organization manages their users in Microsoft Active Directory Federation Services (aka AD), then AD is the IdP in this SAML environment.  
 - **SP:** The SP is the Service Provider. This is the application that is attempting to authenticate (probably your application).  
+- **Claims:** It's easy to think of SAML as a direct replacement for a username/password combo, but it can also pass additional metadata (these attributes are called "claims") from the IdP into the app.    
 
 ## Integrating SAML
 If your application currently has a self-managed user table for authentication and you decide to add SAML support, you can minimize the risk and effort by learning what you will need to do.
@@ -35,7 +36,7 @@ Once you've decided to support SAML, it's important to test your implementation 
 
 To get started developing, you should set up several different IdPs services to use and test with. Pick commonly used IdPs that are easy to set up. Some good starting points are to create a Windows server on AWS, GCE or Azure and install Active Directory. Initially, it might make sense to just start with a mock Identity Provider like the one freely available at https://idp.bitium.com. Once your application works against this mock IdP, then start testing it on Active Directory, FreeIPA, 389, OpenLDAP, and others.
 
-There are some services to help jumpstart you so you don't have to understand, parse or write anything in XML also. Consider using Bitium's [B.A.S.E.](https://base.bitium.com) service to get started. It can connect to any IdP and allows you to start making the product changes to your own site immediately, without having to look for and build SAML libraries.
+There are some services to help jumpstart you so you don't have to understand, parse or write anything in XML also. Consider using Bitium's [BASE](https://www.bitium.com/site/product/base/) service to get started. It can connect to any IdP and allows you to start making the product changes to your own site immediately, without having to look for and build SAML libraries.
 
 Additionally, you should consider integrating with OAuth Federation flows for Google Apps, Slack, Salesforce, GitHub and other flows. There are some services ([Auth0](https://www.auth0.com)) to help implement multiple OAuth provides without writing additional code.
 
