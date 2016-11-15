@@ -55,7 +55,7 @@ While most end users will be familiar with their SSO platform of choice, it can 
 
 ## Examples:
 <DIV style="float:left">
-<a href="/slack/single-sign-on"><img src="/slack/images/example_sso.png" width="300px" align="left" style="margin:0;"/></a>
+<a href="/slack/sso"><img src="/slack/images/example_sso.png" width="300px" align="left" style="margin:0;"/></a>
 <DIV class="clearfix"></DIV>
-### [Slack Single Sign On](/slack/single-sign-on)
+### [Slack Single Sign On](/slack/sso)
 </DIV>

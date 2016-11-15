@@ -19,7 +19,7 @@ TLS all the things (including internal server-to-server communication). It's jus
 Reproducibility is key to ensuring consistent and intended environments by removing opportunity for human error. Without scripted and reproducible deployments, you will end up with a collection of unaudited, artisanally configured servers that could have undetected security vulnerabilities on them.
 
 **Automatically Block Attacks**  
-There are some external products and services that can help detect when your network has been compromised and even automatically block access to bad actors. Some examples of products to evaluate are: [SignalSciences](https://www.signalsciences.com), [Tenable](https://www.tenable.com), [AlienVault](https://www.alienvault.com) or [Snort](https://www.snort.org).
+There are some external products and services that can help detect when your network has been compromised and some can even automatically block access to bad actors. Some examples of products to evaluate are: [SignalSciences](https://www.signalsciences.com), [Tenable](https://www.tenable.com), [AlienVault](https://www.alienvault.com) or [Snort](https://www.snort.org).
 
 **API Rate Limiting**
 Without rate limiting, your API is subject to brute force attacks. Consider enforcing rate limits in an upstream load balancer. It's also recommended that unauthenticated requests have a considerably lower rate limit than authenticated requests.
@@ -119,9 +119,6 @@ Many enterprise buyers will ask you to provide documentation around your securit
 **Information Security Policy**  
 Have a written and published Information Security Policy for how you will treat data and access to all data. Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
 
-## Examples  
-<DIV style="float:left">
-<a href="/box/product-security"><img src="/box/images/example.png" width="300px" align="left" style="margin:0;"/></a>
-<DIV class="clearfix"></DIV>
-### [Box Product Security](/box/product-security)
-</DIV>
+## Examples
+----   
+{{< example title="Box Product Security" url="/box/product-security" image="/box/images/example.png" >}}
