@@ -293,8 +293,8 @@ h3.section-header.sub {
     #checklist .row {
         margin-top: 0px;
     }
-    #checklist .column {
-        margin-bottom: 10px;
+    #checklist .columns {
+        margin-bottom: 40px;
     }
 }
 .company-tag {
@@ -364,6 +364,24 @@ span.tm {
   background-size: 170px 81px;
   width: 170px;
   height: 81px;
+}
+span.sla {
+  background: url('../images/article-icons/sla@2x.png');
+  background-size: 130px 91px;
+  width: 130px;
+  height: 91px;
+}
+span.int {
+  background: url('../images/article-icons/integrations@2x.png');
+  background-size: 155px 98px;
+  width: 155px;
+  height: 98px;
+}
+span.ar {
+  background: url('../images/article-icons/advanced-reporting@2x.png');
+  background-size: 130px 62px;
+  width: 130px;
+  height: 62px;
 }
 
 /* Top Article */
