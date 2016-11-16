@@ -23,17 +23,17 @@ strong {
     color: #ee5042;
 }
 .read-more {
-    border: 1px solid #979797;
+    border: 1px solid #D0D0D0;
     padding: 5px 8px;
-    font-weight: 400;
-    font-size: 12px;
-    color: #979797;
-    border-radius: 3px;
-    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ee5042;
+    border-radius: 4px;
+    transition: border .2s;
 }
 .read-more:hover {
-    color: white;
-    background-color: #979797;
+  border-color: #ee5042;
+  color: #ee5042;
 }
 
 .examples {
@@ -179,6 +179,17 @@ strong {
     color: #ee5042;
 }
 
+/* Masthead */
+
+.masthead-wrapper {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.masthead-wrapper .container {
+  max-width: 740px;
+}
+
 /* Main */
 
 #main {
@@ -213,6 +224,26 @@ strong {
     }
 }
 
+h3.section-header {
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: normal;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+h3.section-header.sub {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #434343;
+}
+
+.header-desc-copy {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 /* Checklist */
 
 #checklist {
@@ -230,11 +261,19 @@ strong {
     margin-bottom: 10px;
     padding: 10px 10px 2px;
 }
-#checklist h3 {
-    font-weight: 400;
-    margin-bottom: 5px;
+#checklist p {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
-#checklist h2+ p {
+#checklist h3.section-header {
+  margin-bottom: 40px;
+}
+#checklist .article-header {
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+#checklist h2 + p {
     width: 650px;
     margin: 0px auto;
 }
@@ -248,26 +287,101 @@ strong {
     display: block;
 }
 #checklist .row {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 @media (max-width: 550px) {
     #checklist .row {
         margin-top: 0px;
     }
-    #checklist .column {
-        margin-bottom: 10px;
+    #checklist .columns {
+        margin-bottom: 40px;
     }
 }
 .company-tag {
-    font-size: 12px;
-    text-transform: uppercase;
+    font-size: 18px;
     font-weight: 500;
 }
-.company-tag a {
-    font-weight: 300;
-    font-size: 14px;
-    text-align: left;
-    line-height: 26px;
+
+.article-icon {
+  min-height: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.article-icon span {
+  position: absolute;
+  display: block;
+  background-repeat: no-repeat;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span.pa {
+  background: url('../images/article-icons/product-assortment@2x.png');
+  background-size: 173px 82px;
+  width: 173px;
+  height: 82px;
+}
+span.sso {
+  background: url('../images/article-icons/sso@2x.png');
+  background-size: 84px 100px;
+  width: 84px;
+  height: 100px;
+}
+span.al {
+  background: url('../images/article-icons/audit-logs@2x.png');
+  background-size: 202px 92px;
+  width: 202px;
+  height: 92px;
+}
+span.rbac {
+  background: url('../images/article-icons/rbac@2x.png');
+  background-size: 191px 87px;
+  width: 191px;
+  height: 87px;
+}
+span.cm {
+  background: url('../images/article-icons/change-management@2x.png');
+  background-size: 239px 86px;
+  width: 239px;
+  height: 86px;
+}
+span.ps {
+  background: url('../images/article-icons/product-security@2x.png');
+  background-size: 67px 75px;
+  width: 67px;
+  height: 75px;
+}
+span.dm {
+  background: url('../images/article-icons/deployment-model@2x.png');
+  background-size: 230px 83px;
+  width: 230px;
+  height: 83px;
+}
+span.tm {
+  background: url('../images/article-icons/team-management@2x.png');
+  background-size: 170px 81px;
+  width: 170px;
+  height: 81px;
+}
+span.sla {
+  background: url('../images/article-icons/sla@2x.png');
+  background-size: 130px 91px;
+  width: 130px;
+  height: 91px;
+}
+span.int {
+  background: url('../images/article-icons/integrations@2x.png');
+  background-size: 155px 98px;
+  width: 155px;
+  height: 98px;
+}
+span.ar {
+  background: url('../images/article-icons/advanced-reporting@2x.png');
+  background-size: 130px 62px;
+  width: 130px;
+  height: 62px;
 }
 
 /* Top Article */
@@ -289,13 +403,34 @@ strong {
 /* Footer */
 
 #footer p {
-    font-size: 10px;
-}
-#footer a {
-    font-weight: 500;
+  margin: 0;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
 }
 
+#footer a {
+  display: inline-block;
+  vertical-align: -9px;
+  margin-left: 3px;
+  background: url('../images/replicated_logo_footer@2x.png');
+  background-size: 110px 26px;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 26px;
+}
+
+.footer-wrapper {
+  padding: 20px 0;
+  background: #002E4B;
+}
+
+
 /* Subscribe */
+
+.subscribe-wrapper {
+  padding: 40px 0 25px;
+}
 
 #subscribe input[type="email"] {
     width: 325px;
@@ -448,13 +583,22 @@ strong {
 
 /* Breakdowns */
 
+.breakdowns-wrapper {
+  background-color: #F5F5F5;
+  padding: 50px 0 60px;
+}
+#breakdowns .row {
+  margin-top: 40px;
+}
 #breakdowns .three {
     min-height: 250px;
-    border: 1px solid #DEDEDE;
-    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 0 18px 20px;
+    background: #ffffff;
 }
 #breakdowns .three div {
-    height: 125px;
+    height: 110px;
     width: 150px;
     position: relative;
     margin: 0px auto
@@ -469,13 +613,33 @@ strong {
     margin: auto;
 }
 #breakdowns .row p {
-    font-size: 12px;
-    padding: 0px 15px;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #323232;
 }
 @media (max-width: 550px) {
     #breakdowns .three {
         margin-bottom: 20px;
     }
+}
+
+.analysis-list {
+  margin: 0;
+  list-style-type: none;
+}
+.analysis-list li {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.analysis-list li a {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+}
+
+.background-wrapper {
+  padding: 60px 0;
+  border-bottom: 1px solid #D6D6D6;
 }
 
 /* SaaS Feature Table */
