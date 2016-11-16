@@ -343,8 +343,8 @@ span.rbac {
 }
 span.cm {
   background: url('../images/article-icons/change-management@2x.png');
-  background-size: 239px 86px;
-  width: 239px;
+  background-size: 118px 86px;
+  width: 118px;
   height: 86px;
 }
 span.ps {
@@ -355,14 +355,14 @@ span.ps {
 }
 span.dm {
   background: url('../images/article-icons/deployment-model@2x.png');
-  background-size: 230px 83px;
-  width: 230px;
+  background-size: 190px 83px;
+  width: 190px;
   height: 83px;
 }
 span.tm {
   background: url('../images/article-icons/team-management@2x.png');
-  background-size: 170px 81px;
-  width: 170px;
+  background-size: 126px 81px;
+  width: 126px;
   height: 81px;
 }
 span.sla {
