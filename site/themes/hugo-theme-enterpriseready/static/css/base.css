@@ -16,7 +16,7 @@ hr {
 }
 
 strong {
-    font-weight: 400;
+    font-weight: 500;
 }
 .date {
     font-weight: 500;
@@ -172,11 +172,21 @@ strong {
 #breadcrumbs span:last-child {
     color: #222;
 }
-#breadcrumbs a {
-    color: #222;
-}
-#breadcrumbs a:hover {
+#breadcrumbs .edit-button {
+    font-size: 14px;
+    text-transform: none;
+    border-radius: 4px;
+    border: 1px solid #ee5042;
+    padding: 4px 5px;
     color: #ee5042;
+    background-color: #ffffff;
+    position: relative;
+    top: -6px;
+    transition: all .2s;
+}
+#breadcrumbs .edit-button:hover {
+    border-color: #BC372B;
+    color: #BC372B;
 }
 
 /* Masthead */
