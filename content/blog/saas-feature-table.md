@@ -7,7 +7,7 @@ type = "feature-table"
 | Company	| Product Assortment | Team Mgmt | SSO | RBAC | Audit Log | Enhanced SLA | Security | Change Mgmt | Reporting | Integrations |
 |---------|--------------------|-----------|-----|------|-----------|--------------|----------|-------------|-----------|--------------|
 | [Slack](https://slack.com/pricing) |	Yes	| All	| Enterprise | Standard | Plus | Plus | All | None | Enterprise | Quantity |
-| [Salesforce](https://goo.gl/qp2AnG) | Yes | All | Enterprise | Pro | Unlimited | Unlimited | Unlimited | Enterprise | Enterprise |
+| [Salesforce](https://goo.gl/qp2AnG) | Yes | All | Enterprise | Pro | All | Unlimited | All | Unlimited | Enterprise | Enterprise |
 | [Zendesk](https://www.zendesk.com/support/compare/#compare)	| Yes | All	| Pro	| Enterprise | Enterprise	| Pro	| All	| Enterprise | Enterprise | Team |
 | [Google](https://gsuite.google.com/pricing.html)	| Yes | Standard | Standard | Standard | Unlimited | Standard | Unlimited | None | Unlimited | All
 | [Asana](https://asana.com/pricing) | Yes | All | Premium | Premium | No | Premium | All | None | Premium | All
