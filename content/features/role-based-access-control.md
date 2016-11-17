@@ -10,7 +10,7 @@ Role based access control (RBAC) functionality enables application admins to lim
 
 Many times when SaaS applications first launch team functionality, they start out with all users being fully privileged to access all features. However, for larger customers there are requirements that different members of the team be assigned only the functionality they need to do their job (see the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)). To this point, it is even a security best practice for admins to maintain separate accounts for their user level activities. As a result, SaaS applications need to offer Role Based Access Control to be EnterpriseReady.
 
-We’ve included screen-by-screen tear downs of the RBAC implementations of both [HubSpot](/spotlight/hubspot) & [Intercom](/spotlight/intercom).
+We’ve included screen-by-screen tear downs of the RBAC implementations of both [HubSpot](/hubspot/role-based-access-control) & [Intercom](/intercom/role-based-access-control).
 
 ## At the most basic level:
 Very simple implementations of RBAC start by simply allowing users to be identified as read-only. These users are able to view all features and resources, but not make any changes.
