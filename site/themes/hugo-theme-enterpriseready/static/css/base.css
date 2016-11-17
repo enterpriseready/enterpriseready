@@ -605,6 +605,16 @@ span.ar {
 }
 
 
+/* Contribtors */
+.contributors a{
+float: left;
+margin-right: 10px;
+}
+
+.contributors a img {
+  margin: 0px !important;
+  border-radius: 4px;
+}
 
 /* Breakdowns */
 
