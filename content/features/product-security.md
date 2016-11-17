@@ -24,8 +24,8 @@ Create private networks by leveraging cloud hosting features such as VPCs and VP
 **Public Footprint**  
 The principle of least privilege can be applied to the openness of systems and servers. By doing so you can reduce the surface area for potential attacks. Servers should not have public IP addresses unless absolutely needed (instead traffic should be routed through a reverse proxy server like Nginx). All unnecessary ports should be blocked. Only allow SSH connections from internal (VPN) connections. Moving the SSH port to a different port isn't a secure solution.
 
-**Automatically Block Attacks**  
-There are some external products and services that can help detect when your network has been compromised and some can even automatically block access to bad actors. Some examples of products to evaluate are: [SignalSciences](https://www.signalsciences.com), [Tenable](https://www.tenable.com), [AlienVault](https://www.alienvault.com) or [Snort](https://www.snort.org).
+**Take Preventative Action**  
+There are some external products and services that can help detect when your network has been compromised or if your applications have known vulnerabilities. Some can even assist you to deploy patches or block access to bad actors. A examples of products to evaluate are: [SignalSciences](https://www.signalsciences.com), [AlienVault](https://www.alienvault.com), [Snort](https://www.snort.org) or [Tenable](https://www.tenable.com).
 
 **DDOS Prevention**  
 If you've prevented rogue traffic from accessing your servers and network, it's still possible for external services to block anyone else from using your service by creating a distributed, denial-of-service attack. To prevent this, it's recommended to use a 3rd party service such as [Cloudflare](https://www.cloudflare.com) or [Akamai](https://www.akamai.com) who have experience managing DDOS attacks.
@@ -114,7 +114,7 @@ Many enterprise buyers will ask you to provide documentation around your securit
 - White Papers
 
 **Information Security Policy**  
-Have a written and published Information Security Policy for how you will treat data and access to all data. Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
+Have a written and published Information Security Policy, Incident Response Plan and [Bug Bounty Program](https://hackerone.com). Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
 
 ## Examples
 ----   
