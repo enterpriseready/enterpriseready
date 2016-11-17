@@ -75,9 +75,6 @@ strong {
 #inner-nav {
     margin-top: 25px;
     margin-bottom: 5px;
-    
-
-
 }
 #inner-nav ul {
   margin-left: 15px;
@@ -92,6 +89,8 @@ strong {
 #inner-nav ul li a {
   font-weight:400;
 }
+
+
 
 #menu {
   display: none;
@@ -156,6 +155,13 @@ strong {
     background-color: white;
   }
 
+}
+
+.nav-div {
+  height:1px;
+  background-color:#D6D6D6;
+  width:100%;
+  margin-bottom:40px;
 }
 
 /* Second Nav */
