@@ -1,330 +1,75 @@
+
 <!DOCTYPE html>
-<html lang="en" class="js csstransforms3d">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8"> {{ partial "meta.html" . }} {{ partial "favicon.html" . }} {{ .Scratch.Add "title" "" }}{{ if isset .Site.Data.titles .Title }}{{ .Scratch.Set "title" (index .Site.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
-    <title>{{ .Scratch.Get "title" }}</title>
-    {{ partial "style.html" . }}
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <script src="//code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="/js/base.js"></script>
-    <script type="text/javascript" src="/js/featherlight.min.js"></script>
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title> Enterprise Ready</title>
+    <meta name="description" content="A guide for SaaS companies to build the features enterprises love.">
+    <meta name="author" content="">
+
+      <!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <!-- Javascript
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+      <script type="text/javascript" src="../js/base.js"></script>
+
+      <!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+
+      <!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="/css/skeleton.css">
+      <link rel="stylesheet" href="/css/base.css">
+
+      <!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
-
 <body>
-    <div class="container" id="inner-nav">
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container" id="inner-nav">
+      <p align="center"><a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a></p>
+      <!--<ul>
+          <li>The Checklist</li>
+      </ul>-->
+  </div>
 
-        <div id="menu"><a href="#">Menu</a></div>
-        <script>
-            $(document).ready(function() {
-                $("#menu").click(function() {
-                    $(".mobile_menu").slideToggle("fast", function() {
-
-                    });
-                });
-            });
-        </script>
-
-
-        <div class="menu">
-            <ul>
-                <li><a href="../#features">The Feature Guides</a></li>
-                <li>|</li>
-                <li><a href="../#examples">Example Implementations</a></li>
-                <li>|</li>
-                <li><a href="../#background">Project Background</a></li>
-                <li>|</li>
-                <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
-            </ul>
-        </div>
-
-        <p class="logo">
-            <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
-        </p>
+  <div class="container" id="checklist">
+        <h1 align="center">Coming Soon</h1>
+  </div>
 
 
-        <div class="mobile_menu">
-            <ul>
-                <li style="font-size:16px;color:#BD422D">Menu</li>
-                <li>
-                    <hr/>
-                </li>
-                <li><a href="../#features">The Feature Guides</a></li>
-                <li><a href="../#examples">Example Implementations</a></li>
-                <li><a href="../#background">Project Background</a></li>
-                <li>Powered by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+    <hr />
 
-            </ul>
+<div class="container" id="subscribe">
+    <h2 align="center">Subscribe for the latest EnterpriseReady tips.</h2>
+    <div class="row">
+      <div class="three columns">
+          &nbsp;
+      </div>
+      <div class="seven columns">
+          <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+              <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com">
+              <input class="button" type="submit" value="Submit">
+          </form>
 
-        </div>
-
-    </div>
-
-    <div class="nav-div"></div>
-
-    <div class="masthead-wrapper">
-      <div class="container">
-        <h2 align="center">The Enterprise Ready SaaS Feature Guides</h2>
-        <p align="center">Created for people who <strong>build</strong> SaaS products (founders, product managers and engineering team leads) to change the enterprise software narrative from "how to SELL to the enterprise" to "how to BUILD for the enterprise". Based on study of the <a href="/blog/saas-feature-table">50 leading SaaS application product packages</a>, indepth CIO interviews and feedback from countless SaaS founders.</p>
       </div>
     </div>
 
-    <div class="container" id="checklist">
-        <a name="features"></a>
-        <div id="features-intro" align="center">
-          <h3 align="center" class="section-header" style="margin-bottom: 10px;">Guides to becoming Enterprise Ready</h3>
-          <p align="center" style="max-width:1000px">The following 11 feature categories were identified as the common <strong>enterprise differentiating</strong> features. Each feature guide includes context for why it is needed, a jumping off point for implementing your own and links to tear downs of example implementations.</p>
-        </div>
-        <div class="row">
-            <div class="four columns">
-                <a href="features/product-assortment">
-                  <div class="article-icon"><span class="pa"></span></div>
-                  <h3 align="center" class="article-header">Product Assortment</h3>
-                  <p align="center">Offer different versions of a product to meet the differing needs of enterprise buyers.</p>
-                </a>
-                <p align="center">
-                  <a class="read-more" href="features/product-assortment">Read More</a>
-                  <a class="read-more examples" href="features/product-assortment#examples">View Examples</a>
-                </p>
-            </div>
-            <div class="four columns">
-                <a href="features/single-sign-on">
-                  <div class="article-icon"><span class="sso"></span></div>
-                  <h3 align="center" class="article-header">Single Sign On</h3>
-                  <p align="center">Enable enterprises to manage users from a single, central directory.</p>
-                </a>
-                <p align="center">
-                  <a class="read-more" href="features/single-sign-on">Read More</a>
-                  <a class="read-more examples" href="features/single-sign-on#examples">View Examples</a>
-                </p>
-            </div>
-            <div class="four columns">
-                <a href="features/audit-log">
-                  <div class="article-icon"><span class="al"></span></div>
-                  <h3 align="center" class="article-header">Audit Logs</h3>
-                  <p align="center">Provide admins with a detailed trail of account activity.</p>
-                </a>
-                <p align="center">
-                  <a class="read-more" href="features/audit-log">Read More</a>
-                  <a class="read-more examples" href="features/audit-log#examples">View Examples</a>
-                </p>
-            </div>
-        </div>
+</div>
+    <hr />
 
-        <div class="row">
-            <div class="four columns">
-                <a href="features/role-based-access-control">
-                  <div class="article-icon"><span class="rbac"></span></div>
-                  <h3 align="center" class="article-header">Role Based Access Control</h3>
-                  <p align="center">Allow for the separation of privileges by user role.</p>
-                </a>
-                <p align="center">
-                  <a class="read-more" href="features/role-based-access-control">Read More</a>
-                  <a class="read-more examples" href="features/role-based-access-control#examples">View Examples</a>
-                </p>
-            </div>
-            <div class="four columns">
-                <a href="features/change-management">
-                  <div class="article-icon"><span class="cm"></span></div>
-                  <h3 align="center" class="article-header">Change Management</h3>
-                  <p align="center">Empower admins with tools and collateral to roll out features and product changes.</p>
-                </a>
-                <p align="center">
-                  <a class="read-more" href="features/change-management">Read More</a>
-                  <a class="read-more examples" href="features/change-management#examples">View Examples</a>
-                </p>
-            </div>
-            <div class="four columns">
-              <a href="features/product-security">
-                  <div class="article-icon"><span class="ps"></span></div>
-                  <h3 align="center" class="article-header">Product Security</h3>
-                  <p align="center">Demonstrable application security through best practices.</p>
-                </a>
-                <p align="center">
-                  <a class="read-more" href="features/product-security">Read More</a>
-                  <a class="read-more examples" href="features/product-security#examples">View Examples</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="four columns">
-              <a href="features/deployment-model">
-                  <div class="article-icon"><span class="dm"></span></div>
-                  <h3 align="center" class="article-header">Deployment Model</h3>
-                  <p align="center">Balance data security concerns and application overhead with flexible deployment options.</p>
-                </a>
-                <p align="center">
-                  <a class="read-more" href="features/deployment-model">Read More</a>
-                  <a class="read-more examples" href="features/deployment-model#examples">View Examples</a>
-                </p>
-            </div>
-            <div class="four columns">
-              <a href="features/teams">
-                  <div class="article-icon"><span class="tm"></span></div>
-                  <h3 align="center" class="article-header">Team Management</h3>
-                  <p align="center">Enable collaboration with coworkers in an account that is centrally managed.</p>
-                </a>
-                <p align="center">
-                  <a class="read-more" href="features/teams">Read More</a>
-                  <a class="read-more examples" href="features/teams#examples">View Examples</a>
-                </p>
-            </div>
-        </div>
-
-        <h3 align="center" class="section-header" style="margin-top:2em;">---- Work in progress guides ----<h3>
-        <div class="row" style="margin-bottom:2em;">
-          <div class="four columns">
-            <a href="features/support">
-              <div class="article-icon"><span class="sla"></span></div>
-              <h3 align="center" class="article-header">SLA and Support</h3>
-              <p align="center">A primer to the common contract issues and sticking points.</p>
-            </a>
-            <p align="center">
-              <a class="read-more examples" target="_blank" href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/support.md">View Source</a>
-            </p>
-          </div>
-          <div class="four columns">
-            <a href="features/integrations">
-              <div class="article-icon"><span class="int"></span></div>
-              <h3 align="center" class="article-header">Integrations</h3>
-              <p align="center">Integrate closely into the big apps that most enterprises use (point integrations).</p>
-            </a>
-            <p align="center">
-              <a class="read-more examples" target="_blank" href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/integrations.md">View Source</a>
-            </p>
-          </div>
-          <div class="four columns">
-            <a href="features/advanced-reporting">
-              <div class="article-icon"><span class="ar"></span></div>
-              <h3 align="center" class="article-header">Advanced Reporting</h3>
-              <p align="center">Reports allow admins to demonstrate value gained from the use of an application.</p>
-            </a>
-            <p align="center">
-              <a class="read-more examples" target="_blank" href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/advanced-reporting.md">View Source</a>
-            </p>
-          </div>
-
-        </div>
-    </div>
-
-    <div class="breakdowns-wrapper">
-      <a name="examples"></a>
-      <div class="container" id="breakdowns">
-        <h3 align="center" class="section-header">Example Implementations by Leading SaaS Companies</h3>
-        <p align="center" class="header-desc-copy">Detailed analysis of how the top SaaS companies implement each core EnterpriseReady feature.</p>
-          <div class="row">
-            <div class="three columns">
-                <div>
-                    <img src="https://i.imgur.com/c0AAnE5.png" align="center" width="150px" />
-                </div>
-                <p class="company-tag">Feature analysis</p>
-                <ul class="analysis-list">
-                  <li><a href="/zendesk/product-assortment">Product Assortment</a></li>
-                  <li><a href="/zendesk/audit-log">Audit Log</a></li>
-                  <li><a href="/zendesk/change-management">Change Management</a></li>
-                </ul>
-            </div>
-            <div class="three columns">
-                <div>
-                    <img src="/images/breakdown-logos/heroku.png" align="center" width="150px" />
-                </div>
-                <p class="company-tag">Feature analysis</p>
-                <ul class="analysis-list">
-                  <li><a href="/heroku/teams">Teams</a></li>
-                </ul>
-            </div>
-            <div class="three columns">
-                <div>
-                    <img src="/images/breakdown-logos/google.png" align="center" width="150px" />
-                </div>
-                <p class="company-tag">Feature analysis</p>
-                <ul class="analysis-list">
-                  <li><a href="/google/product-assortment">Product Assortment</a></li>
-                  <li><a href="/google/audit-log">Audit Log</a></li>
-                </ul>
-            </div>
-            <div class="three columns">
-                <div>
-                    <img src="/images/breakdown-logos/slack-logo.png" align="center" width="150px" />
-                </div>
-                <p class="company-tag">Feature analysis</p>
-                <ul class="analysis-list">
-                  <li><a href="/slack/product-assortment">Product Assortment</a></li>
-                  <li><a href="/slack/sso">Single Sign-On</a></li>
-                </ul>
-            </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="background-wrapper">
-      <div class="container" id="intro">
-          <a name="background"></a>
-          <h3 align="center" class="section-header">Project Background</h3>
-          <div class="row" style="margin-top:35px">
-              <div class="one-half column">
-                  <h3 id="who-its-for" class="section-header sub">Who it’s for</h3>
-                  <p>EnterpriseReady was created for the people who build SaaS products (founders, product managers and engineering team leads).</p>
-              </div>
-              <div class="one-half column">
-                  <h3 id="what-it-is" class="section-header sub">What it is</h3>
-                  <p>A guide to creating or enhancing a SaaS product with common features that will enable more adoption by enterprise customers.</p>
-              </div>
-          </div>
-          <div class="row">
-              <h3 id="who-its-from" class="section-header sub">Who it’s from</h3>
-              <p>We run a company called <a href="https://www.replicated.com">Replicated</a> that enables SaaS applications to create an enterprise installable version of their product to be distributed behind the firewall. We’ve built and sold a SaaS company previously. We work closely with many
-                  SaaS founders and teams. In order to be successful with the Replicated platform, SaaS companies generally need a baseline of features that enterprise customers want.</p>
-          </div>
-          <div class="row">
-              <h3 id="why" class="section-header sub">Why we're contributing it</h3>
-              <p>We're product people. So, we're changing the enterprise software narrative from "how to <strong>SELL</strong> to the enterprise" to "how to <strong>BUILD</strong> for the enterprise." Hopefully this site can create a common vernacular for founders, product managers, engineers, sales and customers alike. We know we're not always right... so we <a href="https://github.com/enterpriseready/enterpriseready">open sourced this</a>, you can fork it, create edits, share it with your team and even contribute those back.</p>
-          </div>
-      </div>
-    </div>
-
-    <div class="subscribe-wrapper">
-      <div class="container" id="subscribe">
-          <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
-          <div class="row">
-              <div class="three columns">
-                  &nbsp;
-              </div>
-              <div class="seven columns">
-                  <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
-                      <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
-                      <input class="button button-primary" type="submit" value="Subscribe">
-                  </form>
-              </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="footer-wrapper">
-      <div class="container" id="footer">
-          <p align="center">© EnterpriseReady 2016 · Contributed by <a href="https://www.replicated.com" target="_blank"></a></p>
-      </div>
-    </div>
-
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-61420213-5', 'auto');
-        ga('send', 'pageview');
-    </script>
+<div class="container">
+    <p align="right">© Enterprise Ready 2016 · Powered by <a href="https://www.replicated.com" target="_blank">Replicated</a></p>
+</div>
     <!-- End Document–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-
 </html>
