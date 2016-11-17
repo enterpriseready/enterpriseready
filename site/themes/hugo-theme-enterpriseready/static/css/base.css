@@ -74,9 +74,7 @@ strong {
 
 #inner-nav {
     margin-top: 25px;
-    margin-bottom: 25px;
-    padding-bottom: 5px;
-
+    margin-bottom: 5px;
 }
 #inner-nav ul {
   margin-left: 15px;
@@ -91,6 +89,8 @@ strong {
 #inner-nav ul li a {
   font-weight:400;
 }
+
+
 
 #menu {
   display: none;
@@ -157,6 +157,23 @@ strong {
 
 }
 
+.nav-div {
+  height:1px;
+  background-color:#D6D6D6;
+  width:100%;
+  margin-bottom:40px;
+}
+
+/* Second Nav */
+
+.second-nav {
+  width:100%;
+  background-color:#F8F8F8;
+  padding:18px 0px 0px;
+  border-top:1px solid #DFDFDF;
+  border-bottom:1px solid #DFDFDF;
+}
+
 /* Breadcrumbs */
 
 #breadcrumbs {
@@ -180,8 +197,6 @@ strong {
     padding: 4px 5px;
     color: #ee5042;
     background-color: #ffffff;
-    position: relative;
-    top: -6px;
     transition: all .2s;
 }
 #breadcrumbs .edit-button:hover {
