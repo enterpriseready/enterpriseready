@@ -11,9 +11,9 @@ The operational procedures of many large enterprise organizations generally enco
 ## Application level change management
 Enterprises will often set up workflows around your product. When you introduce your latest & greatest features or redesign of your product you need to give the time, tools and collateral to roll out those changes on their end users.  
 
-**Change log** - Create and maintain a detailed change log of when new features are released or functionality is removed.  
+**Change log** - Create and maintain a detailed change log of when new features are released or functionality is removed. It's best for this information to be surfaced within normal use of the application and to include links to detailed feature overviews and documentation. In-app messaging tools like [Intercom](https://www.intercom.com) and [Pendo](http://www.pendo.io) can enable these notifications to be crafted and deployed by product marketing teams.  
 **Advanced notice** - depending on the depth of change, customers may need weeks or months of advanced communication so they have time to relay to their users.  
-**Feature enablement** - feature flags are quickly becoming a common practice to prevent beta features from reaching customers too early. However, by putting this power into the hands of account admins they can toggle the changes on their account when they’re ready.  
+**Feature enablement** - feature flags are quickly becoming a common practice to prevent beta features from reaching customers too early. However, by putting this power into the hands of account admins they can toggle the changes on their account when they’re ready. However, it is important to communicate that there is a clear, yet ample, transition timeline for the feature will be enabled for all accounts automatically.  
 **Provide collateral** - enable your customers to deliver the message to their end users by using templates that you create, else each customer will be completing the same work.  
 *Examples:* Gmail has been doing this for a long time with their Labs features. Dropbox does this with their Early Access features.  
 

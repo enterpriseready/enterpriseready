@@ -105,13 +105,12 @@ If your application is using cookies or local/session storage, ensure that all c
 Security shouldn't be a feature a user has to enable or opt into. Enforce secure defaults out of the box.
 
 **Demonstrable security**  
-Many enterprise buyers will ask you to provide documentation around your security efforts. Be prepared to show any of the following:
-- Certifications
-- Audits
-- Penetration Test results
-- Security Policies
-- Security Forms
-- White Papers
+Many enterprise buyers will ask you to provide documentation around your security efforts. Be prepared to show any of the following:  
+***Certifications*** - Achieving SOC2 certification or FedRAMP or PCI compliance (even when irrelevant) can often shortcut the effort to demonstrate security practices to potential customers.   
+***Audits*** - Trusted third party audits are a standard requirement for most enterprise customers.    
+***Penetration Test Results***  
+***Security Forms*** - Many potential customers will require that you fill out their detailed security check list.  
+***White Papers***  
 
 **Information Security Policy**  
 Have a written and published Information Security Policy, Incident Response Plan and [Bug Bounty Program](https://hackerone.com). Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
