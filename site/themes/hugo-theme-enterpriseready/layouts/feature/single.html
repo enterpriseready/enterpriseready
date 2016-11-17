@@ -1,8 +1,10 @@
 {{ partial "header.html" . }}
 
-<div class="container" id="breadcrumbs">
-  <div id="tool-tip">
-    <a href="#">Features</a>
+<div class="second-nav">
+
+  <div class="container" id="breadcrumbs">
+    <div id="tool-tip">
+      <span style="cursor:pointer;color:#878787">Features</span>
       <div class="tool-tip">
         <ul>
           <li><a href="/features/product-assortment">Product Assortment</a></li>
@@ -21,19 +23,22 @@
           <hr  />
           <li><a href="/features/teams">Team Management</a></li>
           <hr  />
-          <li><a href="/features/support">SLA and Support</a></li>
+          <li><a style="opacity: 0.6" href="/features/support">SLA and Support</a></li>
           <hr  />
-          <li><a href="/features/integrations">Integrations</a></li>
+          <li><a style="opacity: 0.6" href="/features/integrations">Integrations</a></li>
           <hr />
-          <li><a href="/features/advanced-reporting">Advanced Reporting</a></li>
+          <li><a style="opacity: 0.6" href="/features/advanced-reporting">Advanced Reporting</a></li>
         </ul>
       </div>
+      </div>
+      <span>/</span> {{.Title}}
+      <div class="pull-right">
+        <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/{{ .File.Path }}">Edit this page</a>
+      </div>
     </div>
-    <span>//</span>{{.Title}}
-    <div class="pull-right">
-      <a href="https://github.com/enterpriseready/enterpriseready/edit/master/content/{{ .File.Path }}">Edit this page</a>
-    </div>
-  </div>
+
+</div>
+
   <div class="container" id="article">
     <p align="center"><img src="{{ .Params.hero }}" /></p>
 
