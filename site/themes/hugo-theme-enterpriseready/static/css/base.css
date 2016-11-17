@@ -77,6 +77,7 @@ strong {
     margin-bottom: 25px;
     padding-bottom: 5px;
 
+
 }
 #inner-nav ul {
   margin-left: 15px;
@@ -157,6 +158,16 @@ strong {
 
 }
 
+/* Second Nav */
+
+.second-nav {
+  width:100%;
+  background-color:#F8F8F8;
+  padding:18px 0px 0px;
+  border-top:1px solid #DFDFDF;
+  border-bottom:1px solid #DFDFDF;
+}
+
 /* Breadcrumbs */
 
 #breadcrumbs {
@@ -180,8 +191,6 @@ strong {
     padding: 4px 5px;
     color: #ee5042;
     background-color: #ffffff;
-    position: relative;
-    top: -6px;
     transition: all .2s;
 }
 #breadcrumbs .edit-button:hover {
