@@ -6,7 +6,7 @@ type = "feature"
 hero = "/images/deployment-model.svg"
 metadescription = "A guide for SaaS products to balance enterprise customers' data security concerns and application overhead with flexible deployment options."
 pagetitle = "Enterprise Ready SaaS App Guide to Deployment Models"
-ogimage = "/images/twtr/deployment-model-og.png"
+ogimage = "images/twtr/deployment-model-og.png"
 +++
 
 {{< note >}}
