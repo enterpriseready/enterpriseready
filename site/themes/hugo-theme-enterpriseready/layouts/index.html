@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8"> {{ partial "meta.html" . }} {{ partial "favicon.html" . }} {{ .Scratch.Add "title" "" }}{{ if isset .Site.Data.titles .Title }}{{ .Scratch.Set "title" (index .Site.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
-    <title>{{ .Scratch.Get "title" }}</title>
+    <title>EnterpriseReady - Build SaaS Features Enterprises Love</title>
+    <meta name="description" content="A guide for SaaS companies to build the features that enteprises love.">
     {{ partial "style.html" . }}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
     <script src="//code.jquery.com/jquery-latest.js"></script>
