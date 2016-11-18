@@ -6,7 +6,7 @@ type = "feature"
 hero = "/images/single-sign-on.svg"
 metadescription = "A guide for SaaS products to allow enterprise buyers to manage users from their existing single sign on (SSO) service."
 pagetitle = "Enterprise Ready SaaS App Guide to Single Sign On (SSO)"
-ogimage = "/images/twtr/sso-og.png"
+ogimage = "/images/twtr/single-sign-on-og.png"
 +++
 
 Single Sign On (SSO) allows your customers to manage their team’s users outside of your built-in user table. SSO centralizes the database of users into a single service that controls authorization to all accounts and applications.
