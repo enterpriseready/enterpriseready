@@ -4,6 +4,7 @@ title = "Audit Logs"
 featuresslug = "audit-logs"
 type = "feature"
 hero = "/images/audit-log.svg"
+metadescription = "Audit logs are ..."
 +++
 
 Audit logs are the centralized stream of all user activity within a team. Part of the security and compliance program of any large enterprise is designed to control and monitor the access of information within the organization. This drives the need for enterprise buyers to ask for a detailed audit trail of all activity that happens within their account. An audit trail can be used to prevent suspicious activity when it starts (if actively monitored), or to play back account activity during an incident review.
