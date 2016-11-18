@@ -4,6 +4,9 @@ title = "Product Security"
 featureslug = "product-security"
 type = "feature"
 hero = "/images/product-security.svg"
+metadescription = "A guide for SaaS products to implement and demonstrate product security in their application to meet the requirements of enterprise buyers."
+pagetitle = "Enterprise Ready SaaS App Guide to Product Security"
+ogimage = "/images/twtr/product-security-og.png"
 +++
 
 Security isn't a topic to discuss by itself, it should be part of the conversation around everything discussed on EnterpriseReady. For SaaS companies working with larger enterprise IT buyers it is incredibly important for this to be an area of strength. Most enterprises will provide potential software vendors with long third-party [vendor security questionnaires](https://www.vendorsecurityalliance.org/questions). These documents generally cover a broad range of security topics including product security, physical office security, employee screening, office network security, business continuity, upstream vendor security, disaster recovery, data security, secure IT policy, asset security and data center security in order to evaluate the overall security posture of an organization.

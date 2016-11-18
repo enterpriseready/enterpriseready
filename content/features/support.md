@@ -4,6 +4,9 @@ title = "Support & SLA"
 featureslug = "support"
 type = "feature"
 hero = "/images/support.svg"
+metadescription = "A guide for SaaS companies to meet and exceed the SLA and support requirements of their enterprise customers."
+pagetitle = "Enterprise Ready SaaS App Guide to Support & SLA"
+ogimage = "/images/twtr/support-og.png"
 +++
 
 ## SLA (Service Level Agreement)
