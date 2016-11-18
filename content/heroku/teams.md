@@ -17,7 +17,7 @@ When logged in you quickly see a way to create a new team.
 
 ![enter description here](https://i.imgur.com/2ZgaiCb.png)
 
-n order to create a new team, you must provide 1) Team name 2) Credit Card. This is the first instance where we see additional costs for an Enterprise feature. Once you invite more than 5 team members you get charged $10/month, with a maximum of 25 members. For more than 25 members you’ll have to reach out to Heroku for additional pricing (typical Enterprise Sales). Accounts can only create a maximum of 5 teams. Also, Free dynos, which are available for personal apps, are not available to Teams.
+In order to create a new team, you must provide 1) Team name 2) Credit Card. This is the first instance where we see additional costs for an Enterprise feature. Once you invite more than 5 team members you get charged $10/month, with a maximum of 25 members. For more than 25 members you’ll have to reach out to Heroku for additional pricing (typical Enterprise Sales). Accounts can only create a maximum of 5 teams. Also, Free dynos, which are available for personal apps, are not available to Teams.
 
 Presenting billing this early on does seem to add an extra layer of friction, but it feels like Heroku is trying to create some accountability as if a team member adds a paid feature there is no question who on the team is footing the bill.
 
