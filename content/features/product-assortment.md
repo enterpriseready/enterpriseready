@@ -4,6 +4,9 @@ title = "Product Assortment"
 featureslug = "product-assortment"
 type = "feature"
 hero = "/images/product-assortment.svg"
+metadescription = "A guide for SaaS products to offer differently priced versions of a application to meet the differing needs of enterprise buyers."
+pagetitle = "Enterprise Ready SaaS App Guide to Product Assortment"
+ogimage = "/images/twtr/product-assortment-og.png"
 +++
 
 Product assortment is the method by which SaaS companies create different product packages to appeal to different buyer personas. This is most evident on SaaS pricing pages where plans are listed as “Startup”, “Professional” and “Enterprise”, and are differentiated by a series of increasingly complicated features.
