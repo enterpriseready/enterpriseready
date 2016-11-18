@@ -4,6 +4,9 @@ title = "Reporting & Analytics"
 featureslug = "advanced-reporting"
 type = "feature"
 hero = "/images/advanced-reporting.svg"
+metadescription = "A guide for SaaS products to build advanced reporting functionality into their application that will give enterprise customers the ability to demonstrate value gained from the use of an application."
+pagetitle = "Enterprise Ready SaaS App Guide to Advanced Reporting"
+ogimage = "/images/twtr/advanced-reporting-og.png"
 +++
 
 Reporting is an important feature for enterprise buyers because it allows them (or the administrator) to prove the value that they have provided (justifying their salary) as well as prove that the software in itself was effective (justifying the price they paid). It isn’t enough for software to be effective, it has to be provably effective. The more ways you enable customers to slice and manipulate the data that your application produces, the more likely that they’ll be able to prove effectiveness.

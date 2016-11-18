@@ -4,6 +4,9 @@ title = "Change Management"
 featuresslug = "change-management"
 type = "feature"
 hero = "/images/change-management.svg"
+metadescription = "A guide for SaaS products to embrace enterprise change management by building features that empower admins with tools and collateral to roll out features and product changes."
+pagetitle = "Enterprise Ready SaaS App Guide to Change Management"
+ogimage = "/images/twtr/change-management-og.png"
 +++
 
 The operational procedures of many large enterprise organizations generally encourage adherence to written change management policies. For SaaS vendors embracing these procedures means integrating with change controls. There are two different layers to change management SaaS vendors should consider from a product perspective: 1) application level updates to product made by the SaaS vendor 2) account level updates to settings and configurations.

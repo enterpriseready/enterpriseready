@@ -4,6 +4,9 @@ title = "Team Management"
 featureslug = "teams"
 type = "feature"
 hero = "/images/teams.svg"
+metadescription = "A best practices guide for SaaS products to enable in-app team collaboration for enterprise customers."
+pagetitle = "Enterprise Ready SaaS App Guide to Team Management"
+ogimage = "/images/twtr/team-management-og.png"
 +++
 
 Teams describes the functionality that enables modern software to be collaborative and managed. Through Teams, app users invite others to collaboratively use the application with them by creating or linking an account. Apps that don’t have team functionality often require password sharing for multiple users to access the account, which is an obvious security hurdle for most business users.
