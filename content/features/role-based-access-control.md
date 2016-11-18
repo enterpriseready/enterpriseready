@@ -6,7 +6,7 @@ type = "feature"
 hero = "/images/role-based-access-control.svg"
 metadescription = "A guide for SaaS products to implement role based access control (RBAC) in their application to offer granular roles and permissions to enterprise buyers."
 pagetitle = "Enterprise Ready SaaS App Guide to Role Based Access Control (RBAC)"
-ogimage = "/images/twtr/rbac-og.png"
+ogimage = "images/twtr/rbac-og.png"
 +++
 
 Role based access control (RBAC) functionality enables application admins to limit the permissions of some users within a team.
