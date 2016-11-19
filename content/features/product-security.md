@@ -43,7 +43,7 @@ All of the best security measures in place aren't enough if you don't have monit
 Reproducibility is key to ensuring consistent and intended environments by removing opportunity for human error. Without scripted and reproducible deployments, you will end up with a collection of unaudited, artisanally configured servers that could have undetected security vulnerabilities on them.
 
 **Enable and Enforce Two Factor Auth**  
-For any system that support two-factor authentication, you should require that your own employees and contractors enable this feature. Many product even have a way to enforce it for all members of your team.  
+For any system that support two-factor authentication, you should require that your own employees and contractors enable this feature. Many products even have a way to enforce it for all members of your team.  
 
 **Separation of Roles**  
 Most large enterprises will require that you have different roles for development, ops, monitoring, etc. It's important to be able to provide this, but there isn't a requirement that a single person cannot be in multiple roles. It should be structured so that a developer who also has SSH access to production servers cannot be assuming both roles simultaneously though.
