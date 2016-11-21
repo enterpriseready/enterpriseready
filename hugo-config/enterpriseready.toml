@@ -13,3 +13,5 @@ feature = "features"
   copyright = "Replicated, Inc."
   edit_link = "https://github.com/enterpriseready/enterpriseready/edit/master/docs/"
   search = true
+  contributor ="Replicated"
+  contributorurl = "https://www.replicated.com"

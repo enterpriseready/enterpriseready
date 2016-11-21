@@ -9,7 +9,7 @@ pagetitle = "Enterprise Ready SaaS App Guide to Deployment Options"
 ogimage = "images/twtr/deployment-options-og.png"
 +++
 
-As discussed in our overview of the various [deployment options that are available to SaaS vendors](/blog/deployment-models). Many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. Ultimately, you'll want to be able to deliver a version of your application that can be deployed anywhere.  
+As discussed in our overview of the various [deployment options that are available to SaaS vendors](/blog/deployment-models), many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. Ultimately, you'll want to be able to deliver a version of your application that can be deployed anywhere.  
 
 The reason enterprises ask for this can vary. For many industry verticals like financial services, legal, health care, governments and industrial the reasons often come down to security and compliance. Other application categories like developer tools, ops, data science, BI or security tools are built around an integration with internal systems that are already running on private networks.
 
