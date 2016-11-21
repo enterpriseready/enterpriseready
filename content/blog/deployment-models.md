@@ -12,4 +12,4 @@ Over the last seven years, enterprises have started to move away from physical d
 ## On-prem datacenter (buyer managed)
 The largest enterprise buyers (banks, governments, healthcare orgs, telcos) often have some infrastructure that they’d like to continue to utilize. To reach these customers (as well as enterprises looking to deploy into a private cloud on a IaaS), SaaS providers will need a fully portable version of their application that can be deployed and managed anywhere.
 
-We cover the product features that SaaS vendors should consider when building a version of their application that can be managed as a private instance by their enterprise customers in our overview of [enterprise deployment models](/features/deployment-model).
+We cover the product features that SaaS vendors should consider when building a version of their application that can be managed as a private instance by their enterprise customers in our overview of [enterprise deployment models](/features/deployment-options).

@@ -1,9 +1,9 @@
 +++
 date = "2016-10-25T00:00:00Z"
-title = "GitHub Deployment Model"
-featureslug = "deployment-model"
+title = "GitHub Deployment Options"
+featureslug = "deployment-options"
 type = "breakdown"
-feature = "Deployment Model"
+feature = "Deployment Options"
 company = "github"
 +++
 
