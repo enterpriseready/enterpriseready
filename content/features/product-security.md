@@ -4,6 +4,9 @@ title = "Product Security"
 featureslug = "product-security"
 type = "feature"
 hero = "/images/product-security.svg"
+metadescription = "A guide for SaaS products to implement and demonstrate product security in their application to meet the requirements of enterprise buyers."
+pagetitle = "Enterprise Ready SaaS App Guide to Product Security"
+ogimage = "images/twtr/product-security-og.png"
 +++
 
 Security isn't a topic to discuss by itself, it should be part of the conversation around everything discussed on EnterpriseReady. For SaaS companies working with larger enterprise IT buyers it is incredibly important for this to be an area of strength. Most enterprises will provide potential software vendors with long third-party [vendor security questionnaires](https://www.vendorsecurityalliance.org/questions). These documents generally cover a broad range of security topics including product security, physical office security, employee screening, office network security, business continuity, upstream vendor security, disaster recovery, data security, secure IT policy, asset security and data center security in order to evaluate the overall security posture of an organization.
@@ -40,7 +43,7 @@ All of the best security measures in place aren't enough if you don't have monit
 Reproducibility is key to ensuring consistent and intended environments by removing opportunity for human error. Without scripted and reproducible deployments, you will end up with a collection of unaudited, artisanally configured servers that could have undetected security vulnerabilities on them.
 
 **Enable and Enforce Two Factor Auth**  
-For any system that support two-factor authentication, you should require that your own employees and contractors enable this feature. Many product even have a way to enforce it for all members of your team.  
+For any system that support two-factor authentication, you should require that your own employees and contractors enable this feature. Many products even have a way to enforce it for all members of your team.  
 
 **Separation of Roles**  
 Most large enterprises will require that you have different roles for development, ops, monitoring, etc. It's important to be able to provide this, but there isn't a requirement that a single person cannot be in multiple roles. It should be structured so that a developer who also has SSH access to production servers cannot be assuming both roles simultaneously though.
@@ -105,13 +108,12 @@ If your application is using cookies or local/session storage, ensure that all c
 Security shouldn't be a feature a user has to enable or opt into. Enforce secure defaults out of the box.
 
 **Demonstrable security**  
-Many enterprise buyers will ask you to provide documentation around your security efforts. Be prepared to show any of the following:
-- Certifications
-- Audits
-- Penetration Test results
-- Security Policies
-- Security Forms
-- White Papers
+Many enterprise buyers will ask you to provide documentation around your security efforts. Be prepared to show any of the following:  
+***Certifications*** - Achieving SOC2 certification or FedRAMP or PCI compliance (even when irrelevant) can often shortcut the effort to demonstrate security practices to potential customers.   
+***Audits*** - Trusted third party audits are a standard requirement for most enterprise customers.    
+***Penetration Test Results***  
+***Security Forms*** - Many potential customers will require that you fill out their detailed security check list.  
+***White Papers***  
 
 **Information Security Policy**  
 Have a written and published Information Security Policy, Incident Response Plan and [Bug Bounty Program](https://hackerone.com). Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
@@ -119,3 +121,14 @@ Have a written and published Information Security Policy, Incident Response Plan
 ## Examples
 ----   
 {{< example title="Box Product Security" url="/box/product-security" image="/box/images/example.png" >}}
+
+
+<div class="clear"></div>
+
+### Content Contributors
+----
+<div class="contributors">
+  <a href="https://github.com/enterpriseready/enterpriseready/commits/master/content/asana/teams.md?author=marccampbell" target="_blank"><img alt="@marccampbell" class="avatar" height="40" src="https://avatars1.githubusercontent.com/u/173451?v=3&amp;s=40" width="40"> </a>
+
+  <a href="https://github.com/enterpriseready/enterpriseready/commits/master/content/asana/teams.md?author=grantmiller" target="_blank"><img alt="@grantmiller" class="avatar" height="40" src="https://avatars2.githubusercontent.com/u/1041501?v=3&amp;s=40" width="40"> </a>
+</div>

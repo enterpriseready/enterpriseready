@@ -4,6 +4,9 @@ title = "Integrations"
 featureslug = "integrations"
 type = "feature"
 hero = "/images/integrations.svg"
+metadescription = "A guide for SaaS products to meet their enterprise customers' needs to integrate their application with a broad suite of applications."
+pagetitle = "Enterprise Ready SaaS App Guide to Integrations"
+ogimage = "images/twtr/integrations-og.png"
 +++
 
 ## (Work in progress…)

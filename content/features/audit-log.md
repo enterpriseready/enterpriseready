@@ -4,6 +4,9 @@ title = "Audit Logs"
 featuresslug = "audit-logs"
 type = "feature"
 hero = "/images/audit-log.svg"
+metadescription = "To gain significant enterprise adoption, SaaS applications need to implement audit logging of all user activity and make it accessible to account admins."
+pagetitle = "Enterprise Ready SaaS App Guide to Audit Logging"
+ogimage = "images/twtr/audit-log-og.png"
 +++
 
 Audit logs are the centralized stream of all user activity within a team. Part of the security and compliance program of any large enterprise is designed to control and monitor the access of information within the organization. This drives the need for enterprise buyers to ask for a detailed audit trail of all activity that happens within their account. An audit trail can be used to prevent suspicious activity when it starts (if actively monitored), or to play back account activity during an incident review.
@@ -44,14 +47,14 @@ Data in an audit log should never change. Deleted objects should maintain a sepa
 ### Time Synced
 Individual application audit logs will likely be combined with other audit log data, this makes it important to ensure that the timestamp on each event is accurate. The standard is to use the server time from a regularly NTP synced server, generally stored in GMT down to the millisecond.
 
+### API & exportable
+The activity should be exportable to a CSV format and API accessible so that it can be centralized into an organization wide SIEM logging system like Splunk. It's advisable to offer both the ability to poll for new events and to be able to push new events to the remote system. When polling, use standards such as `etag` headers to prevent duplicate events from being received. When pushing, use standards such as webhooks to minimize the amount of custom work required to ingest these events.
+
 ### Account admin viewable
 An audit log viewer should be embedded into the application to make the audit log accessible to enterprise account admins at all times. This viewer should be the central place to access all account activity logs.
 
 ### Searchable & filterable
 Events should be indexed for searchability and filtering. Generally, actors, event names, IPs are all linked to filter down to related activity. The viewer should allow the account admin to specify a date range to filter in conjunction with other filters and searches.
-
-### API & exportable
-The activity should be exportable to a CSV format and API accessible so that it can be centralized into an organization wide SIEM logging system like Splunk.
 
 ### Change log
 When new events and actions are captured in the audit log, it is important to publish the date at which each became available to appear in the audit log.
