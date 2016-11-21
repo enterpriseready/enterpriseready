@@ -1,22 +1,26 @@
 +++
 date = "2016-10-25T00:00:00Z"
-title = "Deployment Models"
-featureslug = "deployment-model"
+title = "Deployment Options"
+featureslug = "deployment-options"
 type = "feature"
 hero = "/images/deployment-model.svg"
 metadescription = "A guide for SaaS products to balance enterprise customers' data security concerns and application overhead with flexible deployment options."
-pagetitle = "Enterprise Ready SaaS App Guide to Deployment Models"
+pagetitle = "Enterprise Ready SaaS App Guide to Deployment Options"
 ogimage = "images/twtr/deployment-model-og.png"
 +++
 
-As discussed in our overview of the various [deployment options that are available to SaaS vendors](/blog/deployment-options). Many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. The reason enterprises ask for this can vary. For many industry verticals like financial services, legal, health care, governments and industrial the reasons often come down to security and compliance. Other application categories like developer tools, ops, data science, BI, security tools that integrate with internal systems that are already running on private networks.
+As discussed in our overview of the various [deployment options that are available to SaaS vendors](/blog/deployment-models). Many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. Ultimately, you'll want to be able to deliver a version of your application that can be deployed anywhere.  
+
+The reason enterprises ask for this can vary. For many industry verticals like financial services, legal, health care, governments and industrial the reasons often come down to security and compliance. Other application categories like developer tools, ops, data science, BI, security tools that integrate with internal systems that are already running on private networks.
+
+Much of the prevailing wisdom about supporting both a multi-tenant SaaS version and an enterprise installable version of your application suggests it is too hard as it splits attention from the primary product. However, we think that the development and ops landscape has changed enough in the last ten years to reconsider that line of thinking. Thanks to the evolution of devops & the emergence of containers, applications are more portable now than ever before.  As a result, while legacy SaaS providers are stuck managing their aging cloud deployments, modern SaaS applications can leverage this newfound portability to offer enterprise customers the choice of their preferred deployment option.  
 
 ## Enterprise Development
-Much of the prevailing wisdom about supporting both a multi-tenant SaaS version and an enterprise installable version of your application suggests it is too hard as it splits attention from the primary product. We think that the development and ops landscape has changed enough in the last ten years to reconsider that line of thinking. However, one of the key challenges for SaaS vendors who are also going to deploy on-prem is to manage the development of these offerings as a single product.  
+One of the key challenges for SaaS vendors who are also going to deploy on-prem is to manage the development of these offerings as a single product.  
 
 The key methods that will allow you to do so effectively are as follows:  
-**Same code base** Enterprise-only & public-cloud-only features can be introduced with a small `if(enterprise){... }` or `if(public){... }` within the same code base.  
-**Leverage release channels** Enterprise versions will likely not be automatically deployed to your customers at the same cadence that you update your public cloud version. As a result, it is important that you maintain separate dev, test and production environments for your enterprise version.  
+**Same code base** - Enterprise-only & public-cloud-only features can be introduced with a small `if(enterprise){... }` or `if(public){... }` within the same code base.  
+**Leverage release channels** - Enterprise versions will likely not be automatically deployed to your customers at the same cadence that you update your public cloud version. As a result, it is important that you maintain separate dev, test and production environments for your enterprise version.  
 
 ## Application Delivery
 There is a lot to consider when delivering a version that your customers can install and manage on their own. Particularly, they’ll be looking for something that can run on their preferred OS (likely Red Hat Enterprise Linux or Centos). Common options for delivering private instances are as follows:
@@ -47,4 +51,4 @@ In any buyer managed private instance there are key features that are important 
 
 ## Examples
 ----   
-{{< example title="GitHub Deployment Options" url="/github/deployment-model" image="/github/images/example.png" >}}
+{{< example title="GitHub Deployment Options" url="/github/deployment-options" image="/github/images/example.png" >}}
