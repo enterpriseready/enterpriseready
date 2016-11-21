@@ -40,7 +40,7 @@ strong {
     margin-left: 10px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     hr {
         width: 100%;
         margin: 30px auto;
