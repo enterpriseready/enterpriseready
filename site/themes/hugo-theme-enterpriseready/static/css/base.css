@@ -90,7 +90,14 @@ strong {
   font-weight:400;
 }
 
+a.disguise-link {
+  color: inherit;
+  transition: color .2s;
+}
 
+a.disguise-link:hover {
+  color: #ee5042;
+}
 
 #menu {
   display: none;
@@ -440,7 +447,7 @@ span.ar {
   font-weight: 400;
 }
 
-#footer a {
+#footer a.replicated-logo {
   display: inline-block;
   vertical-align: -9px;
   margin-left: 3px;
@@ -449,6 +456,11 @@ span.ar {
   background-repeat: no-repeat;
   width: 110px;
   height: 26px;
+}
+
+#footer .cc-image {
+  vertical-align: -10px;
+  margin-right: 10px;
 }
 
 .footer-wrapper {
