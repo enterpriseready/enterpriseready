@@ -5,7 +5,7 @@ type = "breakdown"
 company = "Deployment Models"
 +++
 
-Below are the most common methods for delivering applications to customers.
+The evolution of enterprise software has changed the landscape for how applications are adopted and deployed. Below are the most common methods for delivering applications to customers.
 
 ## Multi-tenant (vendor managed)
 Most SaaS applications today are built to be deployed as a multi-tenant application that is managed and operated by the application vendor. This deployment model was [pioneered by Salesforce](https://developer.salesforce.com/page/Multi_Tenant_Architecture) as “on-demand” and has led to the modern software landscape we’re familiar with today. The low barrier to adoption of this model has supported freemium and trial opportunities through which most customers initially experience the product. As a result this the method that creates “bottom up” adoption of applications (and is the reason that applications like GitHub, Slack, Dropbox were able to penetrate the enterprise). In larger organizations where an application has not been approved but is still given access to sensitive company data, this "bottom up adoption" is often called “shadow IT”. There is an entire product category around stopping shadow IT called [Cloud Access Security Brokers](http://www.gartner.com/it-glossary/cloud-access-security-brokers-casbs/) or “CASBs”. As enterprises discover shadow IT, they can either block access or try to negotiate a license that will meet its needs.

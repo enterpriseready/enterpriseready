@@ -7,7 +7,13 @@ hero = "/images/integrations.svg"
 metadescription = "A guide for SaaS products to meet their enterprise customers' needs to integrate their application with a broad suite of applications."
 pagetitle = "Enterprise Ready SaaS App Guide to Integrations"
 ogimage = "images/twtr/integrations-og.png"
+contributor = "Segment"
+contributorurl = "https://www.segment.com"
 +++
+
+{{< note >}}
+This feature guide was contributed by the team at [Segment](https://www.segment.com) based on their experience of integrating over [180 different SaaS applications](https://segment.com/catalog#integrations/all) with their product.
+{{< /note >}}
 
 ## (Work in progress…)
 Enterprises have a large number of applications and data sources. It is integral for those applications to be able to work together. While having a well documented API is an important foundation necessary for achieving interoperability, the easier integrations are to turn on, the more adoption you’ll see.
