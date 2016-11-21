@@ -40,7 +40,7 @@ strong {
     margin-left: 10px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     hr {
         width: 100%;
         margin: 30px auto;
@@ -112,7 +112,9 @@ strong {
   color: #CCC;
 }
 
-@media (max-width: 550px) {
+
+
+@media (max-width: 750px) {
   #menu {
     display: block;
   }
@@ -141,7 +143,11 @@ strong {
   color: white;
 }
 
-@media (max-width: 550px) {
+.mobile_menu ul li:last-child, .mobile_menu ul li:last-child a {
+  color:#BD422D;
+}
+
+@media (max-width: 750px) {
   .menu {
     display: none;
   }
@@ -602,6 +608,16 @@ span.ar {
 .example h3 {
   padding: 15px;
   font-weight: 400;
+}
+
+@media (max-width: 750px) {
+
+  .example {
+    width: 280px;
+    margin: 15px auto !important;
+    float: none;
+  }
+
 }
 
 
