@@ -112,7 +112,9 @@ strong {
   color: #CCC;
 }
 
-@media (max-width: 550px) {
+
+
+@media (max-width: 750px) {
   #menu {
     display: block;
   }
@@ -141,7 +143,11 @@ strong {
   color: white;
 }
 
-@media (max-width: 550px) {
+.mobile_menu ul li:last-child, .mobile_menu ul li:last-child a {
+  color:#BD422D;
+}
+
+@media (max-width: 750px) {
   .menu {
     display: none;
   }
