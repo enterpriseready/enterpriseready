@@ -2,7 +2,13 @@
 <html lang="en" class="js csstransforms3d">
 
 <head>
-    <meta charset="utf-8"> {{ partial "meta.html" . }} {{ partial "favicon.html" . }} {{ .Scratch.Add "title" "" }}{{ if isset .Site.Data.titles .Title }}{{ .Scratch.Set "title" (index .Site.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
+    <meta charset="utf-8">{{ partial "favicon.html" . }}
+    <meta name="og:description" content="A guide for SaaS companies to build the features that enteprises love.">
+    <meta name="twitter:site" value="@enterpriseready"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:creator" content="@replicatedhq"/>
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/twtr/enterprise-ready-og.png" itemprop="image"/>
+    <meta property="og:title" content="EnterpriseReady - Build SaaS Features Enterprises Love"/>
     <title>EnterpriseReady - Build SaaS Features Enterprises Love</title>
     <meta name="description" content="A guide for SaaS companies to build the features that enteprises love.">
     {{ partial "style.html" . }}
@@ -54,8 +60,11 @@
                 <li><a href="../#features">The Feature Guides</a></li>
                 <li><a href="../#examples">Example Implementations</a></li>
                 <li><a href="../#background">Project Background</a></li>
+<<<<<<< HEAD
                 <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
 
+=======
+>>>>>>> enterpriseready/master
             </ul>
 
         </div>
@@ -151,14 +160,14 @@
 
         <div class="row">
             <div class="four columns">
-              <a href="features/deployment-model">
+              <a href="features/deployment-options">
                   <div class="article-icon"><span class="dm"></span></div>
-                  <h3 align="center" class="article-header">Deployment Model</h3>
+                  <h3 align="center" class="article-header">Deployment Options</h3>
                 </a>
                   <p align="center">Balance data security concerns and application overhead with flexible deployment options.</p>
                 <p align="center">
-                  <a class="read-more" href="features/deployment-model">Read More</a>
-                  <a class="read-more examples" href="features/deployment-model#examples">View Examples</a>
+                  <a class="read-more" href="features/deployment-options">Read More</a>
+                  <a class="read-more examples" href="features/deployment-options#examples">View Examples</a>
                 </p>
             </div>
             <div class="four columns">

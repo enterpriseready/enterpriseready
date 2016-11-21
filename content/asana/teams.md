@@ -55,7 +55,7 @@ Advanced team settings include member approval settings, integrations and the ab
 ![enter image description here](https://i.imgur.com/8sXlMmi.png)
 
 ### Premium Team Features
-Asana starts introduces premium features within Organizations…
+Asana has started to introduce premium features within Organizations.
 
 Premium Project Permissions within Teams - Share private projects with a smaller group inside your Team.
 
