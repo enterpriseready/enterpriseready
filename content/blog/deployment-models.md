@@ -1,3 +1,10 @@
++++
+date = "2016-11-20T00:00:00Z"
+title = "Deployment Models"
+type = "breakdown"
+company = "Deployment Models"
++++
+
 Below are the most common methods for delivering applications to customers.
 
 ## Multi-tenant (vendor managed)
