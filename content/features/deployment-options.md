@@ -6,7 +6,7 @@ type = "feature"
 hero = "/images/deployment-model.svg"
 metadescription = "A guide for SaaS products to balance enterprise customers' data security concerns and application overhead with flexible deployment options."
 pagetitle = "Enterprise Ready SaaS App Guide to Deployment Options"
-ogimage = "images/twtr/deployment-model-og.png"
+ogimage = "images/twtr/deployment-options-og.png"
 +++
 
 As discussed in our overview of the various [deployment options that are available to SaaS vendors](/blog/deployment-models). Many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. Ultimately, you'll want to be able to deliver a version of your application that can be deployed anywhere.  
