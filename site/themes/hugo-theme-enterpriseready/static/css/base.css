@@ -40,7 +40,7 @@ strong {
     margin-left: 10px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     hr {
         width: 100%;
         margin: 30px auto;
@@ -608,6 +608,16 @@ span.ar {
 .example h3 {
   padding: 15px;
   font-weight: 400;
+}
+
+@media (max-width: 750px) {
+
+  .example {
+    width: 280px;
+    margin: 15px auto !important;
+    float: none;
+  }
+
 }
 
 
