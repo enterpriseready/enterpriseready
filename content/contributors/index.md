@@ -24,6 +24,5 @@ Founded in 2012, Bitium aims to give growing companies the ability to manage acc
 ----
 
 <a href="#"><img src="/contributors/images/segment.png" width="200px"/></a>
-Founded in 2012, Bitium aims to give growing companies the ability to manage access to all of their web-based applications — including Google Apps and Office 365, as well as social networks and CRM, collaboration and marketing tools — in one place, without hindering employee adoption of these applications.
-
+Segment is the customer data infrastructure that collects and routes data from your website, apps, and third-party cloud apps, to over 200 different marketing and analytics tools, as well as data warehousing services.
 ----
