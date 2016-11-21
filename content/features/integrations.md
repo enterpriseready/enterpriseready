@@ -9,23 +9,33 @@ pagetitle = "Enterprise Ready SaaS App Guide to Integrations"
 ogimage = "images/twtr/integrations-og.png"
 +++
 
-## (Work in progress…)
-Enterprises have a large number of applications and data sources. It is integral for those applications to be able to work together. While having a well documented API is an important foundation necessary for achieving interoperability, the easier integrations are to turn on, the more adoption you’ll see.
+Enterprises are complex entities composed of a variety of teams and the applications they like to use. These applications generate valuable business data that, when sent to other tools or combined with other data, is far more useful. For these enterprises to reduce organizational communication overhead and maintain business agility, it’s integral for those applications to be able to work together.
 
-### Basics:
-Integration platforms - Mule (from MuleSoft), Zapier, Tray.io
-Integrate closely into the big apps that most enterprises use (point integrations).
-Enable data to flow to other systems to avoid becoming "another damn dashboard"
-Provide a status page or /ping so that your application can participate in the global ecosystem.
-Admin override - enable admins to enable/disable integrations of individual users
-Settings screen - all integrations should be controlled from a settings page where they can be managed.
-Integrating with standards - follow standards for output to enable integrations to any conforming application
-Consider the global data model - the information within your application will need to be combined with a set of data from external applications. It is important to enable your customers to include a global unique identifier for each entity and resource.
+The value proposition of these application SaaS companies to get critical data in and out have been increasingly clear for enterprises. While having a well-documented API is an important foundation necessary for achieving interoperability, the easier it is for users to get the data they need where they need it, the more adoption you’ll achieve.
 
-## Advanced:
-Enterprises use different applications than most individual developers or small business users. This is actually an interesting place where you can charge your customers more for various integrations.
-Provide detailed and regularly updated documentation that explicitly shows how to enable various integrations (most require some screenshots of the integrating service).
+## At the most basic level
 
-[Segment.com](http://segment.com/) and many other integration focused companies actually group the various applications that customers are integrating with into buckets… if a customer is using a piece of Oracle’s suite they know they’re spending a lot of money on that software so they can bucket it into a higher priced plan.
+Export: This is the most basic way for enterprise users to access the raw data they need so that they can analyze it on their own, import it into another tool, or ease concerns around vendor lock-in. Exporting data can be self-service (where the user presses a button in your application) or manual (where the user emails your support staff for them to retrieve and provide the data). 
 
-## Examples
+API: Providing a publicly accessible endpoint for any end user to query and retrieve data allows for further flexibility. Many enterprises have complex needs and oftentimes leverage SaaS tools within a specific workflow. An easy access API is valuable in that enterprises can build their own solutions with the data in your service.
+
+API access is also important if your service benefits from receiving data from other services. Making it as easy as possible for end users to get the most value out of your service is critical.
+
+Webhook notification: Webhooks is similar to an API in that they can be easily incorporated into other workflows. However, these notifications typically reflect the important events in your application, e.g. something stopped working, or data is longer being sent. While in app notifications are great, providing those same notifications via outbound webhooks allows users to integrate your service into their collaboration tools such as Slack.
+
+## Advanced functionality
+
+The more advanced functionalities around providing integrations for enterprises reflects the unique ways larger teams use SaaS solutions and the data they generate.
+
+Admin control over integrations: Like any other enterprise SaaS solution that serves a variety of users, providing granular [role based access control](/features/role-based-access-control/) for enabling integrations. Not all users need to be able to enable or disable integrations for your tool, so allow their admin to set the proper permissions for their team.
+
+Enabled integrations tied to the right “object”: The enabled integration should be tied to the right object depending on your service. In most cases, the integration should be tied to the user’s organization, a specific “project”, or “workspace” in your service. Suppose that integration is tied to the user, if the user removes her account, then the enabled integration would no longer serve the needs of the larger organization or project.
+
+Discoverability of integrations: Thinking holistically about how users will interact with your service will help identify the most reasonable places in their flow to remind them of your available integrations. This can be during the setup and onboarding flow, or have it’s own section in your documentation, or even embedded in your partners’ onboarding.
+
+Ease of use: Enterprises value time and will typically prefer enabling integrations with a few mouse clicks than having to talk to a human or download a raw .csv file. Understanding which services your users need your data in and making that data flow as frictionless as possible will dramatically increase the value of your service.
+
+Building strategic integrations: However, to increase both the value of your service and your user base, it helps to identify the main tools or applications your target end users use and building integrations directly with them. Additionally, it helps to build connectors to the most popular tools, such as Slack, Zapier, or Amazon Redshift.
+
+## Examples:
+
