@@ -11,4 +11,23 @@ company = "box"
 
 Box focuses heavily on Security as a core feature of their product, this can be seen clearly in their [security page](https://box.com/security):
 
+From the very outset there is a focus on centralizing control for the enterprise IT administrator.
 ![security-page1](/box/images/box-security-home.png)
+
+Box checks the boxes for incident response, disaster recovery and uptime. Additionally, they have added certifications for PCI, HIPAA, FedRamp, Finra as well as compliance and support for data silos within restricted countries.
+![security-page1](/box/images/box-security-home2.png)
+
+They recognize the global apprehension with US based services by acknowledging their accreditation with several global compliance organizations. Finally, Box offers integrations with cloud-based ecosystem partners to aid with areas like eDiscovery and DLP.
+![security-page1](/box/images/box-security-home3.png)
+
+[Box has implement](https://community.box.com/t5/For-Admins/What-Security-Settings-Can-I-Enforce-For-My-Users/ta-p/205) the majority of the product security features we mentioned including:
+
+Configurable password policies (though this feature is only available to Enterprise account admins):
+![password policy](/box/images/box-password-policy.png)
+
+Session duration to manage how long uses can stay logged in to the website without activity.
+![session duration](/box/images/sesssion-duration.png)
+
+Throughout these settings they seem to select the secure defaults (though sometimes allowing their customers to bypass security by changing certain settings.)
+
+They discuss [their security posture](http://www.slideshare.net/BoxHQ/box-security-whitepaper) as it relates to ops and development, but their isn't a ton of information beyond their assurance that they follow best practices.
