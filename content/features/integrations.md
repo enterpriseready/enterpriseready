@@ -12,7 +12,7 @@ contributorurl = "https://www.segment.com"
 +++
 
 {{< note >}}
-This feature guide was contributed by the team at [Segment](https://www.segment.com) based on their experience of integrating over [180 different SaaS applications](https://segment.com/catalog#integrations/all) with their product.
+This feature guide was contributed by the team at [<img src="/images/segment_logo@2x.png" width="110" height="23"  style="vertical-align:-5px"/>](https://www.segment.com) based on their experience of integrating over [180 different SaaS applications](https://segment.com/catalog#integrations/all) with their product.
 {{< /note >}}
 
 ## (Work in progress…)
