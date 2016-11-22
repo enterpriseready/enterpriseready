@@ -33,7 +33,7 @@ Segment currently does not allow for different user types to have different priv
 
 ## Ease of use
 
-The majority of the tools on Segment's platform is there to receive data from Segment. As such, it was important to the team to make it as easy as possible to route data from Segment to any tool, or even to collect data from any third-party cloud app to Segment.
+The majority of the tools on Segment's platform are there to receive data from Segment. As such, it was important to the team to make it as easy as possible to route data from Segment to any tool, or even to collect data from any third-party cloud app to Segment.
 
 All Segment needs is the key credentials from the end tool to begin sending data to or collecting data from that tool.
 
