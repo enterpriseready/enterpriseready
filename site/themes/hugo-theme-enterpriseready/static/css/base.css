@@ -40,7 +40,7 @@ strong {
     margin-left: 10px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     hr {
         width: 100%;
         margin: 30px auto;
@@ -90,7 +90,14 @@ strong {
   font-weight:400;
 }
 
+a.disguise-link {
+  color: inherit;
+  transition: color .2s;
+}
 
+a.disguise-link:hover {
+  color: #ee5042;
+}
 
 #menu {
   display: none;
@@ -112,7 +119,9 @@ strong {
   color: #CCC;
 }
 
-@media (max-width: 550px) {
+
+
+@media (max-width: 750px) {
   #menu {
     display: block;
   }
@@ -141,7 +150,11 @@ strong {
   color: white;
 }
 
-@media (max-width: 550px) {
+.mobile_menu ul li:last-child, .mobile_menu ul li:last-child a {
+  color:#BD422D;
+}
+
+@media (max-width: 750px) {
   .menu {
     display: none;
   }
@@ -302,7 +315,7 @@ h3.section-header.sub {
     width: 650px;
     margin: 0px auto;
 }
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     #checklist h2+ p {
         width: 90%;
         margin: 20px;
@@ -314,12 +327,14 @@ h3.section-header.sub {
 #checklist .row {
     margin-top: 50px;
 }
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     #checklist .row {
-        margin-top: 0px;
+
     }
+
     #checklist .columns {
-        margin-bottom: 40px;
+        width: 100%;
+        margin: 0px auto 40px;
     }
 }
 .company-tag {
@@ -434,7 +449,7 @@ span.ar {
   font-weight: 400;
 }
 
-#footer a {
+#footer a.replicated-logo {
   display: inline-block;
   vertical-align: -9px;
   margin-left: 3px;
@@ -443,6 +458,17 @@ span.ar {
   background-repeat: no-repeat;
   width: 110px;
   height: 26px;
+}
+
+#footer .cc-image {
+  vertical-align: -10px;
+  margin-right: 10px;
+  opacity: .5;
+  transition: opacity .2s;
+}
+
+#footer .cc-image:hover {
+  opacity: .65;
 }
 
 .footer-wrapper {
@@ -604,6 +630,16 @@ span.ar {
   font-weight: 400;
 }
 
+@media (max-width: 750px) {
+
+  .example {
+    width: 280px;
+    margin: 15px auto !important;
+    float: none;
+  }
+
+}
+
 
 /* Contribtors */
 .contributors a{
@@ -751,10 +787,16 @@ margin-right: 10px;
 /* note */
 
 .admonition {
-    background: #dddddd;
-    border-radius: 3px;
-    color: #666666;
-    font-size: 14px;
+    background: #F8F8F8;
+    border-radius: 8px;
     padding: .85em 1.5em 0.01em;
     margin: 1em 0em 1em;
+}
+.admonition p {
+  color: #323232;
+  font-size: 14px;
+}
+#article .admonition img {
+  display: inline;
+  margin: 0 4px;
 }
