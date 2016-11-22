@@ -13,6 +13,7 @@ contributorurl = "https://www.segment.com"
 
 {{< note >}}
 This feature guide was contributed by the team at [<img src="/images/segment_logo@2x.png" width="110" height="23"  style="vertical-align:-5px"/>](https://www.segment.com) based on their experience of integrating over 180 different SaaS applications with their product.
+{{< note >}}
 
 Enterprises are complex entities composed of a variety of teams and the applications they like to use. These applications generate valuable business data that, when sent to other tools or combined with other data, is far more useful. For these enterprises to reduce organizational communication overhead and maintain business agility, it’s integral for those applications to be able to work together.
 
