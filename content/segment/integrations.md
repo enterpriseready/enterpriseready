@@ -7,6 +7,8 @@ feature = "integrations"
 company = "segment"
 contributor = "Segment"
 contributorurl = "https://www.segment.com"
+ogimage = "images/twtr/segment-integrations-og.png"
+
 +++
 
 Segment is an enterprise SaaS solution that helps companies simplify their analytics. In 2011, the founders came across an engineering pain of writing redundant tracking code to send customer behavioral events to Google Analytics, MixPanel, and KISSmetrics. A few months later, [analytics.js](https://github.com/segmentio/analytics.js), an analytics wrapper library, was conceived.

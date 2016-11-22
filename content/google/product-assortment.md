@@ -5,6 +5,8 @@ featureslug = "product-assortment"
 type = "breakdown"
 feature = "product assortment"
 company = "google"
+ogimage = "images/twtr/google-product-assortment-og.png"
+
 +++
 
 Google Apps for Work is the business focused version of the popular and free to consumers, Google Apps products shown below:

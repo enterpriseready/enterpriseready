@@ -5,6 +5,8 @@ featureslug = "teams"
 type = "breakdown"
 feature = "teams"
 company = "Heroku"
+ogimage = "images/twtr/heroku-team-og.png"
+
 +++
 
 Team functionality drives collaboration, which is why Heroku introduced Teams for people to build and collaborate on apps together.
