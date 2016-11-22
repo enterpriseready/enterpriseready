@@ -5,6 +5,8 @@ featureslug = "product-assortment"
 type = "breakdown"
 feature = "product assortment"
 company = "zendesk"
+ogimage = "images/twtr/zendesk-product-assortment-og.png"
+
 +++
 
 ![enter description here](https://i.imgur.com/tkjc1CE.png)

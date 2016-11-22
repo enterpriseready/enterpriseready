@@ -5,6 +5,8 @@ feature-slug = "audit-logs"
 type = "breakdown"
 feature = "audit logs"
 company = "google"
+ogimage = "images/twtr/google-audit-log-og.png"
+
 +++
 
 Google Apps for Work provides a robust audit trail to both Standard and Unlimited accounts. By default, the feature is only available to Admins. Non-admin users have no way to view their personal audit history. Google categorizes their audit trail as a type of report, so it is available under the Reports menu.
