@@ -18,3 +18,28 @@ In an effort to capture the entire customer journey, Segment launched [Sources](
 The Segment team understands the value that each additional integration provides their customers and have a [pricing plan](https://segment.com/pricing/?utm_campaign=enterprise-ready-2016&utm_medium=content-text&utm_source=enterprise-ready) that reflects that philosophy. Although the downstream integrations are unlimited, pricing differs based on the number of Sources enabled.
 
 ![Segment's pricing plan](./images/pricing.png)
+
+## Accessing Raw Data
+
+Segment had always allowed customers to have access to their raw data. The most popular way would be using the outbound webhooks API to receive the data in real-time from Segment's source libraries. Customers have used this webhook to build their own integrations on Segment's platform.
+
+Segment also provides raw access to the data with it's [Amazon S3](https://segment.com/integrations/amazon-s3) integration. Customers can add their credentials to the Amazon S3 integration in Segment and begin receiving raw data there.
+
+## Admin control
+
+Segment currently does not allow for different user types to have different privileges around enabling or disabling data control.
+
+## Ease of use
+
+The majority of the tools on Segment's platform is there to receive data from Segment. As such, it was important to the team to make it as easy as possible to route data from Segment to any tool, or even to collect data from any third-party cloud app to Segment.
+
+All Segment needs is the key credentials from the end tool to begin sending data to or collecting data from that tool.
+
+![Enabling Mixpanel](./images/demo-mixpanel.gif)
+
+Making integration enablement as easy as possible really helped Segment's customers get started with minimal friction.
+
+## Building Strategic integrations
+
+Segment treats integrations with a strategic approach, choosing to focus most of the time and effort on partners that can help drive awareness and adoption. The goal is to leverage the partner's marketing efforts.
+
