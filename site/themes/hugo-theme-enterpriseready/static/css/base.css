@@ -321,9 +321,6 @@ h3.section-header.sub {
         margin: 20px;
     }
 
-    #checklist .two {
-      display: none;
-    }
 }
 #checklist .company-links {
     display: block;
