@@ -315,7 +315,7 @@ h3.section-header.sub {
     width: 650px;
     margin: 0px auto;
 }
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     #checklist h2+ p {
         width: 90%;
         margin: 20px;
@@ -327,12 +327,14 @@ h3.section-header.sub {
 #checklist .row {
     margin-top: 50px;
 }
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     #checklist .row {
-        margin-top: 0px;
+
     }
+
     #checklist .columns {
-        margin-bottom: 40px;
+        width: 100%;
+        margin: 0px auto 40px;
     }
 }
 .company-tag {
