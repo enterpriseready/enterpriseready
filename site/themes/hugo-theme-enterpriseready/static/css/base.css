@@ -461,6 +461,12 @@ span.ar {
 #footer .cc-image {
   vertical-align: -10px;
   margin-right: 10px;
+  opacity: .5;
+  transition: opacity .2s;
+}
+
+#footer .cc-image:hover {
+  opacity: .65;
 }
 
 .footer-wrapper {
