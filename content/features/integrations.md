@@ -40,3 +40,4 @@ Building strategic integrations: However, to increase both the value of your ser
 ## Examples:
 
 {{< example title="Segment Integrations" url="/segment/integrations" image="/segment/images/integrations.png" >}}
+ 
