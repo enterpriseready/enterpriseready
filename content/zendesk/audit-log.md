@@ -5,6 +5,8 @@ featureslug = "audit-logs"
 type = "breakdown"
 feature = "audit logs"
 company = "zendesk"
+ogimage = "images/twtr/zendesk-audit-log-og.png"
+
 +++
 
 The [Zendesk audit log](https://support.zendesk.com/hc/en-us/articles/203663196-Viewing-the-Audit-log-for-changes-Enterprise-) is available only to Enterprise level customers. It includes the basic audit logging features in that it tracks Who, What, When and Where. However, it lacks many of the features that make audit logs a critical enterprise ready feature.

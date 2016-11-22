@@ -5,6 +5,8 @@ featureslug = "role-based-access-control"
 type = "breakdown"
 feature = "role based access control"
 company = "hubspot"
+ogimage = "images/twtr/hubspot-rbac-og.png"
+
 +++
 
 HubSpot [introduced roles & permissions](http://blog.hubspot.com/customers/bid/157944/Introducing-6-Different-HubSpot-User-Roles) about 4 years ago. In doing so, they enabled their customers to provide role based access control to application functionality.
