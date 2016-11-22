@@ -20,3 +20,4 @@ Special thanks to those who reviewed & edited as this neared publication:
 Our investors including:  
 [David Beyer](https://twitter.com/dbeyer123) & [Sunil Dhaliwal](https://twitter.com/dhaliwas) of [Amplify Partners](https://www.amplifypartners.com).  
 [Eliot Durbin](https://twitter.com/etdurbin) & [Ed Sim](https://twitter.com/edsim) of [BoldStart Ventures](https://www.boldstart.vc).  
+[Jeremy Schneider]()

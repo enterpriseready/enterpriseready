@@ -90,7 +90,14 @@ strong {
   font-weight:400;
 }
 
+a.disguise-link {
+  color: inherit;
+  transition: color .2s;
+}
 
+a.disguise-link:hover {
+  color: #ee5042;
+}
 
 #menu {
   display: none;
@@ -442,7 +449,7 @@ span.ar {
   font-weight: 400;
 }
 
-#footer a {
+#footer a.replicated-logo {
   display: inline-block;
   vertical-align: -9px;
   margin-left: 3px;
@@ -451,6 +458,17 @@ span.ar {
   background-repeat: no-repeat;
   width: 110px;
   height: 26px;
+}
+
+#footer .cc-image {
+  vertical-align: -10px;
+  margin-right: 10px;
+  opacity: .5;
+  transition: opacity .2s;
+}
+
+#footer .cc-image:hover {
+  opacity: .65;
 }
 
 .footer-wrapper {
@@ -769,10 +787,16 @@ margin-right: 10px;
 /* note */
 
 .admonition {
-    background: #dddddd;
-    border-radius: 3px;
-    color: #666666;
-    font-size: 14px;
+    background: #F8F8F8;
+    border-radius: 8px;
     padding: .85em 1.5em 0.01em;
     margin: 1em 0em 1em;
+}
+.admonition p {
+  color: #323232;
+  font-size: 14px;
+}
+#article .admonition img {
+  display: inline;
+  margin: 0 4px;
 }

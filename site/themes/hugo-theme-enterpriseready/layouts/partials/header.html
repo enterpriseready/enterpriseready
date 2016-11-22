@@ -37,7 +37,7 @@
           <li>|</li>
           <li><a href="/#background">Project Background</a></li>
           <li>|</li>
-          <li>Contributed by Replicated <a href="https://www.replicated.com" target="_blank"><img height="11px" src="/images/linkout.png" /></a></li>
+          <li>Contributed by <a class="disguise-link" href="{{ with .Params.contributorurl }}{{ . }}{{ else }}{{ with .Site.Params.contributorurl }}{{ . }}{{ end }}{{ end }}" target="_blank">{{ with .Params.contributor }}{{ . }}{{ else }}{{ with .Site.Params.contributor }}{{ . }}{{ end }}{{ end }} </a></li>
         </ul>
     </div>
 

@@ -33,3 +33,13 @@ type = "feature-table"
 | [Frontapp](https://frontapp.com/pricing) | Yes | Team | Enterprise |  |  |  |  | No | Premium | Team
 | [Unbounce](https://unbounce.com/pricing) | Yes | Pro 99 |  | Pro 99 |  |  | Pro 99 | No |  | Starter
 | [Hellosign](https://www.hellosign.com/info/pricing) | Yes | Business | Free | Business | Free | No | Business | No | Business | All
+| [Atlassian](https://www.atlassian.com/software/jira/enterprise/data-center) |  |  |  |  |  |  |  |  |  |
+| [AppDynamics](https://appdynamics.com/pricing) |  |  |  |  |  |  |  |  |  |
+| [New Relic](https://newrelic.com/application-monitoring/features) |  |  |  |  |  |  |  |  |  |
+| [Evernote](https://evernote.com/business/) |  |  |  |  |  |  |  |  |  |
+| [Insightly](https://insightly.com/pricing) |  |  |  |  |  |  |  |  |  |
+| [Pipedrive](https://pipedrive.com/pricing) |  |  |  |  |  |  |  |  |  |
+| [Close.io](https://close.io/pricing) |  |  |  |  |  |  |  |  |  |
+| [Gusto](https://gusto.com/pricing) |  |  |  |  |  |
+| [Mixpanel](https://mixpanel.com/pricing) |  |  |  |  |  |  |  |  |  |
+| [Algolia](https://algolia.com/pricing) |  |  |  |  |  |  |  |  |  |
