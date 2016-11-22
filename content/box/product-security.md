@@ -5,6 +5,8 @@ featureslug = "product-security"
 type = "breakdown"
 feature = "Product Security"
 company = "box"
+ogimage = "images/twtr/box-product-security-og.png"
+
 +++
 
 [Box](https://box.com) is a file sharing and collaboration tool that has built its business on enabling enterprise companies to transition away from legacy shared drive systems, to the cloud-hosted Box platform. Along the way Box has faced a never-ending string of objections from potential buyers in the areas of security. As a result, Box has continued to create demonstrable security practices and the marketing campaigns to promote their objectives.

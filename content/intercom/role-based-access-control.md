@@ -5,6 +5,8 @@ feature = "role based access control"
 featureslug = "role-based-access-control"
 company = "intercom"
 type = "breakdown"
+ogimage = "images/twtr/intercom-rbac-og.png"
+
 +++
 
 Intercom is an application to communicate with your customers. Because so many people within an organization would need access to an application like this it was important that Intercom introduced Role Based Access Controls or user permissions.
