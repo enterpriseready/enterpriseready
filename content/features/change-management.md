@@ -25,7 +25,7 @@ Many modern SaaS applications are moving out of the back office productivity too
 
 **Support customer environments** - In order to ensure that critical SaaS applications integrate with the upcoming release of the customer’s software, it is important that these applications have support for multiple environments per customer (ie Prod, Staging & Dev).  
 **Enable sandbox & canary environments** - In the same respect, if an account level settings change is going to be made by the customer, it should be made in a sandbox environment first & then promoted to production (just like we do with our configuration management for servers).  
-**Implement approval flows** - Most developers won’t commit code to master without a code review from a peer. Most security conscious companies implement this policy with approval flows because there is risk that a rouge actor could inflict harm if able to act independently. In a similar way, it is useful if admins can enable approval flows for application configuration settings.  
+**Implement approval flows** - Most developers won’t commit code to master without a code review from a peer. Most security conscious companies implement this policy with approval flows because there is risk that a rogue actor could inflict harm if able to act independently. In a similar way, it is useful if admins can enable approval flows for application configuration settings.  
 
 ### Advanced Sandbox functionality
 1. Duplicated account settings into a new environment.
