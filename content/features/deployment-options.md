@@ -48,7 +48,7 @@ In any buyer managed private instance there are key features that are important 
 **Backups** - Allow customers to schedule backups of important application data. This could be done with a series of scripts that customers run on a certain schedule. Ensure that you've tested the restore functionality as well, backups with malfunctioning restore capabilities aren't going to get you very far.   
 
 {{< note >}}
-*This might appear to be a self-serving feature for us to focus on, we debated if we should even list it. However, since we thought it was important enough to build an entire company around, we decided it was important enough to list here. Plus, there is no one better suited to talk about it than us.*
+*This might appear to be a self-serving feature for us to focus on, we debated if we should even list it. However, since we thought it was important enough to build <a href="https://www.replicated.com">an entire company around</a>, we decided it was important enough to list here. Plus, there is no one better suited to talk about it than us.*
 {{< /note >}}
 
 ## Examples
