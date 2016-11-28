@@ -36,6 +36,9 @@ Role assignment is best integrated into the invitation and user management flow.
 ### Communicating restricted functionality
 Once you restrict functionality from users it is important to consider their experience when they encounter the touch points with such features. Ie, if a user can’t invite users, ensure that the “invite user” button is disabled with a clear designation that it is disabled due to insufficient permissions.  
 
+## On-boarding Different Roles  
+It's important to consider the on-boarding flow for various user types, both from how they first sign-up all they way to the on-boarding emails they receive. Highlighting the features that most impact their role is critical to increase adoption and user understanding.  
+
 ## Examples:
 ----   
 {{< example title="HubSpot RBAC" url="/hubspot/role-based-access-control" image="/hubspot/images/example.png" >}}
