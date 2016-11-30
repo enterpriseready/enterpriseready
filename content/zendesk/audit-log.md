@@ -36,7 +36,7 @@ Zendesk provides event times down the second. Most audit logs provide event time
 
 ## The Bad:
 ### Deletable Ticket Audit Trail
-Zendesk claims to include an [audit trail of the ticket activity](https://support.zendesk.com/hc/en-us/articles/203691176) within the tickets themselves. The major problem here is that these tickets can be deleted and along with it, its audit trail. Hence, ticket audit trails are not immutable. This is a big gap (though something they [plan to fix](https://support.zendesk.com/hc/en-us/community/posts/203432386)). It doesn’t like like the primary audit trail can be altered (API is read-only), but it doesn’t seem to be provably immutable either.
+Zendesk claims to include an [audit trail of the ticket activity](https://support.zendesk.com/hc/en-us/articles/203691176) within the tickets themselves. The major problem here is that these tickets can be deleted and along with it, its audit trail. Hence, ticket audit trails are not immutable. This is a big gap (though something they [plan to fix](https://support.zendesk.com/hc/en-us/community/posts/203432386)). It doesn’t look like the primary audit trail can be altered (API is read-only), but it doesn’t seem to be provably immutable either.
 
 | Ticket Level Audit Log | Deleted Ticket Level Audit Log |
 | ---------------------- | ------------------------------ |
