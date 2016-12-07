@@ -6,6 +6,7 @@ type = "feature-table"
 
 | Company	| Product Assortment | Team Mgmt | SSO | RBAC | Audit Log | Enhanced SLA | Security | Change Mgmt | Reporting | Integrations |
 |---------|--------------------|-----------|-----|------|-----------|--------------|----------|-------------|-----------|--------------|
+| [Zesty.io](https://www.zesty.io/pricing/) |	Yes	| All	| No | All | No | All | All | None | All | All |
 | [Slack](https://slack.com/pricing) |	Yes	| All	| Enterprise | Standard | Plus | Plus | All | None | Enterprise | Quantity |
 | [Salesforce](https://goo.gl/qp2AnG) | Yes | All | Enterprise | Pro | All | Unlimited | All | Unlimited | Enterprise | Enterprise |
 | [Zendesk](https://www.zendesk.com/support/compare/#compare)	| Yes | All	| Pro	| Enterprise | Enterprise	| Pro	| All	| Enterprise | Enterprise | Team |
