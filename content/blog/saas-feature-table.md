@@ -6,7 +6,6 @@ type = "feature-table"
 
 | Company	| Product Assortment | Team Mgmt | SSO | RBAC | Audit Log | Enhanced SLA | Security | Change Mgmt | Reporting | Integrations |
 |---------|--------------------|-----------|-----|------|-----------|--------------|----------|-------------|-----------|--------------|
-| [Zesty.io](https://www.zesty.io/pricing/) |	Yes	| All	| No | All | No | All | All | None | All | All |
 | [Slack](https://slack.com/pricing) |	Yes	| All	| Enterprise | Standard | Plus | Plus | All | None | Enterprise | Quantity |
 | [Salesforce](https://goo.gl/qp2AnG) | Yes | All | Enterprise | Pro | All | Unlimited | All | Unlimited | Enterprise | Enterprise |
 | [Zendesk](https://www.zendesk.com/support/compare/#compare)	| Yes | All	| Pro	| Enterprise | Enterprise	| Pro	| All	| Enterprise | Enterprise | Team |
@@ -34,6 +33,7 @@ type = "feature-table"
 | [Frontapp](https://frontapp.com/pricing) | Yes | Team | Enterprise |  |  |  |  | No | Premium | Team
 | [Unbounce](https://unbounce.com/pricing) | Yes | Pro 99 |  | Pro 99 |  |  | Pro 99 | No |  | Starter
 | [Hellosign](https://www.hellosign.com/info/pricing) | Yes | Business | Free | Business | Free | No | Business | No | Business | All
+| [Zesty.io](https://www.zesty.io/pricing/) |	Yes	| All	| No | All | No | All | All | None | All | All |
 | [Atlassian](https://www.atlassian.com/software/jira/enterprise/data-center) |  |  |  |  |  |  |  |  |  |
 | [AppDynamics](https://appdynamics.com/pricing) |  |  |  |  |  |  |  |  |  |
 | [New Relic](https://newrelic.com/application-monitoring/features) |  |  |  |  |  |  |  |  |  |
