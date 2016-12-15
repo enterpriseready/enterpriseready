@@ -22,7 +22,7 @@ Box checks the boxes for incident response, disaster recovery and uptime. Additi
 They recognize the global apprehension with US based services by acknowledging their accreditation with several global compliance organizations. Finally, Box offers integrations with cloud-based ecosystem partners to aid with areas like eDiscovery and DLP.
 ![security-page1](/box/images/box-security-home3.png)
 
-[Box has implement](https://community.box.com/t5/For-Admins/What-Security-Settings-Can-I-Enforce-For-My-Users/ta-p/205) the majority of the product security features we mentioned including:
+[Box has implemented](https://community.box.com/t5/For-Admins/What-Security-Settings-Can-I-Enforce-For-My-Users/ta-p/205) the majority of the product security features we mentioned including:
 
 Configurable password policies (though this feature is only available to Enterprise account admins):
 ![password policy](/box/images/box-password-policy.png)
