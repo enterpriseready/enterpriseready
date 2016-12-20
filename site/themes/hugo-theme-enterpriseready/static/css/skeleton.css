@@ -322,7 +322,9 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: 1rem;
-  font-weight: 300;
+  font-weight: 400;
+  color: #878787;
+  padding-left: 25px;
  }
 
 @media (max-width: 550px) {
