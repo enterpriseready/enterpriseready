@@ -62,7 +62,7 @@ When new events and actions are captured in the audit log, it is important to pu
 ### Customizable retention time
 By default an audit log should generally be kept for 1-3 years. The specific default timeframe should be documented but also made configurable (generally shorter) for customers who have data retention requirements.
 
-## Documented lag time
+### Documented lag time
 If there are significant lags between collection and reporting availability, those times should be made known to the account admin viewing the logs.
 
 ## Examples:
