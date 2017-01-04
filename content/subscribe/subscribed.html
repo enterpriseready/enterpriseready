@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+
+<head>
+    <meta charset="utf-8">{{ partial "favicon.html" . }}
+    <meta name="og:description" content="Changing the enterprise software narrative from 'how to SELL to the enterprise' to 'how to BUILD for the enterprise.'">
+    <meta name="twitter:site" value="@enterpriseready"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:creator" content="@replicatedhq"/>
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/twtr/enterprise-ready-og2.png" itemprop="image"/>
+    <meta property="og:title" content="EnterpriseReady - Build SaaS Features Enterprises Love"/>
+    <title>EnterpriseReady - Build SaaS Features Enterprises Love</title>
+    <meta name="description" content="A guide for SaaS companies to build the features that enteprises love.">
+    {{ partial "style.html" . }}
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+
+<body>
+    <div class="container" id="inner-nav">
+
+        <div id="menu"><a href="#">Menu</a></div>
+        <script>
+            $(document).ready(function() {
+                $("#menu").click(function() {
+                    $(".mobile_menu").slideToggle("fast", function() {
+
+                    });
+                });
+            });
+        </script>
+
+
+        <div class="menu">
+            <ul>
+                <li><a href="../#features">The Feature Guides</a></li>
+                <li>|</li>
+                <li><a href="../#examples">Example Implementations</a></li>
+                <li>|</li>
+                <li><a href="../#background">Project Background</a></li>
+                <li>|</li>
+                <li>Contributed by <a class="disguise-link" href="https://www.replicated.com" target="_blank">Replicated</a></li>
+            </ul>
+        </div>
+
+        <p class="logo">
+            <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+        </p>
+
+
+        <div class="mobile_menu">
+            <ul>
+                <li style="font-size:16px;color:#BD422D">Menu</li>
+                <li>
+                    <hr/>
+                </li>
+                <li><a href="../#features">The Feature Guides</a></li>
+                <li><a href="../#examples">Example Implementations</a></li>
+                <li><a href="../#background">Project Background</a></li>
+                <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="nav-div"></div>
+
+    <div class="subscribe-wrapper">
+      <div class="container" id="subscribe">
+
+          <h3 align="center" class="section-header">Thanks for Susbscribing!</h3>
+          <p align="center">You are set to receive an email twice a month containing all the latest contributions to EnterpriseReady.</p>
+
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="container" id="checklist">
+        <a name="features"></a>
+        <div id="features-intro" align="center">
+          <h3 align="center" class="section-header" style="margin-bottom: 10px;">Guides to Becoming Enterprise Ready</h3>
+          <p align="center" style="max-width:1000px">The following 11 feature categories were identified as the common <strong>enterprise differentiating</strong> features. Each feature guide includes context for why it is needed, a jumping off point for implementing your own and links to tear downs of example implementations.</p>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <a href="features/product-assortment">
+                  <div class="article-icon"><span class="pa"></span></div>
+                  <h3 align="center" class="article-header">Product Assortment</h3>
+                </a>
+                  <p align="center">Offer different versions of a product to meet the differing needs of enterprise buyers.</p>
+                <p align="center">
+                  <a class="read-more" href="features/product-assortment">Read More</a>
+                  <a class="read-more examples" href="features/product-assortment#examples">View Examples</a>
+                </p>
+            </div>
+            <div class="four columns">
+                <a href="features/single-sign-on">
+                  <div class="article-icon"><span class="sso"></span></div>
+                  <h3 align="center" class="article-header">Single Sign On</h3>
+                </a>
+                  <p align="center">Enable enterprises to manage users from a single, central directory.</p>
+                <p align="center">
+                  <a class="read-more" href="features/single-sign-on">Read More</a>
+                  <a class="read-more examples" href="features/single-sign-on#examples">View Examples</a>
+                </p>
+            </div>
+            <div class="four columns">
+                <a href="features/audit-log">
+                  <div class="article-icon"><span class="al"></span></div>
+                  <h3 align="center" class="article-header">Audit Logs</h3>
+                </a>
+                  <p align="center">Provide admins with a detailed trail of account activity.</p>
+                <p align="center">
+                  <a class="read-more" href="features/audit-log">Read More</a>
+                  <a class="read-more examples" href="features/audit-log#examples">View Examples</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <a href="features/role-based-access-control">
+                  <div class="article-icon"><span class="rbac"></span></div>
+                  <h3 align="center" class="article-header">Role Based Access Control</h3>
+                </a>
+                  <p align="center">Allow for the separation of privileges by user role.</p>
+                <p align="center">
+                  <a class="read-more" href="features/role-based-access-control">Read More</a>
+                  <a class="read-more examples" href="features/role-based-access-control#examples">View Examples</a>
+                </p>
+            </div>
+            <div class="four columns">
+                <a href="features/change-management">
+                  <div class="article-icon"><span class="cm"></span></div>
+                  <h3 align="center" class="article-header">Change Management</h3>
+                </a>
+                  <p align="center">Empower admins with tools and collateral to roll out features and product changes.</p>
+                <p align="center">
+                  <a class="read-more" href="features/change-management">Read More</a>
+                  <a class="read-more examples" href="features/change-management#examples">View Examples</a>
+                </p>
+            </div>
+            <div class="four columns">
+              <a href="features/product-security">
+                  <div class="article-icon"><span class="ps"></span></div>
+                  <h3 align="center" class="article-header">Product Security</h3>
+                </a>
+                  <p align="center">Demonstrable application security through best practices.</p>
+                <p align="center">
+                  <a class="read-more" href="features/product-security">Read More</a>
+                  <a class="read-more examples" href="features/product-security#examples">View Examples</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+              <a href="features/deployment-options">
+                  <div class="article-icon"><span class="dm"></span></div>
+                  <h3 align="center" class="article-header">Deployment Options</h3>
+                </a>
+                  <p align="center">Balance data security concerns and application overhead with flexible deployment options.</p>
+                <p align="center">
+                  <a class="read-more" href="features/deployment-options">Read More</a>
+                  <a class="read-more examples" href="features/deployment-options#examples">View Examples</a>
+                </p>
+            </div>
+            <div class="four columns">
+              <a href="features/teams">
+                  <div class="article-icon"><span class="tm"></span></div>
+                  <h3 align="center" class="article-header">Team Management</h3>
+                </a>
+                  <p align="center">Enable collaboration with coworkers in an account that is centrally managed.</p>
+                <p align="center">
+                  <a class="read-more" href="features/teams">Read More</a>
+                  <a class="read-more examples" href="features/teams#examples">View Examples</a>
+                </p>
+            </div>
+            <div class="four columns">
+              <a href="features/integrations">
+                <div class="article-icon"><span class="int"></span></div>
+                <h3 align="center" class="article-header">Integrations</h3>
+              </a>
+                <p align="center">Create data portability by allowing customers to pull data out and push data into your application.</p>
+              <p align="center">
+                <a class="read-more" href="features/integrations">Read More</a>
+                <a class="read-more examples" href="features/integrations#examples">View Examples</a>
+              </p>
+            </div>
+        </div>
+
+        <h3 align="center" class="section-header" style="margin-top:2em;">---- Work in progress guides ----<h3>
+        <div class="row" style="margin-bottom:2em;">
+          <div class="four columns">
+            <a href="features/support">
+              <div class="article-icon"><span class="sla"></span></div>
+              <h3 align="center" class="article-header">SLA and Support</h3>
+            </a>
+              <p align="center">A primer on the basics of enterprise SLA &amp; support requirements.</p>
+            <p align="center">
+              <a class="read-more examples" target="_blank" href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/support.md">View Source</a>
+            </p>
+          </div>
+          <div class="four columns">
+            <a href="features/advanced-reporting">
+              <div class="article-icon"><span class="ar"></span></div>
+              <h3 align="center" class="article-header">Advanced Reporting</h3>
+            </a>
+              <p align="center">Reports allow admins to demonstrate value gained from the use of an application.</p>
+            <p align="center">
+              <a class="read-more examples" target="_blank" href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/advanced-reporting.md">View Source</a>
+            </p>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="container" id="footer">
+          <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+              <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+            </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+      </div>
+    </div>
+
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-61420213-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Document–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
