@@ -16,7 +16,11 @@
     <script src="//code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="/js/base.js"></script>
     <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="stylesheet" href="/css/remodal.css">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css">
+    <script src="/js/remodal.min.js"></script>
     <link rel="icon" type="image/png" href="/images/favicon.png">
+
 </head>
 
 <body>
@@ -309,6 +313,8 @@
       </div>
     </div>
 
+
+
     <div class="footer-wrapper">
       <div class="container" id="footer">
           <p align="center">
@@ -318,6 +324,25 @@
             Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
       </div>
     </div>
+
+    <div data-remodal-id="modal">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      <h3 align="center" class="section-header">Thanks for Subscribing!</h3>
+      <p align="center">You are set to receive an email twice a month containing all the latest contributions to EnterpriseReady.</p>
+    </div>
+
+    <script>
+
+    var urlParams = new URLSearchParams(window.location.search);
+
+    if(urlParams.has('subscribed')) {
+
+      var inst = $('[data-remodal-id=modal]').remodal();
+      inst.open();
+
+    }
+
+    </script>
 
     <script>
         (function(i, s, o, g, r, a, m) {
