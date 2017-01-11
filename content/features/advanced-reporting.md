@@ -31,22 +31,22 @@ Interactive reporting and dashboards adds on to your canned reports with interac
 
 Static reporting means that you are having to generate all possibilities for canned reports - with basic parametrization. Usually this isn't enough to satisfy enterprise customers.  
 
-### Self-Service Authoring, Data Exploration and Analytics 
+### Self-Service Authoring, Data Exploration and Analytics
 The next level is analytics. Analytics gives your customers the ability to ask their own questions (as opposed to canned reports and dashboards). Analytics generally go deeper than how the product is being used. Instead, analytics gives your customer key insights into their business based on the data that your application collects.
 
 This feature is important for tools where data is centric to the application and the audience that uses the tool is not technical, for example [HubSpot](/hubspot/reporting) implements this features as an add-on.
 
 ## Typical Features Enterprises Want
-#### Export to different formats
-No matter what format you provide your data in, someone in your customer's organization will want it in a different format. Exporting outputs to Word, Excel, PowerPoint, PNG are common requests. To provide this you can use libraries that take one format and output to many, like [JasperReports](http://comminity.jaspersoft.com) for Java.
+### Export to different formats
+No matter what format you provide your data in, someone in your customer's organization will want it in a different format. Exporting outputs to Word, Excel, PowerPoint, PNG are common requests. To provide this you can use libraries that take one format and output to many, like [JasperReports](http://community.jaspersoft.com) for Java.
 
-#### Schedule/Email reports
+### Schedule/Email reports
 Some people may only use your application by consuming the data that it generates. Your reports becomes the "GUI" of your customer's finance department (for example). In order to satisfy this need some people want to get reports output via email. You'll need an additional screen that allows users to schedule a frequency, select parameters and select a format (you'll need the export functionality mentioned in the previous section). Scheduling with time based parameters means you're going to have to implement relative time logic (like give me data for last 7 days, where last 7 days is relative to when the report runs).
 
-#### Alerts on exceptions
+### Alerts on exceptions
 Similar to scheduling, alerting is a schedule that only happens when a specific condition is run. This is an extension to the scheduling functionality above. Note that people will want to select the smallest increment for their alerts (i.e. check for the condition every 30 seconds) - with many users this will obviously slow down your database. You'll then have to add a caching layer for the report result sets. This can add a lot of complexity.  
 
-#### Row/Column level security on data and permissions management on reports
+### Row/Column level security on data and permissions management on reports
 As previously mentioned, more groups will be using your app and with that comes the requirement to segment data. At a simple level you'll need to implement object level permissions - this type of user can see this report and this one can not. Going beyond that column level security means a report shown to an admin shows all columns but hides a sensitive column when a non-privileged user runs it. Finally, row level community is for reports where users have access to the reports but see different data (manager A only sees his employee's data while manager B only sees her employee's data).
 
 ## Recommended Approaches
