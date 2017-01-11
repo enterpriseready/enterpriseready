@@ -128,7 +128,7 @@ Have a written and published Information Security Policy, Incident Response Plan
 ### Content Contributors
 ----
 <div class="contributors">
-  <a href="https://github.com/enterpriseready/enterpriseready/commits/master/content/asana/teams.md?author=marccampbell" target="_blank"><img alt="@marccampbell" class="avatar" height="40" src="https://avatars1.githubusercontent.com/u/173451?v=3&amp;s=40" width="40"> </a>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/product-security.md" target="_blank"><img alt="@marccampbell" class="avatar" height="40" src="https://avatars1.githubusercontent.com/u/173451?v=3&amp;s=40" width="40"> </a>
 
-  <a href="https://github.com/enterpriseready/enterpriseready/commits/master/content/asana/teams.md?author=grantmiller" target="_blank"><img alt="@grantmiller" class="avatar" height="40" src="https://avatars2.githubusercontent.com/u/1041501?v=3&amp;s=40" width="40"> </a>
+  <a href="hhttps://github.com/enterpriseready/enterpriseready/blob/master/content/features/product-security.md" target="_blank"><img alt="@grantmiller" class="avatar" height="40" src="https://avatars2.githubusercontent.com/u/1041501?v=3&amp;s=40" width="40"> </a>
 </div>
