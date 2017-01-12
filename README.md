@@ -1,4 +1,4 @@
-# EnterpriseReady
+# Enterprise Ready
 
 1. Install Docker for OSX.
 1. Clone this repo into ~/enterpriseready (**Important** it's important to put this under your home directory somewhere when using Docker for OSX)
