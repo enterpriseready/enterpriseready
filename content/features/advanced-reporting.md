@@ -6,7 +6,7 @@ type = "feature"
 hero = "/images/advanced-reporting.svg"
 metadescription = "A guide for SaaS products to build advanced reporting functionality into their application that will give enterprise customers the ability to demonstrate value gained from the use of an application."
 pagetitle = "Enterprise Ready SaaS App Guide to Advanced Reporting"
-ogimage = "images/twtr/advanced-reporting-og.png"
+ogimage = "images/twtr/reporting-analytics-og.png"
 +++
 Reporting and analytics embedded into enterprise applications can differentiate products and are expected by many enterprise buyers. The more people using your application, the more functionality in reporting they will want. Consider a simple CRM app - if you sell it to small sales teams then only the sales department will want a couple of simple pipeline reports. If you sold it to an enterprise you'll have different tiers of sales managers, lead developers, marketing, finance, support staff and many more. Each of these groups expects different answers.
 
