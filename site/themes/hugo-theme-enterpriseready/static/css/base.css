@@ -801,3 +801,76 @@ margin-right: 10px;
   display: inline;
   margin: 0 4px;
 }
+
+/* Twitter */
+#twtr-scroll {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#twtr-scroll::-webkit-scrollbar {display:none;}
+
+#twtr-content {
+  width: 2350px;
+  height: 99px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.twtr-card {
+  float: left;
+  border-radius: 4px;
+  border: 1px solid #DFDFDF;
+  background-color: #F8F8F8;
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 475px;
+  overflow: hidden;
+  font-size: 12px;
+  padding: 15px 20px 5px;
+}
+@media (max-width: 550px) {
+  .twtr-card {
+    width: 340px;
+    margin-left: 10px;
+  }
+  .twtr-card img {
+    width: 50px!important;
+    height: 50px!important;
+  }
+  .twtr-card p{
+    font-size: 12px!important;
+  }
+  .twtr-card p:nth-child(3){
+    font-size: 10px!important;
+  }
+
+  #twtr-content {
+    width: 1700px;
+  }
+
+}
+
+.twtr-card img {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  margin: 0px 15px 10px 0px;
+  border: 1px solid #DFDFDF;
+}
+
+.twtr-card p{
+  font-size: 14px;
+  color: #222;
+  margin-bottom: 3px;
+}
+
+.twtr-card p:nth-child(3){
+  text-transform: uppercase;
+  color: #F46853;
+  font-size: 12px;
+}
