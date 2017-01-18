@@ -850,10 +850,14 @@ margin-right: 10px;
 @media (max-width: 550px) {
   .testimonials {
     height: 114px;
+    overflow: hidden;
+  }
+  #twtr-scroll {
+    overflow-y: hidden;
   }
   #twtr-content {
     width: 6800px;
-    overflow-y: hidden;
+    overflow: auto;
   }
   .twtr-card {
     width: 340px;
