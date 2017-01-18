@@ -813,8 +813,7 @@ margin-right: 10px;
 #twtr-scroll::-webkit-scrollbar {display:none;}
 
 #twtr-content {
-  width: 2350px;
-  height: 99px;
+  width: 10000px;
   padding: 0px;
   margin: 0px;
   margin-top: 10px;
@@ -833,6 +832,14 @@ margin-right: 10px;
   font-size: 12px;
   padding: 15px 20px 5px;
 }
+
+.twtr-card:hover {
+  border-color: #CCC;
+  -webkit-box-shadow: 0 8px 6px -6px #ccc;
+  -moz-box-shadow: 0 8px 6px -6px #ccc;
+  box-shadow: 0 8px 6px -6px #ccc;
+}
+
 @media (max-width: 550px) {
   .twtr-card {
     width: 340px;
