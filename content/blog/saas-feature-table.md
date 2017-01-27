@@ -27,13 +27,14 @@ type = "feature-table"
 | [Docusign](https://docusign.com/pricing) | Yes | Standard | Enterprise | Enterprise | Personal | Business Premium | Free | Personal | Personal | Personal
 | [ReadMe](https://readme.io/pricing) | Yes | Documentation | Developer Hub | Documentation | No | Enterprise | Yes | No | Documentation
 | [StatusPage](https://statuspage.io/pricing) | Yes | Hobby | Startup | Startup | Hobby | No | Business | No |  | Yes
-| [Hootsuite](https://hootsuite.com/plans) | Yes | Team | Team | Team | No | Business | Free | No | Porfessional | Free
+| [Hootsuite](https://hootsuite.com/plans) | Yes | Team | Team | Team | No | Business | Free | No | Professional | Free
 | [Optimizely](https://www.optimizely.com/plans/) | Yes | Standard | Premium | Professional | Premium | Standard | Premium | No |  | Standard
 | [Segment](https://segment.com/pricing) | Yes | Team |  | Business |  | Business |  |  |  | Developer
 | [Frontapp](https://frontapp.com/pricing) | Yes | Team | Enterprise |  |  |  |  | No | Premium | Team
 | [Unbounce](https://unbounce.com/pricing) | Yes | Pro 99 |  | Pro 99 |  |  | Pro 99 | No |  | Starter
 | [Hellosign](https://www.hellosign.com/info/pricing) | Yes | Business | Free | Business | Free | No | Business | No | Business | All
 | [Zesty.io](https://www.zesty.io/pricing/) |	Yes	| All	| No | All | No | All | All | None | All | All |
+| [Expensify](https://www.expensify.com/pricing#features) |	Yes	| Team	| Corporate | Team | None | Enterprise | All | None | Corp | Tiered |
 | [Atlassian](https://www.atlassian.com/software/jira/enterprise/data-center) |  |  |  |  |  |  |  |  |  |
 | [AppDynamics](https://appdynamics.com/pricing) |  |  |  |  |  |  |  |  |  |
 | [New Relic](https://newrelic.com/application-monitoring/features) |  |  |  |  |  |  |  |  |  |
