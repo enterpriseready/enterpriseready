@@ -6,7 +6,7 @@ type = "feature"
 hero = "/images/advanced-reporting.svg"
 metadescription = "A guide for SaaS products to build advanced reporting functionality into their application that will give enterprise customers the ability to demonstrate value gained from the use of an application."
 pagetitle = "Enterprise Ready SaaS App Guide to Advanced Reporting"
-ogimage = "images/twtr/advanced-reporting-og.png"
+ogimage = "images/twtr/reporting-analytics-og.png"
 +++
 Reporting and analytics embedded into enterprise applications can differentiate products and are expected by many enterprise buyers. The more people using your application, the more functionality in reporting they will want. Consider a simple CRM app - if you sell it to small sales teams then only the sales department will want a couple of simple pipeline reports. If you sold it to an enterprise you'll have different tiers of sales managers, lead developers, marketing, finance, support staff and many more. Each of these groups expects different answers.
 
@@ -24,7 +24,7 @@ Consider adding basic reporting functionality to your entry-level [product editi
 ### Data Dumps and APIs
 At the most basic level you need to offer data dumps and this is different than your standard product API. Operational APIs tend to be transactional while reporting APIs tend to offer data summarised over time. Exporting to CSV/Excel is standard here.
 
-An example of the most basic data dump functionality is implemented by [Github Enterprise's Site Admin Reports](/github/reporting). They
+An example of the most basic data dump functionality is implemented by [Github Enterprise's Site Admin Reports](/github/reporting). They implement an API to download user data in CSV format. 
 
 ### Canned Interactive Reporting and Dashboards
 Interactive reporting and dashboards adds on to your canned reports with interactivity and a library or pre-canned widgets. These widgets tend to track KPIs and are arranged in dashboards. This is moving up the data-pipeline - with canned reports the data is generally "raw" and immutable where interactivity adds a layer of customization. Enterprise tools tend to have many users and allowing customization gives you a higher chance of pleasing more.  
