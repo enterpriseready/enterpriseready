@@ -4,43 +4,47 @@ title = "SaaS Feature Table"
 type = "feature-table"
 +++
 
-| Company	| Product Assortment | Team Mgmt | SSO | RBAC | Audit Log | Enhanced SLA | Security | Change Mgmt | Reporting | Integrations |
-|---------|--------------------|-----------|-----|------|-----------|--------------|----------|-------------|-----------|--------------|
-| [Slack](https://slack.com/pricing) |	Yes	| All	| Enterprise | Standard | Plus | Plus | All | None | Enterprise | Quantity |
-| [Salesforce](https://goo.gl/qp2AnG) | Yes | All | Enterprise | Pro | All | Unlimited | All | Unlimited | Enterprise | Enterprise |
-| [Zendesk](https://www.zendesk.com/support/compare/#compare)	| Yes | All	| Pro	| Enterprise | Enterprise	| Pro	| All	| Enterprise | Enterprise | Team |
-| [Google](https://gsuite.google.com/pricing.html)	| Yes | Standard | Standard | Standard | Unlimited | Standard | Unlimited | None | Unlimited | All
-| [Asana](https://asana.com/pricing) | Yes | All | Premium | Premium | No | Premium | All | None | Premium | All
-| [Heroku](https://www.heroku.com/enterprise) | Yes | Enterprise | Enterprise | Enterprise | No | Enterprise | All | None | Enterprise | All
-| [Intercom](https://intercom.com/pricing) | Yes | All | No | Standard | No | No | All | All | Standard | Standard
-| [Hubspot](http://www.hubspot.com/pricing/marketing#?currency=USD) | Yes | All | No | Pro | No | No | All | No | Enterprise | Pro
-| [Box](https://box.com/pricing) | Yes | Starter | Business | Starter | Business | Enterprise | Starter | No | Business | Enterprise
-| [Github](https://enterprise.github.com/home) | Yes | Organization | Organization | Organization | Organization |  | No | No | Personal | Yes
-| [Dropbox](https://dropbox.com/pricing) | Yes | Business | Business | Business | Business | No | Pro | No | No | Pro
-| [Huddle](https://huddle.com/pricing) | Yes | All | Enterprise | All | All | Enterprise | All | No | Enterprise | Enterprise
-| [Quip](https://quip.com/pricing) | Yes | All | Business | Business | Enterprise | Enterprise | Enterprise | No | No | All
-| [Twilio](https://twilio.com/enterprise) | Yes | Standard | Enterprise | Standard | Enterprise | Standard | Standard | Enterprise | Enterprise | Standard
-| [Swiftype](https://swiftype.com/pricing) | Yes | Basic |  |  | Business | Premium | Premium | No | Business | Standard
-| [Trello](https://trello.com/pricing) | Yes | Business Class | Enterprise | Free | No | Enterprise | Enterprise | No | Yes | Free
-| [Pagerduty](https://pagerduty.com/pricing) | Yes | Standard | Standard |  |  | Enterprise |  |  | Standard | Standard
-| [Sumologic](https://sumologic.com/pricing) | Yes | Free | Enterprise |  | Free | Enterprise | Enterprise | No |  | Professional
-| [Docusign](https://docusign.com/pricing) | Yes | Standard | Enterprise | Enterprise | Personal | Business Premium | Free | Personal | Personal | Personal
-| [ReadMe](https://readme.io/pricing) | Yes | Documentation | Developer Hub | Documentation | No | Enterprise | Yes | No | Documentation
-| [StatusPage](https://statuspage.io/pricing) | Yes | Hobby | Startup | Startup | Hobby | No | Business | No |  | Yes
-| [Hootsuite](https://hootsuite.com/plans) | Yes | Team | Team | Team | No | Business | Free | No | Porfessional | Free
-| [Optimizely](https://www.optimizely.com/plans/) | Yes | Standard | Premium | Professional | Premium | Standard | Premium | No |  | Standard
-| [Segment](https://segment.com/pricing) | Yes | Team |  | Business |  | Business |  |  |  | Developer
-| [Frontapp](https://frontapp.com/pricing) | Yes | Team | Enterprise |  |  |  |  | No | Premium | Team
-| [Unbounce](https://unbounce.com/pricing) | Yes | Pro 99 |  | Pro 99 |  |  | Pro 99 | No |  | Starter
-| [Hellosign](https://www.hellosign.com/info/pricing) | Yes | Business | Free | Business | Free | No | Business | No | Business | All
-| [Zesty.io](https://www.zesty.io/pricing/) |	Yes	| All	| No | All | No | All | All | None | All | All |
-| [Atlassian](https://www.atlassian.com/software/jira/enterprise/data-center) |  |  |  |  |  |  |  |  |  |
-| [AppDynamics](https://appdynamics.com/pricing) |  |  |  |  |  |  |  |  |  |
-| [New Relic](https://newrelic.com/application-monitoring/features) |  |  |  |  |  |  |  |  |  |
-| [Evernote](https://evernote.com/business/) |  |  |  |  |  |  |  |  |  |
-| [Insightly](https://insightly.com/pricing) |  |  |  |  |  |  |  |  |  |
+| Company	| Team Mgmt | SSO | RBAC | Audit Log | Support+ | Security+ | Change Mgmt | Reporting+ | Integrations+ | Deployment |
+|---------|-----------|-----|------|-----------|--------------|----------|-------------|-----------|--------------|--------------------|
+| [Slack](https://slack.com/pricing) | All	| Enterprise | Standard | Plus | Plus | All | - | Enterprise | Tiers | Cloud |
+| [Salesforce Sales Cloud](https://goo.gl/qp2AnG) | All | Enterprise | Pro | All | Unlimited | All | Unlimited | Enterprise | Enterprise | Cloud |
+| [Github](https://github.com/business/features) | Orgs | Enterprise | Orgs | Orgs | - | - | Enterprise | Enterprise | All | Private/Cloud |
+| [Zendesk](https://goo.gl/CdHk4B) | All	| Pro	| Enterprise | Enterprise	| Pro	| All	| Enterprise | Enterprise | Team | Cloud |
+| [G Suite](https://gsuite.google.com/pricing.html) | Standard | Standard | Standard | Unlimited | Standard | Unlimited | - | Unlimited | All | Cloud |
+| [Asana](https://asana.com/pricing) | All | Premium | Premium | - | Premium | All | - | Premium | All | Cloud |
+| [Heroku](https://www.heroku.com/enterprise) | Enterprise | Enterprise | Enterprise | - | Enterprise | All | - | Enterprise | All | Cloud |
+| [Jira](https://goo.gl/6eSQx7) | All | Server | All | All | - | All | Server | All | Varies | Private/Cloud |
+| [New Relic](https://goo.gl/ylRny7) | All | - | Pro | - | Pro | Pro | - | All | Pro | Cloud |
+| [Mixpanel](https://mixpanel.com/pricing) | All | Enterprise | Enterprise | - | Enterprise | Enterprise | - | Startup | Business | Cloud |
+| [Intercom](https://intercom.com/pricing) | All | - | Standard | - | - | All | All | Standard | Standard | Cloud |
+| [Hubspot](https://goo.gl/jaojKD) | All | - | Pro | - | - | All | - | Enterprise | Pro | Cloud |
+| [Box](https://box.com/pricing) | Starter | Business | Starter | Business | Enterprise | Starter | - | Business | Enterprise | Cloud |
+| [Dropbox](https://dropbox.com/pricing) | Business | Business | Business | Business | - | Pro | - | - | Pro | Cloud |
+| [Huddle](https://huddle.com/pricing) | All | Enterprise | All | All | Enterprise | All | - | Enterprise | Enterprise | Private/Cloud |
+| [Quip](https://quip.com/pricing) | All | Business | Business | Enterprise | Enterprise | Enterprise | - | - | All | Cloud |
+| [Twilio](https://twilio.com/enterprise) | Standard | Enterprise | Standard | Enterprise | Standard | Standard | Enterprise | Enterprise | Standard | Cloud |
+| [Evernote](https://evernote.com/business/) | Business | Business | - | - | Business | - | - | All | Cloud |
+| [HipChat](https://www.hipchat.com/pricing) | All | Server | - | - | - | Server | Server | - | All | Private/Cloud |
+| [Swiftype](https://swiftype.com/pricing) | Basic | - | - | Business | Premium | Premium | - | Business | Standard | Cloud |
+| [Trello](https://trello.com/pricing) | Business Class | Enterprise | Free | - | Enterprise | Enterprise | - | Yes | Free | Cloud |
+| [Pagerduty](https://pagerduty.com/pricing) | Standard | Standard | - | - | Enterprise | - | - | Standard | Standard | Cloud |
+| [npm](https://www.npmjs.com/pricing) | Orgs | Enterprise | Orgs | Enterprise | - | Enterprise | Enterprise | Org | Enterprise | Private/Cloud |
+| [Cloudflare](https://goo.gl/ONuULX) | All	| - | Enterprise | - | Enterprise | Business | - | - | Enterprise | Cloud |
+| [Sumologic](https://sumologic.com/pricing) | Free | Enterprise | - | Free | Enterprise | Enterprise | - |  | Professional | Cloud |
+| [Docusign](https://docusign.com/pricing) | Standard | Enterprise | Enterprise | Personal | Business Premium | Free | Personal | Personal | Personal | Cloud |
+| [ReadMe](https://readme.io/pricing) | All | Enterprise | - | Enterprise | Enterprise | - | Enterprise | - | - | Private/Cloud |
+| [StatusPage](https://statuspage.io/pricing) | Hobby | Startup | Startup | Hobby | - | Business | - |  | Yes | Cloud |
+| [Hootsuite](https://hootsuite.com/plans) | Team | Team | Team | - | Business | Free | - | Professional | Free | Cloud |
+| [Optimizely](https://www.optimizely.com/plans/) | Standard | Premium | Professional | Premium | Standard | Premium | - |  | Standard | Cloud |
+| [Segment](https://segment.com/pricing) | Team | - | Business | - | Business | - | - | - | Developer | Cloud |
+| [Frontapp](https://frontapp.com/pricing) | Team | Enterprise | - | - | - | - | - | Premium | Team | Cloud |
+| [Unbounce](https://unbounce.com/pricing) | Pro 99 | - | Pro 99 | - | - | Pro 99 | - |  | Starter | Cloud |
+| [Scalr](http://www.scalr.com/pricing.html) | All | Enterprise | - | Enterprise | - | - | Enterprise | - | All | Private/Cloud |
+| [Hellosign](https://www.hellosign.com/info/pricing) | Business | Free | Business | Free | - | Business | - | Business | All | Cloud |
+| [Zesty.io](https://www.zesty.io/pricing/) | All	| - | All | - | All | All | - | All | All | Cloud |
+| [Expensify](https://goo.gl/3DZ6Q7) | Team	| Corporate | Team | - | Enterprise | All | - | Corp | Tiered | Cloud |
+| [Insightly](https://insightly.com/pricing) | All | - | Professional | - | Professional | All | - | All | All | Cloud |
+| [Invision App](https://invisionapp.com/plans) | Team	| Enterprise | Enterprise | - | - | Tiers | - | - | Enterprise | Cloud |
+| [Teamwork](https://teamwork.com/pricing) | All	| Enterprise | - | - | Enterprise | Enterprise | - | Enterprise | All | Cloud |
 | [Pipedrive](https://pipedrive.com/pricing) |  |  |  |  |  |  |  |  |  |
 | [Close.io](https://close.io/pricing) |  |  |  |  |  |  |  |  |  |
-| [Gusto](https://gusto.com/pricing) |  |  |  |  |  |
-| [Mixpanel](https://mixpanel.com/pricing) |  |  |  |  |  |  |  |  |  |
-| [Algolia](https://algolia.com/pricing) |  |  |  |  |  |  |  |  |  |
