@@ -46,5 +46,8 @@ type = "feature-table"
 | [Insightly](https://insightly.com/pricing) | All | - | Professional | - | Professional | All | - | All | All | Cloud |
 | [Invision App](https://invisionapp.com/plans) | Team	| Enterprise | Enterprise | - | - | Tiers | - | - | Enterprise | Cloud |
 | [Teamwork](https://teamwork.com/pricing) | All	| Enterprise | - | - | Enterprise | Enterprise | - | Enterprise | All | Cloud |
-| [Pipedrive](https://pipedrive.com/pricing) |  |  |  |  |  |  |  |  |  |
-| [Close.io](https://close.io/pricing) |  |  |  |  |  |  |  |  |  |
+| [Pipedrive] (https://www.pipedrive.com/en/plans) | All | - | Platinum | - | Platinum | - | - | All | All | Cloud |
+| [Contenful] (https://www.contentful.com/pricing/) | All | - |  All | - | Large | - | - | - | All | Cloud |
+| [Loggly] (https://www.loggly.com/plans-and-pricing/) | Standard | Enterprise | Enterprise | Enterprise | Pro | - | - | All | Enterprise | Cloud |
+| [Wordpress VIP] (https://vip.wordpress.com/our-services/#hosting) | All | - | All | - | Premium | All | All | - | - | Cloud |
+| [Mailchimp] (https://mailchimp.com/pricing/) | All | - | - | - |Pro Marketer | - | - | Pro Marketer | All | Cloud |
