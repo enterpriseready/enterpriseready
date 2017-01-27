@@ -4,9 +4,9 @@ title = "SaaS Feature Table"
 type = "feature-table"
 +++
 
-| Company	| Team Mgmt | SSO | RBAC | Audit Log | Enhanced SLA | Security | Change Mgmt | Reporting | Integrations | Deployment |
+| Company	| Team Mgmt | SSO | RBAC | Audit Log | Support+ | Security+ | Change Mgmt | Reporting+ | Integrations+ | Deployment |
 |---------|-----------|-----|------|-----------|--------------|----------|-------------|-----------|--------------|--------------------|
-| [Slack](https://slack.com/pricing) | All	| Enterprise | Standard | Plus | Plus | All | - | Enterprise | Quantity | Cloud |
+| [Slack](https://slack.com/pricing) | All	| Enterprise | Standard | Plus | Plus | All | - | Enterprise | Tiers | Cloud |
 | [Salesforce Sales Cloud](https://goo.gl/qp2AnG) | All | Enterprise | Pro | All | Unlimited | All | Unlimited | Enterprise | Enterprise | Cloud |
 | [Github](https://github.com/business/features) | Orgs | Enterprise | Orgs | Orgs | - | - | Enterprise | Enterprise | All | Private/Cloud |
 | [Zendesk](https://goo.gl/CdHk4B) | All	| Pro	| Enterprise | Enterprise	| Pro	| All	| Enterprise | Enterprise | Team | Cloud |
@@ -29,6 +29,7 @@ type = "feature-table"
 | [Trello](https://trello.com/pricing) | Business Class | Enterprise | Free | - | Enterprise | Enterprise | - | Yes | Free | Cloud |
 | [Pagerduty](https://pagerduty.com/pricing) | Standard | Standard | - | - | Enterprise | - | - | Standard | Standard | Cloud |
 | [npm](https://www.npmjs.com/pricing) | Orgs | Enterprise | Orgs | Enterprise | - | Enterprise | Enterprise | Org | Enterprise | Private/Cloud |
+| [Cloudflare](https://goo.gl/ONuULX) | All	| - | Enterprise | - | Enterprise | Business | - | - | Enterprise | Cloud |
 | [Sumologic](https://sumologic.com/pricing) | Free | Enterprise | - | Free | Enterprise | Enterprise | - |  | Professional | Cloud |
 | [Docusign](https://docusign.com/pricing) | Standard | Enterprise | Enterprise | Personal | Business Premium | Free | Personal | Personal | Personal | Cloud |
 | [ReadMe](https://readme.io/pricing) | All | Enterprise | - | Enterprise | Enterprise | - | Enterprise | - | - | Private/Cloud |
@@ -43,5 +44,7 @@ type = "feature-table"
 | [Zesty.io](https://www.zesty.io/pricing/) | All	| - | All | - | All | All | - | All | All | Cloud |
 | [Expensify](https://goo.gl/3DZ6Q7) | Team	| Corporate | Team | - | Enterprise | All | - | Corp | Tiered | Cloud |
 | [Insightly](https://insightly.com/pricing) | All | - | Professional | - | Professional | All | - | All | All | Cloud |
+| [Invision App](https://invisionapp.com/plans) | Team	| Enterprise | Enterprise | - | - | Tiers | - | - | Enterprise | Cloud |
+| [Teamwork](https://teamwork.com/pricing) | All	| Enterprise | - | - | Enterprise | Enterprise | - | Enterprise | All | Cloud |
 | [Pipedrive](https://pipedrive.com/pricing) |  |  |  |  |  |  |  |  |  |
 | [Close.io](https://close.io/pricing) |  |  |  |  |  |  |  |  |  |
