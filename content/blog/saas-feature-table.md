@@ -39,6 +39,7 @@ type = "feature-table"
 | [Segment](https://segment.com/pricing) | Team | - | Business | - | Business | - | - | - | Developer | Cloud |
 | [Frontapp](https://frontapp.com/pricing) | Team | Enterprise | - | - | - | - | - | Premium | Team | Cloud |
 | [Unbounce](https://unbounce.com/pricing) | Pro 99 | - | Pro 99 | - | - | Pro 99 | - |  | Starter | Cloud |
+| [Domo](https://www.domo.com/pricing) | All	| Enterprise | Enterprise | - | Pro | Enterprise | - | Tiers | Tiers | Cloud |
 | [Scalr](http://www.scalr.com/pricing.html) | All | Enterprise | - | Enterprise | - | - | Enterprise | - | All | Private/Cloud |
 | [Hellosign](https://www.hellosign.com/info/pricing) | Business | Free | Business | Free | - | Business | - | Business | All | Cloud |
 | [Zesty.io](https://www.zesty.io/pricing/) | All	| - | All | - | All | All | - | All | All | Cloud |
@@ -51,3 +52,7 @@ type = "feature-table"
 | [Loggly] (https://www.loggly.com/plans-and-pricing/) | Standard | Enterprise | Enterprise | Enterprise | Pro | - | - | All | Enterprise | Cloud |
 | [Wordpress VIP] (https://vip.wordpress.com/our-services/#hosting) | All | - | All | - | Premium | All | All | - | - | Cloud |
 | [Mailchimp] (https://mailchimp.com/pricing/) | All | - | - | - |Pro Marketer | - | - | Pro Marketer | All | Cloud |
+| [Wrike](https://wrike.com/price) | All	| Enterprise | Enterprise | Enterprise | - | Enterprise | Marketer | Business | Tiers | Cloud |
+| [SmartSheet](https://smartsheet.com/price) | Team	| Enterprise | Enterprise | - | Team | - | - | Team | Business | Cloud |
+| [Showpad](https://www.showpad.com/product/pricing/) | All	| Enterprise | Enterprise | - | Premium | - | - | Premium | Enterprise | Cloud |
+| [InsightSquared](http://www.insightsquared.com/plans/) | All	| - | Enterprise | - | Pro | - | - | Enterprise | - | Cloud |
