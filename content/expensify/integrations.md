@@ -5,7 +5,7 @@ featureslug = "Integrations"
 type = "breakdown"
 feature = "Integrations"
 company = "expensify"
-ogimage = "images/twtr/box-product-security-og.png"
+ogimage = "images/twtr/expensify-integrations-og.png"
 
 +++
 
