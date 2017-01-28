@@ -51,3 +51,4 @@ type = "feature-table"
 | [Loggly] (https://www.loggly.com/plans-and-pricing/) | Standard | Enterprise | Enterprise | Enterprise | Pro | - | - | All | Enterprise | Cloud |
 | [Wordpress VIP] (https://vip.wordpress.com/our-services/#hosting) | All | - | All | - | Premium | All | All | - | - | Cloud |
 | [Mailchimp] (https://mailchimp.com/pricing/) | All | - | - | - |Pro Marketer | - | - | Pro Marketer | All | Cloud |
+| [Wrike](https://wrike.com/price) | All	| Enterprise | Enterprise | Enterprise | - | Enterprise | Marketer | Business | Tiers | Cloud |
