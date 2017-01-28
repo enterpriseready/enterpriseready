@@ -32,6 +32,7 @@ type = "feature-table"
 | [Cloudflare](https://goo.gl/ONuULX) | All	| - | Enterprise | - | Enterprise | Business | - | - | Enterprise | Cloud |
 | [Sumologic](https://sumologic.com/pricing) | Free | Enterprise | - | Free | Enterprise | Enterprise | - |  | Professional | Cloud |
 | [Docusign](https://docusign.com/pricing) | Standard | Enterprise | Enterprise | Personal | Business Premium | Free | Personal | Personal | Personal | Cloud |
+| [RecruiterBox](https://goo.gl/WS5Sge) | All | Enterprise | - | Enterprise | Pro | - | - | Pro | Pro | Cloud |
 | [ReadMe](https://readme.io/pricing) | All | Enterprise | - | Enterprise | Enterprise | - | Enterprise | - | - | Private/Cloud |
 | [StatusPage](https://statuspage.io/pricing) | Hobby | Startup | Startup | Hobby | - | Business | - |  | Yes | Cloud |
 | [Hootsuite](https://hootsuite.com/plans) | Team | Team | Team | - | Business | Free | - | Professional | Free | Cloud |
