@@ -46,3 +46,5 @@ The more advanced functionalities around providing integrations for enterprises 
 ## Examples:
 
 {{< example title="Segment Integrations" url="/segment/integrations" image="/segment/images/integrations.png" >}}
+
+{{< example title="Expensify Integrations" url="/expensify/integrations" image="/expensify/images/integrations.png" >}}
