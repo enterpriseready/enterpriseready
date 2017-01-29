@@ -3,6 +3,8 @@ date = "2016-10-25T00:00:00Z"
 title = "User Centric vs. Team Centric Approaches"
 type = "breakdown"
 company = "User Centric vs. Team Centric Approaches"
+metadescription = "How should SaaS companies think about the relationship between users and teams. Should teams own each user or should a user be able to belong to many teams."
+pagetitle = "SaaS User and Team Setup"
 +++
 
 GitHub and Gmail each had significant traction with individual users before their products were widely adopted by enterprises. They each took slightly different approaches to how teams would be implemented as a result.

@@ -8,6 +8,8 @@ company = "segment"
 contributor = "Segment"
 contributorurl = "https://www.segment.com"
 ogimage = "images/twtr/segment-integrations-og.png"
+metadescription = "A detailed analysis of the way that Segment implements integrations in order to meet the needs of enterprises."
+pagetitle = "Segment Integrations - Enterprise Ready Feature Breakdown"
 
 +++
 

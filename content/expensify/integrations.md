@@ -5,7 +5,9 @@ featureslug = "Integrations"
 type = "breakdown"
 feature = "Integrations"
 company = "expensify"
-ogimage = "images/twtr/box-product-security-og.png"
+ogimage = "images/twtr/expensify-integrations-og.png"
+metadescription = "A detailed analysis of the way that Expensify implements integrations in order to meet the needs of enterprises."
+pagetitle = "Expensify Integrations - Enterprise Ready Feature Breakdown"
 
 +++
 

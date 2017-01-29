@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "audit logs"
 company = "google"
 ogimage = "images/twtr/google-audit-log-og.png"
+metadescription = "A detailed analysis of the way that Google's G Suite implements a detailed audit log of all activity in order to meet the needs of enterprises."
+pagetitle = "G Suite Audit Log - Enterprise Ready Feature Breakdown"
 
 +++
 

@@ -5,6 +5,8 @@ featureslug = "product-assortment"
 type = "breakdown"
 feature = "product assortment"
 company = "slack"
+metadescription = "A detailed analysis of the way that Slack implements product assortment in order to create plans that meet the needs of enterprises and SMB customers with the same product."
+pagetitle = "Slack Pricing Plans - Enterprise Ready Feature Breakdown"
 +++
 
 Slack leverages vertical product assortment to create different packages that meet the needs of different customer segments. The packages are primarily defined by the features they add. Just like most SaaS applications, those features generally fall into the EnterpriseReady feature categories as illustrated below.

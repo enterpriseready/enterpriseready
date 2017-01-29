@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "role based access control"
 company = "hubspot"
 ogimage = "images/twtr/hubspot-rbac-og.png"
+metadescription = "A detailed analysis of the way that HubSpot implements role based access control in order to meet the needs of enterprise customers."
+pagetitle = "HubSpot Roles (RBAC) - Enterprise Ready Feature Breakdown"
 
 +++
 
