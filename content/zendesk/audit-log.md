@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "audit logs"
 company = "zendesk"
 ogimage = "images/twtr/zendesk-audit-log-og.png"
+metadescription = "A detailed analysis of the way that Zendesk implements an audit log of the account activity in order to meet the needs of enterprise security teams."
+pagetitle = "Zendesk Audit Log - Enterprise Ready Feature Breakdown"
 
 +++
 

@@ -3,6 +3,8 @@ date = "2016-11-20T00:00:00Z"
 title = "Deployment Models"
 type = "breakdown"
 company = "Deployment Models"
+metadescription = "What ways can a SaaS or software company deliver their application to their end users."
+pagetitle = "SaaS Deployment Models"
 +++
 
 The evolution of enterprise software has changed the landscape for how applications are adopted and deployed. Below are the most common methods for delivering applications to customers.

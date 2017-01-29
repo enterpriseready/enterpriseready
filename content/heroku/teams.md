@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "teams"
 company = "Heroku"
 ogimage = "images/twtr/heroku-team-og.png"
+metadescription = "A detailed analysis of the way that Heroku implements team functionality in order to meet the needs of enterprise customers."
+pagetitle = "Heroku Teams - Enterprise Ready Feature Breakdown"
 
 +++
 

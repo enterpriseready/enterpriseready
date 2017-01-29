@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "Deployment Options"
 company = "github"
 ogimage = "images/twtr/github-deployment-og.png"
+metadescription = "A detailed analysis of the way that GitHub implements their Enterprise installable version in order to meet the needs of enterprises."
+pagetitle = "GitHub Enterprise (On-prem) - Enterprise Ready Feature Breakdown"
 
 +++
 
