@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "Product Security"
 company = "box"
 ogimage = "images/twtr/box-product-security-og.png"
+metadescription = "A detailed analysis of the way that Box implements and documents the security features of their product in order to meet the needs of enterprise buyers."
+pagetitle = "Box Product Security - Enterprise Ready Feature Breakdown"
 
 +++
 

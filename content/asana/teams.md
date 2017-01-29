@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "teams"
 company = "asana"
 ogimage = "images/twtr/asana-team-og.png"
+metadescription = "A detailed analysis of the way that Asana implements team functionality in order to meet the needs of business and enterprise customers."
+pagetitle = "Asana Teams - Enterprise Ready Feature Breakdown"
 +++
 
 Asana is one of the premier project management tools amongst the sea of PM applications. Asana’s application is designed to help teams improve communication, organization and collaboration. This makes it a great service to analyze for Team functionality.

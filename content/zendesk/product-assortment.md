@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "product assortment"
 company = "zendesk"
 ogimage = "images/twtr/zendesk-product-assortment-og.png"
+metadescription = "A detailed analysis of the way that Zendesk implements product assortment to create plans that meet the needs of enterprise customers and SMBs with the same product."
+pagetitle = "Zendesk Pricing Plans - Feature Breakdown"
 
 +++
 

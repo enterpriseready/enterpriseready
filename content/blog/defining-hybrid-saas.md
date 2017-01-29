@@ -3,6 +3,8 @@ date = "2016-11-20T00:00:00Z"
 title = "Defining Hybrid SaaS"
 type = "breakdown"
 company = "Defining Hybrid SaaS"
+metadescription = "What does hybrid cloud mean? How do we clearly define on-prem, private cloud, public cloud, etc"
+pagetitle = "Defining Hybrid SaaS"
 +++
 
 ## Work in progress

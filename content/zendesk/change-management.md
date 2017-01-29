@@ -6,6 +6,8 @@ type = "breakdown"
 feature = "change management"
 company = "zendesk"
 ogimage = "images/twtr/zendesk-change-management-og.png"
+metadescription = "A detailed analysis of the way that Zendesk implements sandboxes to create change management options in order to meet the needs of enterprise customers."
+pagetitle = "Zendesk Sandboxes for Change Management - Enterprise Ready Feature Breakdown"
 
 +++
 
