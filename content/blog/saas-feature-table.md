@@ -2,6 +2,8 @@
 date = "2016-10-25T00:00:00Z"
 title = "SaaS Feature Table"
 type = "feature-table"
+metadescription = "How do different SaaS companies bucket their features into plans and bundles? What features do they include?"
+pagetitle = "Top 50 SaaS companies feature comparison by plan"
 +++
 
 | Company	| Team Mgmt | SSO | RBAC | Audit Log | Support+ | Security+ | Change Mgmt | Reporting+ | Integrations+ | Deployment |

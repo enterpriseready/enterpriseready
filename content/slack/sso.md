@@ -5,6 +5,8 @@ featureslug = "single-sign-on"
 type = "breakdown"
 feature = "single sign on"
 company = "slack"
+metadescription = "A detailed analysis of the way that Slack implements Single Sign-On (SSO) with SAML in order to meet the needs of enterprise customers."
+pagetitle = "Slack SSO - Enterprise Ready Feature Breakdown"
 +++
 
 Slack supports a variety of different login options: standard user-based login, OAuth login with Google Accounts, or SAML login. Slack also has managed to provide a good process to converting an account from one login system to another.

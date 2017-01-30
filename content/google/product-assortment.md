@@ -6,7 +6,8 @@ type = "breakdown"
 feature = "product assortment"
 company = "google"
 ogimage = "images/twtr/google-product-assortment-og.png"
-
+metadescription = "A detailed analysis of the way that Google's G Suite implements product assortment in order to create plans meet the needs of enterprises and small business with one product."
+pagetitle = "G Suite Pricing Plans - Enterprise Ready Feature Breakdown"
 +++
 
 Google Apps for Work is the business focused version of the popular and free to consumers, Google Apps products shown below:
