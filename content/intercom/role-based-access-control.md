@@ -7,7 +7,7 @@ company = "intercom"
 type = "breakdown"
 ogimage = "images/twtr/intercom-rbac-og.png"
 metadescription = "A detailed analysis of the way that Intercom implements role based access control in order to meet the needs of enterprises."
-pagetitle = "Intercom Roles (RBAC) - Feature Breakdown"
+pagetitle = "Intercom Roles (RBAC) - Enterprise Ready Feature Breakdown"
 
 +++
 
