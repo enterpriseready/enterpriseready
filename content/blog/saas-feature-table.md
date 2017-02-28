@@ -59,3 +59,4 @@ pagetitle = "Top 50 SaaS companies feature comparison by plan"
 | [SmartSheet](https://smartsheet.com/price) | Team	| Enterprise | Enterprise | - | Team | - | - | Team | Business | Cloud |
 | [Showpad](https://www.showpad.com/product/pricing/) | All	| Enterprise | Enterprise | - | Premium | - | - | Premium | Enterprise | Cloud |
 | [InsightSquared](http://www.insightsquared.com/plans/) | All	| - | Enterprise | - | Pro | - | - | Enterprise | - | Cloud |
+| [FB Workplace](https://workplace.fb.com/pricing/) | All	| All | All | - | - | - | - | All | All | Cloud |
