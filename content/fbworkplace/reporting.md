@@ -5,7 +5,7 @@ featureslug = "advanced-reporting"
 type = "breakdown"
 feature = "reporting & analytics"
 company = "fbworkplace"
-ogimage = "images/twtr/fbworkplace-deployment-og.png"
+ogimage = "images/twtr/fbworkplace-reporting-og.png"
 metadescription = "A detailed analysis of the way that FB Workplace implements reporting and analytics in order to meet the needs of enterprises."
 pagetitle = "FB Workplace Reporting - Enterprise Ready Feature Breakdown"
 
