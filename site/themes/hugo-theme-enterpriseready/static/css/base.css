@@ -611,6 +611,7 @@ span.ar {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 280px;
+  min-height: 274px;
   overflow: hidden;
 }
 
