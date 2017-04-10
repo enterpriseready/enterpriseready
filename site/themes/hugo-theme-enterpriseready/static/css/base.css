@@ -857,7 +857,7 @@ margin-right: 10px;
     overflow-y: hidden;
   }
   #twtr-content {
-    width: 6800px;
+    width: 8200px!important;
     overflow: auto;
   }
   .twtr-card {
