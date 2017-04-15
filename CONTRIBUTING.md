@@ -1,6 +1,6 @@
-# Contributing to Enterprise Ready (WIP)
+# Contributing to Enterprise Ready 
 
-Thanks for your interest in contributing to Enterprise Ready. We've put together the following guidelines to help you get started.
+Thanks for your interest in contributing to Enterprise Ready! We've put together the following guidelines to help you get started.
 
 These contributing guidelines have been adapted from GitHub's [Community Guides for Open Source Creators](https://github.com/github/opensource.guide).
 ## Table of Contents
