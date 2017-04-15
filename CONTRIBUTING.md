@@ -14,17 +14,13 @@ These contributing guidelines have been adapted from GitHub's [Community Guides 
 - [Community](#community)
 
 ## Types of contributions we're looking for
-First and foremost, this project is a forum to discuss open source best practices, then document them in a guide when we've found consensus. Your first contribution might be starting a new conversation, or adding to an existing conversation, around best practices. You can do so under [Issues](https://github.com/github/opensource.guide/issues).
-
-There are also many ways you can directly contribute to the guides (in descending order of need):
+There are many ways you can directly contribute to the Enterprise Ready SaaS Feature Guides. First, check out our [open issues](https://github.com/enterpriseready/enterpriseready/issues). Below is a non-exhaustive list of other ways you can contribute.
 
 * Fix editorial inconsistencies or inaccuracies
 * Add stories, examples, or anecdotes that help illustrate a point
 * Revise language to be more approachable and friendly
-* Translate guides into other languages
+* Translate content into other languages
 * Propose a new content section 
-
-Interested in making a contribution? Read on!
 
 ## Ground rules & expectations
 
@@ -55,18 +51,20 @@ We are product people solving problems with content. For Enterprise Ready, conte
 All Enterprise Ready content aims to be:
 
 * **Approachable:** Don't assume reader has prior knowledge, spell out acronyms, establish understanding before deep diving.
-* **Informative:** 
+* **Informative:** No fluff. Information should be valuable and applicable to the given topic.
 * **Supported by Curated Examples:** Amplify best practices and lessons to learn (pros/cons) from existing SaaS products vs. opinions or individual point of views. 
 
-## Referencing Industry Examples (WIP)
+## Referencing Industry Examples 
 
-Enterprise Ready uses real examples from the SaaS industry to illustrate best practices. When referencing another company's model for a given topic, please follow these guidelines.
+Enterprise Ready uses real examples from the SaaS industry to illustrate best practices. When referencing another company's model for a given topic in a given guide, please follow these guidelines.
 
-* Include company logo and link 
+* Include up to date company logo and link 
+* Screenshots of products should be up to date
+* Limit over-promotion of your own product. If you have a relevant example to share, we encourage it, but note that Enterprise Ready is not meant to be a forum for promoting products. Rather, it is a forum for guiding on best practices in the industry.
 
-## Capitalization (WIP)
+## Capitalization 
 
-"Enterprise Ready" should be capitalized when referred to as a resource. 
+Enterprise Ready should be capitalized as two words when referenced. 
 
 ## Setting up your environment
 
@@ -76,8 +74,6 @@ Enterprise Ready uses real examples from the SaaS industry to illustrate best pr
 
 The docs site will be available at http://localhost:8888
 
-## Contribution review process (WIP)
+## Contribution review process
 
-This content in this repo is currently maintained by @grantmiller. He will likely review your contribution. 
-
-## Community (WIP)
+This content in this repo is currently maintained by @grantmiller. He and others on the contributor team will likely review your contribution. 
