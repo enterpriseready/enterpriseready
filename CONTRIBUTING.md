@@ -11,7 +11,6 @@ These contributing guidelines have been adapted from GitHub's [Community Guides 
 - [Style guide](#style-guide)
 - [Setting up your environment](#setting-up-your-environment)
 - [Contribution review process](#contribution-review-process)
-- [Community](#community)
 
 ## Types of contributions we're looking for
 There are many ways you can directly contribute to the Enterprise Ready SaaS Feature Guides. First, check out our [open issues](https://github.com/enterpriseready/enterpriseready/issues). Below is a non-exhaustive list of other ways you can contribute.
