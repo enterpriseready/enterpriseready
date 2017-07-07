@@ -45,7 +45,7 @@ When an event is logged it should have details that provide enough information a
 Data in an audit log should never change. Deleted objects should maintain a separately logged record of actions associated with the object (including its creation and deletion). External facing APIs should only be able to read the audit log, not write to it.
 
 ### Time Synced
-Individual application audit logs will likely be combined with other audit log data, this makes it important to ensure that the timestamp on each event is accurate. The standard is to use the server time from a regularly NTP synced server, generally stored in GMT down to the millisecond.
+Individual application audit logs will likely be combined with other audit log data, this makes it important to ensure that the timestamp on each event is accurate. The standard is to use the server time from a regularly [NTP synced server](https://labs.signalsciences.com/read-this-post-especially-if-you-dont-have-time), generally stored in GMT down to the millisecond.
 
 ### API & exportable
 The activity should be exportable to a CSV format and API accessible so that it can be centralized into an organization wide SIEM logging system like Splunk. It's advisable to offer both the ability to poll for new events and to be able to push new events to the remote system. When polling, use standards such as `etag` headers to prevent duplicate events from being received. When pushing, use standards such as webhooks to minimize the amount of custom work required to ingest these events.
