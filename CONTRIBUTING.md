@@ -1,6 +1,6 @@
-# Contributing to Enterprise Ready 
+# Contributing to EnterpriseReady 
 
-Thanks for your interest in contributing to Enterprise Ready! We've put together the following guidelines to help you get started.
+Thanks for your interest in contributing to EnterpriseReady! We've put together the following guidelines to help you get started.
 
 These contributing guidelines have been adapted from GitHub's [Community Guides for Open Source Creators](https://github.com/github/opensource.guide).
 ## Table of Contents
@@ -16,7 +16,7 @@ These contributing guidelines have been adapted from GitHub's [Community Guides 
 There are many ways you can directly contribute to the Enterprise Ready SaaS Feature Guides. First, check out our [open issues](https://github.com/enterpriseready/enterpriseready/issues). Below is a non-exhaustive list of other ways you can contribute.
 
 * Fix editorial inconsistencies or inaccuracies
-* Add stories, examples, or anecdotes that help illustrate a point
+* Add example implementation breakdowns of specific features.
 * Revise language to be more approachable and friendly
 * Translate content into other languages
 * Propose a new content section 
@@ -42,12 +42,12 @@ If you don't see your idea listed, and you think it fits into the goals of Enter
 
 Scaling a SaaS product to the enterprise is hard. Good content can help solve problems. 
 
-Enterprise Ready aims to help SaaS companies solve problems around scaling to the enterprise before they start, through content containing best practices and lessons learned from like-industry companies past and present.
+EnterpriseReady aims to help SaaS companies solve problems around scaling to the enterprise before they start, through content containing best practices and lessons learned from like-industry companies past and present.
 
-We are product people solving problems with content. For Enterprise Ready, content *is* our product and ultimately important.
+We are product people solving problems with content. For EnterpriseReady, content *is* our product and ultimately important.
 
 ## Content Principles
-All Enterprise Ready content aims to be:
+All EnterpriseReady content aims to be:
 
 * **Approachable:** Don't assume reader has prior knowledge, spell out acronyms, establish understanding before deep diving.
 * **Informative:** No fluff. Information should be valuable and applicable to the given topic.
@@ -55,15 +55,15 @@ All Enterprise Ready content aims to be:
 
 ## Referencing Industry Examples 
 
-Enterprise Ready uses real examples from the SaaS industry to illustrate best practices. When referencing another company's model for a given topic in a given guide, please follow these guidelines.
+EnterpriseReady uses real examples from the SaaS industry to illustrate best practices. When referencing another company's model for a given topic in a given guide, please follow these guidelines.
 
 * Include up to date company logo and link 
 * Screenshots of products should be up to date
-* Limit over-promotion of your own product. If you have a relevant example to share, we encourage it, but note that Enterprise Ready is not meant to be a forum for promoting products. Rather, it is a forum for guiding on best practices in the industry.
+* Limit over-promotion of your own product. If you have a relevant example to share, we encourage it, but note that EnterpriseReady is not meant to be a forum for promoting products. Rather, it is a forum for guiding on best practices in the industry.
 
 ## Capitalization 
 
-Enterprise Ready should be capitalized as two words when referenced. 
+EnterpriseReady should be capitalized as one word when referencing the guide & two words when referencing the product milestone of being truly enterprise ready. 
 
 ## Setting up your environment
 
