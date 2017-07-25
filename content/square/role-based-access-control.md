@@ -10,8 +10,7 @@ metadescription = "A detailed analysis of the way that Square implements role ba
 pagetitle = "Square (RBAC) - Enterprise Ready Feature Breakdown"
 
 +++
-
-Square isn't the typical software company we would ever come across in search of EnterpriseReady features. Their flagship product is a Point of Sale (PoS) targeted for Small and Mediums sized businesses. You'll probably fine one of these at your local coffee shop or food truck. But they've since built a suite of software products that aim to go beyond just helping merchants accept a credit card, including products that help these business owners manage employees and the permissions those employees have, this is within their Employee Management product and it's one of the best implementations of [Role Based Access Control (RBAC)] (/features/role-based-access-control) we've ever seen.
+Square isn't the typical software company we would ever come across in search of EnterpriseReady features. Their flagship product is a Point of Sale (PoS) targeted for Small and Mediums sized businesses. You'll probably find one of these at your local coffee shop or food truck. But they've since built a suite of software products that aim to go beyond just helping merchants accept a credit card, including products that help these business owners manage employees and the permissions those employees have. This is all within their Employee Management product, and it's one of the best implementations of [Role Based Access Control (RBAC)] (/features/role-based-access-control) we've ever seen. 
 
 As an administrator of a Square PoS, you'll probably have employees interacting with different Square products. Some will need to facilitate transactions with customers, others will need to review reports and transaction history in order to see how the business is performing. Square allows administrators a lot of flexibility around creating flexible roles with customized permission levels.
 
