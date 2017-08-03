@@ -40,7 +40,7 @@ When creating a new role, you first assign it a Role Name (i.e. Manager, Cashier
 ### Access Shared Point of Sale (and modules within PoS)
 Once a Role Name is defined, you are then able to toggle whether this Employee has access to the Shared Point of Sale. If you toggle this on, you can grant 19 features of the PoS. This includes the ability for the employee to access Sale Activity, Issue Refunds, Manage Customers, or View Reports.
 
-This level of permission granularity is what makes a powerful RBAC feature set. With 19 permissions that can be turned on and off, you theoretically could have an endless supply of roles. This is a massive step forward to most Read or Write roles found in most RBAC implementations.
+This level of permission granularity is what makes a powerful RBAC feature set. With 19 permissions that can individually be turned on and off, you theoretically could have an endless supply of roles. This is a massive advancement to Read and Read/Write roles found in most RBAC implementations.
 ![enter image description here](/square/images/permissions.png)
 
 ### Access Dashboard Feature & Access Mobile Point of Sale
@@ -50,7 +50,9 @@ The final two permissions allow an employee to login to Square's web dashboard v
 ![enter image description here](/square/images/access_mobile_persmissions.png)
 
 ### Creating a new Employee & Assigning a Role
-Once you've established a role and the level of permissions for that specific role, you can assign an employee
+Once you've established a role and the level of permissions for that specific role, you can create an employee, or retroactively go back and assign a role. An administrator can change an employees Role at any time.
 ![enter image description here](/square/images/unselected_permissions.png)
 
 ![enter image description here](/square/images/selected_permissions.png)
+
+Square should be inspiration for all software companies looking to make advancements in their RBAC feature set. Square's interface takes a complex offering and gives an administrator a straightforward way to make sure each employee has access to only the feature/s they need. [Click here to learn more about Square's employee management software.](https://squareup.com/pos/employee-management?utm_content=employee-management)
