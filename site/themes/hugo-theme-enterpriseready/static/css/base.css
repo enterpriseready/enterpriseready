@@ -611,6 +611,7 @@ span.ar {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 280px;
+  min-height: 274px;
   overflow: hidden;
 }
 
@@ -819,7 +820,7 @@ margin-right: 10px;
 #twtr-scroll::-webkit-scrollbar {display:none;}
 
 #twtr-content {
-  width: 9240px;
+  width: 11200px;
   height: 105px;
   padding: 0px;
   margin: 0px;
@@ -856,7 +857,7 @@ margin-right: 10px;
     overflow-y: hidden;
   }
   #twtr-content {
-    width: 6800px;
+    width: 8200px!important;
     overflow: auto;
   }
   .twtr-card {

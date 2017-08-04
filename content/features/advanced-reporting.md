@@ -24,7 +24,7 @@ Consider adding basic reporting functionality to your entry-level [product editi
 ### Data Dumps and APIs
 At the most basic level you need to offer data dumps and this is different than your standard product API. Operational APIs tend to be transactional while reporting APIs tend to offer data summarised over time. Exporting to CSV/Excel is standard here.
 
-An example of the most basic data dump functionality is implemented by [Github Enterprise's Site Admin Reports](/github/reporting). They implement an API to download user data in CSV format. 
+An example of the most basic data dump functionality is implemented by [Github Enterprise's Site Admin Reports](/github/reporting). They implement an API to download user data in CSV format.
 
 ### Canned Interactive Reporting and Dashboards
 Interactive reporting and dashboards adds on to your canned reports with interactivity and a library or pre-canned widgets. These widgets tend to track KPIs and are arranged in dashboards. This is moving up the data-pipeline - with canned reports the data is generally "raw" and immutable where interactivity adds a layer of customization. Enterprise tools tend to have many users and allowing customization gives you a higher chance of pleasing more.  
@@ -56,3 +56,5 @@ After reading all the required capabilities and considering options, this is a c
 {{< example title="GitHub Admin Reports" url="/github/reporting" image="/github/images/example.png" >}}
 
 {{< example title="HubSpot Report Authoring" url="/hubspot/reporting" image="/hubspot/images/dashboard-example.png" >}}
+
+{{< example title="FB Workplace Admin Reports" url="/fbworkplace/reporting" image="/fbworkplace/images/reporting-example.png" >}}
