@@ -10,37 +10,36 @@ metadescription = "A detailed analysis of the way that Square implements role ba
 pagetitle = "Square (RBAC) - Enterprise Ready Feature Breakdown"
 
 +++
-Square isn't the typical software company we would ever come across in search of EnterpriseReady features. Their flagship product is a Point of Sale (PoS) targeted for Small and Mediums sized businesses. You'll probably find one of these at your local coffee shop or food truck. But they've since built a suite of software products that aim to go beyond just helping merchants accept a credit card, including products that help these business owners manage employees and the permissions those employees have. This is all within their Employee Management product, and it's one of the best implementations of [Role Based Access Control (RBAC)] (/features/role-based-access-control) we've ever seen.
+Square isn't the typical enterprise software company that we look to for great implementation of EnterpriseReady features. Their flagship product is a Point of Sale (PoS) targeted for small and medium sized businesses. You'll probably find one of these at your local coffee shop or food truck. But they've since built a suite of software products that aim to go beyond just helping merchants accept a credit card, including full their [Employee Management product](https://squareup.com/pos/employee-management) that provides time cards and other HR type features. Within this product they've implemented several core enterprise features, and it's one of the best implementations of [Role Based Access Control (RBAC)] (/features/role-based-access-control) we've seen.
 
-As an administrator of a Square PoS, you'll probably have employees interacting with different Square products. Some will need to facilitate transactions with customers, others will need to review reports and transaction history to see how the business is performing. Square allows administrators a lot of flexibility around creating flexible roles with customized permission levels.
+Administrators of a Square PoS, will probably have employees interacting with different Square products. Some will need to facilitate transactions with customers, others will need to review reports and transaction history to see how the business is performing. Square allows administrators a lot of flexibility around creating flexible roles with customized permission levels. Additionally, they use these features to create [product assortment](/features/product-assortment) and charge more to customers who want these features.
+![enter image description here](/square/images/square-pricing.png)
 
-Upon creation of a Square account, two default roles are accessible:
+## Default Roles
 
-**Administrator - Permissions: Full Access**
+Upon creation of a Square account, two default roles are built in (though nearly identical):
 
-**Owner - Permissions: Full Access**
+1. **Administrator** - Permissions: Full Access
+1. **Owner** - Permissions: Full Access
 
-Square defines *Full Access* as:
+Square defines "Full Access" as:
 
-*Employees with this role can manage and access all aspects of your business, including managing employees and their roles, sales reports, and bank account information for all locations.*
+*Employees with this role can manage and access all aspects of your business, including managing employees and their roles, sales reports, and bank account information for all locations. This level of account access should only be granted to your most trusted individuals.*
 
-*This level of account access should only be granted to your most trusted individuals.*
+We would suggest that Square create a few more default roles that are common for cashiers, managers etc.
 
-As an administrator you also have the ability to create custom roles:
+## Roles & Granular Permissions
+Administrators also have the ability to create custom roles:
 
 ![enter image description here](/square/images/permissions_roles.png)
-
-
-## Permissions
-
 ### Role Name
-When creating a new role, you first assign it a Role Name (i.e. Manager, Cashier). You are completely free to name this whatever you would like.
+When creating a new role, they first assign it a Role Name (i.e. Manager, Cashier). They are completely free to name this whatever they would like.
 ![enter image description here](/square/images/role_information.png)
 
 ### Access Shared Point of Sale (and modules within PoS)
-Once a Role Name is defined, you are then able to toggle whether this Employee has access to the Shared Point of Sale. If you toggle this on, you can grant 19 features of the PoS. This includes the ability for the employee to access Sale Activity, Issue Refunds, Manage Customers, or View Reports.
+Once a Role Name is defined, they are then able to toggle whether this Employee has access to the Shared Point of Sale. If they toggle this on, they can grant 19 features of the PoS. This includes the ability for the employee to access Sale Activity, Issue Refunds, Manage Customers, or View Reports.
 
-This level of permission granularity is what makes a powerful RBAC feature set. With 19 permissions that can individually be turned on and off, you theoretically could have an endless supply of roles. This is a massive advancement to Read and Read/Write roles found in most RBAC implementations.
+This level of permission granularity is what makes a powerful RBAC feature set. With 19 permissions that can individually be turned on and off, they theoretically could have an endless supply of roles. This is a massive advancement to Read and Read/Write roles found in most RBAC implementations.
 ![enter image description here](/square/images/permissions.png)
 
 ### Access Dashboard Feature & Access Mobile Point of Sale
@@ -49,10 +48,10 @@ The final two permissions allow an employee to login to Square's web dashboard v
 
 ![enter image description here](/square/images/access_mobile_persmissions.png)
 
-### Creating a new Employee & Assigning a Role
+### Creating a New Employee & Assigning a Role
 Once you've established a role and the level of permissions for that specific role, you can create an employee, or retroactively go back and assign a role. An administrator can change an employees Role at any time.
 ![enter image description here](/square/images/unselected_permissions.png)
 
 ![enter image description here](/square/images/selected_permissions.png)
 
-Square should be inspiration for all software companies looking to make advancements in their RBAC feature set. Square's interface takes a complex offering and gives an administrator a straightforward way to make sure each employee has access to only the feature/s they need. [Click here to learn more about Square's employee management software.](https://squareup.com/pos/employee-management?utm_content=employee-management)
+Square should be inspiration for all software companies looking to make advancements in their RBAC feature set. Square's interface takes a complex offering and gives an administrator a straightforward way to make sure each employee has access to only the features they need.
