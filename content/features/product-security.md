@@ -128,7 +128,8 @@ Have a written and published Information Security Policy, Incident Response Plan
 
 <div class="clear"></div>
 
-### [Content Contributors](https://github.com/enterpriseready/enterpriseready/blob/master/content/features/product-security.md)
+{{< contributor >}}
+
 ----
 {{< contributors username="marccampbell" >}}
 {{< contributors username="grantmiller" >}}

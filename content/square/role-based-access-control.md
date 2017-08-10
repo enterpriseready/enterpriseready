@@ -55,3 +55,9 @@ Once you've established a role and the level of permissions for that specific ro
 ![enter image description here](/square/images/selected_permissions.png)
 
 Square should be inspiration for all software companies looking to make advancements in their RBAC feature set. Square's interface takes a complex offering and gives an administrator a straightforward way to make sure each employee has access to only the features they need.
+
+{{< contributor >}}
+
+----
+{{< contributors username="topherolson" >}}
+{{< contributors username="grantmiller" >}}
