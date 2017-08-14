@@ -36,3 +36,9 @@ Many modern SaaS applications are moving out of the back office productivity too
 ## Examples:
 ----   
 {{< example title="Zendesk Change Management" url="/zendesk/change-management" image="/zendesk/images/example.png" >}}
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}

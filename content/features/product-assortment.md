@@ -29,3 +29,10 @@ Feature bloat can kill the simplicity and utility of SaaS products over time. Gr
 {{< example title="Zendesk Product Assortment" url="/zendesk/product-assortment" image="/zendesk/images/example_pa.png" >}}
 
 {{< example title="Google Product Assortment" url="/google/product-assortment" image="/google/images/example_pa.png" >}}
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}
+{{< contributors username="mcgd" >}}

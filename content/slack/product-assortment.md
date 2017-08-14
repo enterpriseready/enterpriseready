@@ -38,3 +38,9 @@ Notes:
 Some amount of conversation needs to be about the app specific features and why are they being pay-walled.
 
 These quantity driven feature limitations allow free users to experience the value without being able to put undo stress on the system and encourage an upgrade to take full advantage. If you’re using Slack with a group of friends, you probably don’t care about any of the features you’re missing. The real drivers for the paid accounts are the administrative features that are only available in these versions & that appeal directly to business buyers.
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}

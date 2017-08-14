@@ -126,10 +126,11 @@ Have a written and published Information Security Policy, Incident Response Plan
 {{< example title="Box Product Security" url="/box/product-security" image="/box/images/example.png" >}}
 
 
-<div class="clear"></div>
+
 
 {{< contributor >}}
 
 ----
 {{< contributors username="marccampbell" >}}
 {{< contributors username="grantmiller" >}}
+{{< contributors username="brianr" >}}

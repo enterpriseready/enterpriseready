@@ -47,3 +47,8 @@ FB Workplace does compare your account's metrics against a sample set of success
 
 ### No fine-grained data permissions
 Many enterprises would prefer to segment out the access to what data is available in reports. Ie, managers might need to be able to view the activity levels of their reports but not that of the company as a whole. However, with FB Workplace reports are permissioned on an all or nothing basis.
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
