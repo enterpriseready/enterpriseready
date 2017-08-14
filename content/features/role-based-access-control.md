@@ -44,3 +44,9 @@ It's important to consider the on-boarding flow for various user types, both fro
 {{< example title="HubSpot RBAC" url="/hubspot/role-based-access-control" image="/hubspot/images/example.png" >}}
 
 {{< example title="Intercom RBAC" url="/intercom/role-based-access-control" image="/intercom/images/example.png" >}}
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}

@@ -63,3 +63,10 @@ Similar issues come up when trying to access a section for creating a blog post.
 ![enter image description here](https://i.imgur.com/y7GGNuR.png)
 
 At no point are any of these users shown messaging that would indicate that they don’t have the required permissions to accomplish the task they’re attempting. Alerts with this message are lacking and will likely end up with confused users.
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="paracycle" >}}
+{{< contributors username="marccampbell" >}}

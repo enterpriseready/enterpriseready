@@ -59,3 +59,9 @@ While most end users will be familiar with their SSO platform of choice, it can 
 ## Examples:
 ----   
 {{< example title="Slack Single Sign On" url="/slack/sso" image="/slack/images/example.png" >}}
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}

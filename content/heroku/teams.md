@@ -59,3 +59,10 @@ Collaborating Apps
 Heroku also provides collaboration outside of teams, inside of personal apps. For any Personal Heroku app you can add collaborators.
 
 ![enter description here](https://i.imgur.com/KRBWo4t.png)
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}
+{{< contributors username="topherolson" >}}
