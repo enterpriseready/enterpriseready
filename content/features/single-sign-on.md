@@ -65,3 +65,5 @@ While most end users will be familiar with their SSO platform of choice, it can 
 ----
 {{< contributors username="grantmiller" >}}
 {{< contributors username="marccampbell" >}}
+{{< contributors username="scottkriz" >}}
+{{< contributors username="goosetav" >}}
