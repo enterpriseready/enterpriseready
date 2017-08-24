@@ -36,3 +36,4 @@ Feature bloat can kill the simplicity and utility of SaaS products over time. Gr
 {{< contributors username="grantmiller" >}}
 {{< contributors username="marccampbell" >}}
 {{< contributors username="mcgd" >}}
+{{< contributors username="dave-cole" >}}
