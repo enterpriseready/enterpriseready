@@ -42,3 +42,4 @@ The fact that it needs to be included as a critical, EnterpriseReady feature und
 ----
 {{< contributors username="grantmiller" >}}
 {{< contributors username="marccampbell" >}}
+{{< contributors username="dave-cole" >}}

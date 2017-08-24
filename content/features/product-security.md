@@ -135,3 +135,4 @@ Have a written and published Information Security Policy, Incident Response Plan
 {{< contributors username="grantmiller" >}}
 {{< contributors username="brianr" >}}
 {{< contributors username="guypod" >}}
+{{< contributors username="dave-cole" >}}

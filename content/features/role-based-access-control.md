@@ -50,3 +50,4 @@ It's important to consider the on-boarding flow for various user types, both fro
 ----
 {{< contributors username="grantmiller" >}}
 {{< contributors username="marccampbell" >}}
+{{< contributors username="dave-cole" >}}
