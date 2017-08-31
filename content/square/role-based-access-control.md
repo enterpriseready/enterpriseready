@@ -60,21 +60,19 @@ One important piece of functionality when looking at RBAC is the experience for 
 
 ![enter image description here](/square/images/gm_account_email.png)
 
-Upon account creation, the employee has access to the web dashboard. The next two images are the dashboard with no permissions and full permissions.
-#### Dashboard with No Permissions
-![enter image description here](/square/images/gm_account_1.png)
-
-#### Dashboard with Full Permissions
-![enter image description here](/square/images/gm_account_2.png)
+Upon account creation, the employee has access to the web dashboard. The next image shows the two dashboards, one with no permissions and one with full permissions.
+#### Dashboard with No Permissions vs Full Permissions
+![enter image description here](/square/images/gm_dashboard.png)
 
 You can quickly see the dashboard with no permissions only allows access to the user's Account and Settings. This tab only enables the user to update limited Personal Information.
 
 When that same user is granted full permissions, you can see new tabs/functionality appear.
 
-Hiding functionality isn't always the best way to restrict access. A more robust implementation would be allowing the user to see functionality without access and proper messaging. From there, you could provide a "Request Access from Admin" feature. In larger organizations, a feature like this can speed up the process for a user to make sure they have all of the components of the application they need to do their job. When features are hidden, users might simply think the software is lacking capabilities.
+### Opportunity for Improvement
+For most enterprise applications hiding functionality isn't the best way to implement RBAC (you could argue that Square isn't really enterprise software and the end users might be best off without links to functionality they don't & won't have access to). A more robust implementation would be allowing the user to see functionality without access and proper messaging. From there, you could provide a "Request Access from Admin" feature. In larger organizations, a feature like this can speed up the process for a user to make sure they have all of the components of the application they need to do their job. When features are hidden, users might simply think the software is lacking capabilities.
 
 ## Final Thoughts
-Square's interface takes a complex offering and gives an administrator a straightforward way to make sure each employee has access to only the features they need. Square should be inspiration for all software companies looking to make advancements in their RBAC feature set. 
+Square's interface takes a complex offering and gives an administrator a straightforward way to make sure each employee has access to only the features they need. Square should be inspiration for all software companies looking to make advancements in their RBAC feature set.
 
 
 
