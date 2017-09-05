@@ -14,7 +14,7 @@ Square isn’t the typical enterprise software company that we look to for great
 
 Administrators of a Square PoS will probably have employees interacting with different Square products. Some will need to facilitate transactions with customers; others will need to review reports and transaction history to see how the business is performing. Square allows administrators a lot of flexibility around creating flexible roles with customized permission levels. Additionally, they use these features to create [product assortment](/features/product-assortment) and charge more to customers who want these features.
 
-![enter image description here](/square/images/square-pricing.png)
+![enter image description here](/square/images/rbac/square-pricing.png)
 
 ## Default Roles
 
@@ -32,37 +32,37 @@ We would suggest that Square create a few more default roles that are common for
 ## Roles & Granular Permissions
 Administrators also have the ability to create custom roles:
 
-![enter image description here](/square/images/permissions_roles.png)
+![enter image description here](/square/images/rbac/permissions_roles.png)
 ### Role Name
 When creating a new role, they first assign it a Role Name (i.e., Manager, Cashier). They are completely free to name this whatever they would like.
-![enter image description here](/square/images/role_information.png)
+![enter image description here](/square/images/rbac/role_information.png)
 
 ### Access Shared Point of Sale (and modules within PoS)
 Once a Role Name is defined, they are then able to toggle whether this Employee has access to the Shared Point of Sale. If they toggle this on, they can grant 19 features of the PoS. This includes the ability for the employee to access Sale Activity, Issue Refunds, Manage Customers, or View Reports.
 
 This level of permission granularity is what makes a powerful RBAC feature set. With 19 permissions that can individually be turned on and off, they theoretically could have an endless supply of roles. This is a massive advancement to Read and Read/Write roles found in most RBAC implementations.
-![enter image description here](/square/images/permissions.png)
+![enter image description here](/square/images/rbac/permissions.png)
 
 ### Access Dashboard Feature & Access Mobile Point of Sale
 The final two permissions allow an employee to login to Square’s web dashboard via their email and password, along with the Square iOS or Android app.
-![enter image description here](/square/images/access_dashboard_permission.png)
+![enter image description here](/square/images/rbac/access_dashboard_permission.png)
 
-![enter image description here](/square/images/access_mobile_persmissions.png)
+![enter image description here](/square/images/rbac/access_mobile_persmissions.png)
 
 ### Creating a New Employee & Assigning a Role
 Once you’ve established a role and the level of permissions for that specific role, you can create an employee, or retroactively go back and assign a role. An administrator can change an employees Role at any time.
-![enter image description here](/square/images/unselected_permissions.png)
+![enter image description here](/square/images/rbac/unselected_permissions.png)
 
-![enter image description here](/square/images/selected_permissions.png)
+![enter image description here](/square/images/rbac/selected_permissions.png)
 
 ## End User Experience
 One important piece of functionality when looking at RBAC is the experience for the end user who has restricted permissions. It's critical the software informs and directs the user to their level of access and functionality. One component of Square's software is their web dashboard. When an "employee" is granted access to the dashboard, they receive an email to create their Square account.
 
-![enter image description here](/square/images/gm_account_email.png)
+![enter image description here](/square/images/rbac/gm_account_email.png)
 
 Upon account creation, the employee has access to the web dashboard. The next image shows the two dashboards, one with no permissions and one with full permissions.
 #### Dashboard with No Permissions vs Full Permissions
-![enter image description here](/square/images/gm_dashboard.png)
+![enter image description here](/square/images/rbac/gm_dashboard.png)
 
 You can quickly see the dashboard with no permissions only allows access to the user's Account and Settings. This tab only enables the user to update limited Personal Information.
 
