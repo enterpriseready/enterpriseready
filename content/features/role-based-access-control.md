@@ -45,6 +45,8 @@ It's important to consider the on-boarding flow for various user types, both fro
 
 {{< example title="Intercom RBAC" url="/intercom/role-based-access-control" image="/intercom/images/example.png" >}}
 
+{{< example title="Intercom RBAC" url="/square/role-based-access-control" image="/square/images/rbac/example.png" >}}
+
 {{< contributor >}}
 
 ----
