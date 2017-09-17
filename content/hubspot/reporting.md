@@ -28,3 +28,8 @@ Customers can choose from a library of templates or build their own custom visua
 
 Dashboards can then be scheduled to send daily, weekly, or monthly emails.
 ![scheduler](/hubspot/images/scheduler.png)
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}

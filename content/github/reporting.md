@@ -33,3 +33,9 @@ The feature lets users see what is happening across all projects on GitHub Enter
 
 Being able to compare past data with the same period (sometimes called period-over-period analysis) is a great example of functionality that would be difficult for a customer to implement themselves and therefore as a vendor GitHub is providing value for their enterprise customers.
 ![compare](/github/images/ghe-monthly-compare.png)
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="ernestoongaro" >}}

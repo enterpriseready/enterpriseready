@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Google Apps Audit Log"
-feature-slug = "audit-logs"
+featureslug = "audit-log"
 type = "breakdown"
 feature = "audit logs"
 company = "google"
@@ -52,3 +52,9 @@ Google Apps doesn’t provide much insight into the immutable nature of these lo
 Provide a change log things that are added to the audit log over time.
 
 ![enter image description here](https://i.imgur.com/Mmq6G5w.png)
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}

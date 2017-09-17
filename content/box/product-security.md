@@ -35,3 +35,10 @@ Session duration to manage how long uses can stay logged in to the website witho
 Throughout these settings they seem to select the secure defaults (though sometimes allowing their customers to bypass security by changing certain settings.)
 
 They discuss [their security posture](http://www.slideshare.net/BoxHQ/box-security-whitepaper) as it relates to ops and development, but their isn't a ton of information beyond their assurance that they follow best practices.
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="wrannaman" >}}
+{{< contributors username="marccampbell" >}}

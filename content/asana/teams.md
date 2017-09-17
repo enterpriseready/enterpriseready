@@ -65,3 +65,10 @@ Premium Project Permissions within Teams - Share private projects with a smaller
 Private Teams within Organizations - Working on confidential material? Premium Team Members have the option to hide their Team name from the Team Browser.
 
 Force Authentication via Google Accounts
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}
+{{< contributors username="topherolson" >}}

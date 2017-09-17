@@ -36,3 +36,10 @@ The fact that it needs to be included as a critical, EnterpriseReady feature und
 {{< example title="Asana Team Management" url="/asana/teams" image="/asana/images/example.png" >}}
 
 {{< example title="Heroku Team Management" url="/heroku/teams" image="/heroku/images/example.png" >}}
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}
+{{< contributors username="dave-cole" >}}

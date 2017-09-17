@@ -98,6 +98,9 @@ Many applications require that users sign up and will have to store passwords to
 **API Tokens**  
 API Tokens are often treated less securely than passwords, but they are just as powerful as a logged in user. Treat tokens with the same level of security as you would passwords.
 
+**IP Whitelisting**
+Restrict the users of an account to only be able to log in from specified IP addresses or ranges (useful for enterprises that require that their users be on a VPN to use any service).
+
 **Sessions**  
 When an account is deleted or has a password changed, all existing sessions should be deleted.
 
@@ -123,12 +126,13 @@ Have a written and published Information Security Policy, Incident Response Plan
 {{< example title="Box Product Security" url="/box/product-security" image="/box/images/example.png" >}}
 
 
-<div class="clear"></div>
 
-### Content Contributors
+
+{{< contributor >}}
+
 ----
-<div class="contributors">
-  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/product-security.md" target="_blank"><img alt="@marccampbell" class="avatar" height="40" src="https://avatars1.githubusercontent.com/u/173451?v=3&amp;s=40" width="40"> </a>
-
-  <a href="hhttps://github.com/enterpriseready/enterpriseready/blob/master/content/features/product-security.md" target="_blank"><img alt="@grantmiller" class="avatar" height="40" src="https://avatars2.githubusercontent.com/u/1041501?v=3&amp;s=40" width="40"> </a>
-</div>
+{{< contributors username="marccampbell" >}}
+{{< contributors username="grantmiller" >}}
+{{< contributors username="brianr" >}}
+{{< contributors username="guypod" >}}
+{{< contributors username="dave-cole" >}}
