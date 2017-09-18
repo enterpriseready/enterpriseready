@@ -16,3 +16,9 @@ pagetitle = "Zendesk Pricing Plans - Feature Breakdown"
 They also include a detailed breakdown which we can analyze:
 
 ![enter description here](https://i.imgur.com/NdpI865.png)
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}

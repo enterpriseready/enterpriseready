@@ -48,3 +48,13 @@ The more advanced functionalities around providing integrations for enterprises 
 {{< example title="Segment Integrations" url="/segment/integrations" image="/segment/images/integrations.png" >}}
 
 {{< example title="Expensify Integrations" url="/expensify/integrations" image="/expensify/images/integrations.png" >}}
+
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="lambtron" >}}
+{{< contributors username="marccampbell" >}}
+{{< contributors username="GraysonNull" >}}
+{{< contributors username="topherolson" >}}

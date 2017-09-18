@@ -46,3 +46,9 @@ Slack does a good job by naming these fields as similar to the OneLogin names as
 After saving this and configuring users on the OneLogin service to have access, the signin process in the Slack client now goes through OneLogin:
 
 ![Signin](/slack/images/one-login-login.png)
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}

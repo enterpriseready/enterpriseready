@@ -31,3 +31,9 @@ Currently, they [allow only 1 sandbox environment](https://support.zendesk.com/h
 There is an opportunity for Zendesk to enable some type of [detailed version control](https://support.zendesk.com/hc/en-us/community/posts/203444426-Help-Center-Version-Control) for content where users go through a content review before publishing.
 
 Overall, Zendesk is one of the few companies that embraces change management requirements with any sort of productized feature. This sets them apart from many companies but the depth of the feature is still lacking.
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}

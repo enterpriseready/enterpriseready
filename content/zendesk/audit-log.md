@@ -1,7 +1,7 @@
 +++
 date = "2016-10-25T00:00:00Z"
 title = "Zendesk Audit Log"
-featureslug = "audit-logs"
+featureslug = "audit-log"
 type = "breakdown"
 feature = "audit logs"
 company = "zendesk"
@@ -49,3 +49,10 @@ As mentioned earlier there is an API for the audit trail, but it isn’t availab
 
 ### Not Centralized
 Ticket level audit events are not captured in the primary audit trail making it very hard to get a clear picture of the complete activity in an account.
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="qaid" >}}
+{{< contributors username="marccampbell" >}}

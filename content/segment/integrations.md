@@ -48,3 +48,9 @@ Making integration enablement as easy as possible really helped Segment's custom
 ## Building Strategic integrations
 
 Segment treats integrations with a strategic approach, choosing to focus most of the time and effort on partners that can help drive awareness and adoption. The goal is to leverage the partner's marketing efforts.
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="lambtron" >}}

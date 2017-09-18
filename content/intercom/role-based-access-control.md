@@ -37,3 +37,9 @@ Acquire, Engage, Learn and Support
 
 ### What’s Not Here
 Intercom doesn’t allow permissions that prevent it’s users from interacting with customers in different of scenarios. You may want your Sales team to only speak with customers on the main website, or acquiring landing pages. You may want your Support team to only speak with people in certain parts of your application.
+
+{{< contributor >}}
+
+----
+{{< contributors username="grantmiller" >}}
+{{< contributors username="marccampbell" >}}
