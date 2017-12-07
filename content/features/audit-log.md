@@ -17,9 +17,9 @@ It isn’t enough to log events internally to a traditional logging service like
 ## Events to audit log
 The most basic audit logging functionality requires a clear understanding of which events should be recorded in the audit log. The ISO-27002 specifications provide some clarity about what enterprise customers will likely need to have logged. However, every application can be a bit different in terms of what activities should actually be logged for auditing.
 
-Examples of events that should be audit logged are as follows: application specific user activities, exceptions, information security events (successful and rejected events), use of privileges, log-on failed-attempts & successes, log-off, data accessed, data attempted to be accessed, administrative configuration changes and the use of advanced privileges.
+Generally, the specific content of a target is not audit logged, rather the state or context is logged. Examples of events that should be audit logged are as follows: application specific user activities, exceptions, information security events (successful and rejected events), use of privileges, log-on failed-attempts & successes, log-off, data accessed, data attempted to be accessed, administrative configuration changes and the use of advanced privileges. 
 
-The best way to organize **events** is as the combination of **objects** receiving **actions** (i.e. `user.created`, `user.deleted`, `document.viewed`, `account.setting.updated`). Actions can generally be categorized into their `CRUD` type (i.e. `C`reate, `R`ead, `U`pdate, or `D`elete). Events are generally performed by an actor (i.e. a bob@somebigbank.com updated their password) however, there are anonymous actions (such as failed log in attempts).
+The best way to organize **events** is as the combination of **targets** receiving **actions** (i.e. `user.created`, `user.deleted`, `document.viewed`, `account.setting.updated`). Actions can generally be categorized into their `CRUD` type (i.e. `C`reate, `R`ead, `U`pdate, or `D`elete). Events are generally performed by an actor (i.e. a bob@somebigbank.com updated their password) however, there are anonymous actions (such as failed log in attempts).
 
 *Note: When the logging of these events is implemented in code, the audit logging method should be called at the* ***bottom*** *of the function to ensure that the event was fully executed.*
 
@@ -27,12 +27,13 @@ The best way to organize **events** is as the combination of **objects** receivi
 When an event is logged it should have details that provide enough information about the event to provide the necessary context of who, what, when and where etc. Specifically, the follow fields are critical to an audit log:
 
 - **Actor** - The username, uuid, API token name of the account taking the action.
+- **Group** - The group (aka organization, team, account) that the actor is a member of (needed to show admins the full history of their group).
 - **Where** - IP address, device ID, country.
-- **When** - The server time when the event happened.
-- **Event Name** - Common name for the event that can be used to filter down to similar events.
-- **Object** - the underlying resource that is being changed (the noun).
+- **When** - The NTP synced server time when the event happened.
+- **Target** - the object or underlying resource that is being changed (the noun) as well as the fields that include a key value for the new state of the target.
 - **Action** - the way in which the object was changed (the verb).
 - **Action Type** - the corresponding `C``R``U``D` category.
+- **Event Name** - Common name for the event that can be used to filter down to similar events.
 - **Description** - A human readable description of the action taken, sometimes includes links to other pages within the application.
 ### Optional information
 - **Server** server ids or names, server location.

@@ -13,7 +13,7 @@ Single Sign On (SSO) allows your customers to manage their team’s users outsid
 
 Enterprises use a large number of services with a large number of end users. It nearly impossible to manage hundreds, thousands or tens of thousands of users across tens or hundreds of different applications. For this reason, enterprises have been using Single Sign On (or directory services) to manage the provisioning, deprovisioning and permissioning of accounts and privileges for many years.
 
-There are several standards that will allow your customers to manage users in a single directly. The leading standard is [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language). However, OAuth & OpenID-Connect based systems for federation via Google Apps, Salesforce, Slack & GitHub are also becoming quite popular.
+There are several standards that will allow your customers to manage users in a single directory. The leading standard is [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language). However, OAuth & OpenID-Connect based systems for federation via Google Apps, Salesforce, Slack & GitHub are also becoming quite popular.
 
 ## Basics:
 SAML can be a little overwhelming to start. While the XML syntax of SAML is complex, the overall solution isn't hard to understand once you understand the common language:  
