@@ -41,7 +41,7 @@ pagetitle = "Top 50 SaaS companies feature comparison by plan"
 | [Optimizely](https://www.optimizely.com/plans/) | Standard | Premium | Professional | Premium | Standard | Premium | - |  | Standard | Cloud |
 | [Segment](https://segment.com/pricing) | Team | - | Business | - | Business | - | - | - | Developer | Cloud |
 | [Frontapp](https://frontapp.com/pricing) | Team | Enterprise | - | - | - | - | - | Premium | Team | Cloud |
-| [Unbounce](https://unbounce.com/pricing) | Pro 99 | - | Pro 99 | - | - | Pro 99 | - |  | Starter | Cloud |
+| [Unbounce](https://unbounce.com/pricing) | All | All | All | Enterprise | Enterprise | All | All | -  | All | Cloud |
 | [Domo](https://www.domo.com/pricing) | All	| Enterprise | Enterprise | - | Pro | Enterprise | - | Tiers | Tiers | Cloud |
 | [Scalr](http://www.scalr.com/pricing.html) | All | Enterprise | - | Enterprise | - | - | Enterprise | - | All | Private/Cloud |
 | [Hellosign](https://www.hellosign.com/info/pricing) | Business | Free | Business | Free | - | Business | - | Business | All | Cloud |
