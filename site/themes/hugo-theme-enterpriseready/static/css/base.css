@@ -11,7 +11,7 @@ hr {
     background-color: #DEDEDE;
     border: none;
     width: 1200px;
-    margin: 50px auto;
+    margin: 30px auto;
     size: 10px;
 }
 
@@ -481,7 +481,7 @@ span.ar {
 /* Subscribe */
 
 .subscribe-wrapper {
-  padding: 40px 0 25px;
+  padding: 25px 0 25px;
 }
 
 #subscribe input[type="email"] {
