@@ -4,7 +4,7 @@ title = "What is GDPR and why should I care?"
 type = "gdpr"
 +++
 
-The European Union’s [General Data Protection Regulation (GDPR)](https://www.eugdpr.org/) takes effect on May 25, 2018, and is rife with provisions that will impact the way in which SaaS vendors and their customers interact with each other. While it might be a big win for private citizens seeking some sovereignty over their personal information, it will undoubtedly make life at least a little trickier for every company doing business in the EU, employing EU citizens or handling the personal data of European citizens.
+The European Union’s [General Data Protection Regulation (GDPR)](https://www.eugdpr.org/) takes effect on May 25, 2018, and is rife with provisions that will impact the way in which SaaS vendors and their customers interact with each other. While it might be a big win for private citizens seeking some sovereignty over their personal information, it will undoubtedly make life at least a little trickier for every company doing business in the EU, employing EU citizens, handling the personal data of European citizens or doing business with companies who do business in the EU.
 
 Boiled down to its essence, GDPR mandates that any companies storing data about European citizens will need to keep a close eye on their data-privacy practices—as well as those of their vendors and their vendors’ vendors—in order to ensure personal data is being handled within the confines of the new law. Those confines range from proper disclosure to citizens about how their data is being used to reasonable techniques for keeping that data secure. GDPR also places strict timelines on disclosure of data breaches and, in some cases, mandates the appointment of a data protection officer.
 
@@ -12,7 +12,7 @@ If you find yourself asking why you should plan for GDPR at all rather than just
 
 * Infringements of certain administrative requirements can warrant fines of up to €10 million or, in the case of an undertaking, 2 percent of annual worldwide turnover of the preceding financial year, whichever is higher.
 
-* Infringements of requirements around data protection and data subjects’ rights can warrant fines of up to €20 million or, in the case of an undertaking, 4 percent of annual worldwide turnover of the preceding financial year, whichever is higher.
+* Infringements of requirements around data protection and data subjects’ rights can warrant fines of up to €20 million or, in the case of an undertaking, 4 percent of annual worldwide turnover of the preceding financial year, **whichever is higher**.
 
 Let’s dive a little deeper into the law itself and how it could affect the SaaS industry not just in Europe, but also for international companies doing business with European companies or consumers. There is a lot to consider, which we do in some other pieces, but we’ll try to hit the main highlights here.
 
@@ -42,7 +42,7 @@ Thankfully, the recitals preceding the official bill text offer a little more co
 
 > [Recital 24](https://gdpr-info.eu/recitals/no-24/): The processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union should also be subject to this Regulation when it is related to the monitoring of the behaviour of such data subjects in so far as their behaviour takes place within the Union. In order to determine whether a processing activity can be considered to monitor the behaviour of data subjects, it should be ascertained whether natural persons are tracked on the internet including potential subsequent use of personal data processing techniques which consist of profiling a natural person, particularly in order to take decisions concerning her or him or for analysing or predicting her or his personal preferences, behaviours and attitudes.
 
-There’s also **the issue of employee data** ([Article 88](https://gdpr-info.eu/art-88-gdpr/)), which any company hiring EU citizens will certainly keep on file and very possibly share with third parties (e.g., for various HR functions). Employees have the same general rights as other EU citizens under GDPR, which means employers should be prepared to meet GDPR requirements around transparency, data access, the right to be forgotten, and other rights the law provides. However, the GDPR does allow for EU member countries to enact more specific rules regarding employee data. So there’s a baseline set of rules that apply everywhere, but certain countries might grant employees even more rights, or enact stricter controls on employers.
+There’s also **the issue of employee data** ([Article 88](https://gdpr-info.eu/art-88-gdpr/)), which any company hiring EU citizens will certainly keep on file and very possibly share with third parties (e.g., for various HR functions). Employees have the same general rights as other EU citizens under GDPR, which means employers should be prepared to meet GDPR requirements around transparency, data access, the right to be forgotten, and other rights the law provides. However, the GDPR does allow for EU member countries to enact more specific rules regarding employee data. So there’s a baseline set of rules that apply everywhere, but certain countries might grant employees even more rights, or enact stricter controls on employers. Additionally, the Working Party established by the [EU DPD](https://en.wikipedia.org/wiki/Data_Protection_Directive) (basically the predecessor to the GDPR) provided an [opinion on data processing at work](http://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=610169) that suggests that EU employees have a right to privacy while at work.
 
 ## What is ‘personal data’
 So, you’ve decided that GDPR is going to affect your business. The next thing you’ll want to familiarize yourself with is the type of data GDPR protects: “personal data” about “natural persons” (i.e., not entities, such as corporations, that might be considered legal persons). But don’t let any legalese fool you—GDPR covers pretty much every common method by which websites or applications might collect data about their users:
@@ -69,3 +69,7 @@ We read this as, “If you’re providing a basic photo-storage service, those p
 
 ## More reading
 Convinced that GDPR will matter to your company and looking for some more guidance on how and where it might apply, or how other SaaS companies are thinking about it? You can check out some of our other pieces on this topic:
+
+1. [GDPR 202](/gdpr/gdpr-202)
+1. [GDPR for SaaS](/gdpr/gdpr-saas)
+1. [Preparing for GDPR](/gdpr/preparing-for-gdpr)
