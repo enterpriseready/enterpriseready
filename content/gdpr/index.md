@@ -57,7 +57,7 @@ With regard to online identifiers, the bill explains that
 
 ## Re: GDPR, it’s good to not be Facebook
 
-If there’s a silver lining to GDPR from the perspective of a SaaS company, it’s that companies not dealing in personal data as a core part of their businesses should have less exposure to liability and certain GDPR requirements. Providing a code-management platform a la GitHub? Apart from usernames, passwords and IP addresses (and maybe employee data), you probably don’t have a lot of user data subject to GDPR requirements. Going the DeepMind route and analyzing patient data for hospitals? Well, that’s another story altogether ...
+If there’s a silver lining to GDPR from the perspective of a SaaS company, it’s that companies not dealing in personal data as a core part of their businesses should have less exposure to liability and certain GDPR requirements. Providing a code-management platform a la GitHub? Apart from usernames, passwords and IP addresses (and maybe employee data), you probably don’t have a lot of user data subject to GDPR requirements (though you should still take the steps to comply). Going the DeepMind route and analyzing patient data for hospitals? Well, that’s another story altogether ...
 
 The law provides a number of guidelines for dealing **certain types of sensitive or potentially discriminatory data**, ranging from medical records to criminal convictions to race. You definitely should examine the text more closely to see how GDPR might treat the types of data you’re dealing with, but a general rule is that the more sensitive the data or the more likely it could be used to discriminate against subjects, the more safeguards and limitations you should put in place around how it’s shared, processed and secured.
 
