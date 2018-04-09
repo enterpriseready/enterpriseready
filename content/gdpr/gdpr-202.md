@@ -99,6 +99,6 @@ If these seem like unlikely circumstances, don’t be so sure. Since the EU impl
 ## More reading
 Convinced that GDPR will matter to your company and looking for some more guidance on how and where it might apply, or how other SaaS companies are thinking about it? You can check out some of our other pieces on this topic:
 
-1. [GDPR Overview](/gdpr)
-1. [GDPR for SaaS](/gdpr/gdpr-saas)
-1. [Preparing for GDPR](/gdpr/preparing-for-gdpr)
+1. [What is GDPR and why should I care?](/gdpr)
+1. [How GDPR might affect the SaaS industry](/gdpr/gdpr-saas)
+1. [How SaaS providers are preparing for GDPR](/gdpr/preparing-for-gdpr)

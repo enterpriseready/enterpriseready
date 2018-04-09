@@ -70,6 +70,6 @@ We read this as, “If you’re providing a basic photo-storage service, those p
 ## More reading
 Convinced that GDPR will matter to your company and looking for some more guidance on how and where it might apply, or how other SaaS companies are thinking about it? You can check out some of our other pieces on this topic:
 
-1. [GDPR 202](/gdpr/gdpr-202)
-1. [GDPR for SaaS](/gdpr/gdpr-saas)
-1. [Preparing for GDPR](/gdpr/preparing-for-gdpr)
+1. [GDPR 202: Controllers, processors and subjects’ rights](/gdpr/gdpr-202)
+1. [How GDPR might affect the SaaS industry](/gdpr/gdpr-saas)
+1. [How SaaS providers are preparing for GDPR](/gdpr/preparing-for-gdpr)

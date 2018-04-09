@@ -11,6 +11,6 @@ If you’re a SaaS provider and want to add your information, or if you’ve com
 ## More reading
 Convinced that GDPR will matter to your company and looking for some more guidance on how and where it might apply, or how other SaaS companies are thinking about it? You can check out some of our other pieces on this topic:
 
-1. [GDPR Overview](/gdpr)
-1. [GDPR 202](/gdpr/gdpr-202)
-1. [GDPR for SaaS](/gdpr/gdpr-saas)
+1. [What is GDPR and why should I care?](/gdpr)
+1. [GDPR 202: Controllers, processors and subjects’ rights](/gdpr/gdpr-202)
+1. [How GDPR might affect the SaaS industry](/gdpr/gdpr-saas)
