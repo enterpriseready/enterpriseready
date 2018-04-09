@@ -412,6 +412,13 @@ span.sla {
   width: 130px;
   height: 91px;
 }
+
+span.gdpr {
+  background: url('../images/article-icons/gdpr@2x.png');
+  background-size: 108px 108px;
+  width: 109px;
+  height: 108px;
+}
 span.int {
   background: url('../images/article-icons/integrations@2x.png');
   background-size: 155px 98px;
