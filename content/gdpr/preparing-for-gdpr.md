@@ -33,3 +33,4 @@ Convinced that GDPR will matter to your company and looking for some more guidan
 1. [What is GDPR and why should I care?](/gdpr)
 1. [GDPR 202: Controllers, processors and subjects’ rights](/gdpr/gdpr-202)
 1. [How GDPR might affect the SaaS industry](/gdpr/gdpr-saas)
+1. [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)
