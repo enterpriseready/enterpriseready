@@ -12,7 +12,7 @@ While all this information is useful for people learning about GDPR, posting it 
 * Data Processing Addendum/Amendment/Agreement (DPA) laying out their contractual relationships and liabilities with customers in the context of GDPR.
 * A list of processors and/or subprocessors that process data on their behalf. This includes IaaS providers, support vendors and anyone else that stores or otherwise processes customers’ personal data.
 
-If you’re a SaaS provider and want to add your information, or if you’ve come across some particularly useful information, please drop us a line [LINK] or make a pull request.
+If you’re a SaaS provider and want to add your information, or if you’ve come across some particularly useful information, please [drop us a line](mailto:grant.miller@replicated.com) or [make a pull request](https://github.com/enterpriseready/enterpriseready).
 
 |   |   |   |
 |---|---|---|
