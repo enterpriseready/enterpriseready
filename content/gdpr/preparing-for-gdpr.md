@@ -14,11 +14,13 @@ While all this information is useful for people learning about GDPR, posting it 
 
 If you’re a SaaS provider and want to add your information, or if you’ve come across some particularly useful information, please drop us a line [LINK] or make a pull request.
 
-![aws](/images/gdpr/aws.png)
-<center>[Overview](https://aws.amazon.com/compliance/gdpr-center/) · [DPA](https://eu-west-1.console.aws.amazon.com/console/dpa)</center>
+|   |   |   |   |
+|---|---|---|---|
+|  ![aws](/images/gdpr/aws.png)<center>[Overview](https://aws.amazon.com/compliance/gdpr-center/) · [DPA](https://eu-west-1.console.aws.amazon.com/console/dpa)</center> | ![slack](/images/gdpr/slack.png) <center>[Overview](https://slack.com/gdpr) · [Subsprocessors](https://slack.com/slack-subprocessors) · [DPA](https://a.slack-edge.com/bed7/marketing/img/legal/pdf/slack_data_processing_addendum.pdf)</center>  | ![g-suite](/images/gdpr/g-suite.png) <center>[Overview](https://cloud.google.com/security/gdpr/) · [Subs](https://gsuite.google.com/intl/en/terms/subprocessors.html) · [DPA](https://gsuite.google.com/terms/dpa_terms.html) · [Model](https://support.google.com/a/answer/2888485?hl=en)</center>  |   |
+|  ![aws](/images/gdpr/aws.png)<center>[Overview](https://aws.amazon.com/compliance/gdpr-center/) · [DPA](https://eu-west-1.console.aws.amazon.com/console/dpa)</center> |   |   |   |
 
-![slack](/images/gdpr/slack.png)
-<center>[Overview](https://slack.com/gdpr ) · [Subsprocessors](https://slack.com/slack-subprocessors) · [DPA](https://a.slack-edge.com/bed7/marketing/img/legal/pdf/slack_data_processing_addendum.pdf)</center>
+
+
 
 
 ## More reading
