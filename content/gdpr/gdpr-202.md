@@ -68,6 +68,21 @@ As noted in the introduction, the GDPR is a vast regulation containing many spec
 * The **specificity of record-keeping** required around how data is used and with whom it will be shared. Controllers and processors with less than 250 employees don’t have to comply with some of the more-stringent requirements, unless their data-processing “is likely to result in a risk to the rights and freedoms of data subjects ... is not occasional, or ... includes special categories of data.” ([Article 30](https://gdpr-info.eu/art-30-gdpr/))
 * Whether your relationships with data subjects provide a **legitimate interest** under which personal data may be processed without express consent. ([Article 6](https://gdpr-info.eu/art-6-gdpr/)) The law is vague on when this might apply, outside of in the case of emergencies, cybersecurity and other non-standard situations, but does caution that “the existence of a legitimate interest would need careful assessment.” ([Recital 47](https://gdpr-info.eu/recitals/no-47/))
 
+For a concrete example of GDPR data-minimization in action, here is the partial text of an email that Intercom recently sent to all of its customers:
+
+> I’m writing to let you know about an upcoming change to the way we store Visitor data in Intercom, coming into effect on **May 11th, 2018**.
+
+> **What’s changing**
+
+> In preparation for the new EU General Data Protection Regulation (GDPR), we will now be **expiring Visitor data once a Visitor has not been seen for nine months**.
+> This means that from **May 11th, 2018**:
+
+>> * We will automatically delete the IP and location of visitors who have not visited your site in 9 months.
+* If a visitor returns after 9 months they will be treated like a new visitor. There will be no record of previous visitor auto messages or conversations.
+
+> This change only impacts [Visitor data](https://via.intercom-mail-100.com/e?ob=3m6TmtvTmKFEMLzPv3TR7XkAtGe%2BjrI67hpE8ghB%2B%2Bp0A7%2FEk0GtMZa8tw0fUm1efsuO%2B0jPjx4DYB%2BHqwe%2BAv6jzFztNFaGpFd90LbVUBRongarCNWW1DUgrBShOxkh3Ec08MTA4B%2FZtFTqSt0EFl3ew2kbg%2FeUtLKGYkptt57YwqRnbQTBnKGxvt22Z206&h=2ce6e789ab7cbc9e9f2d2909b16465667b3683b1-15668737682) – all other data is unaffected. Note, while GDPR is an EU regulation, it ultimately affects any business with customers in the EU which is why we are applying these changes globally across our entire customer base.  
+
+
 ## Compliance, technologically
 Technologically speaking, one of the bigger hurdles to compliance might be designing your data architectures so that you can easily provide information to data subjects should they request it. It’s technically the job of data controllers to supply this information, but where processors are involved, they’ll be required to supply it to controllers.
 
@@ -99,7 +114,7 @@ Here’s what the GDPR allows for data subjects to demand from controllers (note
 
 (You can also get a sense of the scope in [this admittedly played-up sample letter](https://www.linkedin.com/pulse/nightmare-letter-subject-access-request-under-gdpr-karbaliotis/) posted by a PricewaterhouseCoopers consultant on LinkedIn.)
 
-Any personal data delivered to data subjects must be delivered in “a structured, commonly used and machine-readable format,” in part so that data can easily be transferred from one controller to another should the subject so desire. The GDPR calls this the “right to data portability.” ([Article 20}(https://gdpr-info.eu/art-20-gdpr/))
+Any personal data delivered to data subjects must be delivered in “a structured, commonly used and machine-readable format,” in part so that data can easily be transferred from one controller to another should the subject so desire. The GDPR calls this the “right to data portability.” ([Article 20](https://gdpr-info.eu/art-20-gdpr/))
 
 Data subjects can also demand that controllers **correct inaccurate data** about them ([Article 16](https://gdpr-info.eu/art-16-gdpr/)) and, in certain cases, **erase** ([Article 17](https://gdpr-info.eu/art-17-gdpr/)) or **restrict** ([Article 18](https://gdpr-info.eu/art-18-gdpr/)) the processing of their personal data. Where personal data is being used for **direct marketing**, data subjects can object at any time and controllers must stop processing said data for that purpose. ([Article 21](https://gdpr-info.eu/art-21-gdpr/))
 
