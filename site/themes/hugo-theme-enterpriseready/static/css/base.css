@@ -606,6 +606,12 @@ span.ar {
     }
 }
 
+.gdpr blockquote {
+    background-color: #F3F3F3;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
 .feather img {
   cursor: pointer;
 }
