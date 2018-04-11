@@ -607,9 +607,38 @@ span.ar {
 }
 
 .gdpr blockquote {
-    background-color: #F3F3F3;
-    padding: 15px 20px;
-    border-radius: 5px;
+    position: relative;
+    background-color: #F5F8FC;
+    padding: 20px 25px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.gdpr blockquote p { margin-bottom: 0; }
+.gdpr blockquote a {
+    color: #4a4a4a;
+    font-weight: 500;
+}
+.gdpr blockquote a:hover {
+    text-decoration: underline;
+}
+
+.gdpr blockquote::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #62A7CF;
+}
+
+.gdpr blockquote > blockquote {
+    margin: 0;
+}
+.gdpr blockquote > blockquote::before {
+    display: none;
 }
 
 .feather img {
