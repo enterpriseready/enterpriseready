@@ -641,6 +641,42 @@ span.ar {
     display: none;
 }
 
+.table-of-contents  {
+    position: relative;
+    background-color: #FCF5F5;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.table-of-contents  { margin-bottom: 0; }
+.table-of-contents a {
+    color: #EC5147;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.table-of-contents  a:hover {
+    text-decoration: underline;
+}
+
+.table-of-contents::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #EC5147;
+}
+
+.gdpr .table-of-contents blockquote > blockquote {
+    margin: 0;
+}
+.gdpr .table-of-contents blockquote > blockquote::before {
+    display: none;
+}
+
 .feather img {
   cursor: pointer;
 }
