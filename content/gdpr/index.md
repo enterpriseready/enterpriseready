@@ -11,9 +11,9 @@ Boiled down to its essence, GDPR mandates that any companies storing data about 
 
 If you find yourself asking why you should plan for GDPR at all rather than just assuming it won’t affect you, perhaps a look at the types of fines it imposes will help you care a little more. Yes, these are maximum fines subject to a number of mitigating factors, but they should still be a bit jarring ([from Article 83](https://gdpr-info.eu/art-83-gdpr/)):
 
-* Infringements of certain administrative requirements can warrant fines of up to €10 million or, in the case of an undertaking, 2 percent of annual worldwide turnover of the preceding financial year, whichever is higher.
+>  * Infringements of certain administrative requirements can warrant fines of up to €10 million or, in the case of an undertaking, 2 percent of annual worldwide turnover of the preceding financial year, whichever is higher.
 
-* Infringements of requirements around data protection and data subjects’ rights can warrant fines of up to €20 million or, in the case of an undertaking, 4 percent of annual worldwide turnover of the preceding financial year, **whichever is higher**.
+> * Infringements of requirements around data protection and data subjects’ rights can warrant fines of up to €20 million or, in the case of an undertaking, 4 percent of annual worldwide turnover of the preceding financial year, **whichever is higher**.
 
 Let’s dive a little deeper into the law itself and how it could affect the SaaS industry not just in Europe, but also for international companies doing business with European companies or consumers. There is a lot to consider, which we do in some other pieces, but we’ll try to hit the main highlights here.
 
