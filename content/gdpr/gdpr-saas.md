@@ -36,7 +36,7 @@ Discussions like this might seem like overkill—and maybe they are—but the tr
 ## More reading
 Convinced that GDPR will matter to your company and looking for some more guidance on how and where it might apply, or how other SaaS companies are thinking about it? You can check out some of our other pieces on this topic:
 
-1. [What is GDPR and why should I care?](/gdpr)
+1. [What is GDPR and why should I care?](/gdpr/what-is-gdpr)
 1. [GDPR 202: Controllers, processors and subjects’ rights](/gdpr/gdpr-202)
 1. [How SaaS providers are preparing for GDPR](/gdpr/preparing-for-gdpr)
 1. [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)
