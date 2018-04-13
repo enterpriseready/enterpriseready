@@ -7,7 +7,7 @@ type = "gdpr"
 
 > **TL;DR of the TL;DR**
 
-> The official full text PDF of the GDPR is a 261 page beast. However, as we describe below, for SaaS companies who want to understand how this regulation impacts their product, they should read the [34 page abridged version of the GDPR](GDPR-abridged-text-for-SaaS-Cos.pdf) we've compiled.
+> The official full text PDF of the GDPR is a 261 page beast. However, as we describe below, for SaaS companies who want to understand how this regulation impacts their product, they should read the [34 page abridged version of the GDPR](/GDPR-abridged-text-for-SaaS-Cos.pdf) we've compiled.
 
 
 ## Approaching the GDPR
@@ -19,7 +19,7 @@ For this reason, it can be helpful to explore the primary sources when evaluatin
 ## Where to find the full text
 The first thing you’ll notice about the official version of the GDPR is that the [full text](http://data.consilium.europa.eu/doc/document/ST-5419-2016-INIT/en/pdf) is long— 261 pages long, to be exact!. However, much of that is whitespace, and there is a better formatted version that trims the whitespace and leaves us with [88 pages of GDPR text](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679&from=EN). Alternatively, a more “browsable” and deep linkable version can be found here https://gdpr-info.eu/. Even when evaluating the 88 pages of the GDPR text, the first 31 pages of the text consists of 173 recitals that serve as a preamble to give context to the regulation.
 
-The actual regulation is made of up of 11 Chapters, which are comprised of 99 Articles in total. Of those 99 Articles, only about 40 might really matter to someone who is trying to make sense of how to comply with the regulation. Many of the later Articles are designed to provide the mechanics of how the Supervisory Authorities, Commission, Committee, Board, Member States and other administrative entities should interact. This leaves [34 pages of GDPR text](GDPR-abridged-text-for-SaaS-Cos.pdf) to read through, which feels very doable for most folks who are going to invest days or weeks thinking and engineering solutions to comply with the law.
+The actual regulation is made of up of 11 Chapters, which are comprised of 99 Articles in total. Of those 99 Articles, only about 40 might really matter to someone who is trying to make sense of how to comply with the regulation. Many of the later Articles are designed to provide the mechanics of how the Supervisory Authorities, Commission, Committee, Board, Member States and other administrative entities should interact. This leaves [34 pages of GDPR text](/GDPR-abridged-text-for-SaaS-Cos.pdf) to read through, which feels very doable for most folks who are going to invest days or weeks thinking and engineering solutions to comply with the law.
 
 We’ve outlined the Articles we think should be read closely by SaaS companies trying to wrap their heads around compliance, as well as the Articles are skimmable and those we think can be largely ignored. We’re not trying to keep you from reading the whole thing, but just trying to give you a framework that might the process a little faster and more digestible.
 
