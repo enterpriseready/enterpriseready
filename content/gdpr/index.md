@@ -2,6 +2,7 @@
 date = "2016-10-25T00:00:00Z"
 title = "GDPR Table of Contents"
 type = "gdpr"
+hero = "/images/gdpr.png"
 +++
 
 1. [What is GDPR and why should I care?](/gdpr/what-is-gdpr)
