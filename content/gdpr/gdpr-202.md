@@ -2,6 +2,8 @@
 date = "2016-10-25T00:00:00Z"
 title = "GDPR 202: Controllers, processors and subjects’ rights"
 type = "gdpr"
+metadescription = "An advanced analysis of the GDPR and how it will impact SaaS companies."
+pagetitle = "EnterpriseReady: Advanced GDPR Analysis"
 +++
 
 Perhaps you’ve read our introduction to [GDPR for SaaS companies](/gdpr/gdpr-saas) and decided you want to learn more, or perhaps you’ve already been thinking about GDPR but haven’t spent a lot of time analyzing what it might mean for your company. Here, we try to take things a little deeper, looking at some of the core concepts of GDPR compliance and how they might apply to SaaS companies, specifically.
