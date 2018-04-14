@@ -5,14 +5,16 @@ type = "gdpr"
 hero = "/images/gdpr.png"
 +++
 
+GDPR Required Reading  
+1. [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)  
+
 GDPR Basics  
-1. [GDPR 101: What is GDPR and why should I care?](/gdpr/what-is-gdpr)  
-2. [GDPR 202: Controllers, processors and subjects’ rights](/gdpr/gdpr-202)  
+2. [GDPR 101: What is GDPR and why should I care?](/gdpr/what-is-gdpr)  
+3. [GDPR 202: Controllers, processors and subjects’ rights](/gdpr/gdpr-202)  
 
 GDPR for SaaS  
-3. [How GDPR might affect the SaaS industry](/gdpr/gdpr-saas)  
-4. [How popular SaaS providers are preparing for GDPR](/gdpr/preparing-for-gdpr)  
+4. [How GDPR might affect the SaaS industry](/gdpr/gdpr-saas)  
+5. [How popular SaaS providers are preparing for GDPR](/gdpr/preparing-for-gdpr)  
 
 GDPR Resources  
-5. [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)  
 6. [Other Useful GDPR Links](/gdpr/useful-gdpr-links)  
