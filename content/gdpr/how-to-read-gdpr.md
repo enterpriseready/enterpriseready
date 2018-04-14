@@ -2,6 +2,8 @@
 date = "2016-10-25T00:00:00Z"
 title = "How to read the full-text GDPR"
 type = "gdpr"
+metadescription = "A practical method for non-lawyers at SaaS companies to approach reading the actual text of the GDPR."
+pagetitle = "EnterpriseReady: How to read the GDPR full-text"
 
 +++
 
