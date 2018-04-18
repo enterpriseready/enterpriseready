@@ -16,7 +16,7 @@ pagetitle = "Top 50 SaaS companies feature comparison by plan"
 | [Asana](https://asana.com/pricing) | All | Premium | Premium | - | Premium | All | - | Premium | All | Cloud |
 | [Heroku](https://www.heroku.com/enterprise) | Enterprise | Enterprise | Enterprise | - | Enterprise | All | - | Enterprise | All | Cloud |
 | [Jira](https://goo.gl/6eSQx7) | All | Server | All | All | - | All | Server | All | Varies | Private/Cloud |
-| [New Relic](https://goo.gl/ylRny7) | All | - | Pro | - | Pro | Pro | - | All | Pro | Cloud |
+| [New Relic](https://goo.gl/ylRny7) | All | Pro | Pro | - | Pro | Pro | - | All | Pro | Cloud |
 | [Mixpanel](https://mixpanel.com/pricing) | All | Enterprise | Enterprise | - | Enterprise | Enterprise | - | Startup | Business | Cloud |
 | [Intercom](https://intercom.com/pricing) | All | - | Standard | - | - | All | All | Standard | Standard | Cloud |
 | [Hubspot](https://goo.gl/jaojKD) | All | - | Pro | - | - | All | - | Enterprise | Pro | Cloud |
