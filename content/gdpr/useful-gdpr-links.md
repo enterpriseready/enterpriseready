@@ -4,6 +4,7 @@ title = "Other useful GDPR links"
 type = "gdpr"
 metadescription = "A collection of resources for SaaS companies to understand the GDPR."
 pagetitle = "EnterpriseReady: Best GDPR links for SaaS companies"
+ogimage = "images/gdpr/headers/gdpr-twtr.png"
 +++
 
 We’re not the only people reading, writing and thinking about GDPR. Aside from our collection of SaaS-company GDPR policies and documentation, here is a collection of links to other places where you’ll find some insightful discussion on the forthcoming law.

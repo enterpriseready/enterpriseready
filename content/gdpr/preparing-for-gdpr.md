@@ -4,6 +4,8 @@ title = "How SaaS providers are preparing for GDPR"
 type = "gdpr"
 metadescription = "A collection of how the best SaaS companies are approaching GDPR in their products."
 pagetitle = "EnterpriseReady: GDPR SaaS Best Practices"
+hero = "/images/gdpr/headers/gdpr-twtr.png"
+ogimage = "images/gdpr/headers/gdpr-twtr.png"
 +++
 
 Sometimes the best way to get a sense of something—especially something as complex as GDPR—is to see how your peers are thinking about it. Here’s a collection of documents that some of the most-successful cloud and SaaS providers have put together to explain how they plan to comply with the law; the requirements they have in place for customers and subprocessors; and also their lists of subprocessors that handle personal data.

@@ -4,6 +4,8 @@ title = "How GDPR might affect the SaaS industry"
 type = "gdpr"
 metadescription = "An analysis of how the GDPR might impact the overall SaaS industry."
 pagetitle = "EnterpriseReady: How GDPR might affect the SaaS industry"
+hero = "/images/gdpr/headers/gdpr-vs-saas.png"
+ogimage = "images/gdpr/headers/gdpr-vs-saas.png"
 +++
 
 Beyond the additional technical, contractual and ethical changes required to comply with GDPR (for more info, see our [introduction to GDPR](/gdpr) and our explanation of some key concepts), it’s unclear exactly how the sweeping new European Union will play out in practice. For example, on the most foundational level, nobody is quite sure how strictly certain requirements will be enforced, or how harsh the actual penalties will be.
