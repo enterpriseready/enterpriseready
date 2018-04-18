@@ -28,6 +28,7 @@ If you’re a SaaS provider and want to add your information, or if you’ve com
 ## GDPR compliance in action
 Apart from reading the documentation and legal content SaaS providers are preparing around GDPR, it can also be helpful to see some concrete examples. Here is how a handful of popular SaaS services are adding functionality and changing their terms of service to comply with GDPR, and how they’re communicating these changes to customers:
 
+![intercom](/images/gdpr/intercom.png)
 ### Intercom is shortening the length of time for which it stores data on visitors to customers’ sites
 >In preparation for the new EU General Data Protection Regulation (GDPR), we will now be **expiring Visitor data once a Visitor has not been seen for nine months**.
 
@@ -38,6 +39,7 @@ Apart from reading the documentation and legal content SaaS providers are prepar
 
 > This change only impacts Visitor data – all other data is unaffected. Note, while GDPR is an EU regulation, it ultimately affects any business with customers in the EU which is why we are applying these changes globally across our entire customer base.
 
+![slack](/images/gdpr/slack.png)
 ### Slack has built tools for importing, exporting and deleting user data
 > Customers have requested tools to help them comply with the GDPR. And we’re happy to say that we’ve built those tools.
 
@@ -50,6 +52,7 @@ Apart from reading the documentation and legal content SaaS providers are prepar
 
 > * [Workspace settings center](https://get.slack.help/hc/en-us/articles/360000355143). See your team’s plan and settings, or contact an admin who controls the workspace.
 
+![segment](/images/gdpr/segment.png)
 ### Segment is building tools for deleting and suppressing user data
 > To help you comply with user requests related to the [right to erasure](https://gdpr-info.eu/art-17-gdpr/) (the right to be forgotten), the [right to object](https://gdpr-info.eu/art-21-gdpr/) (the various rights to halt certain processing), and the [right to restrict processing](https://gdpr-info.eu/art-18-gdpr/) (the right to restriction), we are developing new capabilities that will be available to all Segment customers in early 2018:
 
@@ -57,6 +60,7 @@ Apart from reading the documentation and legal content SaaS providers are prepar
 
 > * Automatic suppression: To help you comply with requests related to the right to object or restrict, any userId associated with a /delete call will automatically be placed on a suppression list. For any userId on the suppression list, we will block all incoming personal data pertaining to that userId from being tracked by Segment and sent to connected Destinations.
 
+![ganalytics](/images/gdpr/ganalytics.png)
 ### Google Analytics is letting users set data-retention periods, adding data-deletion tools, and is enforcing new contracts and consent policies
 > Over the past year we've shared how we are preparing to meet the requirements of the GDPR, the new data protection law coming into force on May 25, 2018. Today we are sharing more about important product changes that may impact your Google Analytics data, and other updates in preparation for the GDPR. This e-mail requires your attention and action even if your users are not based in the European Economic Area (EEA).
 
