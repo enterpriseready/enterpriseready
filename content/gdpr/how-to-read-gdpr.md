@@ -4,7 +4,8 @@ title = "How to read the full-text GDPR"
 type = "gdpr"
 metadescription = "A practical method for non-lawyers at SaaS companies to approach reading the actual text of the GDPR."
 pagetitle = "EnterpriseReady: How to read the GDPR full-text"
-ogimage = "images/gdpr/headers/gdpr-twtr.png"
+hero = "/images/gdpr/headers/how-to-read-gdpr.png"
+ogimage = "images/gdpr/headers/how-to-read-gdpr.png"
 
 +++
 
