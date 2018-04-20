@@ -412,6 +412,13 @@ span.sla {
   width: 130px;
   height: 91px;
 }
+
+span.gdpr {
+  background: url('../images/article-icons/gdpr@2x.png');
+  background-size: 108px 108px;
+  width: 109px;
+  height: 108px;
+}
 span.int {
   background: url('../images/article-icons/integrations@2x.png');
   background-size: 155px 98px;
@@ -597,6 +604,77 @@ span.ar {
     #article img {
         max-width: 100%;
     }
+}
+
+.gdpr blockquote {
+    position: relative;
+    background-color: #F5F8FC;
+    padding: 20px 25px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.gdpr blockquote p { margin-bottom: 0; }
+.gdpr blockquote a {
+    color: #4a4a4a;
+    font-weight: 500;
+}
+.gdpr blockquote a:hover {
+    text-decoration: underline;
+}
+
+.gdpr blockquote::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #62A7CF;
+}
+
+.gdpr blockquote > blockquote {
+    margin: 0;
+}
+.gdpr blockquote > blockquote::before {
+    display: none;
+}
+
+.table-of-contents  {
+    position: relative;
+    background-color: #FCF5F5;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.table-of-contents  { margin-bottom: 0; }
+.table-of-contents a {
+    color: #EC5147;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.table-of-contents  a:hover {
+    text-decoration: underline;
+}
+
+.table-of-contents::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #EC5147;
+}
+
+.gdpr .table-of-contents blockquote > blockquote {
+    margin: 0;
+}
+.gdpr .table-of-contents blockquote > blockquote::before {
+    display: none;
 }
 
 .feather img {
