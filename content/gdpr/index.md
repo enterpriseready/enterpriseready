@@ -10,7 +10,7 @@ ogimage = "images/gdpr/headers/gdpr-twtr.png"
 
 The European Union’s [General Data Protection Regulation (GDPR)](https://www.eugdpr.org/) takes effect on May 25, 2018, and is rife with provisions that will impact the way in which SaaS vendors and their customers interact with each other. While it might be a big win for private citizens seeking some sovereignty over their personal information, it will undoubtedly make life at least a little trickier for every company doing business in the EU, employing EU citizens, handling the personal data of European citizens or doing business with companies who do business in the EU.
 
-Here are some pieces we put together to help you sort through it.”
+Here are some pieces we put together to help you sort through it.
 
 GDPR Required Reading  
 1. [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)  
