@@ -1,9 +1,9 @@
 +++
 date = "2016-10-25T00:00:00Z"
-title = "How to read the full-text GDPR"
+title = "A guide to reading the full-text GDPR"
 type = "gdpr"
 metadescription = "A practical method for non-lawyers at SaaS companies to approach reading the actual text of the GDPR."
-pagetitle = "EnterpriseReady: How to read the GDPR full-text"
+pagetitle = "GDPR: A guide to reading the full text | EnterpriseReady"
 hero = "/images/gdpr/headers/how-to-read-gdpr.png"
 ogimage = "images/gdpr/headers/how-to-read-gdpr.png"
 
