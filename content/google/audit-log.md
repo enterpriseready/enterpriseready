@@ -53,6 +53,8 @@ Provide a change log things that are added to the audit log over time.
 
 ![enter image description here](https://i.imgur.com/Mmq6G5w.png)
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

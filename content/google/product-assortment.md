@@ -38,6 +38,8 @@ This is a rehash of much of functionality described in their earlier points, but
 
 Google Apps Unlimited adds strong Enterprise Ready functionality, but even the base Google Apps paid package is a strong example of the features more SaaS companies need to introduce to reach more enterprise users.
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

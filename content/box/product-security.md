@@ -36,6 +36,8 @@ Throughout these settings they seem to select the secure defaults (though someti
 
 They discuss [their security posture](http://www.slideshare.net/BoxHQ/box-security-whitepaper) as it relates to ops and development, but their isn't a ton of information beyond their assurance that they follow best practices.
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

@@ -17,6 +17,8 @@ They also include a detailed breakdown which we can analyze:
 
 ![enter description here](https://i.imgur.com/NdpI865.png)
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

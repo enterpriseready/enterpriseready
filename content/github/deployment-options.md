@@ -60,6 +60,8 @@ There is an extensive customer facing knowledgebase that containers a wide varie
 Finally, GitHub provides a videos to ensure that the information can be consumed in whatever media is best for each user.
 ![resources](/github/images/ghe-resources.png)
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

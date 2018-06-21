@@ -32,6 +32,8 @@ There is an opportunity for Zendesk to enable some type of [detailed version con
 
 Overall, Zendesk is one of the few companies that embraces change management requirements with any sort of productized feature. This sets them apart from many companies but the depth of the feature is still lacking.
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----
