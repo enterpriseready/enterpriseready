@@ -49,6 +49,8 @@ Making integration enablement as easy as possible really helped Segment's custom
 
 Segment treats integrations with a strategic approach, choosing to focus most of the time and effort on partners that can help drive awareness and adoption. The goal is to leverage the partner's marketing efforts.
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

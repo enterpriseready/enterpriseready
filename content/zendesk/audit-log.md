@@ -50,6 +50,8 @@ As mentioned earlier there is an API for the audit trail, but it isn’t availab
 ### Not Centralized
 Ticket level audit events are not captured in the primary audit trail making it very hard to get a clear picture of the complete activity in an account.
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

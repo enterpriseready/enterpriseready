@@ -47,6 +47,8 @@ After saving this and configuring users on the OneLogin service to have access, 
 
 ![Signin](/slack/images/one-login-login.png)
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

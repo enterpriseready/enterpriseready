@@ -60,6 +60,8 @@ Heroku also provides collaboration outside of teams, inside of personal apps. Fo
 
 ![enter description here](https://i.imgur.com/KRBWo4t.png)
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----

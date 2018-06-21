@@ -48,6 +48,8 @@ In addition to manual export, Expensify offers options to programmatically expor
 They've continuously supported this option with detailed technical [documentation of the integration API](https://integrations.expensify.com/Integration-Server/doc/#export).
 ![expensify download api](/expensify/images/download-api.png)
 
+*This was published on Feb. 1, 2017.*
+
 {{< contributor >}}
 
 ----
