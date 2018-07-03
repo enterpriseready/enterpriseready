@@ -5,7 +5,7 @@ featureslug = "sla-support"
 type = "breakdown"
 feature = "SLA & Support"
 company = "slack"
-ogimage = "images/twtr/hashicorp-sla-support.png"
+ogimage = "images/twtr/slack-sla-support.png"
 metadescription = "A detailed analysis of the way that Slack implements SLA and Support in order to meet the needs of business and enterprise customers."
 pagetitle = "Slack SLA and Support - Enterprise Ready Feature Breakdown"
 +++
