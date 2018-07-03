@@ -5,7 +5,7 @@ featureslug = "sla-support"
 type = "breakdown"
 feature = "SLA & Support"
 company = "hashcorp"
-ogimage = "images/twtr/.png"
+ogimage = "images/twtr/hashicorp-sla-support.png"
 metadescription = "A detailed analysis of the way that HashiCorp implements SLA and Support in order to meet the needs of business and enterprise customers."
 pagetitle = "HashiCorp SLA and Support - Enterprise Ready Feature Breakdown"
 +++
