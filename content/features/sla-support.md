@@ -43,6 +43,8 @@ Many enterprise customers will also eventually ask for things like **business in
 ----   
 {{< example title="HashiCorp SLA and Support" url="/hashicorp/sla-support" image="/hashicorp/images/example.png" >}}
 
+{{< example title="Slack SLA and Support" url="/slack/sla-support" image="/slack/images/example.png" >}}
+
 {{< contributor >}}
 
 ----
