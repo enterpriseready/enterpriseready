@@ -14,7 +14,7 @@ HashiCorp sells a portfolio of popular infrastructure automation and security pr
 
 HashiCorp keeps its product tiers simple, so it’s easy to see what level of support you’ll get with each. As you can see with Terraform, for example, the free open source version doesn’t have any HashiCorp-provided support (beyond the community and documentation, that is), while Pro and Premium offer Silver- and Gold-level support, respectively. Silver support is available 9 hours a day, 5 days a week—the work week, essentially—while Gold support is available 24 hours a day, 7 days a week.
 
-![enter image description here](/hashicorp/images/sla-support/hashicorp-pricing.jpg)
+![Hashicorp SLA and Support Pricing](/hashicorp/images/sla-support/hashicorp-pricing.jpg)
 
 While HashiCorp doesn’t provide public information on SLAs with regard to application uptime, it does offer SLAs with regard to support. And, importantly, [the company’s support page](https://www.hashicorp.com/support.html) clearly defines what those levels mean, as well as what other types of information users should include when they file a help ticket. This type of information is critical for vendors to make clear to users, because ill-defined expectations and vague help tickets can headaches for everybody involved.
 
@@ -47,7 +47,7 @@ HashiCorp also follows another best practice, which is [maintaining a status pag
 
 Here is an example of how HashiCorp communicated an issue on June 19, 2018. Notice how quickly its team is to provide updates once they have something to report.
 
-![enter image description here](/hashicorp/images/sla-support/hashicorp-issue.jpg)
+![HashiCorp SLA and Support Issue](/hashicorp/images/sla-support/hashicorp-issue.jpg)
 
 Customer support can be a tough thing for companies to master, but HashiCorp shows how clear communication and expectations can help avoid a lot of problems that might otherwise arise when issues to occur.
 
