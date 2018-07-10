@@ -25,3 +25,7 @@ GDPR for SaaS
 
 GDPR Resources  
 6. [Other Useful GDPR Links](/gdpr/useful-gdpr-links)  
+
+## Examples
+----   
+{{< example title="Slack GDPR" url="/slack/gdpr" image="/slack/images/example.png" >}}
