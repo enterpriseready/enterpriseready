@@ -5,7 +5,7 @@ featureslug = "gdpr"
 type = "gdpr"
 feature = "GDPR"
 company = "slack"
-ogimage = "images/twtr/slack-gdpr.png"
+ogimage = "images/twtr/slack-gdpr-og.png"
 metadescription = "A detailed analysis of the way Slack complies with GDRP"
 pagetitle = "Slack GDRP - Enterprise Ready Feature Breakdown"
 +++
