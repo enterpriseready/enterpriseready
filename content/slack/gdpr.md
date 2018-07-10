@@ -2,7 +2,7 @@
 date = "2016-10-25T00:00:00Z"
 title = "Slack GDPR"
 featureslug = "gdpr"
-type = "breakdown"
+type = "gdpr"
 feature = "GDPR"
 company = "slack"
 ogimage = "images/twtr/slack-gdpr.png"
