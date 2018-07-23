@@ -28,9 +28,13 @@ The key methods that will allow you to do so effectively are as follows:
 There is a lot to consider when delivering a version that your customers can install and manage on their own. Particularly, they’ll be looking for something that can run on their preferred OS (likely Red Hat Enterprise Linux or Centos). Common options for delivering private instances are as follows:  
 
 **Java App** - For applications written in Java, vendors like Atlassian have provided customers with a `.jar` file. Customers are expected to install the JVM, spin up Tomcat or another web server and provide their own configured database (such as MySQL, Postgres or MS SQL).  
+
 **deb/rpm/.exe Package** - Often used to deploy components. Configuration is generally managed through config files externally. Updates are delivered through each package manager. If you go down this route, check out [PackageCloud.io](https://www.packagecloud.io).  
+
 **VM Images** - For vendors who would offer their enterprise version as an “appliance”, the VM route wraps up the application along with all of it’s dependencies including the host OS into a machine image (`.ova` or as an AMI for [distribution in AWS](https://aws.amazon.com/marketplace/)).  
+
 **Docker Images** - [Docker](https://www.docker.com) offers an unprecedented level of application portability, and as such, it can be very useful for deploying enterprise applications into unfamiliar environments. Customers manage the host OS and therefore are responsible for OS patches and updates. Docker images are versioned with tags and offer native support for mounting volumes. Both of these features make application updates less painful than other solutions.
+
 **Kubernetes Manifest** - Docker images are great, but for complex applications with a large number of microservices that need to be orchestrated and scheduled across `n` number of machines, delivering the full application automation in addition to the artifacts is the right approach. For the past few years, many modern applications have been architected with Kubernetes (k8s) as the native deployment target (i.e. cloud-native architecture), and as such, it has seen significant adoption by both enterprises and vendors. By delivering Kubernetes manifests, application vendors can be confident that the end customer installations will be highly available with zero-downtime updates. Applications can package up various components as Helm charts, or raw Kubernetes manifests, but treat this artifact as the base that an enterprise can provide an overlay on top of using Kustomize.
 
 [Replicated](https://www.replicated.com) continues to focus on supplying the tools that make it easier for SaaS and software vendors to distribute their cloud-native applications as Kubernetes applications or Docker Swarm applications to enterprise customers.  
@@ -39,15 +43,24 @@ There is a lot to consider when delivering a version that your customers can ins
 In any buyer managed private instance there are key features that are important to incorporate for enterprise buyers. First and foremost, these enterprise buyers will generally require many of the features that comprise EnterpriseReady ([RBAC](/features/role-based-access-control), [audit logs](/features/audit-log), [advanced reporting](/features/advanced-reporting), [change management](/features/change-management), etc). Second they will need features that allow them to manage the application lifecycle, including installation, configuration, updates, backups, and more. Finally, it's important to think about how you are going to support a buyer-managed private instance when something isn't working well. Ideally you will have SSH access to the servers, but many large enterprise buyers can't or won't be able to provide this. Troubleshooting a system that you don't have direct access to is a new skill to learn.
 
 **Installation** - The specifics of the installation will be highly dependent on the delivery mechanism chosen. However, some general considerations are as follows. Be sure to provide detailed installation instructions that show the how to install each component of you software. This includes how to add your GPG keys and remote endpoints, how to upgrade/downgrade, etc. Some customers will opt for the simplicity of a `curl | sh` script, however this will not satisfy all security minded customers so be sure to provide the detailed instructions also.  
+
 **System requirements enforcement** - To help prevent errors during installation, it can be super helpful to provide tools that can validate that the resources provided meet your hardware, network and environment requirements.  
+
 **Licensing** - Each instance should be installed from a unique license that includes metadata about the instance including license expiration, as well as any features enabled/disabled.  
 **Settings console** - A console for managing instance level settings such as hostname, SSL/TLS certs, SMTP information, external integrations and any other configuration option your customer will need to supply.  
+
 **Database configuration** - Many enterprise will actually prefer to bring their own instance of MySQL, Elastic Search, Redis etc. They often have on-staff DBAs who would prefer to leverage their own instances of those components. As a result, it is important to expose the configuration options to allow your application to leverage those external resources.  
+
 **User management** - For applications that are run behind-the-firewall, many enterprises will prefer to manage users with their existing directory service (ie LDAP or Active Directory). This is a bit different than the [SSO feature](/features/single-sign-on) that your public-cloud hosted customers will be looking to leverage. The reason being that traditional enterprise user directories are hosted in their private network and they generally prefer to connect applications deployed on that same network to integrate with it directly.   
+
 **Update management** - Most private instance are capable of making outbound internet requests to check for updates. For instances unable to check the public internet, monitoring a local file path for the presence of manually transferred update packages can be useful.  
+
 **Instance reports** - The enterprise IT admin managing the application will have different reporting requirements than many smaller customers. Provide info for usage as well as common instance data like CPU & Memory usage.  
+
 **Support enablement** - It is optimal for customers to be able to leverage tools to self-diagnose potential issues or at least automate the generation of the files that you'll need to support them.  
+
 **Horizontal scalability** - Most enterprise instances will be significantly smaller than your cloud-hosted instance. However, they still may need to scale some components to multiple machines (for high availability at a minimum).  
+
 **Backups** - Allow customers to schedule backups of important application data. This could be done with a series of scripts that customers run on a certain schedule. Ensure that you've tested the restore functionality as well, backups with malfunctioning restore capabilities aren't going to get you very far.   
 
 {{< note >}}
