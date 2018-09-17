@@ -541,7 +541,7 @@
                                     <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="Homepage Modal" />
                                     <input class="button button-primary" type="submit" value="Subscribe">
                                 </form>
-                            
+
                         </div>
                     </div>
 
@@ -555,13 +555,16 @@
 
                         }
 
+                        if (!sessionStorage.isNewSession)
+                            setTimeout(func, 4000);
 
-                        setTimeout(func, 4000);
+                            function func() {
+                                var inst = $('[data-remodal-id=modal-subscribe]').remodal();
+                                inst.open();
+                            }
 
-                        function func() {
-                            var inst = $('[data-remodal-id=modal-subscribe]').remodal();
-                            inst.open();
-                        }
+                        sessionStorage.isNewSession = true;
+
                     </script>
 
                     <script>
