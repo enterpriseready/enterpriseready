@@ -536,10 +536,10 @@
                         <div class="row">
 
 
-                                <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
-                                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
-                                    <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="Homepage Modal" />
-                                    <input class="button button-primary" type="submit" value="Subscribe">
+                            <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                                <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                                <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="Homepage Modal" />
+                                <input class="button button-primary" type="submit" value="Subscribe">
                                 </form>
 
                         </div>
@@ -558,14 +558,11 @@
                         if (!sessionStorage.isNewSession)
                             setTimeout(func, 4000);
 
-                            function func() {
-                                var inst = $('[data-remodal-id=modal-subscribe]').remodal();
-                                inst.open();
-                                sessionStorage.isNewSession = true;
-                            }
-
-
-
+                        function func() {
+                            var inst = $('[data-remodal-id=modal-subscribe]').remodal();
+                            inst.open();
+                            sessionStorage.isNewSession = true;
+                        }
                     </script>
 
                     <script>
@@ -619,6 +616,28 @@
     <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
     </noscript>
                     <!--END LNKD Audience website tag code -->
+                    <!--Clearbit website tag code -->
+                    <script>
+                        ga('require', 'Clearbit', {
+                            "mapping": {
+                                "companyName": "dimension1",
+                                "companyDomain": "dimension2",
+                                "companyTags": "dimension3",
+                                "companySector": "dimension4",
+                                "companyIndustryGroup": "dimension5",
+                                "companyIndustry": "dimension6",
+                                "companySubIndustry": "dimension7",
+                                "companyType": "dimension8",
+                                "companyEmployeesRange": "dimension9",
+                                "companyAlexaRank": "dimension10",
+                                "companyCity": "dimension11",
+                                "companyState": "dimension12"
+                            }
+                        });
+                    </script>
+
+                    <script async src="https://ga.clearbit.com/v1/ga.js?authorization=pk_355664666c40061d97b36ba591d78d39"></script>
+                    <!--END Clearbit website tag code -->
                     <!-- End Document–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
