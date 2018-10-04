@@ -119,7 +119,7 @@ Many enterprise buyers will ask you to provide documentation around your securit
 ***White Papers***  
 
 **Information Security Policy**  
-Have a written and published Information Security Policy, Incident Response Plan and [Bug Bounty Program](https://hackerone.com). Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
+Have a written and published Information Security Policy, Incident Response Plan and [Bug Bounty Program](https://hackerone.com). Some good examples to start with are [Datadog](https://www.datadoghq.com/security/), [Dropbox](https://www.dropbox.com/security) or the [Open Source Security Page](https://www.sqreen.io/resources/security-page). It's pretty common to have these hosted on a /security URL.
 
 ## Examples
 ----   
