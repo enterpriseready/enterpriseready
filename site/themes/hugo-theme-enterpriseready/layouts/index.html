@@ -616,8 +616,25 @@
     <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
     </noscript>
                     <!--END LNKD Audience website tag code -->
-                    
-                    <!-- End Document–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    {{ with .Site.Params }}
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        var u="//{{ .matomo_host }}/";
+        _paq.push(['setTrackerUrl', u+'data/']);
+        _paq.push(['setSiteId', '{{ .matomo_site }}']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+    {{ end }}
+<!-- End Document–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>
