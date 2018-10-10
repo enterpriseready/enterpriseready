@@ -14,4 +14,4 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 ## Episodes
 ----   
-{{< episode title="Ep. #1, Adam Jacobs from Chef" url="https://itunes.apple.com/us/podcast/ep-1-delivering-software-that-enterprises-love-chefs/id1437951282?i=1000420937811&mt=2" image="/podcast/images/episodes/adam-jacob.png" >}}
+{{< episode title="Ep. #1: Adam Jacob, Chef" url="https://itunes.apple.com/us/podcast/ep-1-delivering-software-that-enterprises-love-chefs/id1437951282?i=1000420937811&mt=2" image="/podcast/images/episodes/adam-jacob.png" >}}
