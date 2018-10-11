@@ -4,7 +4,7 @@ title = "Podcast"
 type = "podcast"
 hero = "/images/podcast/er_podcast.png"
 metadescription = "A guide for SaaS products to understand how the GDPR impacts their business."
-pagetitle = "EnterpriseReady Podcast"
+pagetitle = "EnterpriseReady Podcast | BUILDING the world’s best enterprise software"
 ogimage = "podcast/images/podcast_og.png"
 +++
 
