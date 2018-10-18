@@ -18,7 +18,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 ----   
 {{< episode title="Ep. #1: Adam Jacob, Chef.io" url="https://itunes.apple.com/us/podcast/ep-1-delivering-software-that-enterprises-love-chefs/id1437951282?i=1000420937811&mt=2" image="/podcast/images/episodes/adam-jacob.png" >}}
 
-{{< episode-cs title="Ep. #2: Tom Preston-Werner, Chatterbug & formerly Github" url="" image="/podcast/images/episodes/tpw-cs.png" >}}
+{{< episode title="Ep. #2: Tom Preston-Werner, Chatterbug & formerly Github" url="https://itunes.apple.com/us/podcast/ep-2-the-early-days-of-github-with-tom-preston-werner/id1437951282?i=1000422121814&mt=2" image="/podcast/images/episodes/tpw.png" >}}
 
 {{< episode-cs title="Ep. #3: Peter Reinhardt, Segment" url="" image="/podcast/images/episodes/peter-reinhardt-cs.png" >}}
 
