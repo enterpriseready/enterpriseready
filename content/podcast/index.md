@@ -12,7 +12,7 @@ Welcome to the EnterpriseReady Podcast, a new show aiming to change the enterpri
 
 EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-founder and CEO of [Replicated](https://www.replicated.com), who are powering the worlds best enterprise software.
 
-### [Subscribe on iTunes](https://itunes.apple.com/us/podcast/enterpriseready/id1437951282?mt=2), [favorite on SoundCloud](https://soundcloud.com/heavybit/sets/enterpriseready), or search for “EnterpriseReady” in your favorite podcasting app
+### [Subscribe on iTunes](https://itunes.apple.com/us/podcast/enterpriseready/id1437951282?mt=2), [Google Play](https://play.google.com/music/listen?u=0#/ps/Iq3uifjva44tdvm2orhu4apvjtu), [favorite on SoundCloud](https://soundcloud.com/heavybit/sets/enterpriseready), or search for “EnterpriseReady” in your favorite podcasting app
 
 ## Episodes
 ----   
