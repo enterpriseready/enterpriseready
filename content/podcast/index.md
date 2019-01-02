@@ -22,6 +22,6 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #3: Peter Reinhardt, Segment" url="https://itunes.apple.com/us/podcast/ep-3-product-market-fit-with-segments-peter-reinhardt/id1437951282?i=1000423554518&mt=2" image="/podcast/images/episodes/peter-reinhardt.png" >}}
 
-{{< episode-cs title="Ep. #4: Alex Polvi, CoreOS" url="" image="/podcast/images/episodes/alex-polvi-cs.png" >}}
+{{< episode title="Ep. #4: Alex Polvi, CoreOS" url="https://itunes.apple.com/us/podcast/ep-4-open-source-with-coreoss-alex-polvi/id1437951282?i=1000425138971&mt=2" image="/podcast/images/episodes/alex-polvi.png" >}}
 
 {{< episode-cs title="Ep. #5: Andrew Peterson, Signal Sciences" url="" image="/podcast/images/episodes/andrew-peterson-cs.png" >}}
