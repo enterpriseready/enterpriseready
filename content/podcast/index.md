@@ -33,3 +33,9 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 {{< episode-cs title="Ep. #8: Zach Blum, Fleetsmith" url="" image="/podcast/images/episodes/zach-blum-cs.png" >}}
 
 {{< episode-cs title="Ep. #9: Dave Cole, Tenable" url="" image="/podcast/images/episodes/dave-cole-cs.png" >}}
+
+{{< episode-cs title="Ep. #10: Ben Hindman, Splash" url="" image="/podcast/images/episodes/ben-hindman-cs.png" >}}
+
+{{< episode-cs title="Ep. #11: Dave Cole, Tenable" url="" image="/podcast/images/episodes/elizabeth-zalman-cs.png" >}}
+
+{{< episode-cs title="Ep. #12: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
