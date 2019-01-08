@@ -24,4 +24,12 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #4: Alex Polvi, CoreOS" url="https://itunes.apple.com/us/podcast/ep-4-open-source-with-coreoss-alex-polvi/id1437951282?i=1000425138971&mt=2" image="/podcast/images/episodes/alex-polvi.png" >}}
 
-{{< episode-cs title="Ep. #5: Andrew Peterson, Signal Sciences" url="" image="/podcast/images/episodes/andrew-peterson-cs.png" >}}
+{{< episode-cs title="Ep. #5: Edith Harbaugh, LaunchDarkley" url="" image="/podcast/images/episodes/edith-harbaugh-cs.png" >}}
+
+{{< episode-cs title="Ep. #6: Andrew Peterson, Signal Sciences" url="" image="/podcast/images/episodes/andrew-peterson-cs.png" >}}
+
+{{< episode-cs title="Ep. #7: Paul Querna, ScaleFT" url="" image="/podcast/images/episodes/paul-querna-cs.png" >}}
+
+{{< episode-cs title="Ep. #8: Zach Blum, Fleetsmith" url="" image="/podcast/images/episodes/zach-blum-cs.png" >}}
+
+{{< episode-cs title="Ep. #9: Dave Cole, Tenable" url="" image="/podcast/images/episodes/dave-cole-cs.png" >}}
