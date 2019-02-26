@@ -1,7 +1,7 @@
 +++
 date = "2017-01-28T00:00:00Z"
 title = "Expensify Integrations"
-featureslug = "Integrations"
+featureslug = "integrations"
 type = "breakdown"
 feature = "Integrations"
 company = "expensify"
@@ -30,7 +30,7 @@ Assuming that the integration is available to the account, it appears that Expen
 For other applications that likely require more complex setup or integration configuration, Expensify pops a modal to connect with its support team to complete the integration.
 ![expensify auto integrate](/expensify/images/request-integration.png)
 
-The team at Expnsify has done a great job of [documenting their integrations](https://docs.expensify.com/integrations) in a way that explains the benefits of the integration before it is implemented.
+The team at Expnsify has done a great job of [documenting their integrations](https://use.expensify.com/all-integrations) in a way that explains the benefits of the integration before it is implemented.
 
 
 ## Export Builder
