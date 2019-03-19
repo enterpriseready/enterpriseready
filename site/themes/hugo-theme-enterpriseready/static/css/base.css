@@ -1017,3 +1017,15 @@ margin-right: 10px;
   color: #F46853;
   font-size: 12px;
 }
+
+.hiring {
+    background-color: #ED2D2D;
+    border-radius: 2px;
+    padding: 3px 7px;
+    color: white;
+}
+
+.hiring:hover{
+    background-color: #BC4752;
+    color: white;
+}
