@@ -28,11 +28,11 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #6: Andrew Peterson, Signal Sciences" url="https://itunes.apple.com/us/podcast/ep-6-enterprise-innovation-andrew-peterson-signal-sciences/id1437951282?i=1000433693718&mt=2" image="/podcast/images/episodes/andrew-peterson.png" >}}
 
-{{< episode-cs title="Ep. #7: Paul Querna, ScaleFT" url="" image="/podcast/images/episodes/paul-querna-cs.png" >}}
+{{< episode-cs title="Ep. #7: Paul Querna, ScaleFT" url="https://podcasts.apple.com/us/podcast/ep-7-enterprise-infrastructure-with-paul-querna-of-okta/id1437951282?i=1000434555437" image="/podcast/images/episodes/paul-querna.png" >}}
 
-{{< episode-cs title="Ep. #8: Zach Blum, Fleetsmith" url="" image="/podcast/images/episodes/zach-blum-cs.png" >}}
+{{< episode-cs title="Ep. #8: Dave Cole, Tenable" url="" image="/podcast/images/episodes/dave-cole-cs.png" >}}
 
-{{< episode-cs title="Ep. #9: Dave Cole, Tenable" url="" image="/podcast/images/episodes/dave-cole-cs.png" >}}
+{{< episode-cs title="Ep. #9: Zach Blum, Fleetsmith" url="" image="/podcast/images/episodes/zach-blum-cs.png" >}}
 
 {{< episode-cs title="Ep. #10: Ben Hindman, Splash" url="" image="/podcast/images/episodes/ben-hindman-cs.png" >}}
 
