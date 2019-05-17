@@ -25,6 +25,6 @@ Panelist Include:
 
 Moderator:
 
-- Joe Ruscio, is a General Partner at Heavbit
+- Joe Ruscio, General Partner at Heavybit
 
 *This was published on Nov. 29, 2018.*
