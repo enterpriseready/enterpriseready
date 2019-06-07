@@ -32,7 +32,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #8: Dave Cole, Tenable" url="https://podcasts.apple.com/us/podcast/ep-8-driving-product-communication-with-dave-cole/id1437951282?i=1000439021296" image="/podcast/images/episodes/dave-cole.png" >}}
 
-{{< episode-cs title="Ep. #9: Zach Blum, Fleetsmith" url="" image="/podcast/images/episodes/zach-blum-cs.png" >}}
+{{< episode-cs title="Ep. #9: Zach Blum, Fleetsmith" url="https://podcasts.apple.com/us/podcast/ep-9-device-management-with-zack-blum-of-fleetsmith/id1437951282?i=1000440717152" image="/podcast/images/episodes/zach-blum.png" >}}
 
 {{< episode-cs title="Ep. #10: Ben Hindman, Splash" url="" image="/podcast/images/episodes/ben-hindman-cs.png" >}}
 
