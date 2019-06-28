@@ -43,3 +43,5 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 {{< episode-cs title="Ep. #13: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
 
 {{< episode-cs title="Ep. #14: Mark Greene, Cloud Elements" url="" image="/podcast/images/episodes/mark-greene-cs.png" >}}
+
+{{< episode-cs title="Ep. #15: Bob Tinker, MobileIron" url="" image="/podcast/images/episodes/bob-tinker-cs.png" >}}
