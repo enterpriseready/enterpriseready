@@ -11,7 +11,7 @@ ogimage = "images/twtr/product-security-og.png"
 
 Security isn't a topic to discuss by itself, it should be part of the conversation around everything discussed on EnterpriseReady. For SaaS companies working with larger enterprise IT buyers it is incredibly important for this to be an area of strength. Most enterprises will provide potential software vendors with long third-party [vendor security questionnaires](https://www.vendorsecurityalliance.org/). These documents generally cover a broad range of security topics including product security, physical office security, employee screening, office network security, business continuity, upstream vendor security, disaster recovery, data security, secure IT policy, asset security and data center security in order to evaluate the overall security posture of an organization.
 
-For the purpose of this guide we’re going to focus on product related security issues. These be broken into 3 primary categories of development: security, ops security and product security. We also recommend a detailed review of the [security controls recommended by OWASP](https://www.owasp.org/index.php/Category:Control).
+For the purpose of this guide we’re going to focus on product related security issues. These be broken into 3 primary categories of development: security, ops security and product security. We also recommend a detailed review of the [security controls recommended by OWASP](https://www.owasp.org/index.php/Category:Control). The [OWASP Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project) is a more detailed list of security concerns.
 
 ## Ops
 ----  
@@ -68,17 +68,17 @@ Ensure that encryption methods are not “homegrown”. Use industry defined sta
 **Code Reviews**  
 Require that all code is reviewed by a separate person than the author. This will help eliminate rogue actors from introducing intentional or unintentional security bugs into your system.
 
-**Static Code Analysis**  
-When possible, leverage automation tools such as [Checkmarx](https://www.checkmarx.com), [Veracode](https://www.veracode.com/) and others to inspect code changes for security vulnerabilities.
+**Application Security Testing**  
+Leverage Application Security Testing (AST) tools. Interactive (IAST) tools such as Contrast [https://www.contrastsecurity.com] combine multiple techniques and are compatible with modern software pipelines. Static (SAST) tools such as [Checkmarx](https://www.checkmarx.com) and [Veracode](https://www.veracode.com/) scan source code. Dynamic (DAST) tools simulate attacks using HTTP requests.
 
 **Test Dependencies**  
-While it's common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like [Snyk](https://www.snyk.io) are available to help automatically monitor and scan these.
+While it's common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like [Snyk](https://www.snyk.io) and Contrast [https://www.contrastsecurity.com] are available to help automatically monitor and scan these.
 
 **Secret Management**  
 Your code should use a vault to store secrets when possible. Consider using [Hashicorp Vault](https://www.vaultproject.io/) or [Torus.sh](https://www.torus.sh/) for this.
 
 **Application Security**  
-Read the [OWASP Top 10 Vulnerabilities](https://www.veracode.com/directory/owasp-top-10), near the bottom of that page, labeled A1-A10, and think about how someone could use these vulnerabilities to gain access to your system, databases or network  
+Read the [OWASP Top 10 Vulnerabilities](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_2017_Project) and think about how someone could use each of the top ten vulnerabilities to gain access to your system, databases or network  
 
 **Continuous Threat Modeling**  
 Identify and document your trust boundaries and threat models in your system early. Continue to update these docs as your system evolves. Knowing where the trust boundaries are and where the biggest threat could come from will help you prioritize solutions.
