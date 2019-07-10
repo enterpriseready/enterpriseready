@@ -16,32 +16,42 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 ## Episodes
 ----   
-{{< episode title="Ep. #1: Adam Jacob, Chef.io" url="https://itunes.apple.com/us/podcast/ep-1-delivering-software-that-enterprises-love-chefs/id1437951282?i=1000420937811&mt=2" image="/podcast/images/episodes/adam-jacob.png" >}}
+{{< episode title="Ep. #1: Adam Jacob, Chef.io" url="adam-jacob-chef" image="/podcast/images/episodes/adam-jacob.png" >}}
 
-{{< episode title="Ep. #2: Tom Preston-Werner, Chatterbug & formerly Github" url="https://itunes.apple.com/us/podcast/ep-2-the-early-days-of-github-with-tom-preston-werner/id1437951282?i=1000422121814&mt=2" image="/podcast/images/episodes/tpw.png" >}}
+{{< episode title="Ep. #2: Tom Preston-Werner, Chatterbug & formerly Github" url="tom-preston-werner-github" image="/podcast/images/episodes/tpw.png" >}}
 
-{{< episode title="Ep. #3: Peter Reinhardt, Segment" url="https://itunes.apple.com/us/podcast/ep-3-product-market-fit-with-segments-peter-reinhardt/id1437951282?i=1000423554518&mt=2" image="/podcast/images/episodes/peter-reinhardt.png" >}}
+{{< episode title="Ep. #3: Peter Reinhardt, Segment" url="peter-reinhardt-segment" image="/podcast/images/episodes/peter-reinhardt.png" >}}
 
-{{< episode title="Ep. #4: Alex Polvi, CoreOS" url="https://itunes.apple.com/us/podcast/ep-4-open-source-with-coreoss-alex-polvi/id1437951282?i=1000425138971&mt=2" image="/podcast/images/episodes/alex-polvi.png" >}}
+{{< episode title="Ep. #4: Alex Polvi, CoreOS" url="alex-polvi-coreos" image="/podcast/images/episodes/alex-polvi.png" >}}
 
-{{< episode title="Ep. #5: Edith Harbaugh, LaunchDarkley" url="https://itunes.apple.com/us/podcast/ep-5-evolution-enterprise-edith-harbaugh-launchdarkly/id1437951282?i=1000431194083&mt=2" image="/podcast/images/episodes/edith-harbaugh.png" >}}
+{{< episode title="Ep. #5: Edith Harbaugh, LaunchDarkley" url="edith-harbaugh-launchdarkley" image="/podcast/images/episodes/edith-harbaugh.png" >}}
 
-{{< episode title="Ep. #6: Andrew Peterson, Signal Sciences" url="https://itunes.apple.com/us/podcast/ep-6-enterprise-innovation-andrew-peterson-signal-sciences/id1437951282?i=1000433693718&mt=2" image="/podcast/images/episodes/andrew-peterson.png" >}}
+{{< episode title="Ep. #6: Andrew Peterson, Signal Sciences" url="andrew-peterson-signal-sciences" image="/podcast/images/episodes/andrew-peterson.png" >}}
 
-{{< episode title="Ep. #7: Paul Querna, ScaleFT" url="https://podcasts.apple.com/us/podcast/ep-7-enterprise-infrastructure-with-paul-querna-of-okta/id1437951282?i=1000434555437" image="/podcast/images/episodes/paul-querna.png" >}}
+{{< episode title="Ep. #7: Paul Querna, ScaleFT" url="paul-querna-scaleft" image="/podcast/images/episodes/paul-querna.png" >}}
 
-{{< episode title="Ep. #8: Dave Cole, Tenable" url="https://podcasts.apple.com/us/podcast/ep-8-driving-product-communication-with-dave-cole/id1437951282?i=1000439021296" image="/podcast/images/episodes/dave-cole.png" >}}
+{{< episode title="Ep. #8: Dave Cole, Tenable" url="dave-cole-tenable" image="/podcast/images/episodes/dave-cole.png" >}}
 
-{{< episode title="Ep. #9: Zach Blum, Fleetsmith" url="https://podcasts.apple.com/us/podcast/ep-9-device-management-with-zack-blum-of-fleetsmith/id1437951282?i=1000440717152" image="/podcast/images/episodes/zach-blum.png" >}}
+{{< episode title="Ep. #9: Zach Blum, Fleetsmith" url="zach-blum-fleetsmith" image="/podcast/images/episodes/zach-blum.png" >}}
 
-{{< episode title="Ep. #10: Joel Wallenstrom, Wickr" url="https://podcasts.apple.com/us/podcast/ep-10-secure-communications-with-joel-wallenstrom-of-wickr/id1437951282?i=1000442060981" image="/podcast/images/episodes/joel-wallenstrom.png" >}}
+{{< episode title="Ep. #10: Joel Wallenstrom, Wickr" url="joel-wallenstrom-wickr" image="/podcast/images/episodes/joel-wallenstrom.png" >}}
 
-{{< episode-cs title="Ep. #11: Ben Hindman, Splash" url="" image="/podcast/images/episodes/ben-hindman-cs.png" >}}
+{{< episode-cs title="Ep. #11: Bob Tinker, MobileIron" url="" image="/podcast/images/episodes/bob-tinker-cs.png" >}}
 
-{{< episode-cs title="Ep. #12: Elizabeth Zalman, strongDM" url="" image="/podcast/images/episodes/elizabeth-zalman-cs.png" >}}
+{{< episode-cs title="Ep. #12: William Morgan, Buoyant" url="" image="/podcast/images/episodes/william-morgan-cs.png" >}}
 
-{{< episode-cs title="Ep. #13: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
+{{< episode-cs title="Ep. #13: Rahul Vohra, Superhuman" url="" image="/podcast/images/episodes/rahul-vohra-cs.png" >}}
 
-{{< episode-cs title="Ep. #14: Mark Greene, Cloud Elements" url="" image="/podcast/images/episodes/mark-greene-cs.png" >}}
+{{< episode-cs title="Ep. #14: Michael Pryor, Trello" url="" image="/podcast/images/episodes/michael-pryor-cs.png" >}}
 
-{{< episode-cs title="Ep. #15: Bob Tinker, MobileIron" url="" image="/podcast/images/episodes/bob-tinker-cs.png" >}}
+{{< episode-cs title="Ep. #15: Jeff Williams, Contrast Security" url="" image="/podcast/images/episodes/jeff-williams-cs.png" >}}
+
+{{< episode-cs title="Ep. #16: Spence Green, Lilt" url="" image="/podcast/images/episodes/spence-green-cs.png" >}}
+
+{{< episode-cs title="Ep. #17: Ben Hindman, Splash" url="" image="/podcast/images/episodes/ben-hindman-cs.png" >}}
+
+{{< episode-cs title="Ep. #18: Elizabeth Zalman, strongDM" url="" image="/podcast/images/episodes/elizabeth-zalman-cs.png" >}}
+
+{{< episode-cs title="Ep. #19: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
+
+{{< episode-cs title="Ep. #20: Mark Greene, Cloud Elements" url="" image="/podcast/images/episodes/mark-greene-cs.png" >}}
