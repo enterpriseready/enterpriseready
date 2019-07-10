@@ -3,7 +3,7 @@ date = "2016-10-25T00:00:00Z"
 title = "Tom Preston-Werner of Github"
 type = "podcast"
 hero = ""
-metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise.
+metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
 pagetitle = "Tom Preston-Werner, Github - EnterpriseReady Podcast | BUILDING the world’s best enterprise software"
 ogimage = "podcast/images/podcast_og.png"
 +++
