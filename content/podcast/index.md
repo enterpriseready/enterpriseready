@@ -36,7 +36,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #10: Joel Wallenstrom, Wickr" url="joel-wallenstrom-wickr" image="/podcast/images/episodes/joel-wallenstrom.png" >}}
 
-{{< episode-cs title="Ep. #11: Bob Tinker, MobileIron" url="bob-tinker-mobileiron" image="/podcast/images/episodes/bob-tinker-cs.png" >}}
+{{< episode title="Ep. #11: Bob Tinker, MobileIron" url="bob-tinker-mobileiron" image="/podcast/images/episodes/bob-tinker.png" >}}
 
 {{< episode-cs title="Ep. #12: William Morgan, Buoyant" url="" image="/podcast/images/episodes/william-morgan-cs.png" >}}
 
