@@ -4,7 +4,7 @@ title = "Bob Tinker of MobileIron"
 type = "podcast"
 hero = ""
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
-pagetitle = "Bob Tinker, Mobile - EnterpriseReady Podcast | BUILDING the world’s best enterprise software"
+pagetitle = "Bob Tinker, MobileIron - EnterpriseReady Podcast | BUILDING the world’s best enterprise software"
 ogimage = "podcast/images/podcast_og.png"
 +++
 
@@ -14,4 +14,4 @@ In this episode of the EnterpriseReady podcast, I sit down with [Bob Tinker](htt
 
 EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-founder and CEO of [Replicated](https://www.replicated.com), who are powering the worlds best enterprise software.
 
-### [Subscribe on iTunes](https://podcasts.apple.com/us/podcast/enterpriseready/id1437951282), [Google Play](https://play.google.com/music/listen?u=0#/ps/Iq3uifjva44tdvm2orhu4apvjtu), [favorite on SoundCloud](https://soundcloud.com/heavybit/sets/enterpriseready), or search for “EnterpriseReady” in your favorite podcasting app
+### [Subscribe on iTunes](https://podcasts.apple.com/us/podcast/ep-11-customer-urgency-with-bob-tinker-of-mobileiron/id1437951282?i=1000445253272), [Google Play](https://play.google.com/music/listen?u=0#/ps/Iq3uifjva44tdvm2orhu4apvjtu), [favorite on SoundCloud](https://soundcloud.com/heavybit/sets/enterpriseready), or search for “EnterpriseReady” in your favorite podcasting app
