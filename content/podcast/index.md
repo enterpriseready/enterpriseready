@@ -38,7 +38,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #11: Bob Tinker, MobileIron" url="bob-tinker-mobileiron" image="/podcast/images/episodes/bob-tinker.png" >}}
 
-{{< episode title="Ep. #12: William Morgan, Buoyant" url="william-morgan-buoyant" image="/podcast/images/episodes/william-morgan-cs.png" >}}
+{{< episode title="Ep. #12: William Morgan, Buoyant" url="william-morgan-buoyant" image="/podcast/images/episodes/william-morgan.png" >}}
 
 {{< episode-cs title="Ep. #13: Rahul Vohra, Superhuman" url="" image="/podcast/images/episodes/rahul-vohra-cs.png" >}}
 
