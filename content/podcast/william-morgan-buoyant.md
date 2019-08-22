@@ -14,4 +14,4 @@ Welcome back to the EnterpriseReady podcast. Today we are talking with [William 
 
 EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-founder and CEO of [Replicated](https://www.replicated.com), who are powering the worlds best enterprise software.
 
-### [Subscribe on iTunes](https://podcasts.apple.com/us/podcast/enterpriseready/id1437951282), [Google Play](https://play.google.com/music/listen?u=0#/ps/Iq3uifjva44tdvm2orhu4apvjtu), [favorite on SoundCloud](https://soundcloud.com/heavybit/sets/enterpriseready), or search for “EnterpriseReady” in your favorite podcasting app
+### [Subscribe on iTunes](https://podcasts.apple.com/us/podcast/ep-12-service-mesh-with-william-morgan-of-buoyant/id1437951282?i=1000446385821), [Google Play](https://play.google.com/music/listen?u=0#/ps/Iq3uifjva44tdvm2orhu4apvjtu), [favorite on SoundCloud](https://soundcloud.com/heavybit/sets/enterpriseready), or search for “EnterpriseReady” in your favorite podcasting app
