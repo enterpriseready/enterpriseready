@@ -55,3 +55,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 {{< episode-cs title="Ep. #19: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
 
 {{< episode-cs title="Ep. #20: Mark Greene, Cloud Elements" url="" image="/podcast/images/episodes/mark-greene-cs.png" >}}
+
+{{< episode-cs title="Ep. #21: Yvonne Wassenaar , Puppet" url="" image="/podcast/images/episodes/yvonne-wassenaar-cs.png" >}}
+
+{{< episode-cs title="Ep. #22: Michel Feaster, Usermind" url="" image="/podcast/images/episodes/michel-feaster-cs.png" >}}
