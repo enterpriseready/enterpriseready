@@ -59,3 +59,5 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 {{< episode-cs title="Ep. #21: Yvonne Wassenaar , Puppet" url="" image="/podcast/images/episodes/yvonne-wassenaar-cs.png" >}}
 
 {{< episode-cs title="Ep. #22: Michel Feaster, Usermind" url="" image="/podcast/images/episodes/michel-feaster-cs.png" >}}
+
+{{< episode-cs title="Ep. #23: Derek Steer, Mode" url="" image="/podcast/images/episodes/derek-steer-cs.png" >}}
