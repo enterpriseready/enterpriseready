@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Expensifies on </title>
+    <link>http://localhost:1313/expensify/</link>
+    <description>Recent content in Expensifies on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 28 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/expensify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Expensify Integrations</title>
+      <link>http://localhost:1313/expensify/integrations/</link>
+      <pubDate>Sat, 28 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/expensify/integrations/</guid>
+      <description>Expensify is an expense reporting tool that started by targeting SMBs and startups, but has grown with its customers (which includes the likes of Uber, Square, Snapchat, Stripe, GitHub, Docker and Zendesk) into a nearly complete enterprise ready application.
+Product Assortment with Integrations As part of its evolution, Expensify now integrates into a variety of accounting products. However, recognizing that those accounting products generally target different types of buyers, they&amp;rsquo;ve decided to create product assortment by feature-gating various integrations.</description>
+    </item>
+    
+  </channel>
+</rss>

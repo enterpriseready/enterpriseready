@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A detailed analysis of the way that HubSpot implements role based access control in order to meet the needs of enterprise customers.">
+<meta name="og:description" content="A detailed analysis of the way that HubSpot implements role based access control in order to meet the needs of enterprise customers.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="http://localhost:1313/images/twtr/hubspot-rbac-og.png" itemprop="image"/>
+<meta property="og:title" content="HubSpot Roles (RBAC) - Enterprise Ready Feature Breakdown"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>HubSpot Roles (RBAC) - Enterprise Ready Feature Breakdown</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="stylesheet" href="/css/remodal.css">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css">
+    <script src="/js/remodal.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/hubspot/role-based-access-control/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="" target="_blank"> </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+<div class="container" id="breadcrumbs">
+  <div id="tool-tip">
+    <a href="/features/role-based-access-control">role based access control</a>
+    </div>
+    <span>/</span> hubspot
+    <div class="pull-right">
+      <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/hubspot/role-based-access-control.md">Edit this page</a>
+    </div>
+  </div>
+</div>
+
+  <div class="container feather" id="article">
+
+    <h1>HubSpot Role Based Access Control</h1>
+
+    
+
+<p>HubSpot <a href="http://blog.hubspot.com/customers/bid/157944/Introducing-6-Different-HubSpot-User-Roles">introduced roles &amp; permissions</a> about 4 years ago. In doing so, they enabled their customers to provide role based access control to application functionality.</p>
+
+<h2 id="what-they-do-well">What they do well:</h2>
+
+<h3 id="documentation">Documentation:</h3>
+
+<p>They’ve done a nice job of clearly <a href="https://knowledge.hubspot.com/articles/kcs_article/settings/hubspot-user-roles-guide">documenting</a> the permissions assigned to each role.</p>
+
+<h3 id="integration-with-user-invitation-flow">Integration with user invitation flow</h3>
+
+<p>As an account admin you select the role of the user as step 2 of the invite flow:</p>
+
+<p><img src="https://i.imgur.com/6r0V24D.png" alt="enter image description here" /></p>
+
+<h3 id="sane-defaults">Sane defaults</h3>
+
+<p>Account permissions that would potentially give the user full access are separated from the standard roles and are defaulted to non-admin status (reducing the likelihood of just moving ahead with defaults and making many admins).</p>
+
+<p><img src="https://i.imgur.com/4YUjons.png" alt="enter image description here" /></p>
+
+<h3 id="role-names-more-info">Role names &amp; more info</h3>
+
+<p>Standard account roles (ie “Marketing”) have been given fairly descriptive names &amp; the link to the full documentation provided for more details.</p>
+
+<p><img src="https://i.imgur.com/H9sVSVu.png" alt="enter image description here" /></p>
+
+<h3 id="sub-permissions">Sub-permissions</h3>
+
+<p>Within roles there are sub-permissions for various types of application actions. Ultimately they’ve selected 3 different permission types for each. Write &amp; Publish, Write Only, Read Only.</p>
+
+<p><img src="https://i.imgur.com/yqxvbRu.png" alt="enter image description here" /></p>
+
+<h3 id="integrated-into-the-user-list">Integrated into the user list</h3>
+
+<p>The user list clearly illustrates the role of each user at a glance. The list can be filtered by role types. Admins can easily edit permissions of users anytime.</p>
+
+<p><img src="https://i.imgur.com/PVhh2aB.png" alt="enter image description here" /></p>
+
+<h3 id="overall-simplicity">Overall - Simplicity</h3>
+
+<p>They’ve accomplished a fairly complex task of defining roles/permissions and made it a native and intuitive process.</p>
+
+<h2 id="where-they-ve-missed-the-mark">Where they’ve missed the mark.</h2>
+
+<h3 id="lack-of-flexibility-control">Lack of flexibility &amp; control</h3>
+
+<p>The simplicity of predefined roles makes it incredibly easy to get started, but it also lacks the power and flexibility of a system that allows admins to create custom roles. In fact, this is the most popular <a href="http://ideas.hubspot.com/forums/76407-general-hubspot-ideas/suggestions/3716820-custom-user-access-roles-and-individuals">“Help &amp; Settings” request from their customers</a>.</p>
+
+<h3 id="permission-enforcement-messaging">Permission enforcement messaging</h3>
+
+<p>There are also issues with the implementation of how permissions are enforced. Users without the permission to add users can still visit the page (however they see a users list).</p>
+
+<p><img src="https://i.imgur.com/2ObBL4f.png" alt="enter image description here" /></p>
+
+<p>They can even begin the flow to add users, but since they can’t select roles they can’t make it further.</p>
+
+<p><img src="https://i.imgur.com/hJfBquE.png" alt="enter image description here" /></p>
+
+<p>Similar issues come up when trying to access a section for creating a blog post. Except this time, the user can take the action but then gets an error message.</p>
+
+<p><img src="https://i.imgur.com/y7GGNuR.png" alt="enter image description here" /></p>
+
+<p>At no point are any of these users shown messaging that would indicate that they don’t have the required permissions to accomplish the task they’re attempting. Alerts with this message are lacking and will likely end up with confused users.</p>
+
+<p><em>This was published on Nov. 22, 2016.</em></p>
+
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/hubspot/role-based-access-control.md" target="_blank">Content Contributors</a>
+</h3>
+
+
+<hr />
+
+<p><div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/paracycle" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/paracycle.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/marccampbell" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/marccampbell.png?size=40" width="40"> </a>
+
+</div>
+</p>
+
+<div class="clear"></div>
+<div id='breakdown-request'>
+  <br/>
+  <hr />
+  <h3 class="section-header" align="center">Is a feature of your app EnterpriseReady?</h3>
+  <p align="center">We'd love to work with you to breakdown your implementation and share it with the EnterpriseReady community.</p>
+  <p align="center"><a href="/breakdown-request" class="button button-secondary">Request a breakdown</a></p>
+</div>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                    <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="HubSpot Role Based Access Control" />
+                    <input class="button button-primary" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="///";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+
+</html>
+

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A detailed analysis of the way that Heroku implements team functionality in order to meet the needs of enterprise customers.">
+<meta name="og:description" content="A detailed analysis of the way that Heroku implements team functionality in order to meet the needs of enterprise customers.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="http://localhost:1313/images/twtr/heroku-team-og.png" itemprop="image"/>
+<meta property="og:title" content="Heroku Teams - Enterprise Ready Feature Breakdown"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Heroku Teams - Enterprise Ready Feature Breakdown</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="stylesheet" href="/css/remodal.css">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css">
+    <script src="/js/remodal.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/heroku/teams/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="" target="_blank"> </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+<div class="container" id="breadcrumbs">
+  <div id="tool-tip">
+    <a href="/features/teams">teams</a>
+    </div>
+    <span>/</span> Heroku
+    <div class="pull-right">
+      <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/heroku/teams.md">Edit this page</a>
+    </div>
+  </div>
+</div>
+
+  <div class="container feather" id="article">
+
+    <h1>Heroku Teams</h1>
+
+    
+
+<p>Team functionality drives collaboration, which is why Heroku introduced Teams for people to build and collaborate on apps together.</p>
+
+<h3 id="user-centric-vs-team-centric-user-centric">User Centric vs. Team Centric? User Centric.</h3>
+
+<p>Enterprise Ready classifies Team functionality into to camps, User Centric vs. Team Centric. You can read more in depth on this concept but quickly it’s the model for how applications group users to create teams. Applications like Github follow the User Centric approach, everybody on Github has their own user account that gets assigned to organizations. If you ever leave the organization you don’t lose access to your GitHub account. Heroku also falls into this category. Any email address can be invited to any team, so a Heroku user can be on multiple teams.</p>
+
+<h3 id="creating-teams">Creating Teams</h3>
+
+<p>When logged in you quickly see a way to create a new team.</p>
+
+<p><img src="https://i.imgur.com/2ZgaiCb.png" alt="enter description here" /></p>
+
+<p>In order to create a new team, you must provide 1) Team name 2) Credit Card. This is the first instance where we see additional costs for an Enterprise feature. Once you invite more than 5 team members you get charged $10/month, with a maximum of 25 members. For more than 25 members you’ll have to reach out to Heroku for additional pricing (typical Enterprise Sales). Accounts can only create a maximum of 5 teams. Also, Free dynos, which are available for personal apps, are not available to Teams.</p>
+
+<p>Presenting billing this early on does seem to add an extra layer of friction, but it feels like Heroku is trying to create some accountability as if a team member adds a paid feature there is no question who on the team is footing the bill.</p>
+
+<p>Note, the creator of the team automatically becomes the Team owner.</p>
+
+<p><img src="https://i.imgur.com/qnZ1g6j.png" alt="enter description here" /></p>
+
+<p>Now that your team is created, you can start setting up or configuring the team.</p>
+
+<p><img src="https://i.imgur.com/2vlhxR3.png" alt="enter description here" /></p>
+
+<p>When you click “Set up Team” you are prompted to Manage Access of Create New App.</p>
+
+<p><img src="https://i.imgur.com/TQonO2D.png" alt="enter description here" /></p>
+
+<h3 id="adding-members-to-a-team">Adding Members to a Team</h3>
+
+<p>Adding members to a team is easy, all you need is an email address. You can also see Heroku starts introducing <a href="/features/role-based-access-control">role-based access control</a> by making you assign a member a role (admin or member).</p>
+
+<p><img src="https://i.imgur.com/RstX90J.png" alt="enter description here" /></p>
+
+<p>Once you’ve invited members, it’s easy to remove them under the Access tab.</p>
+
+<p><img src="https://i.imgur.com/L3XcPfo.png" alt="enter description here" /></p>
+
+<h3 id="maintaining-teams">Maintaining Teams</h3>
+
+<p>Team settings are also pretty simple, you can change a team name or delete a team.</p>
+
+<p><img src="https://i.imgur.com/o5Yyt46.png" alt="enter description here" /></p>
+
+<h3 id="product-elements-for-heroku-teams">Product Elements for Heroku Teams</h3>
+
+<p>Creating Apps
+Collaborating Apps</p>
+
+<h3 id="other-team-functionality">Other Team Functionality</h3>
+
+<p>Heroku also provides collaboration outside of teams, inside of personal apps. For any Personal Heroku app you can add collaborators.</p>
+
+<p><img src="https://i.imgur.com/KRBWo4t.png" alt="enter description here" /></p>
+
+<p><em>This was published on Nov. 22, 2016.</em></p>
+
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/heroku/teams.md" target="_blank">Content Contributors</a>
+</h3>
+
+
+<hr />
+
+<p><div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/marccampbell" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/marccampbell.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/topherolson" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/topherolson.png?size=40" width="40"> </a>
+
+</div>
+</p>
+
+<div class="clear"></div>
+<div id='breakdown-request'>
+  <br/>
+  <hr />
+  <h3 class="section-header" align="center">Is a feature of your app EnterpriseReady?</h3>
+  <p align="center">We'd love to work with you to breakdown your implementation and share it with the EnterpriseReady community.</p>
+  <p align="center"><a href="/breakdown-request" class="button button-secondary">Request a breakdown</a></p>
+</div>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                    <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="Heroku Teams" />
+                    <input class="button button-primary" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="///";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+
+</html>
+

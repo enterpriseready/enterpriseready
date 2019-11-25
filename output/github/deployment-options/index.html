@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A detailed analysis of the way that GitHub implements their Enterprise installable version in order to meet the needs of enterprises.">
+<meta name="og:description" content="A detailed analysis of the way that GitHub implements their Enterprise installable version in order to meet the needs of enterprises.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="http://localhost:1313/images/twtr/github-deployment-og.png" itemprop="image"/>
+<meta property="og:title" content="GitHub Enterprise (On-prem) - Enterprise Ready Feature Breakdown"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>GitHub Enterprise (On-prem) - Enterprise Ready Feature Breakdown</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="stylesheet" href="/css/remodal.css">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css">
+    <script src="/js/remodal.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/github/deployment-options/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="" target="_blank"> </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+<div class="container" id="breadcrumbs">
+  <div id="tool-tip">
+    <a href="/features/deployment-options">Deployment Options</a>
+    </div>
+    <span>/</span> github
+    <div class="pull-right">
+      <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/github/deployment-options.md">Edit this page</a>
+    </div>
+  </div>
+</div>
+
+  <div class="container feather" id="article">
+
+    <h1>GitHub Deployment Options</h1>
+
+    
+
+<p>GitHub offers their application to customers with a few different deployment options. The vast majority of GitHub&rsquo;s customers run on GitHub.com (in terms of quantity, but not necessarily in terms of revenue), this is the multi-tenant, cloud hosted version of their application. <a href="../../blog/user-centric-v-team-centric">Individuals sign up for accounts</a> and then are added to organizations when they join a new company. Organizations will generally have a mix of private and public repos with varying access based on the users role. The easy of using GitHub.com for open source and personal projects is often attributed with the success of the &ldquo;bottom up&rdquo; adoption that GitHub has seen in enterprises.
+<img src="/github/images/team-permissions.png" alt="orgs" /></p>
+
+<p>GitHub also offers customers the option of running their application as a private instance with <a href="https://enterprise.github.com/">GitHub Enterprise</a>. The buyer is responsible for installing and managing their instance of GitHub Enterprise (unless they work with a managed service provider) as an <a href="https://enterprise.github.com/aws">AMI on AWS</a>, a <a href="https://enterprise.github.com/microsoft/">VM in Azure</a> or as a .OVA in their own data center. GitHub has done an outstanding job of creating an experience that makes the setup and maintenance of the application feel as easy as managing a SaaS application.</p>
+
+<h2 id="getting-started-with-ghe">Getting started with GHE:</h2>
+
+<p>Sign up for a trial online (this was actually a very novel idea that you could self-serve a trial of an enterprise installable version of application.)
+<img src="/github/images/ghe-trial.png" alt="trial" /></p>
+
+<p>GitHub provides several ways to get started, either through their downloadable OVA or with a public cloud image.
+<img src="/github/images/ghe-download.png" alt="download" /></p>
+
+<p>The GitHub enterprise dashboard provides some basic information to the customer and allows them to renew.
+<img src="/github/images/ghe-dashboard.png" alt="dashboard" /></p>
+
+<h2 id="installing-ghe">Installing GHE:</h2>
+
+<p>The enterprise IT admin or an engineering manager would generally setup the private GitHub Enterprise instance by following the detailed <a href="https://help.github.com/enterprise/2.7/admin/guides/installation/installing-github-enterprise-on-vmware/">installation instructions</a>.</p>
+
+<p>Once they&rsquo;ve reached the admin UI, they&rsquo;ll need to upload their license.
+<img src="/github/images/upload-license.png" alt="license" /></p>
+
+<p>GitHub makes the enterprise version of their application highly configurable, so the Settings screen is critical for enabling admins to get the setup they require.
+<img src="/github/images/ghe-settings.png" alt="settings" /></p>
+
+<h2 id="managing-ghe">Managing GHE:</h2>
+
+<p>GHE customers can determine if they want the convenience of auto update checks enabled.
+<img src="/github/images/ghe-auto-updates.png" alt="updates" /></p>
+
+<p><img src="/github/images/ghe-updates-enabled.png" alt="updates" /></p>
+
+<p>GHE supports the ability for admins to be able to send in-app messages to their users about upcoming maintenance as well as information about the running instance for planning downtime.
+<img src="/github/images/ghe-maintenance.png" alt="support" /></p>
+
+<h2 id="supporting-ghe">Supporting GHE:</h2>
+
+<p>Supporting buyer-managed, private instance of SaaS applications can be tricky. As a result, GitHub has invested heavily in providing as much information and guidance to the app admins out of the box.</p>
+
+<p>The support bundle is a key feature for grabbing all of the important logs and data about the instance.
+<img src="/github/images/ghe-support.png" alt="maintenance" /></p>
+
+<p>Additionally, GitHub has created a beautiful dashboard of System health data to enable admins to proactively manage their instance to ensure there is little downtime. This data can also be pulled into external tools.
+<img src="/github/images/ghe-monitor.png" alt="monitor" /></p>
+
+<p>There is an extensive customer facing knowledgebase that containers a wide variety of information about how to successfully deploy GHE into any enterprise.
+<img src="/github/images/ghe-knowledgebase.png" alt="kb" /></p>
+
+<p>Finally, GitHub provides a videos to ensure that the information can be consumed in whatever media is best for each user.
+<img src="/github/images/ghe-resources.png" alt="resources" /></p>
+
+<p><em>This was published on Nov. 22, 2016.</em></p>
+
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/github/deployment-options.md" target="_blank">Content Contributors</a>
+</h3>
+
+
+<hr />
+
+<div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                    <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="GitHub Deployment Options" />
+                    <input class="button button-primary" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="///";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+
+</html>
+

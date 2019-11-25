@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A guide for SaaS companies to meet and exceed the SLA and Support requirements of their enterprise customers.">
+<meta name="og:description" content="A guide for SaaS companies to meet and exceed the SLA and Support requirements of their enterprise customers.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="http://localhost:1313/images/twtr/sla-support-og.png" itemprop="image"/>
+<meta property="og:title" content="Enterprise Ready SaaS App Guide to SLA and Support"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Enterprise Ready SaaS App Guide to SLA and Support</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="stylesheet" href="/css/remodal.css">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css">
+    <script src="/js/remodal.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/features/sla-support/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="" target="_blank"> </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+
+  <div class="container" id="breadcrumbs">
+    <div id="tool-tip">
+      <span style="cursor:pointer;color:#878787">Features</span>
+      <div class="tool-tip">
+        <ul>
+          <li><a href="/features/product-assortment">Product Assortment</a></li>
+          <hr />
+          <li><a href="/features/single-sign-on">Single Sign On</a></li>
+          <hr />
+          <li><a href="/features/audit-log">Audit Logs</a></li>
+          <hr />
+          <li><a href="/features/role-based-access-control">Role Based Access Control</a></li>
+          <hr />
+          <li><a href="/features/change-management">Change Management</a></li>
+          <hr />
+          <li><a href="/features/product-security">Product Security</a></li>
+          <hr />
+          <li><a href="/features/deployment-options">Deployment Options</a></li>
+          <hr  />
+          <li><a href="/features/teams">Team Management</a></li>
+          <hr  />
+          <li><a href="/features/integrations">Integrations</a></li>
+          <hr />
+          <li><a href="/features/advanced-reporting">Advanced Reporting</a></li>
+          <hr  />
+          <li><a href="/features/sla-support">SLA and Support</a></li>
+        </ul>
+      </div>
+      </div>
+      <span>/</span> SLA and Support
+      <div class="pull-right">
+        <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/features/sla-support.md">Edit this page</a>
+      </div>
+    </div>
+
+</div>
+
+  <div class="container" id="article">
+    <p align="center"><img src="/images/support.svg" /></p>
+
+    <h1>SLA and Support</h1>
+
+    
+
+<h2 id="sla-service-level-agreement">SLA (Service Level Agreement)</h2>
+
+<p>Service level agreements are a common request from enterprise customers, rooted in the twin premises that (1) if they spend a lot of money on a product, they expect a certain level of quality, and (2) that due to the scale of their businesses, unplanned outage can cost them non-trivial amounts of money. Typically, SLAs guarantee a minimum amount of application uptime and/or a maximum wait time for resolving support issues.</p>
+
+<h3 id="uptime">Uptime</h3>
+
+<p>Generally, SLAs for enterprise applications must be at least 99.9 percent (i.e., the application experiences no more than 8.76 hours of unplanned downtime per year), but many will promise 99.99 percent (a max of 52.6 minutes of unplanned downtime per year) or even 99.999 percent (5.26 minutes of unplanned downtime per year). This is less of a product feature than a business decision, but uptime is very much a function of architectural decisions at both the application and infrastructure levels. It’s also important to report this with some amount of historical transparency, which is why many SaaS providers have a status page that displays real-time health and maintains the historical record of availability.</p>
+
+<p>When there is an outage or other issue affecting a cloud service, many companies also use their status page to offer updates as they diagnose and then resolve the problem. The best approach is to do this in as close to real time as possible, because customers want to know what’s wrong and when they can expect to use your service again—and being left in the dark on this information can generate ill will. For particularly long or widespread outages, publishing a detailed post-mortem can also be a good idea; it forces your company to address the root cause, and also lets customers know you take these events seriously.</p>
+
+<h3 id="response-times">Response times</h3>
+
+<p>Within this SLA, you’ll also likely include a commitment to provide standard support hours, emergency support and maximum response times. Response is defined as the time it takes for a qualified team member to acknowledge the issue and begin to diagnose the problem. Response times vary by the severity of the issue that is being raised.</p>
+
+<p>Severity is often categorized into Sev1, Sev2 and Sev3, with clear definitions for the issues that will fall into each category. Application downtime with no workaround is a clear Sev1 issue, and potential security vulnerabilities are generally elevated to Sev1 as well. Response times for Sev1 is likely under 3 hours.</p>
+
+<h2 id="support">Support</h2>
+
+<p>There are many different methods for providing customer support, and offering different levels/avenues of support is often a common technique to distinguish between various pricing plans:</p>
+
+<ul>
+<li><strong>Community-based support:</strong> Generally for lower-tier customers, who will be able to ask questions of other community members in a forum.</li>
+<li><strong>Email support:</strong> Email support is generally seen as a low-cost way to offer direct support to your customers, as you can create a queue of incoming emails and prioritize them based on the support contract.</li>
+<li><strong>Phone support:</strong> Offered as a bit more of an &ldquo;on-demand&rdquo; or &ldquo;instant-response&rdquo; support option for customers who prefer to talk to someone immediately when they have a question.</li>
+<li><strong>Dedicated customer success manager:</strong> A single point of contact for all account-related questions. Aside from answering questions and trying to resolve issues, this person serves as an advocate for the customer&rsquo;s requests and issues within the SaaS provider.</li>
+</ul>
+
+<h2 id="other-support-related-practices-and-offerings">Other support-related practices and offerings</h2>
+
+<p>In addition to contractual and community support, your company can go a long way toward educating customers (and staving off some support duty) by producing the right content. <strong>High-quality documentation</strong> is an absolute necessity today, especially for SaaS applications where part of the value is in the self-service model of operating them. You can go the extra mile with video tutorials, webinars and even paid in-person training for customers that want it.</p>
+
+<p>Your enterprise customers will also expect some visibility into your <strong>product roadmap</strong>. They want to be able to influence the features you’ll be adding in order to ensure that you continue to meet their changing needs. However, you’ll usually want to preface any such discussion with a safe-harbor statement (if it’s in a presentation) or other means of communicating that although this is the general direction, you are not promising to deliver anything specific by any specific time frame. Some companies do build features at customers’ requests, but that type of deal must be formalized in a contract.</p>
+
+<p>Many enterprise customers will also eventually ask for things like <strong>business insurance, source code escrow and indemnification</strong>. Like SLAs, these aren’t really product features, but they’re important to understand because they’ll come up in enterprise contract negotiations and they can be addressed to some degree by how the product is built.</p>
+
+<h2 id="examples">Examples</h2>
+
+<hr />
+
+<div class="example">
+  <a href=/hashicorp/sla-support>
+    <img src=/hashicorp/images/example.png align="left" style="margin: 0;" />
+  </a>
+  <div class="clearfix"></div>
+  <h3>
+    <a href=/hashicorp/sla-support>HashiCorp SLA and Support</a>
+  </h3>
+</div>
+
+
+<div class="example">
+  <a href=/slack/sla-support>
+    <img src=/slack/images/example.png align="left" style="margin: 0;" />
+  </a>
+  <div class="clearfix"></div>
+  <h3>
+    <a href=/slack/sla-support>Slack SLA and Support</a>
+  </h3>
+</div>
+
+
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/sla-support.md" target="_blank">Content Contributors</a>
+</h3>
+
+
+<hr />
+
+<div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+
+
+    <div data-remodal-id="modal-subscribe">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+    <p align="center">We won't bug you often, but when we do it will include significant updates and contributions to EnterpriseReady.</p>
+    <div class="row">
+
+            <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="SLA and Support Modal" />
+                <input class="button button-primary" type="submit" value="Subscribe">
+            </form>
+
+    </div>
+</div>
+
+<script>
+
+    if (!sessionStorage.isNewSession)
+        setTimeout(func, 4000);
+
+        function func() {
+            var inst = $('[data-remodal-id=modal-subscribe]').remodal();
+            inst.open();
+            sessionStorage.isNewSession = true;
+        }
+
+
+
+</script>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                    <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="SLA and Support" />
+                    <input class="button button-primary" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="///";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+
+</html>
+

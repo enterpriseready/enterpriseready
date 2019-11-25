@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zendesks on </title>
+    <link>http://localhost:1313/zendesk/</link>
+    <description>Recent content in Zendesks on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/zendesk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zendesk Audit Log</title>
+      <link>http://localhost:1313/zendesk/audit-log/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zendesk/audit-log/</guid>
+      <description>The Zendesk audit log is available only to Enterprise level customers. It includes the basic audit logging features in that it tracks Who, What, When and Where. However, it lacks many of the features that make audit logs a critical enterprise ready feature.
+The Good: Retroactive Audit Record The first thing you’ll notice if you enable it for an active account is that it does have a historical record of the audit events from the accounts inception (no matter what account type you started with).</description>
+    </item>
+    
+    <item>
+      <title>Zendesk Change Management</title>
+      <link>http://localhost:1313/zendesk/change-management/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zendesk/change-management/</guid>
+      <description>Zendesk enables customers who purchase the enterprise plan to leverage their Sandbox feature for change management.
+The good Admin users are all permissioned to access the new account automatically (though if you use some type of SSO for authentication you’ll need to use the reset password flow in order to login).
+It is easy to create a sandbox environment from their UI. Just click a button and you can create a new environment or reset it back to its original settings.</description>
+    </item>
+    
+    <item>
+      <title>Zendesk Product Assortment</title>
+      <link>http://localhost:1313/zendesk/product-assortment/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zendesk/product-assortment/</guid>
+      <description>They also include a detailed breakdown which we can analyze:
+This was published on Nov. 22, 2016.
+  Content Contributors        Is a feature of your app EnterpriseReady? We&#39;d love to work with you to breakdown your implementation and share it with the EnterpriseReady community.
+Request a breakdown
+ </description>
+    </item>
+    
+  </channel>
+</rss>

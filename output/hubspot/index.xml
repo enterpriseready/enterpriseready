@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hubspots on </title>
+    <link>http://localhost:1313/hubspot/</link>
+    <description>Recent content in Hubspots on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 09 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/hubspot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HubSpot Report Authoring</title>
+      <link>http://localhost:1313/hubspot/reporting/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hubspot/reporting/</guid>
+      <description>HubSpot&amp;rsquo;s products are about end-to-end demand generation and lead management. Marketing is a role that requires a lot of analytics and marketing people tend to be less technical. This means that in order to provide data to eyeballs the ability to let users define their own reports and analytics is critical.
+Product Assortment The three plans that HubSpot offers (Basic, Pro, Enterprise) are interesting to study from an analytics assortment point of view - clearly some thought went into how the plans are designed.</description>
+    </item>
+    
+    <item>
+      <title>HubSpot Role Based Access Control</title>
+      <link>http://localhost:1313/hubspot/role-based-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hubspot/role-based-access-control/</guid>
+      <description>HubSpot introduced roles &amp;amp; permissions about 4 years ago. In doing so, they enabled their customers to provide role based access control to application functionality.
+What they do well: Documentation: They’ve done a nice job of clearly documenting the permissions assigned to each role.
+Integration with user invitation flow As an account admin you select the role of the user as step 2 of the invite flow:
+Sane defaults Account permissions that would potentially give the user full access are separated from the standard roles and are defaulted to non-admin status (reducing the likelihood of just moving ahead with defaults and making many admins).</description>
+    </item>
+    
+  </channel>
+</rss>

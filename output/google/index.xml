@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Googles on </title>
+    <link>http://localhost:1313/google/</link>
+    <description>Recent content in Googles on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Apps Audit Log</title>
+      <link>http://localhost:1313/google/audit-log/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/google/audit-log/</guid>
+      <description>Google Apps for Work provides a robust audit trail to both Standard and Unlimited accounts. By default, the feature is only available to Admins. Non-admin users have no way to view their personal audit history. Google categorizes their audit trail as a type of report, so it is available under the Reports menu.
+For the Standard Plan, audit logs are available for Admin activities, Logins, Calendar activities, Tokens, Groups, and Email log search.</description>
+    </item>
+    
+    <item>
+      <title>Google Apps Product Assortment</title>
+      <link>http://localhost:1313/google/product-assortment/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/google/product-assortment/</guid>
+      <description>Google Apps for Work is the business focused version of the popular and free to consumers, Google Apps products shown below:
+All of these products can be used for free by just creating a Gmail account, however the free version lacks all of the EnterpriseReady features.
+Unlike many other SaaS applications, there is no upgrade path from the free version to a paid account. In order to use Google Apps for Work a company administrator must register an organization and either buy or prove ownership of a domain name they’d like to use with the service.</description>
+    </item>
+    
+  </channel>
+</rss>

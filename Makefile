@@ -1,6 +1,11 @@
-.PHONY: run all
+.PHONY: serve all
 
-run:
-	docker-compose up
+serve:
+	hugo serve \
+	  --config="./hugo-config/enterpriseready.toml" \
+		--contentDir="../content" \
+		--source="./site" \
+		--theme="hugo-theme-enterpriseready" \
+		--baseUrl="http://localhost:1313"
 
-all: run
+all: serve

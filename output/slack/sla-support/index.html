@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A detailed analysis of the way that Slack implements SLA and Support in order to meet the needs of business and enterprise customers.">
+<meta name="og:description" content="A detailed analysis of the way that Slack implements SLA and Support in order to meet the needs of business and enterprise customers.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="http://localhost:1313/images/twtr/slack-sla-support.png" itemprop="image"/>
+<meta property="og:title" content="Slack SLA and Support - Enterprise Ready Feature Breakdown"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Slack SLA and Support - Enterprise Ready Feature Breakdown</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="stylesheet" href="/css/remodal.css">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css">
+    <script src="/js/remodal.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/slack/sla-support/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="" target="_blank"> </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+<div class="container" id="breadcrumbs">
+  <div id="tool-tip">
+    <a href="/features/sla-support">SLA &amp; Support</a>
+    </div>
+    <span>/</span> slack
+    <div class="pull-right">
+      <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/slack/sla-support.md">Edit this page</a>
+    </div>
+  </div>
+</div>
+
+  <div class="container feather" id="article">
+
+    <h1>Slack SLA and Support</h1>
+
+    <p>Slack has done a remarkable job keeping up with its fast growth, and that extends to how the company has implemented its customer support and SLA offerings. Generally speaking, Slack handles support exactly how you might think it would: the more money you pay, the higher level of support you get. In the Slack for Teams product, free plans get standard support, mid-tier plans get priority support, and the highest tier (called Plus) receives <sup>24</sup>&frasl;<sub>7</sub> support.</p>
+
+<p><img src="/slack/images/sla-support/slack-support.jpg" alt="enter image description here" /></p>
+
+<p>Companies that move up to Slack’s enterprise offering, which it calls Enterprise Grid, receive the same <sup>24</sup>&frasl;<sub>7</sub> support, as well as a “dedicated account and customer success team” and more personalized support options.</p>
+
+<p>If there’s one thing Slack could do a better job of here, it’s explaining the differences between these support levels—something it does not do either on its pricing website or in its documentation. The assumption might be that anybody not paying for a high-tier plan won’t care too much about support, but there is nonetheless a lot of room for interpretation with “standard” and “priority,” compared with the specific guarantees at the Plus level.</p>
+
+<p>Notably, Slack is also one of only a handful of prominent SaaS companies—outside giant ones like Microsoft, Google, Salesforce and SAP—<a href="https://get.slack.help/hc/en-us/articles/204113126-Service-Level-Agreements-SLA-">to publicly share details about its SLA for application uptime</a>. Slack offers a 99.99 percent uptime guarantee for Slack for Teams Plus customers and Slack Enterprise Grid customers. Slack handles service credits a little differently than many companies: instead offering a portion of the monthly subscription fee for each percent (or less) below the promised uptime, Slack credits customers <strong>100 times</strong> the amount they paid during the time the service was down.</p>
+
+<p>In theory, this would mean that a company paying for 100 users on the Plus plan would receive approximately $173.61 in credits for an hour of downtime. ($1,250 / 720 hours in a month = $1.736 per hour.) However, Slack doesn’t calculate uptime on an individual level, but rather based on what percentage of users were affected. As the company explains:</p>
+
+<blockquote>
+<p>This means that the service credits added to your account may not match your exact experience: when only a small minority of workspaces are affected, the downtime will average to a lower number and you may receive less than you expected. On the other hand, it also means you’ll receive credits for significant outages even if your workspace felt no impact. If you feel like a particular case was not handled correctly, don’t hesitate to contact us: we aim to please.</p>
+</blockquote>
+
+<p>That practice might result in some disgruntled users, but Slack is at least clear in its explanation of how these calculations work. Additionally, customers who feel like they’ve been burned especially hard can always contact Slack support and try to work out a more satisfying arrangement.</p>
+
+<p><em>This was published on Jul. 3, 2018.</em></p>
+
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/slack/sla-support.md" target="_blank">Content Contributors</a>
+</h3>
+
+
+<hr />
+
+<div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+
+<div class="clear"></div>
+<div id='breakdown-request'>
+  <br/>
+  <hr />
+  <h3 class="section-header" align="center">Is a feature of your app EnterpriseReady?</h3>
+  <p align="center">We'd love to work with you to breakdown your implementation and share it with the EnterpriseReady community.</p>
+  <p align="center"><a href="/breakdown-request" class="button button-secondary">Request a breakdown</a></p>
+</div>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                    <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="Slack SLA and Support" />
+                    <input class="button button-primary" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="///";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+
+</html>
+

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A guide for SaaS products to embrace enterprise change management by building features that empower admins with tools and collateral to roll out features and product changes.">
+<meta name="og:description" content="A guide for SaaS products to embrace enterprise change management by building features that empower admins with tools and collateral to roll out features and product changes.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="http://localhost:1313/images/twtr/change-management-og.png" itemprop="image"/>
+<meta property="og:title" content="Enterprise Ready SaaS App Guide to Change Management"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Enterprise Ready SaaS App Guide to Change Management</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="stylesheet" href="/css/remodal.css">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css">
+    <script src="/js/remodal.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/features/change-management/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="" target="_blank"> </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+
+  <div class="container" id="breadcrumbs">
+    <div id="tool-tip">
+      <span style="cursor:pointer;color:#878787">Features</span>
+      <div class="tool-tip">
+        <ul>
+          <li><a href="/features/product-assortment">Product Assortment</a></li>
+          <hr />
+          <li><a href="/features/single-sign-on">Single Sign On</a></li>
+          <hr />
+          <li><a href="/features/audit-log">Audit Logs</a></li>
+          <hr />
+          <li><a href="/features/role-based-access-control">Role Based Access Control</a></li>
+          <hr />
+          <li><a href="/features/change-management">Change Management</a></li>
+          <hr />
+          <li><a href="/features/product-security">Product Security</a></li>
+          <hr />
+          <li><a href="/features/deployment-options">Deployment Options</a></li>
+          <hr  />
+          <li><a href="/features/teams">Team Management</a></li>
+          <hr  />
+          <li><a href="/features/integrations">Integrations</a></li>
+          <hr />
+          <li><a href="/features/advanced-reporting">Advanced Reporting</a></li>
+          <hr  />
+          <li><a href="/features/sla-support">SLA and Support</a></li>
+        </ul>
+      </div>
+      </div>
+      <span>/</span> Change Management
+      <div class="pull-right">
+        <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/features/change-management.md">Edit this page</a>
+      </div>
+    </div>
+
+</div>
+
+  <div class="container" id="article">
+    <p align="center"><img src="/images/change-management.svg" /></p>
+
+    <h1>Change Management</h1>
+
+    
+
+<p>The operational procedures of many large enterprise organizations generally encourage adherence to written change management policies. For SaaS vendors embracing these procedures means integrating with change controls. There are two different layers to change management SaaS vendors should consider from a product perspective: 1) application level updates to product made by the SaaS vendor 2) account level updates to settings and configurations.</p>
+
+<h2 id="application-level-change-management">Application level change management</h2>
+
+<p>Enterprises will often set up workflows around your product. When you introduce your latest &amp; greatest features or redesign of your product you need to give the time, tools and collateral to roll out those changes on their end users.</p>
+
+<p><strong>Change log</strong> - Create and maintain a detailed change log of when new features are released or functionality is removed. It&rsquo;s best for this information to be surfaced within normal use of the application and to include links to detailed feature overviews and documentation. In-app messaging tools like <a href="https://www.intercom.com">Intercom</a> and <a href="http://www.pendo.io">Pendo</a> can enable these notifications to be crafted and deployed by product marketing teams.<br />
+<strong>Advanced notice</strong> - depending on the depth of change, customers may need weeks or months of advanced communication so they have time to relay to their users.<br />
+<strong>Feature enablement</strong> - feature flags are quickly becoming a common practice to prevent beta features from reaching customers too early. However, by putting this power into the hands of account admins they can toggle the changes on their account when they’re ready. However, it is important to communicate that there is a clear, yet ample, transition timeline for the feature will be enabled for all accounts automatically.<br />
+<strong>Provide collateral</strong> - enable your customers to deliver the message to their end users by using templates that you create, else each customer will be completing the same work.<br />
+<em>Examples:</em> Gmail has been doing this for a long time with their Labs features. Dropbox does this with their Early Access features.</p>
+
+<h2 id="account-level-change-management">Account level change management</h2>
+
+<p>Many modern SaaS applications are moving out of the back office productivity tool suite and are becoming critical to production systems. For these applications, changes to the account settings can impact end users or external systems.</p>
+
+<p><strong>Support customer environments</strong> - In order to ensure that critical SaaS applications integrate with the upcoming release of the customer’s software, it is important that these applications have support for multiple environments per customer (ie Prod, Staging &amp; Dev).<br />
+<strong>Enable sandbox &amp; canary environments</strong> - In the same respect, if an account level settings change is going to be made by the customer, it should be made in a sandbox environment first &amp; then promoted to production (just like we do with our configuration management for servers).<br />
+<strong>Implement approval flows</strong> - Most developers won’t commit code to master without a code review from a peer. Most security conscious companies implement this policy with approval flows because there is risk that a rogue actor could inflict harm if able to act independently. In a similar way, it is useful if admins can enable approval flows for application configuration settings.</p>
+
+<h3 id="advanced-sandbox-functionality">Advanced Sandbox functionality</h3>
+
+<ol>
+<li>Duplicated account settings into a new environment.</li>
+<li>Save and test sandbox environments</li>
+<li>Apply changes to production systems</li>
+<li>Rollback changes to production systems</li>
+</ol>
+
+<h2 id="examples">Examples:</h2>
+
+<hr />
+
+<div class="example">
+  <a href=/zendesk/change-management>
+    <img src=/zendesk/images/example.png align="left" style="margin: 0;" />
+  </a>
+  <div class="clearfix"></div>
+  <h3>
+    <a href=/zendesk/change-management>Zendesk Change Management</a>
+  </h3>
+</div>
+
+
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/change-management.md" target="_blank">Content Contributors</a>
+</h3>
+
+
+<hr />
+
+<p><div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/marccampbell" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/marccampbell.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/dave-cole" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/dave-cole.png?size=40" width="40"> </a>
+
+</div>
+</p>
+
+
+    <div data-remodal-id="modal-subscribe">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+    <p align="center">We won't bug you often, but when we do it will include significant updates and contributions to EnterpriseReady.</p>
+    <div class="row">
+
+            <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="Change Management Modal" />
+                <input class="button button-primary" type="submit" value="Subscribe">
+            </form>
+
+    </div>
+</div>
+
+<script>
+
+    if (!sessionStorage.isNewSession)
+        setTimeout(func, 4000);
+
+        function func() {
+            var inst = $('[data-remodal-id=modal-subscribe]').remodal();
+            inst.open();
+            sessionStorage.isNewSession = true;
+        }
+
+
+
+</script>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
+                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
+                    <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="Change Management" />
+                    <input class="button button-primary" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="///";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+
+</html>
+
