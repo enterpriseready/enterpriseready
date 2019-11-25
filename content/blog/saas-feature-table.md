@@ -43,9 +43,8 @@ pagetitle = "Top 50 SaaS companies feature comparison by plan"
 | [Frontapp](https://frontapp.com/pricing) | Team | Enterprise | - | - | - | - | - | Premium | Team | Cloud |
 | [Unbounce](https://unbounce.com/pricing) | All | All | All | Enterprise | Enterprise | All | All | -  | All | Cloud |
 | [Domo](https://www.domo.com/pricing) | All	| Enterprise | Enterprise | - | Pro | Enterprise | - | Tiers | Tiers | Cloud |
-| [Scalr](http://www.scalr.com/pricing.html) | All | Enterprise | - | Enterprise | - | - | Enterprise | - | All | Private/Cloud |
+| [Scalr](http://www.scalr.com/) | All | Enterprise | - | Enterprise | - | - | Enterprise | - | All | Private/Cloud |
 | [Hellosign](https://www.hellosign.com/info/pricing) | Business | Free | Business | Free | - | Business | - | Business | All | Cloud |
-| [Zesty.io](https://www.zesty.io/pricing/) | All	| - | All | - | All | All | - | All | All | Cloud |
 | [Expensify](https://goo.gl/3DZ6Q7) | Team	| Corporate | Team | - | Enterprise | All | - | Corp | Tiered | Cloud |
 | [Insightly](https://insightly.com/pricing) | All | - | Professional | - | Professional | All | - | All | All | Cloud |
 | [Invision App](https://invisionapp.com/plans) | Team	| Enterprise | Enterprise | - | - | Tiers | - | - | Enterprise | Cloud |
@@ -56,7 +55,7 @@ pagetitle = "Top 50 SaaS companies feature comparison by plan"
 | [Wordpress VIP] (https://vip.wordpress.com/our-services/#hosting) | All | - | All | - | Premium | All | All | - | - | Cloud |
 | [Mailchimp] (https://mailchimp.com/pricing/) | All | - | - | - |Pro Marketer | - | - | Pro Marketer | All | Cloud |
 | [Wrike](https://wrike.com/price) | All	| Enterprise | Enterprise | Enterprise | - | Enterprise | Marketer | Business | Tiers | Cloud |
-| [SmartSheet](https://smartsheet.com/price) | Team	| Enterprise | Enterprise | - | Team | - | - | Team | Business | Cloud |
-| [Showpad](https://www.showpad.com/product/pricing/) | All	| Enterprise | Enterprise | - | Premium | - | - | Premium | Enterprise | Cloud |
+| [SmartSheet](https://smartsheet.com/pricing) | Team	| Enterprise | Enterprise | - | Team | - | - | Team | Business | Cloud |
+| [Showpad](https://www.showpad.com/pricing/showpad-pricing) | All	| Enterprise | Enterprise | - | Premium | - | - | Premium | Enterprise | Cloud |
 | [InsightSquared](http://www.insightsquared.com/plans/) | All	| - | Enterprise | - | Pro | - | - | Enterprise | - | Cloud |
 | [FB Workplace](https://workplace.fb.com/pricing/) | All	| All | All | - | - | - | - | All | All | Cloud |

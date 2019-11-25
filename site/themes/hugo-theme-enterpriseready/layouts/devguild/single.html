@@ -1,0 +1,54 @@
+{{ partial "header.html" . }}
+
+<div class="second-nav">
+
+  <div class="container" id="breadcrumbs">
+    <div id="tool-tip">
+      <a href="/devguild-enterprise-ready-products"><span style="cursor:pointer;color:#878787">DevGuild</span></a>
+      <div class="tool-tip">
+        <ul>
+          <li><a href="/devguild-enterprise-ready-products/">DevGuild Home</a></li>
+          <hr />
+          <li><a href="/devguild-enterprise-ready-products/deployment-best-practices">Deployment Best Practices</a></li>
+          <hr />
+          <li><a href="/devguild-enterprise-ready-products/navigating-enterprise-needs">Navigating Enterprise Needs</a></li>
+          <hr />
+          <li><a href="/devguild-enterprise-ready-products/high-availability-support">High Availability & Support</a></li>
+          <hr />
+          <li><a href="/devguild-enterprise-ready-products/security-customer-trust">Security & Customer Trust</a></li>
+          <hr />
+          <li><a href="/devguild-enterprise-ready-products/user-management-access-control">User Management & Access Control</a></li>
+          <hr />
+          <li><a href="/devguild-enterprise-ready-products/intergrating-the-enterprise">Integrating into the Enterprise</a></li>
+          <hr />
+          <li><a href="/devguild-enterprise-ready-products/advanced-reporting-analytics">Advanced Reporting & Analytics</a></li>
+
+        </ul>
+      </div>
+      </div>
+      <span>/</span> {{.Title}}
+      <div class="pull-right">
+        <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/{{ .File.Path }}">Edit this page</a>
+      </div>
+    </div>
+
+</div>
+
+  <div class="container gdpr" id="article">
+
+
+    <p align="center"><img src="{{ .Params.hero }}" /></p>
+
+    <!-- <p class="table-of-contents">
+
+            <a href="/gdpr/">Find our entire catalog of GDPR analysis here.</a>
+
+    </p> -->
+
+    <h1>{{.Title}}</h1>
+
+    {{ .Content }}
+
+    {{ partial "subscribe.html" . }}
+
+    {{ partial "footer.html" . }}

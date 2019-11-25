@@ -15,7 +15,7 @@ pagetitle = "Segment Integrations - Enterprise Ready Feature Breakdown"
 
 Segment is an enterprise SaaS solution that helps companies simplify their analytics. In 2011, the founders came across an engineering pain of writing redundant tracking code to send customer behavioral events to Google Analytics, MixPanel, and KISSmetrics. A few months later, [analytics.js](https://github.com/segmentio/analytics.js), an analytics wrapper library, was conceived.
 
-It became evident the value of having the same, consistent customer data across all the tools that rely on them. Now, Segment supports over [200 different marketing and analytics tools](https://segment.com/integrations/), as well as data warehousing services such as [Redshift](https://segment.com/warehouses/redshift/) and [BigQuery](https://segment.com/warehouses/bigquery/).
+It became evident the value of having the same, consistent customer data across all the tools that rely on them. Now, Segment supports over [200 different marketing and analytics tools](https://segment.com/catalog/#integrations/all), as well as data warehousing services such as [Redshift](https://segment.com/warehouses/redshift/) and [BigQuery](https://segment.com/warehouses/bigquery/).
 
 ![Integrations on Segment's platform](/segment/images/integrations.png)
 
@@ -48,6 +48,8 @@ Making integration enablement as easy as possible really helped Segment's custom
 ## Building Strategic integrations
 
 Segment treats integrations with a strategic approach, choosing to focus most of the time and effort on partners that can help drive awareness and adoption. The goal is to leverage the partner's marketing efforts.
+
+*This was published on Nov. 22, 2016.*
 
 {{< contributor >}}
 

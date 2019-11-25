@@ -18,7 +18,7 @@ All of these products can be used for free by just creating a Gmail account, how
 
 Unlike many other SaaS applications, there is no upgrade path from the free version to a paid account. In order to use Google Apps for Work a company administrator must register an organization and either buy or prove ownership of a domain name they’d like to use with the service.
 
-The features that define the two paid Google Apps packages include shining examples of many EnterpriseReady features. To start, without a paid account there is no way to create a [team](/features/teams) or organization ([the “Free Edition” was sunset in 2012](https://support.google.com/a/answer/2855120?hl=en)). Both packages maintain detailed [audit trails](/breakdown/google/audit-logs), provide advanced reporting data, offer fine-grained [role based access control](/features/role-based-access-control), sync users with separate LDAP directories, offer 24/7 phone and email [support](features/support) and have deep [integrations](features/integrations) with countless applications.
+The features that define the two paid Google Apps packages include shining examples of many EnterpriseReady features. To start, without a paid account there is no way to create a [team](/features/teams) or organization ([the “Free Edition” was sunset in 2012](https://support.google.com/a/answer/2855120?hl=en)). Both packages maintain detailed [audit trails](/google/audit-log), provide advanced reporting data, offer fine-grained [role based access control](/features/role-based-access-control), sync users with separate LDAP directories, offer 24/7 phone and email [support](/features/sla-support) and have deep [integrations](/features/integrations) with countless applications.
 
 ![enter image description here](https://i.imgur.com/OaPXJNz.png)
 
@@ -37,6 +37,8 @@ The “Advanced Drive administrator controls” are shown below:
 This is a rehash of much of functionality described in their earlier points, but it does include a final point about Role Based Access Control for specifying new configurable user permissions based on organizational units.
 
 Google Apps Unlimited adds strong Enterprise Ready functionality, but even the base Google Apps paid package is a strong example of the features more SaaS companies need to introduce to reach more enterprise users.
+
+*This was published on Nov. 22, 2016.*
 
 {{< contributor >}}
 

@@ -74,7 +74,7 @@ For most enterprise applications hiding functionality isn't the best way to impl
 ## Final Thoughts
 Square's interface takes a complex offering and gives an administrator a straightforward way to make sure each employee has access to only the features they need. Square should be inspiration for all software companies looking to make advancements in their RBAC feature set.
 
-
+*This was published on Sep. 19, 2017.*
 
 {{< contributor >}}
 

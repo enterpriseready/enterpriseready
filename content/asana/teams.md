@@ -66,6 +66,8 @@ Private Teams within Organizations - Working on confidential material? Premium T
 
 Force Authentication via Google Accounts
 
+*This was published on Nov. 22, 2016.*
+
 {{< contributor >}}
 
 ----
