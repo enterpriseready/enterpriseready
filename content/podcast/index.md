@@ -61,3 +61,4 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 {{< episode-cs title="Ep. #22: Derek Steer, Mode" url="" image="/podcast/images/episodes/derek-steer-cs.png" >}}
 
 {{< episode-cs title="Ep. #23: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
+
