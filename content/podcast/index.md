@@ -44,20 +44,21 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #14: Michael Pryor, Trello" url="michael-pryor-trello" image="/podcast/images/episodes/michael-pryor.png" >}}
 
-{{< episode-cs title="Ep. #15: Jeff Williams, Contrast Security" url="" image="/podcast/images/episodes/jeff-williams-cs.png" >}}
+{{< episode title="Ep. #15: Jeff Williams, Contrast Security" url="jeff-williams-contrast" image="/podcast/images/episodes/jeff-williams.jpg" >}}
 
-{{< episode-cs title="Ep. #16: Spence Green, Lilt" url="" image="/podcast/images/episodes/spence-green-cs.png" >}}
+{{< episode title="Ep. #16: Spence Green, Lilt" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-16-language-translation-with-spence-green-of-lilt/" image="/podcast/images/episodes/spence-green.jpg" >}}
 
-{{< episode-cs title="Ep. #17: Ben Hindman, Splash" url="" image="/podcast/images/episodes/ben-hindman-cs.png" >}}
+{{< episode title="Ep. #17: Ben Hindman, Splash" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-17-enterprise-events-with-ben-hindman-of-splash/" image="/podcast/images/episodes/ben-hindman2.jpg" >}}
 
-{{< episode-cs title="Ep. #18: Elizabeth Zalman, strongDM" url="" image="/podcast/images/episodes/elizabeth-zalman-cs.png" >}}
+{{< episode title="Ep. #18: Elizabeth Zalman, strongDM" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-18-secure-infrastructure-with-elizabeth-zalman-of-strongdm/" image="/podcast/images/episodes/liz-zalman.jpg" >}}
 
-{{< episode-cs title="Ep. #19: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
+{{< episode title="Ep. #19: Mark Geene, Cloud Elements" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-19-api-integrations-with-mark-geene-of-cloud-elements/" image="/podcast/images/episodes/mark-geene.jpg" >}}
 
-{{< episode-cs title="Ep. #20: Mark Greene, Cloud Elements" url="" image="/podcast/images/episodes/mark-greene-cs.png" >}}
+{{< episode-cs title="Ep. #20: Yvonne Wassenaar , Puppet" url="" image="/podcast/images/episodes/yvonne-wassenaar-cs.png" >}}
 
-{{< episode-cs title="Ep. #21: Yvonne Wassenaar , Puppet" url="" image="/podcast/images/episodes/yvonne-wassenaar-cs.png" >}}
+{{< episode-cs title="Ep. #21: Michel Feaster, Usermind" url="" image="/podcast/images/episodes/michel-feaster-cs.png" >}}
 
-{{< episode-cs title="Ep. #22: Michel Feaster, Usermind" url="" image="/podcast/images/episodes/michel-feaster-cs.png" >}}
+{{< episode-cs title="Ep. #22: Derek Steer, Mode" url="" image="/podcast/images/episodes/derek-steer-cs.png" >}}
 
-{{< episode-cs title="Ep. #23: Derek Steer, Mode" url="" image="/podcast/images/episodes/derek-steer-cs.png" >}}
+{{< episode-cs title="Ep. #23: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
+
