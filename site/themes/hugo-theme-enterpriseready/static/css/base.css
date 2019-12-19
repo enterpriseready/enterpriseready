@@ -1029,3 +1029,13 @@ margin-right: 10px;
     background-color: #BC4752;
     color: white;
 }
+
+.coming-soon {
+    color: #FFF;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: 12.5%;
+    font-size: 1.5em;
+    transform: translate(-50%, -50%);
+}

@@ -56,9 +56,14 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #20: Yvonne Wassenaar , Puppet" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-20-executive-visibility-with-yvonne-wassenaar-ceo-of-puppet/" image="/podcast/images/episodes/yvonne-wassenaar.jpg" >}}
 
-{{< episode-cs title="Ep. #21: Michel Feaster, Usermind" url="" image="/podcast/images/episodes/michel-feaster-cs.png" >}}
+{{< episode title="Ep. #21: Michel Feaster, Usermind" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-21-product-and-narrative-with-michel-feaster-of-usermind/" image="/podcast/images/episodes/michel-feaster.png" >}}
 
-{{< episode-cs title="Ep. #22: Derek Steer, Mode" url="" image="/podcast/images/episodes/derek-steer-cs.png" >}}
+{{< episode title="Ep. #22: Derek Steer, Mode" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-22-data-driven-enterprise-with-derek-steer-of-mode/" image="/podcast/images/episodes/derek-steer.jpg" >}}
 
-{{< episode-cs title="Ep. #23: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller-cs.png" >}}
+{{< episode title="Ep. #23: Abby Kearns, CloudFoundry" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-23-cloud-infrastructure-with-abby-kearns-of-cloud-foundry-foundation/" image="/podcast/images/episodes/abby-kearns.png" >}}
 
+{{< episode-cs title="Ep. #24: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller.jpg" >}}
+
+{{< episode-cs title="Ep. #25: Shishir Mehrotra, Mode" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
+
+{{< episode-cs title="Ep. #26: John Whaley, Mode" url="" image="/podcast/images/episodes/john-whaley.jpg" >}}
