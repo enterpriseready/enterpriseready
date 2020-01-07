@@ -16,5 +16,5 @@ feature = "features"
   contributor ="Replicated"
   contributorurl = "https://www.replicated.com"
 
-  matomo_host = "data-2.replicated.com"
+  matomo_host = "data-2.enterpriseready.io"
   matomo_site = "4"
