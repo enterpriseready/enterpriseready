@@ -64,7 +64,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #24: John Whaley, UnifyID" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-24-enterprise-analytics-with-john-whaley-of-unifyid/" image="/podcast/images/episodes/john-whaley.jpg" >}}
 
-{{< episode-cs title="Ep. #25: Jonathan Ellis, Datastax" url="" image="/podcast/images/episodes/jonathan-ellis.jpg" >}}
+{{< episode title="Ep. #25: Jonathan Ellis, Datastax" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-25-data-stack-orchestration-with-jonathan-ellis-of-datastax/" image="/podcast/images/episodes/jonathan-ellis.jpg" >}}
 
 {{< episode-cs title="Ep. #26: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller.jpg" >}}
 
