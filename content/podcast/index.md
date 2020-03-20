@@ -66,8 +66,9 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #25: Jonathan Ellis, Datastax" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-25-data-stack-orchestration-with-jonathan-ellis-of-datastax/" image="/podcast/images/episodes/jonathan-ellis.jpg" >}}
 
-{{< episode-cs title="Ep. #26: Alex Miller, StackOverflow" url="" image="/podcast/images/episodes/alex-miller.jpg" >}}
+{{< episode title="Ep. #26: Alex Miller, StackOverflow" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-26-community-creation-with-alex-miller/" image="/podcast/images/episodes/alex-miller.jpg" >}}
 
-{{< episode-cs title="Ep. #27: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
+{{< episode title="Ep. #27: Christian Beedgen, Sumo Logic" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-27-continuous-intelligence-with-christian-beedgen-of-sumo-logic/" image="/podcast/images/episodes/christian-beedgen.jpg" >}}
 
+{{< episode-cs title="Ep. #28: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
 
