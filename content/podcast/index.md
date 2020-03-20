@@ -70,3 +70,5 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #27: Christian Beedgen, Sumo Logic" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-27-continuous-intelligence-with-christian-beedgen-of-sumo-logic/" image="/podcast/images/episodes/christian-beedgen.jpg" >}}
 
+{{< episode-cs title="Ep. #28: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
+
