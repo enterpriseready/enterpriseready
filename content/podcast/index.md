@@ -70,5 +70,14 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #27: Christian Beedgen, Sumo Logic" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-27-continuous-intelligence-with-christian-beedgen-of-sumo-logic/" image="/podcast/images/episodes/christian-beedgen.jpg" >}}
 
-{{< episode-cs title="Ep. #28: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
+{{< episode-cs title="Ep. #28: Adam Gross, Heroku" url="" image="/podcast/images/episodes/adam-gross.jpg" >}}
 
+{{< episode-cs title="Ep. #29: Mitchell Hashimoto, Hashicorp" url="" image="/podcast/images/episodes/mitchell-hashimoto.jpg" >}}
+
+{{< episode-cs title="Ep. #30: Alex Solomon, PagerDuty" url="" image="/podcast/images/episodes/alex-solomon.jpg" >}}
+
+{{< episode-cs title="Ep. #31: Karthik Ranganathan, Yugabyte" url="" image="/podcast/images/episodes/karthik-r.jpg" >}}
+
+{{< episode-cs title="Ep. #32: Rob Zuber, CircleCI" url="" image="/podcast/images/episodes/rob-zuber.jpg" >}}
+
+{{< episode-cs title="Ep. #33: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
