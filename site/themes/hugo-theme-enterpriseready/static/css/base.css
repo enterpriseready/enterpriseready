@@ -724,6 +724,7 @@ span.ar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .episode {
@@ -762,9 +763,13 @@ span.ar {
 
 }
 
-.coming-soon-container {
-  display: flex;          
+.coming-soon-container {      
   position: relative; 
+}
+
+.coming-soon-container img {
+  height: auto;
+  align-self: center;
 }
 
 .coming-soon {
