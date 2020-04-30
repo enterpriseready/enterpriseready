@@ -27,7 +27,7 @@ The value proposition of these application SaaS companies to get critical data i
 
 API access is also important if your service benefits from receiving data from other services. Making it as easy as possible for end users to get the most value out of your service is critical.
 
-**Webhook notification** -  Webhooks is similar to an API in that they can be easily incorporated into other workflows. However, these notifications typically reflect the important events in your application, e.g. something stopped working, or data is longer being sent. While in app notifications are great, providing those same notifications via outbound webhooks allows users to integrate your service into their collaboration tools such as Slack.
+**Webhook notification** -  Webhooks is similar to an API in that they can be easily incorporated into other workflows. However, these notifications typically reflect the important events in your application, e.g. something stopped working, or data is no longer being sent. While in app notifications are great, providing those same notifications via outbound webhooks allows users to integrate your service into their collaboration tools such as Slack.
 
 ## Advanced functionality
 
