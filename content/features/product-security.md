@@ -98,7 +98,7 @@ Many applications require that users sign up and will have to store passwords to
 **API Tokens**  
 API Tokens are often treated less securely than passwords, but they are just as powerful as a logged in user. Treat tokens with the same level of security as you would passwords.
 
-**IP Whitelisting**
+**IP Allow-listing**
 Restrict the users of an account to only be able to log in from specified IP addresses or ranges (useful for enterprises that require that their users be on a VPN to use any service).
 
 **Sessions**  
@@ -112,11 +112,11 @@ Security shouldn't be a feature a user has to enable or opt into. Enforce secure
 
 **Demonstrable security**  
 Many enterprise buyers will ask you to provide documentation around your security efforts. Be prepared to show any of the following:  
-***Certifications*** - Achieving SOC2 certification or FedRAMP or PCI compliance (even when irrelevant) can often shortcut the effort to demonstrate security practices to potential customers.   
-***Audits*** - Trusted third party audits are a standard requirement for most enterprise customers.    
-***Penetration Test Results***  
-***Security Forms*** - Many potential customers will require that you fill out their detailed security check list.  
-***White Papers***  
+- ***Certifications*** - Achieving SOC2 certification or FedRAMP or PCI compliance (even when irrelevant) can often shortcut the effort to demonstrate security practices to potential customers.   
+- ***Audits*** - Trusted 3rd-party audits are a standard requirement for most enterprise customers.    
+- ***Penetration Test Results*** - Publish or make available upon request the results of 3rd-party penetration tests.  
+- ***Security Forms*** - Many potential customers will require that you fill out their detailed security check list.  
+- ***White Papers***  - Summarize security best pracitces in easy to consume PDFs for customers to share with their security teams.  
 
 **Information Security Policy**  
 Have a written and published Information Security Policy, Incident Response Plan and [Bug Bounty Program](https://hackerone.com). Some good examples to start with are [Datadog](https://www.datadoghq.com/security/) or [Dropbox](https://www.dropbox.com/security). It's pretty common to have these hosted on a /security URL.
