@@ -74,7 +74,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #29: Mitchell Hashimoto, Hashicorp" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-29-achieving-ubiquity-with-mitchell-hashimoto-of-hashicorp/" image="/podcast/images/episodes/mitchell-hashimoto.jpg" >}}
 
-{{< episode-cs title="Ep. #30: Alex Solomon, PagerDuty" url="" image="/podcast/images/episodes/alex-solomon.jpg" >}}
+{{< episode title="Ep. #30: Alex Solomon, PagerDuty" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-30-on-call-management-with-alex-solomon-of-pagerduty/" image="/podcast/images/episodes/alex-solomon.jpg" >}}
 
 {{< episode-cs title="Ep. #31: Karthik Ranganathan, Yugabyte" url="" image="/podcast/images/episodes/karthik-r.jpg" >}}
 
