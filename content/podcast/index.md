@@ -81,3 +81,5 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 {{< episode-cs title="Ep. #32: Rob Zuber, CircleCI" url="" image="/podcast/images/episodes/rob-zuber.jpg" >}}
 
 {{< episode-cs title="Ep. #33: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
+
+{{< episode-cs title="Ep. #34: Mike Gregoire, CA Technologies" url="" image="/podcast/images/episodes/mike-gregoire.jpg" >}}
