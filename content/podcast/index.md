@@ -76,10 +76,11 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #30: Alex Solomon, PagerDuty" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-30-on-call-management-with-alex-solomon-of-pagerduty/" image="/podcast/images/episodes/alex-solomon.jpg" >}}
 
-{{< episode-cs title="Ep. #31: Karthik Ranganathan, Yugabyte" url="" image="/podcast/images/episodes/karthik-r.jpg" >}}
+{{< episode title="Ep. #31: Rob Zuber, CircleCI" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-31-monoliths-and-microservices-with-rob-zuber-of-circleci/" image="/podcast/images/episodes/rob-zuber.jpg" >}}
 
-{{< episode-cs title="Ep. #32: Rob Zuber, CircleCI" url="" image="/podcast/images/episodes/rob-zuber.jpg" >}}
+{{< episode title="Ep. #32: Mike Gregoire, Brighton Park Capital" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-32-evaluating-acquisitions-with-mike-gregoire-of-brighton-park-capital/" image="/podcast/images/episodes/mike-gregoire.jpg" >}}
 
-{{< episode-cs title="Ep. #33: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
+{{< episode-cs title="Ep. #33: Karthik Ranganathan, Yugabyte" url="" image="/podcast/images/episodes/karthik-r.jpg" >}}
 
-{{< episode-cs title="Ep. #34: Mike Gregoire, CA Technologies" url="" image="/podcast/images/episodes/mike-gregoire.jpg" >}}
+{{< episode-cs title="Ep. #34: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
+
