@@ -18,7 +18,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 ----   
 {{< episode title="Ep. #1: Adam Jacob, Chef.io" url="adam-jacob-chef" image="/podcast/images/episodes/adam-jacob.png" >}}
 
-{{< episode title="Ep. #2: Tom Preston-Werner, Chatterbug & formerly Github" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-2-the-early-days-of-github-with-tom-preston-werner/" image="/podcast/images/episodes/tpw.png" >}}
+{{< episode title="Ep. #2: Tom Preston-Werner, Chatterbug & formerly Github" url="tom-preston-werner-github" image="/podcast/images/episodes/tpw.png" >}}
 
 {{< episode title="Ep. #3: Peter Reinhardt, Segment" url="peter-reinhardt-segment" image="/podcast/images/episodes/peter-reinhardt.png" >}}
 
@@ -46,7 +46,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #15: Jeff Williams, Contrast Security" url="jeff-williams-contrast" image="/podcast/images/episodes/jeff-williams.jpg" >}}
 
-{{< episode title="Ep. #16: Spence Green, Lilt" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-16-language-translation-with-spence-green-of-lilt/" image="/podcast/images/episodes/spence-green.jpg" >}}
+{{< episode title="Ep. #16: Spence Green, Lilt" url="16-spence-green-lilt" image="/podcast/images/episodes/spence-green.jpg" >}}
 
 {{< episode title="Ep. #17: Ben Hindman, Splash" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-17-enterprise-events-with-ben-hindman-of-splash/" image="/podcast/images/episodes/ben-hindman2.jpg" >}}
 
@@ -80,7 +80,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #32: Mike Gregoire, Brighton Park Capital" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-32-evaluating-acquisitions-with-mike-gregoire-of-brighton-park-capital/" image="/podcast/images/episodes/mike-gregoire.jpg" >}}
 
-{{< episode-cs title="Ep. #33: Karthik Ranganathan, Yugabyte" url="" image="/podcast/images/episodes/karthik-r.jpg" >}}
+{{< episode title="Ep. #33: Shishir Mehrotra, Coda" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-33-innovation-stories-with-shishir-mehrotra-of-coda/" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
 
-{{< episode-cs title="Ep. #34: Shishir Mehrotra, Coda" url="" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
+{{< episode-cs title="Ep. #34: Karthik Ranganathan, Yugabyte" url="" image="/podcast/images/episodes/karthik-r.jpg" >}}
 
