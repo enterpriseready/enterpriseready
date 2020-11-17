@@ -9,11 +9,16 @@
                 &nbsp;
             </div>
             <div class="seven columns">
-                <form action="https://replicated.createsend.com/t/d/s/uhvtj/" method="post" id="subForm">
-                    <input id="fieldEmail" name="cm-uhvtj-uhvtj" type="email" class="" placeholder="you@youremail.com" required>
-                    <input id="fieldcykgu" name="cm-f-cykgu" type="hidden" value="{{ .Title }}" />
-                    <input class="button button-primary" type="submit" value="Subscribe">
-                </form>
+                <!--[if lte IE 8]>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                <![endif]-->
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "8554162",
+                    formId: "cf19513d-014d-4435-b0ad-ac186f0ce56f"
+                });
+                </script>
             </div>
         </div>
     </div>
@@ -103,6 +108,10 @@
 </script>
 <!-- End Matomo Code -->
 {{ end }}
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8554162.js"></script>
+<!-- End of HubSpot Embed Code -->
 </body>
 
 </html>

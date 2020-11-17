@@ -242,6 +242,37 @@ input[type="button"].button-primary:focus {
   border-color: #C73C2F; }
 
 
+input[type="submit"] {
+  color: #FFF !important;
+  background-color: #EE5042 !important;
+  border-color: #EE5042 !important;
+}
+
+input[type="submit"]:hover {
+  color: #FFF !important;
+  background-color: #bd4135 !important;
+  border-color: #bd4135 !important;
+}
+
+/*-- Hubspot newsletter signup */
+
+#label-email-cf19513d-014d-4435-b0ad-ac186f0ce56f {
+  display: none !important;
+}
+
+.hs_email, .input {
+  width: 325px !important;
+}
+
+.hs_submit {
+  margin-left: 10px !important;
+}
+
+.hs-form {
+  display: flex !important;
+}
+
+
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
