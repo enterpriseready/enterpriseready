@@ -82,5 +82,7 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #33: Shishir Mehrotra, Coda" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-33-innovation-stories-with-shishir-mehrotra-of-coda/" image="/podcast/images/episodes/shishir-mehrotra.jpg" >}}
 
-{{< episode-cs title="Ep. #34: Karthik Ranganathan, Yugabyte" url="" image="/podcast/images/episodes/karthik-r.jpg" >}}
+{{< episode title="Ep. #34: Gene Kim, Tripwire" url="gene-kim-tripwire" image="/podcast/images/episodes/gene-kim.webp" >}}
+
+{{< episode-cs title="Ep. #35: Karthik Ranganathan, Yugabyte" url="" image="/podcast/images/episodes/karthik-r.jpg" >}}
 
