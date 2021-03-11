@@ -9,7 +9,7 @@ services:
       - "8888:1313"
     environment:
       - HUGO_WATCH=true
-      - HUGO_BASEURL=http://localhost:8888/
+      - HUGO_BASEURL=http://localhost:8888
     volumes:
       - ./site:/src
       - ./content:/src/content

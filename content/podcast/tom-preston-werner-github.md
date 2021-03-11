@@ -5,10 +5,10 @@ type = "podcast"
 hero = ""
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
 pagetitle = "Tom Preston-Werner, Github - EnterpriseReady Podcast | BUILDING the world’s best enterprise software"
-ogimage = "podcast/images/podcast_og.png"
+ogimage = "/podcast/images/podcast_og.png"
 +++
 
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/515868330&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<div style="margin: 40px 0; width:100%;"><iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/515868330&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></div>
 
 In this episode we interview Tom Preston-Werner, founder and former CEO of GitHub. We mainly focus on Tom’s time at GitHub, where he built and scaled one of the most important developer tool companies in the world. However, many might not realize that Github is also one of the most successful enterprise software companies of the modern era. With over half of their revenue coming from large enterprise deals.
 
