@@ -54,17 +54,17 @@ EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-fou
 
 {{< episode title="Ep. #19: Mark Geene, Cloud Elements" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-19-api-integrations-with-mark-geene-of-cloud-elements/" image="/podcast/images/episodes/mark-geene.jpg" >}}
 
-{{< episode title="Ep. #20: Yvonne Wassenaar , Puppet" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-20-executive-visibility-with-yvonne-wassenaar-ceo-of-puppet/" image="/podcast/images/episodes/yvonne-wassenaar.jpg" >}}
+{{< episode title="Ep. #20: Yvonne Wassenaar , Puppet" url="yvonne-wassenaar-puppet" image="/podcast/images/episodes/yvonne-wassenaar.jpg" >}}
 
 {{< episode title="Ep. #21: Michel Feaster, Usermind" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-21-product-and-narrative-with-michel-feaster-of-usermind/" image="/podcast/images/episodes/michel-feaster.png" >}}
 
 {{< episode title="Ep. #22: Derek Steer, Mode" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-22-data-driven-enterprise-with-derek-steer-of-mode/" image="/podcast/images/episodes/derek-steer.jpg" >}}
 
-{{< episode title="Ep. #23: Abby Kearns, CloudFoundry" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-23-cloud-infrastructure-with-abby-kearns-of-cloud-foundry-foundation/" image="/podcast/images/episodes/abby-kearns.png" >}}
+{{< episode title="Ep. #23: Abby Kearns, CloudFoundry" url="abby-kearns-cloud-foundry" image="/podcast/images/episodes/abby-kearns.png" >}}
 
 {{< episode title="Ep. #24: John Whaley, UnifyID" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-24-enterprise-analytics-with-john-whaley-of-unifyid/" image="/podcast/images/episodes/john-whaley.jpg" >}}
 
-{{< episode title="Ep. #25: Jonathan Ellis, Datastax" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-25-data-stack-orchestration-with-jonathan-ellis-of-datastax/" image="/podcast/images/episodes/jonathan-ellis.jpg" >}}
+{{< episode title="Ep. #25: Jonathan Ellis, Datastax" url="jonathan-ellis-datastax" image="/podcast/images/episodes/jonathan-ellis.jpg" >}}
 
 {{< episode title="Ep. #26: Alex Miller, StackOverflow" url="https://www.heavybit.com/library/podcasts/enterpriseready/ep-26-community-creation-with-alex-miller/" image="/podcast/images/episodes/alex-miller.jpg" >}}
 
