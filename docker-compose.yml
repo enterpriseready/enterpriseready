@@ -5,10 +5,14 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
+    command:
+      - /run.sh
+      - --appendPort=false
     ports:
       - "8888:1313"
     environment:
       - HUGO_WATCH=true
+      - HUGO_THEME=hugo-theme-enterpriseready
       - HUGO_BASEURL=http://localhost:8888
     volumes:
       - ./site:/src

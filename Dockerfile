@@ -1,21 +1,30 @@
-FROM alpine:3.4
+FROM alpine:latest
 
 # Forked from https://github.com/jojomi/docker-hugo
 
-ENV HUGO_VERSION=0.17
+# config
+ENV HUGO_VERSION=0.82.0
+#ENV HUGO_TYPE=
+ENV HUGO_TYPE=_extended
 
-RUN apk add --update wget ca-certificates python py-pip && \
-  cd /tmp/ && \
-  wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-  tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-  rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-  mv hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo && \
-  apk del wget ca-certificates && \
-  rm /var/cache/apk/*
-
-RUN pip install Pygments
+ENV HUGO_ID=hugo${HUGO_TYPE}_${HUGO_VERSION}
+RUN wget -O - https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_ID}_Linux-64bit.tar.gz | tar -xz -C /tmp \
+    && mkdir -p /usr/local/sbin \
+    && mv /tmp/hugo /usr/local/sbin/hugo \
+    && rm -rf /tmp/${HUGO_ID}_linux_amd64 \
+    && rm -rf /tmp/LICENSE.md \
+    && rm -rf /tmp/README.md
 
 COPY ./hack/run.sh /run.sh
+
+RUN apk add --update git asciidoctor libc6-compat libstdc++ \
+    && apk upgrade \
+    && apk add --no-cache ca-certificates \
+    && chmod 0777 /run.sh
+
+RUN apk add --update --no-cache wget py-pip
+
+RUN pip install Pygments
 
 VOLUME /src
 VOLUME /output
