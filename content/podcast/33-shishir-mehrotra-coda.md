@@ -9,7 +9,7 @@ image = "/podcast/images/episodes/shishir-mehrotra.jpg"
 weight = "33"
 +++
 
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/909261313&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/909261313&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 \
 In episode 33 of EnterpriseReady, Grant is joined by Shishir Mehrotra of Coda. They discuss important lessons for building and launching products, as well as Shishir’s role as a technology leader at YouTube in it’s pivotal early years, just after the Google acquisition.
