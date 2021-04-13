@@ -5,7 +5,7 @@ type = "podcast"
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
 pagetitle = "Karthik Ranganathan of Yugabyte - EnterpriseReady Podcast | BUILDING the world’s best enterprise software"
 ogimage = "/podcast/images/podcast_og.png"
-image = "/podcast/images/episodes/karthik.jpg"
+image = "/podcast/images/episodes/karthik-r.jpg"
 weight = "35"
 +++
 
