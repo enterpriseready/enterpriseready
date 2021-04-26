@@ -11,21 +11,6 @@
   
     <h1>{{.Title}}</h1>
   
-      <div class="episode-flex-container">
-        {{ .Content }}
-
-        {{ range .Pages.ByWeight.Reverse }}
-            <div class="episode">
-                <a href={{ .Permalink }} target="_blank">
-                    <img src={{ .Params.Image }} align="left" style="margin: 0;" />
-                </a>
-                <div class="clearfix"></div>
-                <h3>
-                    <a href={{ .Permalink }}>Ep. #{{ .Weight }} - {{ .Title }}</a>
-                </h3>
-            </div>
-        {{ end }}
-      </div>
+    {{ .Content }}
 <br />
-
 {{ partial "footer.html" . }}
