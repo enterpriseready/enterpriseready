@@ -13,18 +13,18 @@ The European Union’s [General Data Protection Regulation (GDPR)](https://www.e
 Here are some pieces we put together to help you sort through it.
 
 GDPR Required Reading  
-1. [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)  
+- [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)  
 
 GDPR Basics  
-2. [GDPR 101: What is GDPR and why should I care?](/gdpr/what-is-gdpr)  
-3. [GDPR 202: Controllers, processors and subjects’ rights](/gdpr/gdpr-202)  
+- [GDPR 101: What is GDPR and why should I care?](/gdpr/what-is-gdpr)  
+- [GDPR 202: Controllers, processors and subjects’ rights](/gdpr/gdpr-202)  
 
 GDPR for SaaS  
-4. [How GDPR might affect the SaaS industry](/gdpr/gdpr-saas)  
-5. [How popular SaaS providers are preparing for GDPR](/gdpr/preparing-for-gdpr)  
+- [How GDPR might affect the SaaS industry](/gdpr/gdpr-saas)  
+- [How popular SaaS providers are preparing for GDPR](/gdpr/preparing-for-gdpr)  
 
 GDPR Resources  
-6. [Other Useful GDPR Links](/gdpr/useful-gdpr-links)  
+- [Other Useful GDPR Links](/gdpr/useful-gdpr-links)  
 
 ## Examples
 ----   
