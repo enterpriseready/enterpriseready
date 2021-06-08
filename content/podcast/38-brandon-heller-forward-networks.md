@@ -8,7 +8,7 @@ image = "/podcast/images/episodes/brandon-heller.jpg"
 weight = "38"
 +++
 
-{{< soundcloud soundcloud-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/619074309&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" >}}
+{{< soundcloud soundcloud-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1063777726&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" >}}
 
 \
 In episode 38 of EnterpriseReady, Grant speaks with Brandon Heller of Forward Networks. They discuss tactics for improving enterprise networks, tips for hiring engineers, and insights on the many roles co-founders play as they launch their companies.
