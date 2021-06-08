@@ -1,5 +1,5 @@
 +++
-date = "2021-04-13T00:00:00Z"
+date = "2021-06-5T00:00:00Z"
 title = "Jay Simons of Bond"
 type = "podcast"
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
