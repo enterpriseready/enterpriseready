@@ -24,7 +24,7 @@ The best way to organize **events** is as the combination of **targets** receivi
 *Note: When the logging of these events is implemented in code, the audit logging method should be called at the* ***bottom*** *of the function to ensure that the event was fully executed.*
 
 ## Fields to audit log for each event
-When an event is logged it should have details that provide enough information about the event to provide the necessary context of who, what, when and where etc. Specifically, the follow fields are critical to an audit log:
+When an event is logged it should have details that provide enough information about the event to provide the necessary context of who, what, when and where etc. Specifically, the following fields are critical to an audit log:
 
 - **Actor** - The username, uuid, API token name of the account taking the action.
 - **Group** - The group (aka organization, team, account) that the actor is a member of (needed to show admins the full history of their group).
