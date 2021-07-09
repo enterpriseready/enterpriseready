@@ -27,6 +27,8 @@ We’re not the only people reading, writing and thinking about GDPR. Aside from
 
 **[The GDPR: An artificial intelligence killer? (Datanami)](https://www.datanami.com/2018/02/27/gdpr-artificial-intelligence-killer)**
 
+**[The GDPR Compliance Checklist](https://gdprchecklist.io)**
+
 ## More reading
 Convinced that GDPR will matter to your company and looking for some more guidance on how and where it might apply, or how other SaaS companies are thinking about it? You can check out some of our other pieces on this topic:
 
