@@ -15,7 +15,10 @@
 - Media Queries
 */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap');
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -24,7 +27,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+ box-sizing: border-box; }
 .column,
 .columns {
   width: 100%;
@@ -34,14 +37,14 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 90%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+  width: 80%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -124,9 +127,13 @@ h1, h2 {
   margin-top: 0rem;
   margin-bottom: 1rem;
   font-weight: 700;
+  font-family: 'Londrina Solid', medium;
   color:#323232;
 }
 
+h3 {
+  font-family: 'Londrina Solid';
+}
 h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
@@ -172,11 +179,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #ee5042;
+  color: #3735ea;
   text-decoration: none;
 }
 a:hover {
-  color: #eea642;
+  color: #35A7FF;
   cursor: pointer;
 }
 
@@ -225,8 +232,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #EE5042;
-  border-color: #EE5042; }
+  background-color: #3735ea;
+  border-color: #3735ea; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -238,20 +245,20 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #C73C2F;
-  border-color: #C73C2F; }
+  background-color: #35A7FF;
+  border-color: #35A7FF; }
 
 
 input[type="submit"] {
   color: #FFF !important;
-  background-color: #EE5042 !important;
-  border-color: #EE5042 !important;
+  background-color: #3735ea !important;
+  border-color: #3735ea !important;
 }
 
 input[type="submit"]:hover {
   color: #FFF !important;
-  background-color: #bd4135 !important;
-  border-color: #bd4135 !important;
+  background-color: #35A7FF !important;
+  border-color: #35A7FF !important;
 }
 
 /*-- Hubspot newsletter signup */
