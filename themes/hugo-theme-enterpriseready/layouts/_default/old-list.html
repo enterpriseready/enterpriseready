@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+<div class="second-nav">
+    <div class="container" id="breadcrumbs">
+        <div id="tool-tip">
+            <span style="cursor:pointer;color:#878787"><a href="/podcast">Podcast</a></span><span>/</span> {{.Title}}
+        </div>
+    </div>
+</div>
+
+<div class="container gdpr" id="article">
+
+      <p align="center"><a href="https://itunes.apple.com/us/podcast/enterpriseready/id1437951282?mt=2" target="_blank"><img src="{{ .Params.hero }}" /></a></p>
+
+      <h1>{{.Title}}</h1>
+
+      <div class="episode-flex-container">
+        {{ .Content }}
+
+        {{ range .Pages.ByWeight.Reverse }}
+            <div class="episode">
+                <a href={{ .Permalink }} target="_blank">
+                    <img src={{ .Params.Image }} align="left" style="margin: 0;" />
+                </a>
+                <div class="clearfix"></div>
+                <h3>
+                    <a href={{ .Permalink }}>Ep. #{{ .Weight }} - {{ .Title }}</a>
+                </h3>
+            </div>
+        {{ end }}
+      </div>
+<br />
+<hr />
+<br />
+<h3>Are you interested in being a guest on the EnterpriseReady Podcast? If so, <a href="mailto:grant.miller@replicated.com?cc=chris@replicated.com&subject=Being a guest on the EnterpriseReady Podcast">drop us a note here</a>. </h3>
+
+{{ partial "footer.html" . }}
