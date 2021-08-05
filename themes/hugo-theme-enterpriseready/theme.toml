@@ -3,8 +3,8 @@ license = "Apache 2.0"
 min_version = 0.16
 
 [author]
-  name = "Replicated, Inc."
-  homepage = "https://www.replicated.com"
+  name = "Shipyard Build, Inc."
+  homepage = "https://www.shipyard.build"
 
 [original]
   name = "Mathieu Cornic"
