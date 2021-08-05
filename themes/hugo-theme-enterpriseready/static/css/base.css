@@ -453,7 +453,36 @@ span.int {
   width: 150px;
   height: 150px;
 }
-
+span.de {
+  background: url('../images/article-icons/deploy.png');
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
+span.te {
+  background: url('../images/article-icons/checklist.png');
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
+span.co {
+  background: url('../images/article-icons/collab.png');
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
+span.tm {
+  background: url('../images/article-icons/team.png');
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
+span.why {
+  background: url('../images/article-icons/why.png');
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
 /* Top Article */
 
 #top-article img {
