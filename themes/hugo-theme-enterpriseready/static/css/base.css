@@ -20,20 +20,23 @@ strong {
 }
 .date {
     font-weight: 500;
-    color: #ee5042;
+    color: #3735ea;
 }
 .read-more {
-    border: 1px solid #D0D0D0;
+    border: 1px solid;
     padding: 5px 8px;
     font-weight: 500;
     font-size: 14px;
-    color: #ee5042;
     border-radius: 4px;
     transition: border .2s;
+    background-color: #3735ea;
+    color: #ffffff;
 }
 .read-more:hover {
-  border-color: #ee5042;
-  color: #ee5042;
+  border: 1px solid;
+  border-color: #3735ea;
+  color: #3735ea;
+  background-color: #ffffff;
 }
 
 .examples {
@@ -51,7 +54,7 @@ strong {
 
 #nav {
     padding: 25px 50px 5px;
-    background-color: #ee5042;
+    background-color: #3735ea;
 }
 #nav ul {
     float: left;
@@ -82,7 +85,7 @@ strong {
 #inner-nav ul li {
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 18px;
 }
 
@@ -96,7 +99,7 @@ a.disguise-link {
 }
 
 a.disguise-link:hover {
-  color: #ee5042;
+  color: #35A7FF;
 }
 
 #menu {
@@ -104,7 +107,7 @@ a.disguise-link:hover {
   float:left;
   position:absolute;
   text-transform:uppercase;
-  font-size:12px;
+  font-size:18px;
   font-weight:500;
 }
 
@@ -115,7 +118,7 @@ a.disguise-link:hover {
 
 .menu ul li {
   float: left;
-  margin: 0px 8px;
+  margin: 0px 3px;
   color: #CCC;
 }
 
@@ -132,7 +135,7 @@ a.disguise-link:hover {
 
 .mobile_menu {
   display:none;
-  background-color:#ee5042;
+  background-color:#3735ea;
   z-index:1;
   width:100%;
   padding: 25px 15px 10px;
@@ -141,7 +144,7 @@ a.disguise-link:hover {
 
 .mobile_menu hr {
   width: 99%;
-  background-color: #BD422D;
+  background-color: white;
   margin: 5px 0px;
   padding: 0px;
 }
@@ -151,7 +154,7 @@ a.disguise-link:hover {
 }
 
 .mobile_menu ul li:last-child, .mobile_menu ul li:last-child a {
-  color:#BD422D;
+  color: white;
 }
 
 @media (max-width: 750px) {
@@ -192,7 +195,7 @@ a.disguise-link:hover {
 #breadcrumbs {
     font-size: 12px;
     text-transform: uppercase;
-    color: #ee5042;
+    color: #35A7FF;
     font-weight: 300;
     margin-bottom: 1.5em;
 }
@@ -206,9 +209,9 @@ a.disguise-link:hover {
     font-size: 14px;
     text-transform: none;
     border-radius: 4px;
-    border: 1px solid #ee5042;
+    border: 1px solid #3735ea;
     padding: 4px 5px;
-    color: #ee5042;
+    color: #3735ea;
     background-color: #ffffff;
     transition: all .2s;
 }
@@ -231,7 +234,7 @@ a.disguise-link:hover {
 /* Main */
 
 #main {
-    background-color: #ee5042;
+    background-color: #35A7FF;
     padding: 30px 0px 50px;
     margin-top: -25px;
 }
@@ -309,7 +312,7 @@ h3.section-header.sub {
 #checklist .article-header {
     font-weight: 500;
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 24px;
 }
 #checklist h2 + p {
     width: 650px;
@@ -432,6 +435,25 @@ span.ar {
   height: 62px;
 }
 
+span.dm {
+  background: url('../images/article-icons/data-management.png');
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
+span.sec {
+  background: url('../images/article-icons/security.png');
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
+span.int {
+  background: url('../images/article-icons/integrations.png');
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
+
 /* Top Article */
 
 #top-article img {
@@ -461,7 +483,18 @@ span.ar {
   display: inline-block;
   vertical-align: -9px;
   margin-left: 3px;
-  background: url('../images/replicated_logo_footer@2x.png');
+  background: url('../images/white-logo.png');
+  background-size: 110px 26px;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 26px;
+}
+
+#footer a.shipyard-logo {
+  display: inline-block;
+  vertical-align: -9px;
+  margin-left: 3px;
+  background: url('../images/white-logo.png');
   background-size: 110px 26px;
   background-repeat: no-repeat;
   width: 110px;
@@ -481,7 +514,7 @@ span.ar {
 
 .footer-wrapper {
   padding: 20px 0;
-  background: #002E4B;
+  background: #333333;
 }
 
 
@@ -580,9 +613,9 @@ span.ar {
     font-size: 12px;
 }
 #article #article-nav a:hover, #article #article-nav a:focus {
-    border-bottom: 3px solid #ee5042;
+    border-bottom: 3px solid #3735ea;
     padding-bottom: 13px;
-    color: #ee5042;
+    color: #3735ea;
 }
 @media (max-width: 550px) {
     #article {
@@ -598,7 +631,7 @@ span.ar {
         margin-right: 25px;
     }
     #article #article-nav a:hover {
-        border-bottom: 3px solid #ee5042;
+        border-bottom: 3px solid #3735ea;
         padding-bottom: 16px;
     }
     #article img {
@@ -763,8 +796,8 @@ span.ar {
 
 }
 
-.coming-soon-container {      
-  position: relative; 
+.coming-soon-container {
+  position: relative;
 }
 
 .coming-soon-container img {
@@ -775,9 +808,9 @@ span.ar {
 .coming-soon {
   color: #FFF;
   font-size: 1.3em;
-  position: absolute;  
-  left: 50%;                  
-  top: 50%;                      
+  position: absolute;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
@@ -853,6 +886,7 @@ margin-right: 10px;
 .background-wrapper {
   padding: 60px 0;
   border-bottom: 1px solid #D6D6D6;
+  background-color: #F5F5F5;
 }
 
 /* SaaS Feature Table */
@@ -960,7 +994,7 @@ margin-right: 10px;
 #twtr-scroll::-webkit-scrollbar {display:none;}
 
 #twtr-content {
-  width: 11200px;
+  width: 2500px;
   height: 105px;
   padding: 0px;
   margin: 0px;
@@ -1035,7 +1069,7 @@ margin-right: 10px;
 
 .twtr-card p:nth-child(3){
   text-transform: uppercase;
-  color: #F46853;
+  color: #35A7FF;
   font-size: 12px;
 }
 
@@ -1050,5 +1084,3 @@ margin-right: 10px;
     background-color: #BC4752;
     color: white;
 }
-
-
