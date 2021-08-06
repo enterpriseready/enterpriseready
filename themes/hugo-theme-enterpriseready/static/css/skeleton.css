@@ -15,10 +15,7 @@
 - Media Queries
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700&display=swap');
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -127,12 +124,12 @@ h1, h2 {
   margin-top: 0rem;
   margin-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Londrina Solid', medium;
+  font-family: 'Recursive', medium;
   color:#323232;
 }
 
 h3 {
-  font-family: 'Londrina Solid';
+  font-family: 'Recursive';
 }
 h3, h4, h5, h6 {
   margin-top: 0;
