@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
 /* Base Styles */
 
 * {
@@ -14,7 +17,6 @@ hr {
     margin: 30px auto;
     size: 10px;
 }
-
 strong {
     font-weight: 500;
 }
@@ -35,7 +37,6 @@ strong {
   border-color: #ee5042;
   color: #ee5042;
 }
-
 .examples {
     margin-left: 10px;
 }
@@ -46,6 +47,17 @@ strong {
         margin: 30px auto;
     }
 }
+
+.hero-wrap {
+    background-color: #141C34;
+    position:absolute;
+    overflow: hidden;
+    height: 800px;
+    width:100%;
+    z-index: 1;
+}
+
+
 
 /* Nav */
 
@@ -73,21 +85,20 @@ strong {
 /* Inner Nav */
 
 #inner-nav {
-    margin-top: 25px;
+    padding-top: 25px;
     margin-bottom: 5px;
 }
 #inner-nav ul {
   margin-left: 15px;
 }
 #inner-nav ul li {
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 18px;
 }
 
 #inner-nav ul li a {
-  font-weight:400;
+  font-weight:500;
 }
 
 a.disguise-link {
@@ -102,14 +113,12 @@ a.disguise-link:hover {
 #menu {
   display: none;
   float:left;
-  position:absolute;
-  text-transform:uppercase;
   font-size:12px;
   font-weight:500;
 }
 
 .menu ul {
-  float: right;
+  float: left;
   margin-top: 20px;
 }
 
@@ -119,6 +128,12 @@ a.disguise-link:hover {
   color: #CCC;
 }
 
+.menu ul li a {
+    color: #CCC;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+  }
+
 
 
 @media (max-width: 750px) {
@@ -126,7 +141,7 @@ a.disguise-link:hover {
     display: block;
   }
   .logo {
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -168,13 +183,6 @@ a.disguise-link:hover {
     background-color: white;
   }
 
-}
-
-.nav-div {
-  height:1px;
-  background-color:#D6D6D6;
-  width:100%;
-  margin-bottom:40px;
 }
 
 /* Second Nav */
@@ -220,12 +228,43 @@ a.disguise-link:hover {
 /* Masthead */
 
 .masthead-wrapper {
-  padding-bottom: 50px;
-  border-bottom: 1px solid #D6D6D6;
+    padding: 100px 10% 80px 10%; 
+    justify-content: center;
+    background: url('../images/background-lines.svg');
 }
 
-.masthead-wrapper .container {
-  max-width: 740px;
+.masthead-wrapper .new-container {
+    background: url('../images/hero-main-frame.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 345px;
+    padding: 50px 0 0 50px;
+}
+
+.masthead-wrapper h2 {
+    font-size: 50px;
+    color: #F44247;
+    font-weight: 300;
+}
+
+.masthead-wrapper p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    color: #e2dfd4;
+    margin-top: 20px;
+}
+
+.fixed-width-500 {
+    max-width: 500px;
+    width: 500px;
+    margin: 50px 50px 0 50px;
+}
+
+.fixed-width-podcast {
+    max-width: 200px;
+    width: 200px;
+    margin: 50px 0 0 100px;
 }
 
 /* Main */
@@ -262,12 +301,11 @@ a.disguise-link:hover {
     }
 }
 
-h3.section-header {
-  font-weight: 700;
-  line-height: 1.7;
-  letter-spacing: normal;
-  font-size: 30px;
-  margin-bottom: 12px;
+h1.section-header {
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #004E86;
+  font-weight: 300;
 }
 
 h3.section-header.sub {
@@ -945,9 +983,7 @@ margin-right: 10px;
 
 /* Twitter */
 .testimonials {
-  background-color: #F5F5F5;
-  border-bottom: 1px solid #D6D6D6;
-  height: 129px;
+  background-color: #DBE6E9;
 }
 
 #twtr-scroll {
@@ -990,7 +1026,6 @@ margin-right: 10px;
 
 @media (max-width: 550px) {
   .testimonials {
-    height: 114px;
     overflow: hidden;
   }
   #twtr-scroll {

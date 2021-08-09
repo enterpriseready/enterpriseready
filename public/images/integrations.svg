@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700px" height="306px" viewBox="0 0 700 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Integrations</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="320" y="151" width="60" height="60" rx="5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="560" y="151" width="60" height="60" rx="5"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Integrations">
+            <g id="Browser">
+                <rect id="Rectangle-8" fill="#DEDEDE" x="0" y="0" width="700" height="306" rx="3"></rect>
+                <g id="Browser-Top" transform="translate(13.000000, 11.000000)">
+                    <circle id="Oval-1" fill="#F76461" cx="3.5" cy="7.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#FDBC4F" cx="13.5" cy="7.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#40C754" cx="23.5" cy="7.5" r="3.5"></circle>
+                    <rect id="Search-Bar" fill="#FFFFFF" x="137" y="0" width="400" height="15" rx="3"></rect>
+                    <text id="http://enterpriserea" font-family="SourceSansPro-Light, Source Sans Pro" font-size="8" font-weight="300" fill="#85828E">
+                        <tspan x="297.9" y="11">http://enterpriseready.io</tspan>
+                    </text>
+                </g>
+                <g id="Background" transform="translate(0.000000, 35.000000)">
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="5" y="0" width="690" height="271"></rect>
+                    <rect id="Rectangle-2" fill="#F4F4F4" x="695" y="0" width="5" height="271"></rect>
+                    <rect id="Rectangle-2" fill="#F4F4F4" x="0" y="0" width="5" height="271"></rect>
+                </g>
+            </g>
+            <rect id="Rectangle-13" fill="#DEDEDE" x="258" y="180" width="320" height="2"></rect>
+            <rect id="Rectangle-13" fill="#DEDEDE" transform="translate(350.000000, 140.500000) rotate(-270.000000) translate(-350.000000, -140.500000) " x="298.5" y="139.5" width="103" height="2"></rect>
+            <path d="M228,211 C244.568542,211 258,197.568542 258,181 C258,164.431458 244.568542,151 228,151 C211.431458,151 198,164.431458 198,181 C198,197.568542 211.431458,211 228,211 Z" id="Oval-2" stroke="#CE215B" stroke-width="4" fill="#CE215B"></path>
+            <use id="Rectangle-12" stroke="#EB4E48" mask="url(#mask-2)" stroke-width="8" fill="#EB4E48" xlink:href="#path-1"></use>
+            <use id="Rectangle-12" stroke="#DEDEDE" mask="url(#mask-4)" stroke-width="4" stroke-dasharray="3" fill="#FFFFFF" transform="translate(590.000000, 181.000000) rotate(45.000000) translate(-590.000000, -181.000000) " xlink:href="#path-3"></use>
+            <g id="Logo" transform="translate(340.000000, 171.000000)" fill="#FFFFFF">
+                <rect id="Rectangle-4" x="0" y="16" width="12" height="4"></rect>
+                <rect id="Rectangle-7" x="0" y="8" width="4" height="12"></rect>
+                <rect id="Rectangle-4" x="8" y="0" width="12" height="4"></rect>
+                <rect id="Rectangle-7" x="16" y="0" width="4" height="12"></rect>
+            </g>
+            <ellipse id="Oval-2" stroke="#007EE5" stroke-width="4" fill="#007EE5" cx="470" cy="181" rx="30" ry="30"></ellipse>
+            <rect id="Rectangle-13" fill="#DEDEDE" x="358" y="96" width="100" height="2"></rect>
+            <ellipse id="Oval-2" stroke="#DEDEDE" stroke-width="2" stroke-dasharray="3,3" fill="#FFFFFF" cx="473" cy="97" rx="30" ry="30"></ellipse>
+            <ellipse id="Oval-2" stroke="#222222" stroke-width="4" fill="#222222" cx="350" cy="97" rx="30" ry="30"></ellipse>
+            <rect id="Rectangle-15" fill="#F4F4F4" x="151" y="35" width="2" height="266"></rect>
+            <text id="Dropbox" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
+                <tspan x="25" y="86">Dropbox</tspan>
+            </text>
+            <text id="Dropbox" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF">
+                <tspan x="448" y="184">Dropbox</tspan>
+            </text>
+            <text id="Github" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF">
+                <tspan x="332.845703" y="101">Github</tspan>
+            </text>
+            <text id="Slack" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF">
+                <tspan x="213.328125" y="185">Slack</tspan>
+            </text>
+            <text id="New-Relic" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
+                <tspan x="25" y="146">New Relic</tspan>
+            </text>
+            <text id="Github" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
+                <tspan x="25" y="206">Github</tspan>
+            </text>
+            <text id="Slack" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
+                <tspan x="25" y="266">Slack</tspan>
+            </text>
+            <g id="Group-18" transform="translate(100.000000, 132.000000)">
+                <rect id="Rectangle-14" fill="#DEDEDE" x="0" y="0" width="35" height="20" rx="10"></rect>
+                <circle id="Oval-3" fill="#FFFFFF" cx="10" cy="10" r="6"></circle>
+            </g>
+            <g id="Group-18" transform="translate(100.000000, 192.000000)">
+                <rect id="Rectangle-14" fill="#DEDEDE" x="0" y="0" width="35" height="20" rx="10"></rect>
+                <circle id="Oval-3" fill="#FFFFFF" cx="10" cy="10" r="6"></circle>
+            </g>
+            <g id="Group-18" transform="translate(100.000000, 72.000000)">
+                <rect id="Rectangle-14" fill="#EB4E48" x="0" y="0" width="35" height="20" rx="10"></rect>
+                <circle id="Oval-3" fill="#FFFFFF" cx="25" cy="10" r="6"></circle>
+            </g>
+            <g id="Group-18" transform="translate(100.000000, 252.000000)">
+                <rect id="Rectangle-14" fill="#EB4E48" x="0" y="0" width="35" height="20" rx="10"></rect>
+                <circle id="Oval-3" fill="#FFFFFF" cx="25" cy="10" r="6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
