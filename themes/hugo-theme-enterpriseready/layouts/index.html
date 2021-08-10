@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <div style="position:relative">
     <div class="hero-wrap">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2844.82 835.79">
             <defs>
@@ -183,15 +184,15 @@
                 });
             </script>
 
-            <div class="menu flex">
+            <div class="menu">
                 <ul class="flex">
                     <li><a href="/"><img src="/images/enterprise-ready-logo.svg" width="50" /></a></li>
-                    <li><a href="/#features">Feature Guides</a></li>
+                    <li><a href="/#features">Feature guides</a></li>
                     <li><a href="/#features">Assesment</a></li>
-                    <li><a href="/podcast"><img src="/images/podcast.png" height="15px" style="vertical-align:middle;padding-right:5px;"/>The Podcast</a></li> 
+                    <li><a href="/podcast">Podcast</a></li> 
                 </ul>
-                <ul class="flex" style="text-align: right;">
-                    <li>Contributed by <a class="disguise-link" href="https://www.replicated.com" target="_blank">Replicated</a></li>
+                <ul class="flex">
+                    <li>Contributed by <a id="disguise-link" href="https://www.replicated.com" target="_blank">REPLICATED</a></li>
                 </ul>
             </div>
 
@@ -221,12 +222,14 @@
                     <p>Created to help people build software for the enterprise, based on a study of the 50 leading SaaS applications.</p>
                 </div>
                 <div class="fixed-width-podcast">
-                    <h3><a href="/podcast/35-karthik-ranganathan-yugabyte/">EP35</a></h3>
+                    <h3><a href="/podcast/35-karthik-ranganathan-yugabyte/">EP<span style="color: white">35</span><img src="../images/podcast.png" height="15px" style="vertical-align:middle;"/></a></h3>
                     <p>Karthik Ranganathan of Yugabyte discusses building EnterpriseReady databases.</p>
-                    <p class="small">EnterpriseReadyPodcast</p>
+                    <p id="podcast-small"><a href="/podcast">EnterpriseReadyPodcast</a></p>
                 </div>
             </div>
         </div>
+
+    </div>
 
     <div class="py-5 text-center" style="background-color: #F44247">
         <h3 class="my-5 text-white">Is your app ready for enterprise buyers?</h3>

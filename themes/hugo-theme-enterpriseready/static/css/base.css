@@ -52,9 +52,11 @@ strong {
     background-color: #141C34;
     position:absolute;
     overflow: hidden;
-    height: 800px;
+    height: 100%;
     width:100%;
     z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 
@@ -101,12 +103,12 @@ strong {
   font-weight:500;
 }
 
-a.disguise-link {
-  color: inherit;
+#disguise-link {
+  color: #888887;
   transition: color .2s;
 }
 
-a.disguise-link:hover {
+#disguise-link:hover {
   color: #ee5042;
 }
 
@@ -117,6 +119,12 @@ a.disguise-link:hover {
   font-weight:500;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
 .menu ul {
   float: left;
   margin-top: 20px;
@@ -125,7 +133,7 @@ a.disguise-link:hover {
 .menu ul li {
   float: left;
   margin: 0px 8px;
-  color: #CCC;
+  color: #888887;
 }
 
 .menu ul li a {
@@ -244,12 +252,22 @@ a.disguise-link:hover {
 .masthead-wrapper h2 {
     font-size: 50px;
     color: #F44247;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+.masthead-wrapper h3 a {
+  font-size: 25px;
+  color: #F44247;
+  font-weight: 300;
+}
+
+.masthead-wrapper a {
+  text-decoration: none;
 }
 
 .masthead-wrapper p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 35px;
     color: #e2dfd4;
     margin-top: 20px;
@@ -262,9 +280,13 @@ a.disguise-link:hover {
 }
 
 .fixed-width-podcast {
-    max-width: 200px;
-    width: 200px;
-    margin: 50px 0 0 100px;
+    max-width: 338px;
+    width: 100%;
+    margin: 75px 0 0 100px;
+}
+
+#podcast-small {
+  font-size: 15px;
 }
 
 /* Main */
