@@ -20,9 +20,9 @@
     <meta name="google-site-verification" content="mG4BE6bMefzVKJpT18rPznHY0MmsR-xmL9pXUziFAPU" />
 </head>
 
-<body>
-    <div style="position:relative">
-    <div class="hero-wrap">
+<body style="background-color: #F8F6EF;">
+    <div class="section-hero">
+    <!-- <div class="hero-wrap">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2844.82 835.79">
             <defs>
                 <style>
@@ -169,7 +169,7 @@
                 </g>
             </g>
         </svg>
-    </div>
+    </div> -->
 
         <div class="container" id="inner-nav">
 
@@ -185,19 +185,18 @@
             </script>
 
             <div class="menu">
-                <ul class="flex">
+                <ul class="nav-items">
                     <li><a href="/"><img src="/images/enterprise-ready-logo.svg" width="50" /></a></li>
                     <li><a href="/#features">Feature guides</a></li>
-                    <li><a href="/#features">Assesment</a></li>
+                    <li><a href="/#features">Assessment</a></li>
                     <li><a href="/podcast">Podcast</a></li> 
                 </ul>
-                <ul class="flex">
+                <ul class="flex" style="float: right;">
                     <li>Contributed by <a id="disguise-link" href="https://www.replicated.com" target="_blank">REPLICATED</a></li>
                 </ul>
             </div>
 
-
-
+            
             <div class="mobile_menu">
                 <ul>
                     <li style="font-size:16px;color:#BD422D">Menu</li>
@@ -222,23 +221,55 @@
                     <p>Created to help people build software for the enterprise, based on a study of the 50 leading SaaS applications.</p>
                 </div>
                 <div class="fixed-width-podcast">
-                    <h3><a href="/podcast/35-karthik-ranganathan-yugabyte/">EP<span style="color: white">35</span><img src="../images/podcast.png" height="15px" style="vertical-align:middle;"/></a></h3>
+                    <h3><a href="/podcast/35-karthik-ranganathan-yugabyte/">EP<span style="color: #e2dfd4">35</span><img src="../images/Polygon 1.svg" height="22px" style="vertical-align:-2px;padding-left: 10px;"/></a></h3>
                     <p>Karthik Ranganathan of Yugabyte discusses building EnterpriseReady databases.</p>
-                    <p id="podcast-small"><a href="/podcast">EnterpriseReadyPodcast</a></p>
+                    <p><a href="/podcast" id="podcast-small">EnterpriseReady <span style="color: #e2dfd4">Podcast</span></a></p>
                 </div>
             </div>
         </div>
 
     </div>
 
-    <div class="py-5 text-center" style="background-color: #F44247">
-        <h3 class="my-5 text-white">Is your app ready for enterprise buyers?</h3>
-        <p><a href="https://www.enterprisegrade.io" class="button button-secondary" target="_blank">Take Assessment</a></p>
+    <div class="call-to-action">
+        <img src="../images/App+Checkmark.svg" height="145px" style="margin-right: 40px;"/>
+        <div>
+            <h3 class="my-5 text-white">Is your app ready for enterprise buyers?</h3>
+            <p><a href="https://www.enterprisegrade.io" class="button button-secondary" target="_blank">Take Assessment</a>
+            </p>
+        </div>
     </div>
 
+<div class="testimonials">
+    <h2 class="text-center">Industry leaders on EnterpriseReady</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <!-- <div class="carousel-item active">
+                <img class="d-block w-100" src="..." alt="First slide">
+            </div> -->
+            <div class="carousel-item active testimonial-content">
+                <img src="/images/social/hiten.jpg" align='left' style="width: 100px;"/>
+                <p>The folks over at Replicated have put together a monster “EnterpriseReady SaaS feature guide".</p>
+                <p><span style="color:#F44247">Hiten Shah, Founder @ Kissmetrics</span></p>
+            </div>
+        </div>
+        <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <img src="../images/Play left.svg" height="200px"/>
+        </a>
+        <a href="#carouselExampleIndicators" role="button" data-slide="next">
+            <img src="../images/Play Right.svg" height="200px"/>
+        </a>
+    </div>
+
+</div>
 
 
-    <div class="py-5 testimonials">
+
+    <!-- <div class="py-5 testimonials">
         <h3 class="my-5 text-center">Industry leaders on EnterpriseReady</h3>
         <div id="my-5 twtr-scroll">
             <div id="twtr-content">
@@ -407,7 +438,7 @@
         <div class="clear"></div>
 
 
-    </div>
+    </div> -->
 
     <div class="py-5 container" id="checklist">
         <a name="features"></a>
@@ -779,6 +810,15 @@
     <script type="text/javascript" src="/js/featherlight.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>

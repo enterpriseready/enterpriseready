@@ -19,11 +19,18 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .new-container {
+    flex-direction: row;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     z-index: 100; 
+}
+
+/* For devices larger than 1200px */
+@media (max-width: 1300px){
+  .new-container {
+    flex-direction: column; }
 }
 .container {
   position: relative;
@@ -121,6 +128,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
+  background-color: #F8F6EF;
   color: #222;
     margin-top: 0;
     padding-top: 0; }
@@ -132,15 +140,15 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5 {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
-h1 { font-size: 40px; line-height: 1.2; font-weight: 400;}
-h2 { font-size: 36px; line-height: 1.7;}
+h1 { font-size: 50px; line-height: 1.2; font-weight: 400;}
+h2 { font-size: 36px; line-height: 1.7; font-weight: 300;}
 h3 { font-size: 20px; line-height: 1.3; font-weight: 300; }
 h4 { font-size: 18px; line-height: 1.35; font-style: italic;}
-h5 { font-size: 16px; line-height: 1.5;  }
-h6 { font-size: 14px; line-height: 1.6;  }
+h5 { font-size: 16px; line-height: 1.5; font-weight: 400; }
+h6 { font-size: 14px; line-height: 1.6; font-weight: 400; }
 
 /* Larger than phablet */
 @media (max-width: 550px) {

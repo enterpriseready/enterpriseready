@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700&display=swap');
+
 
 /* Base Styles */
 
@@ -48,9 +50,17 @@ strong {
     }
 }
 
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #141C34;
+
+}
+
 .hero-wrap {
     background-color: #141C34;
-    position:absolute;
+    position: absolute;
     overflow: hidden;
     height: 100%;
     width:100%;
@@ -87,7 +97,7 @@ strong {
 /* Inner Nav */
 
 #inner-nav {
-    padding-top: 25px;
+    padding-top: 10px;
     margin-bottom: 5px;
 }
 #inner-nav ul {
@@ -122,7 +132,7 @@ strong {
 .menu {
     display: flex;
     justify-content: space-between;
-    vertical-align: top;
+    align-items: center;
 }
 
 .menu ul {
@@ -139,9 +149,24 @@ strong {
 .menu ul li a {
     color: #CCC;
     text-decoration: none;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Exo', sans-serif;
   }
 
+  .menu ul li a:hover {
+    border-image: url("../images/Hover.svg") 0 0 8 0 stretch;
+    -webkit-border-image: url("../images/Hover.svg") 0 0 20 0 stretch;
+  }
+
+
+#logo {
+  float: left;
+  display: inline-block;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
 
 
 @media (max-width: 750px) {
@@ -286,8 +311,45 @@ strong {
 }
 
 #podcast-small {
+  color: #ee5042;
+  text-decoration: none;
   font-size: 15px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
 }
+
+@media (max-width: 750px) {
+  .masthead-wrapper h2 {
+    font-size: 30px;
+  }
+
+  .masthead-wrapper p {
+    font-size: 20px;
+  }
+
+  .fixed-width-500 {
+    max-width: 300px;
+    width: 300px;
+  }
+}
+
+/* Call to action  */
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  background-color: #F44247;
+  align-items: center;
+  padding: 10px 0px 30px 0px;
+  font-family: 'Exo', sans-serif;
+  font-size: 28px;
+}
+
+.call-to-action h3{
+  font-size: 28px;
+  font-weight: 300;
+}
+
 
 /* Main */
 
@@ -1005,7 +1067,30 @@ margin-right: 10px;
 
 /* Twitter */
 .testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #DBE6E9;
+  padding: 80px 0px 80px 0px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  font-style: normal;
+}
+
+.testimonials h2{
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.testimonials p{
+  font-size: 24px;
+  line-height: 30px;
+  color: #11172B;
+}
+
+.testimonial-content {
+  display: flex;
 }
 
 #twtr-scroll {
