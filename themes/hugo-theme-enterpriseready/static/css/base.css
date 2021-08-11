@@ -1093,6 +1093,29 @@ margin-right: 10px;
   display: flex;
 }
 
+.carousel-container{
+  display: flex;
+  align-items: center;
+}
+
+.avatar-container {
+  position: relative;
+}
+
+.avatar-image {
+  position: absolute;
+  width: 93px;
+  border-radius: 18px;
+  top: 14px;
+  left: 17px;
+  z-index: 1;
+}
+
+.avatar-squares {
+  position: absolute;
+  width: 140px;
+}
+
 #twtr-scroll {
   width: 100%;
   height: 100%;
