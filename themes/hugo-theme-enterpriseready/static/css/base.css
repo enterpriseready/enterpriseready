@@ -152,6 +152,8 @@ strong {
     font-family: 'Exo', sans-serif;
   }
 
+
+  /* NEED TO FIX */
   .menu ul li a:hover {
     border-image: url("../images/Hover.svg") 0 0 8 0 stretch;
     -webkit-border-image: url("../images/Hover.svg") 0 0 20 0 stretch;
@@ -339,7 +341,7 @@ strong {
   display: flex;
   justify-content: center;
   background-color: #F44247;
-  align-items: center;
+  align-items: flex-end;
   padding: 10px 0px 30px 0px;
   font-family: 'Exo', sans-serif;
   font-size: 28px;
@@ -1089,17 +1091,34 @@ margin-right: 10px;
   color: #11172B;
 }
 
+.testimonial-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .testimonial-content {
   display: flex;
+  flex-direction: column;
+  max-width: 615px;
+}
+
+.carousel {
+  max-width: 800px;
+  height: 100%;
 }
 
 .carousel-container{
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 0 10px 0 10px;
 }
 
 .avatar-container {
   position: relative;
+  height: 120px;
+  width: 250px;
 }
 
 .avatar-image {
