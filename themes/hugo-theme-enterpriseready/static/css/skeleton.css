@@ -67,6 +67,8 @@
   .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
   .four.columns                   { width: 30.6666666667%; }
+
+
   .five.columns                   { width: 39.3333333333%; }
   .six.columns                    { width: 48%;            }
   .seven.columns                  { width: 56.6666666667%; }
@@ -231,7 +233,10 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
   background-color: #EE5042;
-  border-color: #EE5042; }
+  border-color: #EE5042; 
+  border-radius: 12px 0 12px 0;
+  text-transform: uppercase;
+}
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -257,10 +262,10 @@ button.button-secondary {
 .button.button-primary:hover,
 button.button-primary:hover,
 .button.button-primary:focus,
-button.button-primary:focus {
+/* button.button-primary:focus {
     color: #11172B;
     background-color: #fff;
-    border-color: #fff; }
+    border-color: #fff; } */
 
 
 

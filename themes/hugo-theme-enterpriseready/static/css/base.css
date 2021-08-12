@@ -153,10 +153,8 @@ strong {
   }
 
 
-  /* NEED TO FIX */
-  .menu ul li a:hover {
-    border-image: url("../images/Hover.svg") 0 0 8 0 stretch;
-    -webkit-border-image: url("../images/Hover.svg") 0 0 20 0 stretch;
+  .nav-items li a:hover {
+    background: url("../images/Hover.svg"); background-repeat: no-repeat; background-position: bottom -300px;
   }
 
 
@@ -389,7 +387,7 @@ strong {
 
 h1.section-header {
   font-size: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   color: #004E86;
   font-weight: 300;
 }
@@ -408,10 +406,46 @@ h3.section-header.sub {
 
 /* Checklist */
 
+.features-intro {
+  margin-bottom: 100px;
+}
+
+.features-intro p {
+  color: #9B9B9B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.guidebook {
+  transform: rotate(6.88deg);
+  background-repeat: no-repeat;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  margin-left: -200px;
+  width: 425px;
+  height: 525px;
+  z-index: -1;
+  opacity: .1;
+}
+
 #checklist {
     margin-bottom: 25px;
-    margin-top: 50px;
+    padding-top: 150px;
+    overflow: hidden;
 }
+
+.checklist-item p{
+  font-family: 'Open Sans', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #9B9B9B;
+}
+
 #checklist .checklist-icon {
     width: 60px;
     min-height: 60px;
