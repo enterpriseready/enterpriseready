@@ -1094,7 +1094,9 @@ margin-right: 10px;
 .testimonial-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .testimonial-content {
@@ -1103,8 +1105,17 @@ margin-right: 10px;
   max-width: 615px;
 }
 
+
 .carousel {
   max-width: 800px;
+  height: 200px;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
   height: 100%;
 }
 
@@ -1112,12 +1123,16 @@ margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 10px 0 10px;
+  margin: 20px 10px 0 10px;
+}
+
+.carousel-container a img{
+  height: 200px;
 }
 
 .avatar-container {
   position: relative;
-  height: 120px;
+  height: 160px;
   width: 250px;
 }
 
@@ -1133,6 +1148,50 @@ margin-right: 10px;
 .avatar-squares {
   position: absolute;
   width: 140px;
+  /* top: -14px;
+  left: -17px; */
+}
+
+@media (max-width: 750px) {
+  .carousel {
+    max-width: 400px;
+    height: 200px;
+  }
+
+  .carousel-container a img{
+    height: 100px;
+  }
+
+  .testimonials h2{
+    font-size: 28px;
+    font-weight: 300;
+  }
+  
+  .testimonials p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #11172B;
+  }
+
+  .avatar-container {
+    position: relative;
+    height: 160px;
+    width: 250px;
+  }
+
+  .avatar-image {
+    position: absolute;
+    width: 65px;
+    border-radius: 10px;
+    top: 10px;
+    left: 13px;
+    z-index: 1;
+  }
+  
+  .avatar-squares {
+    position: absolute;
+    width: 100px;
+  }
 }
 
 #twtr-scroll {
