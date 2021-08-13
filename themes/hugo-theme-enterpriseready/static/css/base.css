@@ -501,6 +501,12 @@ h3.section-header.sub {
     font-weight: 500;
 }
 
+
+.checklist-top {
+  display: flex;
+  align-items: flex-end;
+}
+
 .article-icon {
   min-height: 100px;
   margin-bottom: 20px;
@@ -517,10 +523,11 @@ h3.section-header.sub {
 }
 
 span.pa {
-  background: url('../images/article-icons/product-assortment@2x.png');
-  background-size: 173px 82px;
-  width: 173px;
-  height: 82px;
+  background: url('../images/Product Assortment.svg');
+  background-size: 167px 161px;
+  width: 167px;
+  height: 161px;
+  background-repeat: no-repeat;
 }
 span.sso {
   background: url('../images/article-icons/sso@2x.png');

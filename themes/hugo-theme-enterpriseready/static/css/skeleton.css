@@ -179,7 +179,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #ee5042;
+  color: #F44247;
   text-decoration: none;
 }
 a:hover {
@@ -232,8 +232,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #EE5042;
-  border-color: #EE5042; 
+  background-color:#F44247;;
+  border-color: #F44247;; 
   border-radius: 12px 0 12px 0;
   text-transform: uppercase;
 }
@@ -248,8 +248,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #C73C2F;
-  border-color: #C73C2F; }
+  background-color: #F44247;;
+  border-color: #F44247;; }
 
 
 .button.button-secondary,
@@ -271,8 +271,8 @@ button.button-primary:hover,
 
 input[type="submit"] {
   color: #FFF !important;
-  background-color: #EE5042 !important;
-  border-color: #EE5042 !important;
+  background-color: #F44247 !important;
+  border-color: #F44247 !important;
 }
 
 input[type="submit"]:hover {
