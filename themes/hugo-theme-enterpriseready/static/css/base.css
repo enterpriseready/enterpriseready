@@ -1187,7 +1187,7 @@ margin-right: 10px;
 
 .testimonials h2{
   font-size: 34px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .testimonials p{
@@ -1199,7 +1199,7 @@ margin-right: 10px;
 .testimonial-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 100%;
 }
@@ -1212,7 +1212,8 @@ margin-right: 10px;
 
 
 .carousel {
-  max-width: 800px;
+  max-width: 748px;
+  width: 100%;
   height: 200px;
 }
 
@@ -1231,6 +1232,10 @@ margin-right: 10px;
   margin: 20px 10px 0 10px;
   max-width: 1100px;
   width: 100%;
+}
+
+.carousel-container a img {
+  margin: 10px;
 }
 
 .avatar-container {
