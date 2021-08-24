@@ -66,7 +66,11 @@
   .one.columns                    { width: 4.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
-  .four.columns                   { width: 30.6666666667%; }
+  .four.columns                   { width: 30.6666666667%; 
+    background: url('../images/single-frame-corner.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
 
 
   .five.columns                   { width: 39.3333333333%; }
@@ -471,12 +475,12 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Self Clearing Goodness */
-.container:after,
+/* .container:after,
 .row:after,
 .u-cf {
   content: "";
   display: table;
-  clear: both; }
+  clear: both; } */
 
 
 /* Media Queries

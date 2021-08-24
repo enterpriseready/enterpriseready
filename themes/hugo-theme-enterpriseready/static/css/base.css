@@ -449,6 +449,11 @@ h3.section-header.sub {
     overflow: hidden;
 }
 
+.checklist-item {
+  margin-top: 45px;
+  margin-left: 42px;
+}
+
 .checklist-item p{
   font-family: 'Open Sans', sans-serif;;
   font-style: normal;
@@ -1224,10 +1229,8 @@ margin-right: 10px;
   align-items: center;
   justify-content: space-between;
   margin: 20px 10px 0 10px;
-}
-
-.carousel-container a img{
-  height: 200px;
+  max-width: 1100px;
+  width: 100%;
 }
 
 .avatar-container {
@@ -1237,12 +1240,8 @@ margin-right: 10px;
 }
 
 .avatar-image {
-  position: absolute;
   width: 93px;
-  border-radius: 18px;
-  top: 14px;
-  left: 17px;
-  z-index: 1;
+  margin-right: 40px;
 }
 
 .avatar-squares {
@@ -1258,13 +1257,9 @@ margin-right: 10px;
     height: 200px;
   }
 
-  .carousel-container a img{
-    height: 100px;
-  }
-
   .testimonials h2{
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
   }
   
   .testimonials p{
@@ -1280,12 +1275,8 @@ margin-right: 10px;
   }
 
   .avatar-image {
-    position: absolute;
     width: 65px;
     border-radius: 10px;
-    top: 10px;
-    left: 13px;
-    z-index: 1;
   }
   
   .avatar-squares {
