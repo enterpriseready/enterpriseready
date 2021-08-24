@@ -458,7 +458,6 @@ h3.section-header.sub {
     margin-bottom: 25px;
     padding-top: 150px;
     overflow: hidden;
-    max-width: 1320px;
 }
 
 .checklist-item {
@@ -467,12 +466,12 @@ h3.section-header.sub {
 }
 
 .checklist-item img {
-  height: 135px;
-  margin-bottom: 40px;
+  height: 110px;
+  margin-bottom: 35px;
 }
 
 .checklist-item h3{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-family: Exo;
   font-style: normal;
   font-weight: normal;
@@ -483,11 +482,15 @@ h3.section-header.sub {
 .checklist-item p{
   font-family: 'Open Sans', sans-serif;;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 20px;
   line-height: 30px;
   color: #9B9B9B;
   margin-bottom: 25px;
+}
+
+.checklist-item.button.button-primary {
+  width:40px;
 }
 
 #checklist .checklist-icon {
@@ -529,7 +532,8 @@ h3.section-header.sub {
 }
 #checklist .row {
     margin-top: 50px;
-    justify-content: space-between;
+    margin-bottom: 95px;
+    justify-content: center;
 }
 @media (max-width: 750px) {
     #checklist .row {
