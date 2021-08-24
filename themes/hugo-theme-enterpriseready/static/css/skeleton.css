@@ -66,7 +66,9 @@
   .one.columns                    { width: 4.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
-  .four.columns                   { width: 30.6666666667%; 
+  .four.columns                   { 
+    width: 30.6666666667%; 
+    max-width: 400px;
     background: url('../images/single-frame-corner.svg');
     background-repeat: no-repeat;
     background-position: top left;
@@ -134,7 +136,6 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-  background-color: #F8F6EF;
   color: #222;
     margin-top: 0;
     padding-top: 0; }

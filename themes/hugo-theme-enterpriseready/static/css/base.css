@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700&display=swap');
 
 
@@ -419,14 +419,25 @@ h3.section-header.sub {
 /* Checklist */
 
 .features-intro {
-  margin-bottom: 100px;
+  text-align: center;
+  margin-bottom: 160px;
+  max-width: 1075px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .features-intro p {
   color: #9B9B9B;
   font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 34px;
+  
+}
+
+.guides-section {
+  background-color: #F8F6EF;
 }
 
 .guidebook {
@@ -435,10 +446,10 @@ h3.section-header.sub {
   text-align: center;
   position: absolute;
   left: 50%;
-  top: -50px;
-  margin-left: -200px;
-  width: 425px;
-  height: 525px;
+  top: -63px;
+  margin-left: -250px;
+  width: 525px;
+  height: 625px;
   z-index: -1;
   opacity: .1;
 }
@@ -447,11 +458,26 @@ h3.section-header.sub {
     margin-bottom: 25px;
     padding-top: 150px;
     overflow: hidden;
+    max-width: 1320px;
 }
 
 .checklist-item {
   margin-top: 45px;
   margin-left: 42px;
+}
+
+.checklist-item img {
+  height: 135px;
+  margin-bottom: 40px;
+}
+
+.checklist-item h3{
+  margin-bottom: 20px;
+  font-family: Exo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 33px;
 }
 
 .checklist-item p{
@@ -461,6 +487,7 @@ h3.section-header.sub {
   font-size: 20px;
   line-height: 30px;
   color: #9B9B9B;
+  margin-bottom: 25px;
 }
 
 #checklist .checklist-icon {
@@ -474,10 +501,10 @@ h3.section-header.sub {
     margin-bottom: 10px;
     padding: 10px 10px 2px;
 }
-#checklist p {
+/* #checklist p {
   font-size: 16px;
   margin-bottom: 20px;
-}
+} */
 #checklist h3.section-header {
   margin-bottom: 40px;
 }
@@ -502,6 +529,7 @@ h3.section-header.sub {
 }
 #checklist .row {
     margin-top: 50px;
+    justify-content: space-between;
 }
 @media (max-width: 750px) {
     #checklist .row {
@@ -1200,7 +1228,7 @@ margin-right: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100%;
 }
 
@@ -1214,7 +1242,6 @@ margin-right: 10px;
 .carousel {
   max-width: 748px;
   width: 100%;
-  height: 200px;
 }
 
 .carousel-inner {
@@ -1229,9 +1256,10 @@ margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 10px 0 10px;
+  margin: 40px 10px 0 10px;
   max-width: 1100px;
   width: 100%;
+  height: 150px;
 }
 
 .carousel-container a img {
