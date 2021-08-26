@@ -801,7 +801,6 @@ span.ar {
   font-weight: normal;
   font-size: 34px;
   line-height: 40px;
-  color: #11172B;
   margin-bottom: 30px;
 }
 
@@ -816,12 +815,17 @@ span.ar {
 }
 
 .example-implementations-tabs {
-  max-width: 860px;
+  max-width: 920px;
   width: 100%;
 }
 
 .example-implementations-tabs .nav {
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.example-implementations-tabs .tab-content {
+  margin-bottom: 22px;
 }
 
 .implementation-background {
@@ -829,11 +833,11 @@ span.ar {
   align-content: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   height: 377px;
   background: url('../images/implementation-background.svg');
   background-repeat: no-repeat;
-  padding: 50px 90px 60px 60px;
+  padding: 50px 100px 80px 90px;
 }
 
 .feature-analysis-column {
@@ -841,6 +845,78 @@ span.ar {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  height: 100%;
+}
+
+.feature-analysis-column h3 {
+  color: #F8F6EF;
+}
+
+@media (max-width: 550px) {
+  .feature-analysis-column h3 {
+    display: none;
+  }
+}
+
+.feature-analysis-column .button {
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+.nav-link {
+  background-repeat: no-repeat;
+}
+
+#zendesk-tab.nav-link {
+  background-image: url("../images/zendesk-inactive.svg");
+  height: 31px;
+  width: 153px;
+}
+
+#zendesk-tab.nav-link.active {
+  background-image: url("../images/zendesk-active.svg");
+  height: 31px;
+  width: 153px;
+}
+
+#hubspot-tab.nav-link {
+  background-image: url("../images/hubspot-inactive.svg");
+  height: 46px;
+  width: 153px;
+}
+
+#hubspot-tab.nav-link.active {
+  background-image: url("../images/hubspot-active.svg");
+  height: 46px;
+  width: 153px;
+}
+
+#google-tab.nav-link {
+  background-image: url("../images/google-inactive.svg");
+  height: 46px;
+  width: 132px;
+}
+
+#google-tab.nav-link.active {
+  background-image: url("../images/google-active.svg");
+  height: 42px;
+  width: 129px;
+}
+
+#slack-tab.nav-link {
+  background-image: url("../images/slack-inactive.svg");
+  height: 46px;
+  width: 132px;
+}
+
+#slack-tab.nav-link.active {
+  background-image: url("../images/slack-active.svg");
+  height: 42px;
+  width: 129px;
+}
+
+.example-logo {
+
 }
 
 
