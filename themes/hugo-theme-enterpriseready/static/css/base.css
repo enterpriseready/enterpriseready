@@ -282,7 +282,6 @@ strong {
     background: url('../images/hero-main-frame.svg');
     background-repeat: no-repeat;
     background-position: top left;
-    height: 345px;
     padding: 50px 0 0 50px;
 }
 
@@ -543,7 +542,7 @@ h3.section-header.sub {
     }
 
     #checklist .columns {
-        width: 100%;
+        /* width: 50%; */
         margin: 0px auto 60px;
     }
 }
@@ -893,6 +892,18 @@ span.ar {
   line-height: 40px;
 }
 
+@media (max-width: 550px) {
+  .subscribe-wrapper {
+    padding: 60px 0 60px;
+  }
+  .subscribe-wrapper h3 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+
+
+/* Override HubSpot Styling */
 .subscribe-wrapper .hs-button.primary.large {
   color: #11172B !important;
   background-color: #FAE7E7 !important;
@@ -906,14 +917,30 @@ span.ar {
   font-size: 15px !important;
 }
 
+@media (max-width: 550px) {
+  .subscribe-wrapper .hs-button.primary.large {
+    font-size: 12px !important;
+    padding: 0px 20px !important;
+  }
+}
+
+#subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 #subscribe input[type="email"] {
-    width: 325px;
+    width: 335px;
 }
 @media (max-width: 550px) {
-    #subscribe input {
-        width: 100%!important;
+    #email-cf19513d-014d-4435-b0ad-ac186f0ce56f {
+        width: 185px !important;
+    }
+    #subscribe .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field {
+      width: 185px !important;
     }
     #subscribe .three {
         display: none;
