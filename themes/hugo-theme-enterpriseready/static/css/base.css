@@ -356,6 +356,14 @@ strong {
   font-size: 28px;
 }
 
+@media (max-width: 550px) {
+  .call-to-action {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 .call-to-action h3{
   font-size: 28px;
   font-weight: 300;
@@ -807,13 +815,32 @@ span.ar {
   margin-bottom: 50px;
 }
 
-.feature-analysis {
+.example-implementations-tabs {
   max-width: 860px;
   width: 100%;
 }
 
-.feature-analysis .nav {
+.example-implementations-tabs .nav {
   justify-content: center;
+}
+
+.implementation-background {
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 377px;
+  background: url('../images/implementation-background.svg');
+  background-repeat: no-repeat;
+  padding: 50px 90px 60px 60px;
+}
+
+.feature-analysis-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 
