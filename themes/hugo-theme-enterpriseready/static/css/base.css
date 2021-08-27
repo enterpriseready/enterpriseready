@@ -596,13 +596,13 @@ span.why {
     font-size: 16px;
 }
 #article h1 {
-    text-align: center;
+    text-align: left;
 }
 #article h1, #article h2 {
     padding-top: 2.5rem;
 }
 #article h2 {
-  color: red;
+  color: black;
 }
 
 #article h4 {

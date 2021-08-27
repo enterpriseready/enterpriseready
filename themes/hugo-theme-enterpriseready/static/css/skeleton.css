@@ -129,7 +129,8 @@ h1, h2 {
 }
 
 h3 {
-  font-family: 'Recursive';
+  font-family: 'Recursive', medium;
+  font-weight: 700;
 }
 h3, h4, h5, h6 {
   margin-top: 0;
@@ -144,7 +145,7 @@ h3 {
 
 h1 { font-size: 40px; line-height: 1.2;  letter-spacing: -.05rem;}
 h2 { font-size: 36px; line-height: 1.7;}
-h3 { font-size: 20px; line-height: 1.3;  letter-spacing: -.05rem;}
+h3 { font-size: 26px; line-height: 1.3;  letter-spacing: -.05rem;}
 h4 { font-size: 18px; line-height: 1.35; letter-spacing: -.05rem; font-style: italic;}
 h5 { font-size: 16px; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 14px; line-height: 1.6;  letter-spacing: 0; }
@@ -153,7 +154,7 @@ h6 { font-size: 14px; line-height: 1.6;  letter-spacing: 0; }
 @media (max-width: 550px) {
   h1 { font-size: 30px; }
   h2 { font-size: 24px; }
-  h3 { font-size: 18px; }
+  h3 { font-size: 20px; }
   h4 { font-size: 16px; }
   h5 { font-size: 14px; }
   h6 { font-size: 12px; }
