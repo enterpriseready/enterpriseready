@@ -94,10 +94,55 @@ strong {
     }
 }
 
+.navbar-toggler-icon {
+  background-image: url("../images/hamburger-menu.svg") !important;
+  background-size: 18px 30px !important;
+}
+
+.navbar-toggler {
+  border: 0px !important;
+} 
+
+.navbar-text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #888887;
+  text-decoration: none;
+}
+
+body .nav-link {
+  color: #FFFFFF;;
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+  height: 100%;
+}
+
+body .nav-link:hover {
+  color: #FFFFFF;
+  background-image: url('../images/Hover.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/* body .nav-item li:hover {
+  background-image: url('../images/Hover.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+} */
+
+/* body .nav-link:hover {
+  background-image: url('../images/Hover.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 25px;
+}
+
 /* Inner Nav */
 
 #inner-nav {
-    padding-top: 10px;
+    padding-top: 20px;
     margin-bottom: 5px;
 }
 #inner-nav ul {
@@ -107,15 +152,18 @@ strong {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
+    margin-bottom: 0px;
 }
 
 #inner-nav ul li a {
-  font-weight:500;
+  font-weight: 500;
 }
 
 #disguise-link {
   color: #888887;
   transition: color .2s;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 #disguise-link:hover {
@@ -167,18 +215,6 @@ strong {
 .nav-items {
   display: flex;
   align-items: center;
-  height: 100%;
-}
-
-.nav-items li:hover {
-  /* position: absolute;
-  bottom: -0.125rem; */
-  /* left: -0.5rem;
-  right: -0.5rem; */
-  /* z-index: -1; */
-  background-image: url('../images/Hover.svg');
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 @media (max-width: 750px) {
