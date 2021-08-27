@@ -801,7 +801,6 @@ span.ar {
   font-weight: normal;
   font-size: 34px;
   line-height: 40px;
-  margin-bottom: 30px;
 }
 
 #example-implementations p {
@@ -812,6 +811,7 @@ span.ar {
   line-height: 34px;
   color: #9B9B9B;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .example-implementations-tabs {
@@ -837,7 +837,24 @@ span.ar {
   height: 377px;
   background: url('../images/implementation-background.svg');
   background-repeat: no-repeat;
+  background-position: center;
   padding: 50px 100px 80px 90px;
+}
+
+@media (max-width: 912px) {
+  .implementation-background {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 375px;
+    background: url('../images/implementation-background-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 50px 50px 50px;
+  }
 }
 
 .feature-analysis-column {
@@ -850,23 +867,40 @@ span.ar {
 
 .feature-analysis-column h3 {
   color: #F8F6EF;
+  margin-bottom: 10px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 912px) {
   .feature-analysis-column h3 {
     display: none;
+  }
+  .feature-analysis-column {
+    order: 2;
+    width: 250px;
+    justify-content: flex-end;
   }
 }
 
 .feature-analysis-column .button {
+  width: 320px;
   margin-bottom: 0px;
   margin-top: 16px;
+  padding: 0 10px;
+}
+@media (max-width: 912px) {
+  .feature-analysis-column .button {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+  }
 }
 
 .nav-link {
   background-repeat: no-repeat;
 }
 
+/* Zendesk Logo */
 #zendesk-tab.nav-link {
   background-image: url("../images/zendesk-inactive.svg");
   height: 31px;
@@ -879,6 +913,7 @@ span.ar {
   width: 153px;
 }
 
+/* Hubspot Logo */
 #hubspot-tab.nav-link {
   background-image: url("../images/hubspot-inactive.svg");
   height: 46px;
@@ -891,6 +926,7 @@ span.ar {
   width: 153px;
 }
 
+/* Google Logo */
 #google-tab.nav-link {
   background-image: url("../images/google-inactive.svg");
   height: 46px;
@@ -903,6 +939,7 @@ span.ar {
   width: 129px;
 }
 
+/* Slack Logo */
 #slack-tab.nav-link {
   background-image: url("../images/slack-inactive.svg");
   height: 46px;
@@ -915,8 +952,40 @@ span.ar {
   width: 129px;
 }
 
+/* Mobile Logos */
+@media (max-width: 912px) {
+  #zendesk-tab.nav-link {
+    /* height: 12px;
+    width: 59px;
+    background-size: 12px 59px; */
+  }
+  #hubspot-tab.nav-link  {
+    /* height: 18px;
+    width: 59px;
+    background-size: 18px 59px; */
+  }
+  #google-tab.nav-link {
+    /* height: 18px;
+    width: 51px;
+    background-size: 18px 51px; */
+  }
+  #slack-tab.nav-link {
+    /* height: 14px;
+    width: 48px;
+    background-size: 14px 48px; */
+  }
+}
+
 .example-logo {
 
+}
+
+@media (max-width: 912px) {
+  .example-logo {
+    order: 1;
+    /* width: 120px; */
+    height: 85px;
+  }
 }
 
 
