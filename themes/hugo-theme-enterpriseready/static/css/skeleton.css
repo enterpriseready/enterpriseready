@@ -15,7 +15,7 @@
 - Media Queries
 */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700&display=swap');
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -24,7 +24,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+ box-sizing: border-box; }
 .column,
 .columns {
   width: 100%;
@@ -34,14 +34,14 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 90%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+  width: 80%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -124,9 +124,14 @@ h1, h2 {
   margin-top: 0rem;
   margin-bottom: 1rem;
   font-weight: 700;
+  font-family: 'Recursive', medium;
   color:#323232;
 }
 
+h3 {
+  font-family: 'Recursive', medium;
+  font-weight: 700;
+}
 h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
@@ -140,7 +145,7 @@ h3 {
 
 h1 { font-size: 40px; line-height: 1.2;  letter-spacing: -.05rem;}
 h2 { font-size: 36px; line-height: 1.7;}
-h3 { font-size: 20px; line-height: 1.3;  letter-spacing: -.05rem;}
+h3 { font-size: 26px; line-height: 1.3;  letter-spacing: -.05rem;}
 h4 { font-size: 18px; line-height: 1.35; letter-spacing: -.05rem; font-style: italic;}
 h5 { font-size: 16px; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 14px; line-height: 1.6;  letter-spacing: 0; }
@@ -149,7 +154,7 @@ h6 { font-size: 14px; line-height: 1.6;  letter-spacing: 0; }
 @media (max-width: 550px) {
   h1 { font-size: 30px; }
   h2 { font-size: 24px; }
-  h3 { font-size: 18px; }
+  h3 { font-size: 20px; }
   h4 { font-size: 16px; }
   h5 { font-size: 14px; }
   h6 { font-size: 12px; }
@@ -172,11 +177,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #ee5042;
+  color: #3735ea;
   text-decoration: none;
 }
 a:hover {
-  color: #eea642;
+  color: #35A7FF;
   cursor: pointer;
 }
 
@@ -225,8 +230,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #EE5042;
-  border-color: #EE5042; }
+  background-color: #3735ea;
+  border-color: #3735ea; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -238,20 +243,20 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #C73C2F;
-  border-color: #C73C2F; }
+  background-color: #35A7FF;
+  border-color: #35A7FF; }
 
 
 input[type="submit"] {
   color: #FFF !important;
-  background-color: #EE5042 !important;
-  border-color: #EE5042 !important;
+  background-color: #3735ea !important;
+  border-color: #3735ea !important;
 }
 
 input[type="submit"]:hover {
   color: #FFF !important;
-  background-color: #bd4135 !important;
-  border-color: #bd4135 !important;
+  background-color: #35A7FF !important;
+  border-color: #35A7FF !important;
 }
 
 /*-- Hubspot newsletter signup */
