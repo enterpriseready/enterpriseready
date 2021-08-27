@@ -432,7 +432,7 @@ h3.section-header.sub {
   margin-right: auto;
 }
 
-.features-intro h1{
+.features-intro h1 {
   font-weight: 400;
 }
 
@@ -443,7 +443,14 @@ h3.section-header.sub {
   font-weight: 300;
   font-size: 22px;
   line-height: 34px;
-  
+}
+
+#checklist {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .guides-section {
@@ -464,10 +471,34 @@ h3.section-header.sub {
   opacity: .1;
 }
 
-#checklist {
-    padding-top: 150px;
-    padding-bottom: 100px;
-    overflow: hidden;
+@media (max-width: 550px) {
+  .features-intro {
+    margin-bottom: 80px;
+  }
+
+  .features-intro h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .features-intro p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  #checklist {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .guidebook {
+    width: 162px;
+    height: 192px;
+    left: 55%;
+    top: 30px;
+    margin-left: -100px;
+  }
 }
 
 .checklist-item {
@@ -661,6 +692,14 @@ span.ar {
   overflow: hidden;
 }
 
+@media (max-width: 912px) {
+  .big-testimonial {
+    display: none;
+  }
+}
+
+
+
 #big-testimonial {
   max-width: 930px;
 }
@@ -732,7 +771,7 @@ span.ar {
   overflow: hidden;
 }
 
-#podcast-section {
+#podcast-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -782,30 +821,39 @@ span.ar {
 }
 
 @media (max-width: 912px) {
-
   .podcast-section {
     padding: 60px 0px 80px 0px;
+  }
+
+  .podcast-background {
+    left: -20%; 
+  }
+
+  #podcast-container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .podcast-content .button {
+    width: 90%;
+    font-size: 14px;
   }
 
   .podcast-content {
     align-items: center;
     text-align: center;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-
-  #podcast-section {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 0px;
   }
 
   .podcast-content h3 {
     font-weight: 500;
+    margin: 0 30px 25px 30px;
   }
 
   .podcast-content p {
     font-size: 14px;
     line-height: 28px;
+    margin: 0 30px 50px 30px;
   }
 
   .podcast-image {
