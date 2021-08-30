@@ -44,17 +44,16 @@
   z-index: 100; }
 .column,
 .columns {
-  width: 100%;
+  width: 30.6666666667%;
   float: left;
   box-sizing: border-box; }
 
   .four.columns                   { 
-    width: 100%; 
+    width: 30.6666666667%; 
     max-width: 360px;
     background: url('../images/single-frame-corner.svg');
     background-repeat: no-repeat;
     background-position: top left;
-    
   }
 
   
@@ -66,7 +65,7 @@
     max-width: 80%; }
 
     .four.columns                   { 
-      width: 100%; 
+      width: 30.6666666667%; 
       max-width: 360px;
       background: url('../images/single-frame-corner.svg');
       background-repeat: no-repeat;
@@ -548,12 +547,12 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Self Clearing Goodness */
-/* .container:after,
+.container:after,
 .row:after,
 .u-cf {
   content: "";
   display: table;
-  clear: both; } */
+  clear: both; }
 
 
 /* Media Queries
