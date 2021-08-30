@@ -144,31 +144,66 @@ strong {
   padding-bottom: 2px;
 }
 #inner-nav ul li a:hover {
-  color: #FFFFFF;
+  /* color: #FFFFFF;
   background-image: url('../images/Hover.svg');
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 100%;
-  
+  background-size: 100%; */
 }
 
-/* body .nav-link {
-  color: #FFFFFF;;
+/* .navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  top: 60px;
+  width: 800px;
+  height: 325px;
+  background: #F8F6EF;
+  border-radius: 16px 0px;
+} */
+
+/* @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+} */
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F8F6EF;;
+  border-radius: 16px 0px;
+  min-width: 800px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  width: 200px;
+  height: 200px;
   text-decoration: none;
-  font-family: 'Exo', sans-serif;
-  height: 100%;
-} */
+  display: block;
+}
 
-/* body .nav-item {
-  height: 100%;
-} */
+.dropdown-features {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-/* body .nav-link:hover {
-  color: #FFFFFF;
-  background-image: url('../images/Hover.svg');
-  background-repeat: no-repeat;
-  background-position: 0px 20px;
-} */
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
 
 
@@ -320,6 +355,7 @@ strong {
     max-width: 1200px;
     justify-content: center;
     background: url('../images/background-lines.svg');
+    z-index: 1;
 }
 
 @media (max-width: 750px) {
@@ -967,7 +1003,7 @@ span.ar {
   }
 
   .example-implementations h3 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     margin: 0px 50px;
   }
