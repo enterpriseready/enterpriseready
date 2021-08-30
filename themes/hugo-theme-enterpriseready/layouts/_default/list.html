@@ -15,31 +15,30 @@
         <div class="podcast-page-content">
             {{ .Content }}
         </div>
+        <img class="podcast-red" src="/images/podcast-red.svg"/>
 
     </div>
 
   
-    <div class="episode-flex-container container">
-        {{ range .Pages.ByWeight.Reverse }}
-        <div class="episode-outer">
-            <div class="episode">
-                <a href={{ .Permalink }} target="_blank">
-                <img src={{ .Params.Image }} align="left" style="margin: 0;" />
-                <div class="clearfix"></div>
-                <h3>EP{{ .Weight }} 
-                <img class="episode-play" src="../images/Polygon 1.svg"/></h3>
-                <h4>{{ .Title }}</h4>
-            </a>
+    <div class="episode-section-wrapper">
+        <h1>Episodes</h1>
+        <div class="episode-flex-container container">
+            {{ range .Pages.ByWeight.Reverse }}
+            <div class="episode-outer">
+                <div class="episode">
+                    <a href={{ .Permalink }} target="_blank">
+                        <img src={{ .Params.Image }} align="left" style="margin: 0;" />
+                        <div class="clearfix"></div>
+                        <h3>EP{{ .Weight }}
+                            <img class="episode-play" src="../images/Polygon 1.svg" />
+                        </h3>
+                        <h4>{{ .Title }}</h4>
+                    </a>
+                </div>
             </div>
+            {{ end }}
         </div>
-        {{ end }}
-      </div>
-<br />
-<hr />
-<br />
-<h3>Are you interested in being a guest on the EnterpriseReady Podcast? If so, <a href="mailto:grant.miller@replicated.com?cc=chris@replicated.com&subject=Being a guest on the EnterpriseReady Podcast">drop us a note here</a>. </h3>
-<br>
-<br>
-<br>
-<br>
+        <h3>Are you interested in being a guest on the EnterpriseReady Podcast? If so, <a href="mailto:grant.miller@replicated.com?cc=chris@replicated.com&subject=Being a guest on the EnterpriseReady Podcast">drop us a note here</a>. </h3>
+    </div>
+
 {{ partial "footer.html" . }}

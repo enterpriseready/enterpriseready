@@ -172,7 +172,7 @@ strong {
 
 
 #feature-guides-hover{
-  background-image: url('../images/feature-guides-hover.svg');
+  /* background-image: url('../images/feature-guides-hover.svg'); */
   background-repeat: no-repeat;
   background-size: 115px 20px;
   background-position: 5px 18px;
@@ -1649,6 +1649,7 @@ span.ar {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 50px;
 }
 
 .episode-outer {
@@ -1660,8 +1661,12 @@ span.ar {
 }
 
 .episode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin-top: 45px;
   margin-left: 42px;
+  text-align: left;
 }
 
 .episode:hover {
@@ -2130,7 +2135,15 @@ margin-right: 10px;
 .podcast-page-hero {
   background-color: #141C34; 
   padding: 130px 0px 90px 0px;
+  overflow: hidden;
 }
+
+@media (max-width: 600px) {
+  .podcast-page-hero {
+    padding: 70px 0px 90px 0px;
+  }
+}
+
 
 .podcast-page-hero-content {
   display: flex;
@@ -2156,6 +2169,7 @@ margin-right: 10px;
   text-align: center;
   color: #F8F6EF;
   z-index: 10;
+  margin: 15px;
 }
 
 @media (max-width: 940px) {
@@ -2166,7 +2180,6 @@ margin-right: 10px;
 
 .podcast-background-holder {
   position: relative;
-  border: 1px solid red;
   width: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -2198,7 +2211,21 @@ margin-right: 10px;
   font-size: 22px;
   line-height: 34px;
   color: #F8F6EF;
-  margin-bottom: 25px;
+  margin: 0px 20px 20px 20px;
+}
+
+@media (max-width: 940px) {
+  .podcast-page-content p  {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 600px) {
+  .podcast-page-content p  {
+    font-size: 14px;
+    font-weight: normal;
+  }
 }
 
 .podcast-page-content a {
@@ -2216,6 +2243,50 @@ margin-right: 10px;
 .podcast-red {
   position: absolute;
   right: 0px;
-  bottom: 0px;
+  bottom: -650px;
 }
+
+.episode-section-wrapper {
+  background-color: #F8F6EF;
+  padding: 100px 0px 80px 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.episode-section-wrapper h1 {
+  font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 40px;
+  text-align: center;
+  color: #004E8A;
+  margin-bottom: 90px;
+}
+
+.episode-section-wrapper h3 {
+  font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #11172B;
+  margin: 0px 20px 0px 20px;
+}
+
+@media (max-width: 600px) { 
+  .episode-section-wrapper h1 {
+    font-size: 40px;
+  }
+  .episode-section-wrapper h3 {
+    font-size: 18px;
+  }
+}
+
+.episode-section-wrapper h3 a{
+  color: #F44247;
+  text-decoration: none;
+}
+
 
