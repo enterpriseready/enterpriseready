@@ -127,11 +127,16 @@ strong {
   }
 }
 
+.header-section {
+  background-color: #141C34;
+}
+
 /* Inner Nav */
 
 #inner-nav {
     padding-top: 20px;
-    margin-bottom: 5px;
+    padding-bottom: 20px;
+    background-color: #141C34;
 }
 #inner-nav ul {
   margin-left: 15px;
@@ -165,30 +170,6 @@ strong {
 
 }
 
-
-#inner-nav ul li a:hover {
-  /* color: #FFFFFF;
-  background-image: url('../images/Hover.svg');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%; */
-}
-
-/* .navbar-expand-lg .navbar-nav .dropdown-menu {
-  position: absolute;
-  top: 60px;
-  width: 800px;
-  height: 325px;
-  background: #F8F6EF;
-  border-radius: 16px 0px;
-} */
-
-/* @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-} */
 
 #feature-guides-hover{
   background-image: url('../images/feature-guides-hover.svg');
