@@ -11,10 +11,15 @@
         </div>
     </div>
 
+    <div class="podcast-page-content-background">
+        <div class="podcast-page-content">
+            {{ .Content }}
+        </div>
+
+    </div>
+
   
     <div class="episode-flex-container container">
-        {{ .Content }}
-    
         {{ range .Pages.ByWeight.Reverse }}
         <div class="episode-outer">
             <div class="episode">
