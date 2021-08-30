@@ -1,6 +1,6 @@
 +++
 date = "2016-10-25T00:00:00Z"
-title = "Podcast"
+title = "Welcome to the EnterpriseReady Podcast"
 type = "podcast"
 hero = "/images/podcast/er_podcast.png"
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
