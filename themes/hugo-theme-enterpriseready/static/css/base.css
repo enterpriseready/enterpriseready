@@ -119,6 +119,14 @@ strong {
   }
 }
 
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background: #F8F6EF;
+    margin-top: 10px;
+    padding: 20px 10px;
+  }
+}
+
 /* Inner Nav */
 
 #inner-nav {
@@ -133,16 +141,31 @@ strong {
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 0px;
-
 }
 
 #inner-nav ul li a {
+  font-size: 16px;
   font-weight: 500;
   color: #FFFFFF;;
   text-decoration: none;
   font-family: 'Exo', sans-serif;
   padding-bottom: 2px;
 }
+
+@media (max-width: 992px) {
+  #inner-nav ul li a {
+    color: #2646B1;
+  }
+
+  #inner-nav ul li {
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+}
+
+
 #inner-nav ul li a:hover {
   /* color: #FFFFFF;
   background-image: url('../images/Hover.svg');
@@ -167,6 +190,20 @@ strong {
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 } */
 
+#feature-guides-hover{
+  background-image: url('../images/feature-guides-hover.svg');
+  background-repeat: no-repeat;
+  background-size: 95px 20px;
+  background-position: 10px 18px;
+  z-index: 2;
+}
+
+@media (max-width: 992px) {
+  #feature-guides-hover {
+    background-image: none;
+  }
+
+}
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -178,7 +215,7 @@ strong {
 .dropdown-content {
   display: none;
   position: absolute;
-  width: 800px;
+  width: 900px;
   z-index: 1;
 }
 
@@ -196,7 +233,7 @@ strong {
   align-items: center;
   background-color: #F8F6EF;
   border-radius: 16px 0px;
-  padding: 40px 25px 40px 25px;
+  padding: 0px 90px 30px 25px;
   margin-top: 20px;
 }
 
@@ -217,6 +254,7 @@ strong {
   font-size: 18px;
   line-height: 25px;
   padding: 0px;
+  margin-top: 30px;
 }
 
 #inner-nav #dropdown-feature a {
@@ -249,9 +287,9 @@ strong {
 } */
 
 #dropdown-feature a img {
-  width: 40px;
+  width: 35px;
   height: 40px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 /* Change color of dropdown links on hover */
@@ -260,6 +298,9 @@ strong {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
+@media (max-width: 992px) {
+    .dropdown:hover .dropdown-content {display: none;}
+}
 
 
 #disguise-link {
@@ -415,7 +456,7 @@ strong {
 
 @media (max-width: 750px) {
   .masthead-wrapper {
-    padding: 70px 0px 70px 0px; 
+    padding: 60px 0px 70px 0px; 
   }
 }
 
@@ -513,7 +554,7 @@ strong {
   font-size: 28px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 800px) {
   .call-to-action {
     flex-direction: column;
     align-items: center;
