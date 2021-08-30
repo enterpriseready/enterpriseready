@@ -113,30 +113,10 @@ strong {
   text-decoration: none;
 }
 
-body .nav-link {
-  color: #FFFFFF;;
-  text-decoration: none;
-  font-family: 'Exo', sans-serif;
-  height: 100%;
-}
-
-body .nav-link:hover {
-  color: #FFFFFF;
-  background-image: url('../images/Hover.svg');
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
-/* body .nav-item li:hover {
-  background-image: url('../images/Hover.svg');
-  background-repeat: no-repeat;
-  background-position: bottom;
-} */
-
-/* body .nav-link:hover {
-  background-image: url('../images/Hover.svg');
-  background-repeat: no-repeat;
-  background-position: 0px 25px;
+@media (max-width: 1000px) {
+  .navbar-text {
+    display: none;
+  }
 }
 
 /* Inner Nav */
@@ -153,11 +133,44 @@ body .nav-link:hover {
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 0px;
+
 }
 
 #inner-nav ul li a {
   font-weight: 500;
+  color: #FFFFFF;;
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+  padding-bottom: 2px;
 }
+#inner-nav ul li a:hover {
+  color: #FFFFFF;
+  background-image: url('../images/Hover.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  
+}
+
+/* body .nav-link {
+  color: #FFFFFF;;
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+  height: 100%;
+} */
+
+/* body .nav-item {
+  height: 100%;
+} */
+
+/* body .nav-link:hover {
+  color: #FFFFFF;
+  background-image: url('../images/Hover.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 20px;
+} */
+
+
 
 #disguise-link {
   color: #888887;
@@ -199,13 +212,6 @@ body .nav-link:hover {
     text-decoration: none;
     font-family: 'Exo', sans-serif;
   }
-
-
-  /* NEED TO FIX */
-  /* .nav-items li a:hover {
-    background: url("../images/Hover.svg"); background-repeat: no-repeat; background-position: bottom -300px;
-  } */
-
 
 #logo {
   float: left;
@@ -309,16 +315,31 @@ body .nav-link:hover {
 /* Masthead */
 
 .masthead-wrapper {
-    padding: 100px 10% 80px 10%; 
+    padding: 100px 0px 80px 0px; 
+    width: 100%;
+    max-width: 1200px;
     justify-content: center;
     background: url('../images/background-lines.svg');
 }
 
-.masthead-wrapper .new-container {
-    background: url('../images/hero-main-frame.svg');
-    background-repeat: no-repeat;
-    background-position: top left;
-    padding: 50px 0 0 50px;
+@media (max-width: 750px) {
+  .masthead-wrapper {
+    padding: 70px 0px 70px 0px; 
+  }
+}
+
+.hero-main-frame-background {
+  background: url('../images/hero-main-frame.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 50px 50px 50px 50px;
+}
+
+@media (max-width: 750px) {
+  .hero-main-frame-background{
+    background: none;
+    padding: 0px;
+  }
 }
 
 .masthead-wrapper h2 {
@@ -345,7 +366,7 @@ body .nav-link:hover {
     margin-top: 20px;
 }
 
-.fixed-width-500 {
+.main-content {
     max-width: 500px;
     width: 500px;
     margin: 50px 50px 0 50px;
@@ -354,7 +375,11 @@ body .nav-link:hover {
 .fixed-width-podcast {
     max-width: 338px;
     width: 100%;
-    margin: 75px 0 0 100px;
+    margin: 100px 0px 0px 15px;
+}
+
+.fixed-width-podcast h3 a {
+  font-size: 34px;
 }
 
 #podcast-small {
@@ -367,16 +392,21 @@ body .nav-link:hover {
 
 @media (max-width: 750px) {
   .masthead-wrapper h2 {
-    font-size: 30px;
+    font-size: 38px;
   }
 
   .masthead-wrapper p {
-    font-size: 20px;
+    font-size: 24px;
   }
 
-  .fixed-width-500 {
-    max-width: 300px;
-    width: 300px;
+  .main-content {
+    max-width: 328px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .fixed-width-podcast {
+    margin: 70px 0px 0px 0px;
   }
 }
 
