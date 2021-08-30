@@ -300,10 +300,10 @@ button.button-secondary {
 .button.button-primary:hover,
 button.button-primary:hover,
 .button.button-primary:focus,
-/* button.button-primary:focus {
-    color: #11172B;
-    background-color: #fff;
-    border-color: #fff; } */
+button.button-primary:focus {
+    color: #FFF;
+    background-color: #F44247;
+    border-color: #F44247; }
 
 
 .button.button-light,
