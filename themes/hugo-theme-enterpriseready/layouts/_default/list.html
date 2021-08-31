@@ -22,13 +22,14 @@
   
     <div class="episode-section-wrapper">
         <h1>Episodes</h1>
-        <div class="episode-flex-container container">
+        <div class="episode-flex-container container" id="episodelist">
             {{ range .Pages.ByWeight.Reverse }}
             <div class="episode-outer">
                 <div class="episode">
                     <a href={{ .Permalink }} target="_blank">
                         <img src={{ .Params.Image }} align="left" style="margin: 0;" />
-                        <div class="clearfix"></div>
+                    </a>
+                    <a href={{ .Permalink }} target="_blank">
                         <h3>EP{{ .Weight }}
                             <img class="episode-play" src="../images/Polygon 1.svg" />
                         </h3>
