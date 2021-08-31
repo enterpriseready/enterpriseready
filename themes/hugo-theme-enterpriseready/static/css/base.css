@@ -582,7 +582,7 @@ h3.section-header.sub {
 
 .features-intro {
   text-align: center;
-  margin-bottom: 160px;
+  margin-bottom: 120px;
   max-width: 1075px;
   margin-left: auto;
   margin-right: auto;
@@ -1700,11 +1700,10 @@ span.ar {
     margin: 15px auto !important;
     float: none;
   }
-
 }
 
 #episodelist {
-  padding-top: 150px;
+  padding-top: 70px;
   padding-bottom: 100px;
   overflow: hidden;
   padding-left: 50px;
@@ -2417,13 +2416,17 @@ margin-right: 10px;
 
 .about-hero-section {
   background-color:#141C34;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .about-hero-content {
   display: flex;
   justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .about-hero-main {
@@ -2442,6 +2445,7 @@ margin-right: 10px;
   font-size: 34px;
   line-height: 40px;
   color: #F44247;
+  margin-bottom: 20px;
 }
 
 .about-hero-main p {
@@ -2453,16 +2457,107 @@ margin-right: 10px;
   color: #F8F6EF;
 }
 
-.about-who-for-section {
-
+@media (max-width: 1105px) { 
+  .about-hero-image {
+    display: none;
+  }
+  .about-hero-content {
+    justify-content: center;
+  }
 }
 
-.about-who-from-section {
+@media (max-width: 745px) { 
+  .about-hero-section {
+    padding-top: 30px;
+  }
 
+  .about-hero-main {
+    background: none;
+    padding: 0px;
+    height: 100%;
+  }
+
+  .about-hero-content {
+    width: 90%
+  }
+}
+
+.about-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+}
+
+.about-content {
+  margin-right: 50px;
+}
+
+.about-content h1 {
+  font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.about-content a {
+  color:#F44247;
+  text-decoration: none;
+}
+
+.about-content a:hover {
+  color:#F44247;
+  text-decoration: none;
+}
+
+ .about-who-for-section {
+  background-color: #F44247;
+  padding: 190px 0px 200px 0px;
+}
+
+#who-for {
+  max-width: 515px;
+  color: #F8F6EF;
+ }
+
+ #who-for p {
+  max-width: 515px;
+  color: #F8F6EF;
+ }
+
+.about-who-from-section {
+  background-color: #DBE6E9;
+  padding: 100px 0px 100px 0px;
+}
+
+#who-from {
+  color: #11172B;
+}
+
+#who-from p {
+  color: #11172B;
 }
 
 .about-why-section {
-
+  background-color: #F8F6EF;;
+  padding: 100px 0px 100px 0px;
 }
+
+#why p {
+  color:#9B9B9B;
+}
+
 
 
