@@ -24,7 +24,7 @@
 
             <nav class="navbar navbar-expand-lg" style="background-color: #141C34">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/"><img src="/images/enterprise-ready-logo.svg" width="50" /></a>
+                    <a class="navbar-brand" href="/"><img src="/images/enterprise-ready-logo.svg" width="60" /></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-bs-target="#mobile-collapse" data-target="#mobile-collapse" aria-controls="test"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -32,8 +32,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="mobile-collapse">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <div class="dropdown" id="feature-guides-hover">
+                            <li class="nav-item" id="feature-guides-hover">
+                                <div class="dropdown">
                                     <a class="nav-link active dropbtn" aria-current="page" href="../#features">Feature
                                         guides</a>
                                     <div class="dropdown-content">
@@ -105,9 +105,9 @@
                                 <a class="nav-link" href="https://www.enterprisegrade.io">Assessment</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/podcast">Podcast</a>
+                                <a {{ if eq .RelPermalink "/podcast/" }}id="active-podcast"{{ end }} class="nav-link" href="/podcast">Podcast</a>
                             </li>
-                            <li class="nav-item" style="border-bottom: none;">
+                            <li {{ if eq .RelPermalink "/about/" }}id="about-hover"{{ end }} class="nav-item">
                                 <a class="nav-link" href="/about">About</a>
                             </li>
                         </ul>
