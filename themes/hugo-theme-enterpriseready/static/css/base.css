@@ -762,7 +762,7 @@ h3.section-header.sub {
     height: 38px;
     font-size: 13px;
     line-height: 40px;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 }
 
@@ -2124,7 +2124,7 @@ margin-right: 10px;
 @media (max-width: 835px) {
   .carousel {
     max-width: 400px;
-    height: 350px;
+    height: 372px;
   }
 
   .testimonials h2{
@@ -2149,9 +2149,13 @@ margin-right: 10px;
     width: 100px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .carousel-buttons {
     width: 30px;
+  }
+
+  .testimonial-content {
+    max-width: 300px;
   }
 }
 
