@@ -2053,7 +2053,7 @@ margin-right: 10px;
   height: 100%;
 }
 
-.indicators-holder {
+/* .indicators-holder {
   position: relative;
   width: 100%;
   height: 60px;
@@ -2078,7 +2078,7 @@ margin-right: 10px;
 
 .carousel-indicators > li {
   
-}
+} */
 
 .carousel-container {
   display: flex;
