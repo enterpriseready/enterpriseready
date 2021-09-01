@@ -1730,9 +1730,9 @@ span.ar {
   background: url('../images/single-frame-corner.svg');
   background-repeat: no-repeat;
   background-position: top left;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   width: 30%;
-  max-height: 450px;;
+  max-height: 450px;
 }
 
 .episode {
@@ -1745,23 +1745,13 @@ span.ar {
   text-align: left;
 }
 
-.episode:hover {
-  /* border-color: #CCC;
-  -webkit-box-shadow: 0 8px 6px -6px #ccc;
-  -moz-box-shadow: 0 8px 6px -6px #ccc;
-  box-shadow: 0 8px 6px -6px #ccc; */
-}
 
-.episode img {
-  height: 150px;
-  width: 100%;
+.episode a img {
+  /* height: 150px; */
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
-
-/* .episode h3 {
-  padding: 15px;
-  font-weight: 400;
-  font-size: 16px;
-} */
 
 .episode a {
   text-decoration: none;
@@ -1797,17 +1787,20 @@ span.ar {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .episode-outer {
     width: 48%;
+    background: url('../images/single-frame-corner-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
   }
 }
 
 .episode .episode-play {
   vertical-align: -2px;
-  padding-left: 10px;
   height: 22px;
-  width: 22px;
+  width: 23px;
+  margin: 0px;
 }
 
 .coming-soon-container {      
@@ -2322,7 +2315,7 @@ margin-right: 10px;
 .podcast-red {
   position: absolute;
   right: 0px;
-  bottom: -650px;
+  bottom: -710px;
 }
 
 .episode-section-wrapper {
@@ -2457,7 +2450,7 @@ margin-right: 10px;
   color: #F8F6EF;
 }
 
-@media (max-width: 1105px) { 
+@media (max-width: 1170px) { 
   .about-hero-image {
     display: none;
   }
@@ -2493,6 +2486,7 @@ margin-right: 10px;
 
 .about-content {
   margin-right: 50px;
+  max-width: 685px;
 }
 
 .about-content h1 {
@@ -2512,6 +2506,43 @@ margin-right: 10px;
   line-height: 34px;
 }
 
+@media (max-width: 1170px) { 
+  .about-flex-container {
+    flex-direction: column;
+  }
+
+  .about-who-for-section .about-flex-container {
+    max-width: 685px;
+    align-items: flex-start;
+  }
+
+  .about-content {
+    margin-right: 0px;
+  }
+
+  .about-content h1 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about-flex-container img {
+    width: 200px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 745px) {
+  .about-flex-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
 .about-content a {
   color:#F44247;
   text-decoration: none;
@@ -2523,13 +2554,38 @@ margin-right: 10px;
 }
 
  .about-who-for-section {
+  position: relative;
   background-color: #F44247;
-  padding: 190px 0px 200px 0px;
+  padding: 190px 0px 275px 0px;
+  overflow: hidden;
+}
+
+.engineers-right {
+  position: absolute;
+  right: 80px;
+  bottom:0;
+}
+
+.engineers-left {
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+}
+
+@media (max-width: 1400px) { 
+  .engineers-left {
+    display: none;
+}
 }
 
 #who-for {
   max-width: 515px;
   color: #F8F6EF;
+ }
+
+ .about-who-for-section .about-flex-container {
+   flex-direction: column;
+   align-items: flex-start;
  }
 
  #who-for p {
@@ -2557,6 +2613,31 @@ margin-right: 10px;
 
 #why p {
   color:#9B9B9B;
+}
+
+@media (max-width: 1170px) { 
+
+  .about-who-for-section {
+    padding: 100px 0px 220px 0px;
+  }
+
+  .about-who-from-section {
+    background-color: #DBE6E9;
+    padding: 70px 0px 70px 0px;
+  }
+
+  .about-why-section {
+    background-color: #F8F6EF;;
+    padding: 70px 0px 70px 0px;
+  }
+
+  .engineers-right {
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px; /* Need a specific value to work */
+  }
 }
 
 
