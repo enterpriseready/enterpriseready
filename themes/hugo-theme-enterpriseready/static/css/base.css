@@ -162,15 +162,19 @@ strong {
 #inner-nav ul li a {
   font-size: 16px;
   font-weight: 500;
-  color: #FFFFFF;;
   text-decoration: none;
   font-family: 'Exo', sans-serif;
   padding-bottom: 2px;
   height: 38px;
+  padding-right: .7rem;
+}
+
+#inner-nav a {
+  color: #FFFFFF;
 }
 
 @media (max-width: 991px) {
-  #inner-nav ul li a {
+  #inner-nav a {
     color: #2646B1;
   }
 
@@ -185,22 +189,84 @@ strong {
 #feature-guides-hover:hover {
   background-image: url('../images/feature-guides-hover.svg');
   background-repeat: no-repeat;
-  background-size: 115px 20px;
-  background-position: 5px 22px;
+  background-position: bottom right; 
+  z-index: 2;
+}
+
+#assessment-hover:hover {
+  background-image: url('../images/assessment-hover.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right; 
+  z-index: 2;
+}
+
+#podcast-hover:hover {
+  background-image: url('../images/podcast-hover.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right; 
   z-index: 2;
 }
 
 #about-hover:hover {
-  background-image: url('../images/feature-guides-hover.svg');
+  background-image: url('../images/about-hover.svg');
   background-repeat: no-repeat;
-  /* /* background-size: 115px 20px; */
-  background-position: 5px 22px; 
+  background-position: bottom right; 
   z-index: 2;
 }
 
+/* Active Menu Item Classes */
+#assessment-active {
+  background-image: url('../images/assessment-hover.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right; 
+  z-index: 2;
+}
+
+#podcast-active {
+  background-image: url('../images/podcast-hover.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right; 
+  z-index: 2;
+}
+
+#about-active {
+  background-image: url('../images/about-hover.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right; 
+  z-index: 2;
+}
+
+/* Disable Hover and Active Classes on Mobile */
 @media (max-width: 991px) {
   #feature-guides-hover:hover {
     background-image: none;
+  }
+  #assessment-hover:hover {
+    background-image: none;
+  }
+  #podcast-hover:hover {
+    background-image: none;
+  }
+  #about-hover:hover {
+    background-image: none;
+  }
+  #assessment-active{
+    background-image: none;
+  }
+  #assessment-active a{
+    color: #F44247;
+  }
+  #podcast-active {
+    background-image: none;
+  }
+  #podcast-active a {
+    color: #F44247;
+  }
+  #about-active {
+    background-image: none;
+  }
+  #about-active a {
+    color: #F44247;
   }
 }
 

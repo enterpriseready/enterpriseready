@@ -32,8 +32,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="mobile-collapse">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item" id="feature-guides-hover">
-                                <div class="dropdown">
+                            <li class="nav-item">
+                                <div id="feature-guides-hover" class="dropdown">
                                     <a class="nav-link active dropbtn" aria-current="page" href="../#features">Feature
                                         guides</a>
                                     <div class="dropdown-content">
@@ -101,14 +101,14 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.enterprisegrade.io">Assessment</a>
+                            <li {{ if eq .RelPermalink "/assessment/" }}id="assessment-active"{{ end }} class="nav-item">
+                                <a id="assessment-hover" class="nav-link" href="https://www.enterprisegrade.io">Assessment</a>
                             </li>
-                            <li class="nav-item">
-                                <a {{ if eq .RelPermalink "/podcast/" }}id="active-podcast"{{ end }} class="nav-link" href="/podcast">Podcast</a>
+                            <li {{ if eq .RelPermalink "/podcast/" }}id="podcast-active"{{ end }} class="nav-item">
+                                <a id="podcast-hover" class="nav-link" href="/podcast">Podcast</a>
                             </li>
-                            <li {{ if eq .RelPermalink "/about/" }}id="about-hover"{{ end }} class="nav-item">
-                                <a class="nav-link" href="/about">About</a>
+                            <li {{ if eq .RelPermalink "/about/" }}id="about-active"{{ end }} class="nav-item">
+                                <a id="about-hover" class="nav-link" href="/about">About</a>
                             </li>
                         </ul>
                         <span class="navbar-text">
