@@ -96,12 +96,19 @@ strong {
 
 .navbar-toggler-icon {
   background-image: url("../images/hamburger-menu.svg") !important;
-  background-size: 18px 30px !important;
+  width: 2em !important;
 }
 
 .navbar-toggler {
   border: 0px !important;
 } 
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
 
 .navbar-text {
   font-family: 'Open Sans', sans-serif;
@@ -1999,6 +2006,7 @@ margin-right: 10px;
 .testimonials h2{
   font-size: 34px;
   font-weight: 400;
+  text-align: center;
 }
 
 .testimonials p{
@@ -2015,12 +2023,22 @@ margin-right: 10px;
   height: 100%;
 }
 
+@media (max-width: 1100px) {
+  .testimonials {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+  }
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .testimonial-content {
   display: flex;
   flex-direction: column;
   max-width: 615px;
 }
-
 
 .carousel {
   max-width: 748px;
@@ -2035,18 +2053,45 @@ margin-right: 10px;
   height: 100%;
 }
 
-.carousel-container{
+.indicators-holder {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+.indicators-holder .carousel-indicators {
+  height: 30px;
+  margin-bottom: 0px;
+}
+
+.indicators-holder .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;;
+  margin-left: 5px;
+  background-color: #C4C4C4;
+}
+
+.carousel-indicators li.active {
+  background-color: #898989;
+}
+
+.carousel-indicators > li {
+  
+}
+
+.carousel-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 40px 10px 0 10px;
+  margin: 20px 10px 0 10px;
   max-width: 1100px;
   width: 100%;
   height: 150px;
 }
 
 .carousel-container a img {
-  margin: 10px;
+  margin: 15px;
 }
 
 .avatar-container {
@@ -2060,17 +2105,26 @@ margin-right: 10px;
   margin-right: 40px;
 }
 
+@media (max-width: 1100px) {
+  .carousel-container {
+    height: 350px;
+  }
+
+  .avatar-image {
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+}
+
 .avatar-squares {
   position: absolute;
   width: 140px;
-  /* top: -14px;
-  left: -17px; */
 }
 
-@media (max-width: 750px) {
+@media (max-width: 835px) {
   .carousel {
     max-width: 400px;
-    height: 200px;
+    height: 350px;
   }
 
   .testimonials h2{
@@ -2089,15 +2143,15 @@ margin-right: 10px;
     height: 160px;
     width: 250px;
   }
-
-  .avatar-image {
-    width: 65px;
-    border-radius: 10px;
-  }
   
   .avatar-squares {
     position: absolute;
     width: 100px;
+  }
+}
+@media (max-width: 500px) {
+  .carousel-buttons {
+    width: 30px;
   }
 }
 
@@ -2556,7 +2610,7 @@ margin-right: 10px;
  .about-who-for-section {
   position: relative;
   background-color: #F44247;
-  padding: 190px 0px 275px 0px;
+  padding: 170px 0px 275px 0px;
   overflow: hidden;
 }
 
