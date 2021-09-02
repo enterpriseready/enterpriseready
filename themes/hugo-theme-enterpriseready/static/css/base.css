@@ -2883,14 +2883,14 @@ margin-right: 10px;
 
 .assessment-section {
   background-color: #F44247;
-  padding: 165px 0px 165px 0px;
+  padding: 165px 40px 165px 40px;
 }
 
 .assessment-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 900px;
+  max-width: 950px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2926,8 +2926,128 @@ margin-right: 10px;
 }
 
 .assessment-features {
-  width: 30%;
+  display: flex;
+  align-items: center;
+  width: 32%;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
 
+.assessment-features p {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
 
+.assessment-features img {
+  width: 44px;
+  margin-right: 10px;
+}
 
+@media (max-width: 980px) { 
+  .assessment-features {
+    width: 40%;
+  }
+
+  .assessment-benchmark-features {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575px) { 
+
+  .assessment-features {
+    width: 75%;
+  }
+  .assessment-features img {
+    width: 28px;
+  }
+
+  .assessment-features p {
+    font-size: 14px;
+  }
+
+  .assessment-section {
+    padding: 165px 20px 165px 20px;
+  }
+}
+
+.assessment-breakdown-section {
+  background-color: #F8F6EF;
+  padding: 150px 0px 150px 0px;
+  max-width: 100%;
+}
+
+.assessment-breakdown-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 780px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.assessment-breakdown-content h3 {
+  font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #11172B;
+  margin-bottom: 60px;
+}
+
+.assessment-breakdown-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #9B9B9B;
+}
+
+.results-wrapper {
+  position: relative;
+}
+
+.results-example {
+  background: url("/images/dummy-rectangle.png") no-repeat;
+  background-size: 100%;
+  display: block;
+  margin: 65px auto;
+  width: 700px;
+  height: 750px;
+  flex: 0 0 auto;
+}
+
+.results-info {
+  position: absolute;
+  background: url("/images/dummy-rectangle2.png") no-repeat;
+  background-size: 100%;
+  max-width: 400px;
+  padding: 50px;
+}
+
+.results-info h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #11172B;
+  margin-bottom: 10px;
+}
+
+.results-info p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #9B9B9B;
+}
+
+#letter-grade {
+  right: 0;
+  top: 100px;
+}

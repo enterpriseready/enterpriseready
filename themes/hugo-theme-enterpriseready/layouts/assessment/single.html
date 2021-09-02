@@ -1,45 +1,105 @@
 {{ partial "header.html" . }}
 
 <div>
-    <div class="assessment-hero-section"> 
+    <div class="assessment-hero-section">
         <div class="assessment-hero-content">
             <div class="assessment-main-content">
                 <h1>Is your app EnterpriseReady?</h1>
                 <p>Take this self-assessment to find out how ready your application is for enterprise adoption.</p>
                 <div class="assessment-content-buttons">
-                    <a href="https://www.enterprisegrade.io" class="button button-primary" target="_blank" style="width: 270px">Take
+                    <a href="https://www.enterprisegrade.io" class="button button-primary" target="_blank"
+                        style="width: 270px">Take
                         Assessment</a>
-            
+
                     <a href="https://www.enterprisegrade.io/#examples" class="button button-secondary" target="_blank"
                         style="width: 270px">See Examples</a>
                 </div>
             </div>
-            <img src="/images/assessment-checklist.svg"/>
+            <img src="/images/assessment-checklist.svg" />
         </div>
 
         <div class="assessment-section">
             <div class="assessment-info">
                 <h1>The assessment</h1>
-                <p>At EnterpriseReady.io, we've identified common features that set enterprise software apart. This 12-question
-                    self-assessment gives you a framework to analyze your current implementation of those features and provides
+                <p>At EnterpriseReady.io, we've identified common features that set enterprise software apart. This
+                    12-question
+                    self-assessment gives you a framework to analyze your current implementation of those features and
+                    provides
                     feedback
                     on how to improve features that matter most to enterprise customers.
                 </p>
                 <p><strong>Benchmark your application on the 12 most common enterprise features</strong></p>
                 <div class="assessment-benchmark-features">
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
-                    <div class="assessment-features">Team Management</div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Team Management</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Role-based Access Control</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Audit Logging</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Deployment Options</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Single Sign-On</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Product Assortment</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Support/SLA</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Integrations</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Change Management</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Security</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Reporting</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>GDPR</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="assessment-breakdown-section">
+            <div class="assessment-breakdown-content">
+                <h3>Get a comprehensive breakdown of your scores</h3>
+                <p>Results give you an overall assessment of your enterprise readiness. See how your application stacks up
+                    against the features that are most important to enterprise customers. Receive instructions on how to level
+                    up the features that matter most.</p>
+        
+        
+                <div class="results-wrapper">
+                    <!-- <div class="results-example flex-auto"></div> -->
+                    <img style="width: 100%" src="/images/dummy-rectangle.png" />
+                    <div class="results-info" id="letter-grade">
+                        <h3>Letter Grade</h3>
+                        <p>Receive an overall grade on where your application stands against all the enterprise-ready features.</p>
+                    </div>
+                </div>
+                <a href="https://www.enterprisegrade.io" class="button button-primary" target="_blank"
+                    style="width: 270px; margin-left: auto; margin-right: auto">Get your results</a>
             </div>
         </div>
 
