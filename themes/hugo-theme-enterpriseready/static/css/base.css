@@ -465,6 +465,7 @@ strong {
     color: #ee5042;
     font-weight: 300;
     margin-bottom: 1.5em;
+    z-index: 1;
 }
 #breadcrumbs span {
     margin: 0px 6px;
@@ -1576,6 +1577,7 @@ span.ar {
 
 #article {
     padding: 10px 12%;
+    z-index: -1;
 }
 #article .checklist-icon {}
 .article-feature {
