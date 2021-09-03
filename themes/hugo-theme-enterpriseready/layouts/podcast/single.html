@@ -1,45 +1,53 @@
 {{ partial "header.html" . }}
 
-<div>
-
-  <div class="episode-page">
-
+<div class="second-nav">
+  <div class="container" id="breadcrumbs">
+    <div id="tool-tip">
+      <span style="cursor:pointer;color:#878787"><a href="/podcast">Podcast</a></span><span>/</span> {{.Title}}
+    </div>
   </div>
+</div>
 
-    <h1>{{.Title}}</h1>
-
+<div class="episode-page-hero">
+  <div class="episode-hero-content">
+    <div class="episode-hero">
+      <h1><span style="color: #F44247">EP</span>{{.Weight}} {{.Title}}</h1>
+    </div>
     <div class="episode-flex-container">
       {{ .Content }}
     </div>
+  </div>
+  <!-- <div class="episode-page-hero-background">
 
-    
+  </div> -->
+  <!-- <img src="/images/podcast-episode-hero.png" class="episode-page-hero-background"/> -->
+</div>
 
-    <div class="podcast-info-wrapper">
-      <div class="podcast-info">
-      <p>
-        EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-founder and CEO of <a
-          href="https://www.replicated.com">Replicated</a>, who are powering the world's best enterprise software.
-      </p>
-    
-      <h2>Where to listen</h2>
-    
-      <p>The best place to enjoy this episode of the EnterpriseReady Podcast is over at <a
-          href="https://www.heavybit.com/library/podcasts/enterpriseready">HeavyBit</a>, where you can also find a full
-        transcript of the episode.</p>
-    
-      <p>Subscribe on <a href="https://podcasts.apple.com/us/podcast/enterpriseready/id1437951282">iTunes</a>, <a
-          href="https://play.google.com/music/listen?u=0#/ps/Iq3uifjva44tdvm2orhu4apvjtu">Google Play</a>, <a
-          href="https://soundcloud.com/heavybit/sets/enterpriseready">SoundCloud</a>, or search for “EnterpriseReady” in
-        your favorite podcasting app.</p>
-        <br />
-        <br />
 
-      <p>Are you interested in being a guest on the EnterpriseReady Podcast? If so, <a
-          href="mailto:grant.miller@replicated.com?cc=chris@replicated.com&subject=Being a guest on the EnterpriseReady Podcast">drop
-          us a note here</a>. </p>
-        </div>
-    
-    </div>
+<div class="podcast-info-wrapper">
+  <div class="podcast-info">
+    <p>
+      EnterpriseReady is hosted by Grant Miller, creator of EnterpriseReady and co-founder and CEO of <a
+        href="https://www.replicated.com">Replicated</a>, who are powering the world's best enterprise software.
+    </p>
 
+    <h2>Where to listen</h2>
+
+    <p>The best place to enjoy this episode of the EnterpriseReady Podcast is over at <a
+        href="https://www.heavybit.com/library/podcasts/enterpriseready">HeavyBit</a>, where you can also find a full
+      transcript of the episode.</p>
+
+    <p>Subscribe on <a href="https://podcasts.apple.com/us/podcast/enterpriseready/id1437951282">iTunes</a>, <a
+        href="https://play.google.com/music/listen?u=0#/ps/Iq3uifjva44tdvm2orhu4apvjtu">Google Play</a>, <a
+        href="https://soundcloud.com/heavybit/sets/enterpriseready">SoundCloud</a>, or search for “EnterpriseReady” in
+      your favorite podcasting app.</p>
+    <br />
+    <br />
+
+    <p>Are you interested in being a guest on the EnterpriseReady Podcast? If so, <a
+        href="mailto:grant.miller@replicated.com?cc=chris@replicated.com&subject=Being a guest on the EnterpriseReady Podcast">drop
+        us a note here</a>. </p>
+  </div>
+</div>
 
 {{ partial "footer.html" . }}
