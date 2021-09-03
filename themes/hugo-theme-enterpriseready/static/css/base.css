@@ -51,6 +51,7 @@ strong {
 }
 
 .section-hero {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2812,7 +2813,7 @@ margin-right: 10px;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 100px 0px;
+  padding: 60px 0px 90px 0px;
 }
 
 .assessment-main-content {
@@ -2884,6 +2885,10 @@ margin-right: 10px;
 .assessment-section {
   background-color: #F44247;
   padding: 165px 40px 165px 40px;
+  background-image: url("/images/clipboard-assessment.png");
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: left 65% bottom 90%;
 }
 
 .assessment-info {
@@ -2975,15 +2980,17 @@ margin-right: 10px;
   background-color: #F8F6EF;
   padding: 150px 0px 150px 0px;
   max-width: 100%;
+  text-align: center;
 }
 
 .assessment-breakdown-content {
   display: flex;
   flex-direction: column;
   align-content: center;
-  max-width: 780px;
+  max-width: 830px;
   margin-right: auto;
   margin-left: auto;
+  text-align: left;
 }
 
 .assessment-breakdown-content h3 {
@@ -2994,7 +3001,7 @@ margin-right: 10px;
   line-height: 40px;
   text-align: center;
   color: #11172B;
-  margin-bottom: 60px;
+  margin: 0 0px 60px 0px;
 }
 
 .assessment-breakdown-content p {
@@ -3004,28 +3011,33 @@ margin-right: 10px;
   font-size: 24px;
   line-height: 34px;
   color: #9B9B9B;
+  margin: 0 40px 0px 40px;
 }
 
 .results-wrapper {
   position: relative;
+  display: flex;
+  align-items: start;
+  max-width: 1050px;
+  width: 100%;
+  margin: auto;
 }
 
 .results-example {
-  background: url("/images/dummy-rectangle.png") no-repeat;
+  background: url("/images/example-assessment.png") no-repeat;
   background-size: 100%;
   display: block;
-  margin: 65px auto;
-  width: 700px;
-  height: 750px;
-  flex: 0 0 auto;
+  margin: 65px 0;
+  width: 800px;
+  height: 1100px;
 }
 
 .results-info {
   position: absolute;
-  background: url("/images/dummy-rectangle2.png") no-repeat;
-  background-size: 100%;
-  max-width: 400px;
-  padding: 50px;
+  background: url("/images/call-out-box.png") no-repeat;
+  background-size: contain;
+  max-width: 500px;
+  padding: 30px 50px 50px 35px;
 }
 
 .results-info h3 {
@@ -3036,6 +3048,7 @@ margin-right: 10px;
   line-height: 30px;
   color: #11172B;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .results-info p {
@@ -3045,9 +3058,20 @@ margin-right: 10px;
   font-size: 20px;
   line-height: 30px;
   color: #9B9B9B;
+  max-width: 280px;
 }
 
 #letter-grade {
   right: 0;
   top: 100px;
+}
+
+#category-breakdown {
+  right: 0;
+  top: 500px;
+}
+
+#share-results {
+  right: 0;
+  top: 900px;
 }
