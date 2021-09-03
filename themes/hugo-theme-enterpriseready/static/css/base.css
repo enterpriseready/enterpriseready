@@ -1623,8 +1623,8 @@ span.ar {
 }
 
 #article img {
-    /* display: block; */
-    /* margin: 35px auto; */
+    display: block;
+    margin: 35px auto;
     max-width: 100%;
 }
 
