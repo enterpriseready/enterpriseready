@@ -9,27 +9,34 @@ pagetitle = "Ephemeral Environments And Testing"
 ogimage = "images/article-icons/team.png"
 +++
 
-Ephemeral environments provide an easy platform for running automated tests on your apps prior to any code reviews.
+In application development, testing your app prior to release is critical. If production breaks, it costs you money. Ephemeral environments save you time and money by providing an easy platform for running automated tests on your apps prior to release.
+There are two main types of application tests: automated tests and human tests. Frequent and comprehensive testing makes sure your new features don't break anything or introduce regressions.
 
-## Running Tests
-- it is best-practice to run all unit and end-to-end (e2e) tests for a new feature prior to a code review
-- ensures your features are bug-free by the time anyone sees them, and keeps rollouts efficient and fast
+## Best Practices for Writing and Running Tests
+- in an ideal world, developers will run unit and end-to-end (e2e) tests on a new feature prior to a code review
+- automated testing ensures your features are bug-free by the time anyone sees them
+- testing each new feature individually keeps rollouts efficient and fast
 - with ephemeral environments, you can run tests automatically and instantly with every new commit to a repo
-- if a developer hasn't yet run automated tests prior to a code review, they are taking up other team members' valuable time and resources, which should be spent reviewing finalized iterations
-- it is the responsibility of the developer if any automated tests fail, as they will be the one fixing the code until all runs smoothly
-
-## QA and UAT
-- ephemeral environments are an asset to QA teams, as they are set up to continuously run automated tests
-- this makes sure that human testers aren't needed until more final stages of testing
-- depending on how your ephemeral environments are set up, you may want to include load testing and chaos testing
-- these can help you pinpoint problems and bugs in your apps early on
+- other developers can focus their time reviewing finalized iterations during code review, rather than debugging untested code
+- it is the responsibility of the feature's owner if any automated tests fail, as they will be the one fixing the code until all tests clear
 
 ## CI/CD Pipelines
-- when a PR is opened, your CI/CD process will generate an environment
-- this environment will be passed between testing frameworks, such as Cypress or Playwright
+- when a PR is opened, an environment should be generated for your CI/CD process to run automated tests against
+- CI/CD can help you pinpoint problems and bugs in your apps early on, and fix them before they get to production
+- environments will be passed between testing frameworks, eg. [Cypress](https://www.cypress.io/) or [Playwright](https://playwright.dev/)
 - tests will zero in on any bugs that may need repair
-- developers can iterate until all automated tests clear
-- after, can perform a human code review
+- developers iterate until all automated tests clear
+- you may want to include load testing and chaos testing
+
+
+## Human Testing (QA and UAT)
+- ephemeral environments are an asset to QA teams, as they are set up to continuously run automated tests and test individual features in parallel
+- QA can find bugs early on in the process and find where a feature breaks
+- QA people are not blocked if a feature breaks any given staging environment, since features are isolated across multiple ephemeral environments
+- often, the best way to find bugs is through internal stakeholders interacting with the branch
+- key stakeholders can now interact with new features and iterate on feedback before the features reach production
+
+
 
 ----
 ### Content Contributors
