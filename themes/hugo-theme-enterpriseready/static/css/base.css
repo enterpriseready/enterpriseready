@@ -333,6 +333,11 @@ strong {
   padding: 0px;
 }
 
+#inner-nav #dropdown-feature a:hover {
+  color: red;
+  filter: invert(27%) sepia(93%) saturate(2494%) hue-rotate(339deg) brightness(104%) contrast(91%);
+}
+
 #dropdown-feature a img {
   width: 35px;
   height: 40px;
@@ -676,7 +681,8 @@ h3.section-header.sub {
 }
 
 .features-intro h1 {
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 62px;
 }
 
 .features-intro p {
@@ -1002,6 +1008,10 @@ span.ar {
 .big-testimonial {
   background-color: #F44247;
   overflow: hidden;
+  background-image: url("../images/big-app-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 75% 90%;;
+  background-attachment: fixed;
 }
 
 @media (max-width: 912px) {
@@ -1009,8 +1019,6 @@ span.ar {
     display: none;
   }
 }
-
-
 
 #big-testimonial {
   max-width: 930px;
@@ -1541,6 +1549,7 @@ span.ar {
   font-style: normal !important;
   font-weight: 600 !important;
   font-size: 15px !important;
+  height: 62px;
 }
 
 @media (max-width: 550px) {
@@ -1559,14 +1568,15 @@ span.ar {
 
 
 #subscribe input[type="email"] {
-    width: 335px;
+    width: 400px;
+    height: 62px;
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     #email-cf19513d-014d-4435-b0ad-ac186f0ce56f {
-        width: 185px !important;
+        width: 160px !important;
     }
     #subscribe .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field {
-      width: 185px !important;
+      width: 160px !important;
     }
     #subscribe .three {
         display: none;
@@ -2416,6 +2426,7 @@ margin-right: 10px;
   width: 100px;
   margin-left: auto;
   margin-right: auto;
+  z-index: 1;
 }
 
 .podcast-page-hero-background {
@@ -2574,11 +2585,13 @@ margin-right: 10px;
 .episode-page-hero {
   position: relative;
   background-color: #141C34;
-  padding: 60px 0px 10px 0px;;
+  padding: 60px 0px 10px 0px;
 }
 
-/* .episode-hero {
-  text-align: center;
+.episode-hero {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   height: 368px;
   max-width: 925px;
   margin-left: auto;
@@ -2587,13 +2600,25 @@ margin-right: 10px;
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;
-  color: white;
-  padding: 150px 200px 200px 100px;
-} */
+  padding: 100px 200px 100px 200px;
+  margin-bottom: 100px;
+  z-index: 3;
+}
+
+.episode-hero h1 {
+  font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 45px;
+  color: #F8F6EF;
+  max-width: 320px;
+}
 
 .episode-page-hero-background {
   position: absolute;
-  bottom: 0px;
+  top: -500px;
+  left: -230px;
   z-index: 1;
 }
 

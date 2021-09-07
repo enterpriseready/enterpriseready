@@ -339,17 +339,17 @@ input[type="submit"]:hover {
 }
 
 .hs_email, .input {
-  width: 335px !important;
+  width: 400px !important;
 }
 
 /* Larger than mobile */
 @media (max-width: 500px) {
   .hs_email, .input {
-    width: 185px !important;
+    width: 160px !important;
   }
 
   .hs_submit, .input {
-    width: 130px !important;
+    width: 120px !important;
   }
 }
 
