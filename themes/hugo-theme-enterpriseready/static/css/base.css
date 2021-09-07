@@ -2616,7 +2616,7 @@ margin-right: 10px;
     justify-content: space-between;
     height: 100%;
     padding: 0px;
-
+    text-align: center;
   }
 }
 
@@ -2688,6 +2688,31 @@ margin-right: 10px;
 .episode-hero-content a:hover {
   color: #F44247;
   text-decoration: none;
+}
+
+@media (max-width: 1000px) { 
+  .podcast-info {
+    padding: 0 5%;
+  }
+
+  .podcast-info h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .podcast-info p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .episode-hero-content {
+    padding: 0 5%;
+  }
+
+  .episode-hero-content p {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 
 
