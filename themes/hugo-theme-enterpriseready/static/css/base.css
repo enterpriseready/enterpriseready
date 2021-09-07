@@ -336,7 +336,7 @@ strong {
 }
 
 #inner-nav #dropdown-feature a:hover {
-  color: red;
+  color: #F44247;
   filter: invert(27%) sepia(93%) saturate(2494%) hue-rotate(339deg) brightness(104%) contrast(91%);
 }
 
@@ -3232,6 +3232,7 @@ margin-right: 10px;
   line-height: 30px;
   color: #9B9B9B;
   max-width: 280px;
+  text-align: left;
 }
 
 #letter-grade {
