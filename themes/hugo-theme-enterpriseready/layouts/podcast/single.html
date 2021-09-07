@@ -8,23 +8,27 @@
   </div>
 </div>
 
+
+<div>
 <div class="episode-page-hero">
-  <div class="episode-hero">
-    <h1><span style="color: #F44247">EP</span>{{.Weight}} {{.Title}}</h1>
-    <img src="/images/play-hero.png">
+  <div class="episode-hero-section">
+    <div class="episode-hero">
+      <h1><span style="color: #F44247">EP</span>{{.Weight}} {{.Title}}</h1>
+      <img src="/images/play-hero.png" style="width: 100px; margin-left: 20px;">
+    </div>
   </div>
   <!-- <div class="podcast-background-holder">
-    <img src="/images/podcast-episode-hero.png" class="episode-page-hero-background"/>
-  </div> -->
-  
+      <img src="/images/podcast-episode-hero.png" class="episode-page-hero-background"/>
+    </div> -->
+
   <div class="episode-hero-content">
-    <div class="episode-flex-container">
+    <div class="episode-flex-container" id="episode-list">
       {{ .Content }}
     </div>
   </div>
   <!-- <div class="episode-page-hero-background">
-
-  </div> -->
+  
+    </div> -->
 </div>
 
 
@@ -53,5 +57,6 @@
         us a note here</a>. </p>
   </div>
 </div>
+
 
 {{ partial "footer.html" . }}
