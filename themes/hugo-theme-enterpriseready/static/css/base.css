@@ -56,7 +56,8 @@ strong {
   flex-direction: column;
   align-items: center;
   background-color: #141C34;
-
+  background-image: url('../images/Data-1 2.png');
+  padding: 100px 0px 80px 0px
 }
 
 .hero-wrap {
@@ -496,11 +497,9 @@ strong {
 /* Masthead */
 
 .masthead-wrapper {
-    padding: 100px 0px 80px 0px; 
     width: 100%;
     max-width: 1200px;
     justify-content: center;
-    background: url('../images/background-lines.svg');
     z-index: 1;
 }
 
@@ -1010,7 +1009,7 @@ span.ar {
   overflow: hidden;
   background-image: url("../images/big-app-icon.svg");
   background-repeat: no-repeat;
-  background-position: 75% 90%;;
+  background-position: 85% 100%;;
   background-attachment: fixed;
 }
 
@@ -1089,6 +1088,10 @@ span.ar {
   background-color: #DBE6E9;
   padding: 140px 0px 130px 0px;
   overflow: hidden;
+  background-image: url("../images/podcast-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 90%;;
+  background-attachment: fixed;
 }
 
 #podcast-container {
@@ -1327,13 +1330,13 @@ span.ar {
 #zendesk-tab.nav-link {
   background-image: url("../images/zendesk-inactive.svg");
   height: 31px;
-  width: 153px;
+  width: 154px;
 }
 
 #zendesk-tab.nav-link.active {
   background-image: url("../images/zendesk-active.svg");
   height: 31px;
-  width: 153px;
+  width: 154px;
 }
 
 /* Hubspot Logo */
@@ -1358,21 +1361,21 @@ span.ar {
 
 #google-tab.nav-link.active {
   background-image: url("../images/google-active.svg");
-  height: 42px;
-  width: 129px;
+  height: 46px;
+  width: 132px;
 }
 
 /* Slack Logo */
 #slack-tab.nav-link {
   background-image: url("../images/slack-inactive.svg");
-  height: 46px;
-  width: 132px;
+  height: 38px;
+  width: 123px;
 }
 
 #slack-tab.nav-link.active {
   background-image: url("../images/slack-active.svg");
-  height: 42px;
-  width: 129px;
+  height: 38px;
+  width: 123px;
 }
 
 /* Mobile Logos */
@@ -2673,6 +2676,7 @@ margin-right: 10px;
 
 .about-hero-section {
   background-color:#141C34;
+  background-image: url('../images/Data-1 2.png');
 }
 
 .about-hero-content {
@@ -2904,6 +2908,7 @@ margin-right: 10px;
 
 .assessment-hero-section {
   background-color: #141C34;
+  background-image: url('../images/Data-1 2.png');
 }
 
 .assessment-hero-content {
