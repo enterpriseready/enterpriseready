@@ -1014,7 +1014,7 @@ span.ar {
   overflow: hidden;
   background-image: url("../images/big-app-icon.svg");
   background-repeat: no-repeat;
-  background-position: 85% 100%;;
+  background-position: 85% 80%;;
   background-attachment: fixed;
 }
 
@@ -1636,7 +1636,7 @@ span.ar {
 }
 #article h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 #article h1, #article h2 {
     padding-top: 2.5rem;
@@ -1657,7 +1657,7 @@ span.ar {
 
 #article img {
     display: block;
-    margin: 35px auto;
+    margin: 35px auto 10px auto;
     max-width: 100%;
 }
 
