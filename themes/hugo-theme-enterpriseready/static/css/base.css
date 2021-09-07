@@ -782,7 +782,6 @@ h3.section-header.sub {
   background: url('../images/single-frame-corner.svg');
   background-repeat: no-repeat;
   background-position: top left;
-  /* max-height: 415px; */
 }
 
 .checklist-item {
@@ -801,7 +800,6 @@ h3.section-header.sub {
     margin-top: 25px;
     margin-left: 25px;
   }
-
 }
 
 .checklist-item img {
@@ -908,7 +906,6 @@ h3.section-header.sub {
     }
 
     #checklist .columns {
-        /* width: 50%; */
         margin: 0px auto 60px;
     }
 }
@@ -916,7 +913,6 @@ h3.section-header.sub {
     font-size: 18px;
     font-weight: 500;
 }
-
 
 .checklist-top {
   display: flex;
@@ -1457,18 +1453,12 @@ span.ar {
   }
 }
 
-.example-logo {
-
-}
-
 @media (max-width: 912px) {
   .example-logo {
     order: 1;
-    /* width: 120px; */
     height: 85px;
   }
 }
-
 
 /* Top Article */
 
@@ -1503,30 +1493,10 @@ span.ar {
   color: #F8F6EF;
 }
 
-/* #footer.replicated-logo {
-  background: url('../images/logo-white.svg');
-  background-size: 165px 40px;
-  background-repeat: no-repeat;
-  width: 165px;
-  height: 40px;
-} */
-
-/* #footer .cc-image {
-  vertical-align: -10px;
-  margin-right: 10px;
-  opacity: .5;
-  transition: opacity .2s;
-} */
-
-/* #footer .cc-image:hover {
-  opacity: .65;
-} */
-
 .footer-wrapper {
   padding: 20px 0 50px 0;
   background: #11172B;
 }
-
 
 /* Subscribe */
 
@@ -1554,7 +1524,6 @@ span.ar {
     font-size: 25px;
   }
 }
-
 
 /* Override HubSpot Styling */
 .subscribe-wrapper .hs-button.primary.large {
@@ -1584,7 +1553,6 @@ span.ar {
   justify-content: center;
   align-items: center;
 }
-
 
 #subscribe input[type="email"] {
     width: 400px;
@@ -1691,7 +1659,6 @@ span.ar {
 #article a {
   color: #004E86;
 }
-
 
 #article #article-nav a:hover, #article #article-nav a:focus {
     border-bottom: 3px solid #ee5042;
@@ -1833,7 +1800,6 @@ span.ar {
   }
 }
 
-
 /* Podcast Page */
 
 #episodelist {
@@ -1883,7 +1849,6 @@ span.ar {
 .episode a img {
   width: 90%;
   margin-bottom: 10px;
-  /* border-radius: 5px; */
 }
 
 .episode a {
@@ -1974,7 +1939,6 @@ span.ar {
   text-align: center;
   width: 100%;
 }
-
 
 /* Contribtors */
 .contributors a{
@@ -2199,33 +2163,6 @@ margin-right: 10px;
   height: 100%;
 }
 
-/* .indicators-holder {
-  position: relative;
-  width: 100%;
-  height: 60px;
-}
-
-.indicators-holder .carousel-indicators {
-  height: 30px;
-  margin-bottom: 0px;
-}
-
-.indicators-holder .carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;;
-  margin-left: 5px;
-  background-color: #C4C4C4;
-}
-
-.carousel-indicators li.active {
-  background-color: #898989;
-}
-
-.carousel-indicators > li {
-  
-} */
-
 .carousel-container {
   display: flex;
   align-items: center;
@@ -2368,9 +2305,6 @@ margin-right: 10px;
   .twtr-card p:nth-child(3){
     font-size: 10px!important;
   }
-
-
-
 }
 
 .twtr-card img {
@@ -2405,7 +2339,6 @@ margin-right: 10px;
     color: white;
 }
 
-
 /* PODCAST PAGE */
 
 .podcast-page-hero {
@@ -2419,7 +2352,6 @@ margin-right: 10px;
     padding: 70px 0px 90px 0px;
   }
 }
-
 
 .podcast-page-hero-content {
   display: flex;
@@ -2750,7 +2682,6 @@ margin-right: 10px;
   }
 }
 
-
 /* ABOUT PAGE */
 
 .about-hero-section {
@@ -2981,7 +2912,6 @@ margin-right: 10px;
     width: 300px; /* Need a specific value to work */
   }
 }
-
 
 /* Assessment Page */
 
@@ -3260,3 +3190,4 @@ margin-right: 10px;
   right: 0;
   top: 900px;
 }
+
