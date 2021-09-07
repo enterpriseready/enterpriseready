@@ -299,6 +299,7 @@ strong {
   justify-content: space-between;
   align-items: center;
   background-color: #F8F6EF;
+  border: 1px solid #141C34;
   border-radius: 16px 0px;
   padding: 0px 90px 30px 25px;
   margin-top: 20px;
@@ -457,10 +458,10 @@ strong {
 
 .second-nav {
   width:100%;
-  background-color:#F8F8F8;
+  background-color: #E6E4DD;;
   padding:18px 0px 0px;
-  border-top:1px solid #DFDFDF;
-  border-bottom:1px solid #DFDFDF;
+  border-top:1px solid #C9C5B6;
+  border-bottom:1px solid #C9C5B6;
 }
 
 /* Breadcrumbs */
@@ -1081,6 +1082,11 @@ span.ar {
   margin-bottom: 50px;
 }
 
+#alexis {
+  border: 7px solid #F8585E;
+  border-radius: 12px;
+}
+
 /* Podcast Section */
 
 .podcast-section {
@@ -1589,10 +1595,16 @@ span.ar {
 /* Article */
 
 #article {
-    padding: 10px 12%;
-    z-index: -1;
+    padding: 40px 12%;
+    z-index: 1;
     font-family: 'Open Sans', sans-serif;
 }
+
+.article-container {
+  z-index: -1;
+  background: #F8F6EF;
+}
+
 #article .checklist-icon {}
 .article-feature {
     width: 250px;
@@ -1605,7 +1617,7 @@ span.ar {
 }
 #article p {
     font-size: 16px;
-    line-height: 1.8
+    line-height: 1.8;
 }
 #article ul {
     margin-left: 15px;
@@ -1620,6 +1632,7 @@ span.ar {
 }
 #article h1 {
     text-align: center;
+    margin-bottom: 20px;
 }
 #article h1, #article h2 {
     padding-top: 2.5rem;
@@ -1664,6 +1677,12 @@ span.ar {
     float: left;
     font-size: 12px;
 }
+
+#article a {
+  color: #004E86;
+}
+
+
 #article #article-nav a:hover, #article #article-nav a:focus {
     border-bottom: 3px solid #ee5042;
     padding-bottom: 13px;
@@ -1671,7 +1690,7 @@ span.ar {
 }
 @media (max-width: 550px) {
     #article {
-        padding: 0 5%;
+        padding: 20px 5%;
     }
     .article-feature {
         width: 90%;
