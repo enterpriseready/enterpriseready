@@ -14,9 +14,12 @@
   </div>
 </div>
 
-<div class="container feather" id="article">
+<div class="article-container">
+  <div class="container feather" id="article">
 
-  <h1>{{.Title}}</h1>
+    <h1>{{.Title}}</h1>
 
-  {{ .Content }}
-  {{ partial "footer.html" . }}
+    {{ .Content }}
+  </div>
+</div>
+{{ partial "footer.html" . }}
