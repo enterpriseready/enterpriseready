@@ -1591,6 +1591,7 @@ span.ar {
 #article {
     padding: 10px 12%;
     z-index: -1;
+    font-family: 'Open Sans', sans-serif;
 }
 #article .checklist-icon {}
 .article-feature {
