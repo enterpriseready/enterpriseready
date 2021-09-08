@@ -31,19 +31,20 @@
 
 </div>
 
-  <div class="container gdpr" id="article">
+<div class="article-container">
+<div class="container gdpr" id="article">
 
 
-    <p align="center"><img src="{{ .Params.hero }}" /></p>
+  <p align="center"><img src="{{ .Params.hero }}" /></p>
 
-    <!-- <p class="table-of-contents">
+  <!-- <p class="table-of-contents">
 
             <a href="/gdpr/">Find our entire catalog of GDPR analysis here.</a>
 
     </p> -->
 
-    <h1>{{.Title}}</h1>
+  <h1>{{.Title}}</h1>
 
-    {{ .Content }}
+  {{ .Content }}
 
-    {{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}
