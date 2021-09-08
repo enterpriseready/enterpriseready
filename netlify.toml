@@ -7,6 +7,9 @@
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.88.1"
+
 [[redirects]]
   from = "/podcast/adam-jacob-chef/"
   to = "https://enterpriseready.io/podcast/01-adam-jacob-chef/"
