@@ -1345,11 +1345,14 @@ span.ar {
   width: 154px;
 }
 
-#zendesk-tab.nav-link.active {
+#zendesk-tab.nav-link.active
+#zendesk-tab.nav-link:focus,
+#zendesk-tab.nav-link:active  {
   background-image: url("../images/zendesk-active.svg");
   height: 31px;
   width: 154px;
 }
+
 
 /* Hubspot Logo */
 #hubspot-tab.nav-link {
@@ -1358,7 +1361,9 @@ span.ar {
   width: 153px;
 }
 
-#hubspot-tab.nav-link.active {
+#hubspot-tab.nav-link.active,
+#hubspot-tab.nav-link:focus,
+#hubspot-tab.nav-link:active  {
   background-image: url("../images/hubspot-active.svg");
   height: 46px;
   width: 153px;
@@ -1371,7 +1376,9 @@ span.ar {
   width: 132px;
 }
 
-#google-tab.nav-link.active {
+#google-tab.nav-link.active,
+#google-tab.nav-link:focus,
+#google-tab.nav-link:active  {
   background-image: url("../images/google-active.svg");
   height: 46px;
   width: 132px;
@@ -1384,7 +1391,9 @@ span.ar {
   width: 123px;
 }
 
-#slack-tab.nav-link.active {
+#slack-tab.nav-link.active,
+#slack-tab.nav-link:focus,
+#slack-tab.nav-link:active  {
   background-image: url("../images/slack-active.svg");
   height: 38px;
   width: 123px;
