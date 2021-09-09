@@ -1642,7 +1642,11 @@ span.ar {
 #article img {
     display: block;
     margin: 35px auto 0px auto;
-    max-width: 100%;
+    max-width: 500px;
+}
+
+#article #gdpr-img {
+  max-width: 250px;
 }
 
 #article ol li {
