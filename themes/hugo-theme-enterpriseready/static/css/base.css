@@ -2017,6 +2017,19 @@ margin-right: 10px;
   border-bottom: 1px solid #D6D6D6;
 }
 
+#breakdown-request-form {
+  text-align: center;
+  max-width: 100%;
+}
+
+.freebirdFormviewerViewCenteredContent {
+  max-width: 100%;
+}
+
+.freebirdLightBackground {
+  background-color: #F8F6EF;
+}
+
 /* SaaS Feature Table */
 
 #feature-table {
