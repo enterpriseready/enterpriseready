@@ -1346,8 +1346,9 @@ span.ar {
 }
 
 #zendesk-tab.nav-link.active
-#zendesk-tab.nav-link:focus,
-#zendesk-tab.nav-link:active  {
+/* #zendesk-tab.nav-link:focus,
+#zendesk-tab.nav-link:active   */
+{
   background-image: url("../images/zendesk-active.svg");
   height: 31px;
   width: 154px;
