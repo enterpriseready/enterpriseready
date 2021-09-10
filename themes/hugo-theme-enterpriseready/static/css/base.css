@@ -1111,6 +1111,15 @@ span.ar {
   background-attachment: fixed;
 }
 
+@media (max-width: 500px) {
+  .podcast-section{
+      background-attachment: scroll;
+  }
+} 
+
+
+
+
 #podcast-container {
   display: flex;
   flex-direction: row;
