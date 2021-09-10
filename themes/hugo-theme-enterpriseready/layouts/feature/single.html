@@ -37,10 +37,12 @@
     </div>
 </div>
 
-<div class="container" id="article">
-    <p align="center"><img src="{{ .Params.hero }}" /></p>
+<div class="article-container">
+    <div class="container" id="article">
+        <p align="center"><img src="{{ .Params.hero }}" /></p>
 
-    <h1>{{.Title}}</h1>
-
-    {{ .Content }}
-    {{ partial "footer.html" . }}
+        <h1>{{.Title}}</h1>
+        {{ .Content }}
+    </div>
+</div>
+{{ partial "footer.html" . }}

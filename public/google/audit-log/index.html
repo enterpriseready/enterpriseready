@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A detailed analysis of the way that Google&#39;s G Suite implements a detailed audit log of all activity in order to meet the needs of enterprises.">
+<meta name="og:description" content="A detailed analysis of the way that Google&#39;s G Suite implements a detailed audit log of all activity in order to meet the needs of enterprises.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="https://www.enterpriseready.ioimages/twtr/google-audit-log-og.png" itemprop="image"/>
+<meta property="og:title" content="G Suite Audit Log - Enterprise Ready Feature Breakdown"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>G Suite Audit Log - Enterprise Ready Feature Breakdown</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/google/audit-log/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="https://www.replicated.com" target="_blank">Replicated </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+<div class="container" id="breadcrumbs">
+  <div id="tool-tip">
+    <a href="/features/audit-log">audit logs</a>
+    </div>
+    <span>/</span> google
+    <div class="pull-right">
+      <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/google/audit-log.md">Edit this page</a>
+    </div>
+  </div>
+</div>
+
+  <div class="container feather" id="article">
+
+    <h1>Google Apps Audit Log</h1>
+
+    <p>Google Apps for Work provides a robust audit trail to both Standard and Unlimited accounts. By default, the feature is only available to Admins. Non-admin users have no way to view their personal audit history. Google categorizes their audit trail as a type of report, so it is available under the Reports menu.</p>
+<p><img src="https://i.imgur.com/1PgAOJj.png" alt="enter image description here"></p>
+<p>For the Standard Plan, audit logs are available for Admin activities, Logins, Calendar activities, Tokens, Groups, and Email log search. Unlimited admins are also able to access audit logs for Mobile and Drive (which we’ll get into later). Noticeably missing is any audit log activity for Hangouts (videos or chats). Google+ also doesn’t appear to have audit logs but that could just be a function of no one having ever used it.</p>
+<p>The execution of the audit logs as shown below is actually quite good. The <a href="https://support.google.com/a/answer/6110475/?hl=en&amp;authuser=0">Calendar audit log</a> is a great example of how audit logs should be done. The information is clearly presented:</p>
+<p><img src="https://i.imgur.com/DnmDosi.png" alt="enter image description here"></p>
+<p>With options for which columns to include in the report:</p>
+<p><img src="https://i.imgur.com/5T5mohj.png" alt="enter image description here"></p>
+<p>As well as a detailed filtering &amp; date ranging option:</p>
+<p><img src="https://i.imgur.com/CqxvTB1.png" alt="enter image description here"></p>
+<p>Any report can be exported to either CSV or directly into a Google Sheet:</p>
+<p><img src="https://i.imgur.com/wHWGc92.png" alt="enter image description here"></p>
+<p>The main functionality that the Google Apps Calendar Audit Log appears to be missing is the ability to access this information from the Reports API.</p>
+<p>Standard Admins do have access to some of the Audit Logs via the Reports API (today this includes Admin activity, Logins and Tokens). Unlimited Admins can access Drive and Mobile audit logs from the API. Having API access is an important feature as it allows companies to move this into unified logging systems like Splunk to create a holistic view of user activity.</p>
+<p><img src="https://i.imgur.com/WRGYRao.png" alt="enter image description here"></p>
+<p>For Google Apps Unlimited the audit log for Drive is even more detailed in that it logs View events. Ie, every time a Google Doc is viewed that view is logged for administrative use (IP address does not appear to be included with view events).</p>
+<p><img src="https://i.imgur.com/drAYz9L.png" alt="enter image description here"></p>
+<p>Google Apps does provide insights into the retention policy &amp; <a href="https://support.google.com/a/answer/6000244">lag times</a> for all audit events. However, this lag time can cast some doubt on the reliability of the logs. Also, given that the audit log is only covered with a 99.9% SLA there is room for additional errors.</p>
+<p>The detail provided about the mechanics of the <a href="https://support.google.com/a/answer/4579696?hl=en">Drive Audit Log</a> gives some insight into the difficulty of delivering truly accurate logs. However, it is better to disclose known issues than to keep this information hidden from customers.</p>
+<p>Google Apps doesn’t provide much insight into the immutable nature of these logs or try to prove immutability in any way. There is also a gap in the time-synced nature of these logs as they only provide detail down to the millisecond if the API is used to gather the data. If a report is downloaded, this information is excluded and could prove to not be enough detail for true sequencing when integrating with additional log sources. It also appears that there is no way to validate the server time was synced with NTP.</p>
+<p>Provide a change log things that are added to the audit log over time.</p>
+<p><img src="https://i.imgur.com/Mmq6G5w.png" alt="enter image description here"></p>
+<p><em>This was published on Nov. 22, 2016.</em></p>
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/google/audit-log.md" target="_blank">Content Contributors</a>
+</h3>
+
+<hr>
+<p><div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/marccampbell" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/marccampbell.png?size=40" width="40"> </a>
+
+</div>
+</p>
+<div class="clear"></div>
+<div id='breakdown-request'>
+  <br/>
+  <hr />
+  <h3 class="section-header" align="center">Is a feature of your app EnterpriseReady?</h3>
+  <p align="center">We'd love to work with you to breakdown your implementation and share it with the EnterpriseReady community.</p>
+  <p align="center"><a href="/breakdown-request" class="button button-secondary">Request a breakdown</a></p>
+</div>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "8554162",
+                    formId: "cf19513d-014d-4435-b0ad-ac186f0ce56f"
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="//data-2.replicated.com/";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8554162.js"></script>
+
+</body>
+
+</html>
+

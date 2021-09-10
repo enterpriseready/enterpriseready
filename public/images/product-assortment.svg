@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700px" height="306px" viewBox="0 0 700 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Product Assortment</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product-Assortment">
+            <g id="Browser">
+                <rect id="Rectangle-8" fill="#DEDEDE" x="0" y="0" width="700" height="306" rx="3"></rect>
+                <g id="Browser-Top" transform="translate(13.000000, 11.000000)">
+                    <circle id="Oval-1" fill="#F76461" cx="3.5" cy="7.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#FDBC4F" cx="13.5" cy="7.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#40C754" cx="23.5" cy="7.5" r="3.5"></circle>
+                    <rect id="Search-Bar" fill="#FFFFFF" x="137" y="0" width="400" height="15" rx="3"></rect>
+                    <text id="http://enterpriserea" font-family="SourceSansPro-Light, Source Sans Pro" font-size="8" font-weight="300" fill="#85828E">
+                        <tspan x="297.9" y="11">http://enterpriseready.io</tspan>
+                    </text>
+                </g>
+                <g id="Background" transform="translate(0.000000, 35.000000)">
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="5" y="0" width="690" height="271"></rect>
+                    <rect id="Rectangle-2" fill="#F4F4F4" x="695" y="0" width="5" height="271"></rect>
+                    <rect id="Rectangle-2" fill="#F4F4F4" x="0" y="0" width="5" height="271"></rect>
+                </g>
+            </g>
+            <g id="Group" transform="translate(125.000000, 54.000000)">
+                <rect id="Rectangle" fill="#EEEEEE" x="0" y="0" width="140" height="230" rx="3"></rect>
+                <rect id="Rectangle" fill="#2196F3" x="20" y="15" width="100" height="100" rx="3"></rect>
+                <rect id="Rectangle" fill="#2196F3" x="20" y="125" width="100" height="10" rx="3"></rect>
+                <rect id="Rectangle" fill="#2196F3" x="20" y="145" width="100" height="10" rx="3"></rect>
+                <g id="Group-5" transform="translate(35.000000, 65.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle" x="0" y="0" width="70" height="5" rx="2.5"></rect>
+                </g>
+                <text id="Startup" font-family="Roboto, sans-serif" font-size="16" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="44.375" y="45">Startup</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(280.000000, 54.000000)">
+                <rect id="Rectangle" fill="#EEEEEE" x="0" y="0" width="140" height="230" rx="3"></rect>
+                <rect id="Rectangle" fill="#9C27B0" x="20" y="15" width="100" height="100" rx="3"></rect>
+                <rect id="Rectangle" fill="#9C27B0" x="20" y="125" width="100" height="10" rx="3"></rect>
+                <rect id="Rectangle" fill="#9C27B0" x="20" y="145" width="100" height="10" rx="3"></rect>
+                <rect id="Rectangle" fill="#9C27B0" x="20" y="165" width="100" height="10" rx="3"></rect>
+                <g id="Group-6" transform="translate(35.000000, 65.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle" x="0" y="10" width="70" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="0" y="0" width="70" height="5" rx="2.5"></rect>
+                </g>
+                <text id="Pro" font-family="Roboto, sans-serif" font-size="16" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="58.2617188" y="45">Pro</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(436.000000, 54.000000)">
+                <rect id="Rectangle" fill="#EEEEEE" x="0" y="0" width="140" height="230" rx="3"></rect>
+                <rect id="Rectangle" fill="#EE5042" x="19" y="15" width="100" height="100" rx="3"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="34" y="75" width="70" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="34" y="65" width="70" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="34" y="85" width="70" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#EE5042" x="19" y="125" width="100" height="10" rx="3"></rect>
+                <rect id="Rectangle" fill="#EE5042" x="19" y="145" width="100" height="10" rx="3"></rect>
+                <g id="Group-7" transform="translate(19.000000, 165.000000)" fill="#EE5042">
+                    <rect id="Rectangle" x="0" y="0" width="100" height="10" rx="3"></rect>
+                    <rect id="Rectangle" x="0" y="20" width="100" height="10" rx="3"></rect>
+                    <rect id="Rectangle" x="0" y="40" width="100" height="10" rx="3"></rect>
+                </g>
+                <text id="Enterprise" font-family="Roboto, sans-serif" font-size="16" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="33.9804688" y="45">Enterprise</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevGuild: Enterprise-Ready Products on EnterpriseReady</title>
+    <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/</link>
+    <description>Recent content in DevGuild: Enterprise-Ready Products on EnterpriseReady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.enterpriseready.io/devguild-enterprise-ready-products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Reporting &amp; Analytics</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/advanced-reporting-analytics/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/advanced-reporting-analytics/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>Deployment Best Practices</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/deployment-best-practices/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/deployment-best-practices/</guid>
+      <description>“Deployment Best Practices” examines the challenges and opportunities that arise as the unprecedented portability of applications meets enterprises’ heterogeneous deployment needs across verticals. Beginning with a discussion of how deployment practices have evolved for each of their teams, the panelists in this video assess how product functionality can be built to accommodate multiple states of cloud adoption (on-prem, cloud SaaS, hybrid cloud) in customers’ environments.
+Deployments must often balance agile feature integrations with stable overall functionality, all while satisfying an enterprise’s particular installation parameters.</description>
+    </item>
+    
+    <item>
+      <title>High-Availability &amp; Support in the Enterprise</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/high-availability-support/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/high-availability-support/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>Integrating into the Enterprise</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/integrating-the-enterprise/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/integrating-the-enterprise/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>Navigating Enterprise Needs</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/navigating-enterprise-needs/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/navigating-enterprise-needs/</guid>
+      <description>Supplementing our discussions on how to most effectively build enterprise-ready software, “Navigating Enterprise Needs” turns its focus on the infrastructural requirements that enterprises themselves bring to purchasing negotiations. In this video, three enterprise CTOs analyze how you can best approach enterprise customers and accommodate their unique implementations of a product.
+A buyer&amp;rsquo;s level of technical investment in the purchasing process can often depend on how dispersed or centralized their team(s) using new software might be, as well as how directly that software will impact their product architecture.</description>
+    </item>
+    
+    <item>
+      <title>Security &amp; Establishing Customer Trust</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/security-customer-trust/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/security-customer-trust/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>User Management &amp; Access Control</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/user-management-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/user-management-access-control/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+  </channel>
+</rss>

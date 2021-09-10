@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asanas on EnterpriseReady</title>
+    <link>https://www.enterpriseready.io/asana/</link>
+    <description>Recent content in Asanas on EnterpriseReady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.enterpriseready.io/asana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asana Teams</title>
+      <link>https://www.enterpriseready.io/asana/teams/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/asana/teams/</guid>
+      <description>Asana is one of the premier project management tools amongst the sea of PM applications. Asana’s application is designed to help teams improve communication, organization and collaboration. This makes it a great service to analyze for Team functionality.
+We know any product that introduces Team functionality is trying to promote collaboration, but let’s see what Teams look like when the entire mission of the product is collaboration.
+Asana’s Project feature is where users live and breath.</description>
+    </item>
+    
+  </channel>
+</rss>
