@@ -2,7 +2,7 @@
 date = "2016-10-25T00:00:00Z"
 title = "GDPR Table of Contents"
 type = "gdpr"
-hero = "/images/gdpr.png"
+hero = "/images/features/GDPR.png"
 metadescription = "A guide for SaaS products to understand how the GDPR impacts their business."
 pagetitle = "EnterpriseReady GDPR Overview"
 ogimage = "images/gdpr/headers/gdpr-twtr.png"
@@ -13,7 +13,7 @@ The European Union’s [General Data Protection Regulation (GDPR)](https://www.e
 Here are some pieces we put together to help you sort through it.
 
 GDPR Required Reading  
-* [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)  
+* [How to read the full-text GDPR](/gdpr/how-to-read-gdpr)
 
 GDPR Basics  
 * [GDPR 101: What is GDPR and why should I care?](/gdpr/what-is-gdpr)  

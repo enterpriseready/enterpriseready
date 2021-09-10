@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fbworkplaces on EnterpriseReady</title>
+    <link>https://www.enterpriseready.io/fbworkplace/</link>
+    <description>Recent content in Fbworkplaces on EnterpriseReady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.enterpriseready.io/fbworkplace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FB Workplace Admin Reports</title>
+      <link>https://www.enterpriseready.io/fbworkplace/reporting/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/fbworkplace/reporting/</guid>
+      <description>Facebook launched its Workplace product into private beta at the end of 2016. The product is targeted at large organizations who are looking for a user friendly &amp;amp; familiar application for knowledge sharing and communication. Out of the gate, the product includes several enterprise ready features including team management, product security, advanced SSO, minimal RBAC, and detailed reports. We&amp;rsquo;ll review the reporting functionality and assess its enterprise readiness.
+The good Like many of the features of Workplace, it is evident that this was built to meet the internal needs of Facebook (the company/organization).</description>
+    </item>
+    
+  </channel>
+</rss>

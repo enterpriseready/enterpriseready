@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intercoms on EnterpriseReady</title>
+    <link>https://www.enterpriseready.io/intercom/</link>
+    <description>Recent content in Intercoms on EnterpriseReady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.enterpriseready.io/intercom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intercom Role Based Access Control</title>
+      <link>https://www.enterpriseready.io/intercom/role-based-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/intercom/role-based-access-control/</guid>
+      <description>Intercom is an application to communicate with your customers. Because so many people within an organization would need access to an application like this it was important that Intercom introduced Role Based Access Controls or user permissions.
+Types of Permissions: For each team member Intercom allows you to choose whether they have access to things like app settings, billing, user data, or native to the Intercom app the ability to send / edit manual messages and auto messages.</description>
+    </item>
+    
+  </channel>
+</rss>

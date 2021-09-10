@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="An advanced analysis of the GDPR and how it will impact SaaS companies.">
+<meta name="og:description" content="An advanced analysis of the GDPR and how it will impact SaaS companies.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="https://www.enterpriseready.ioimages/gdpr/headers/gdpr-202.png" itemprop="image"/>
+<meta property="og:title" content="EnterpriseReady: Advanced GDPR Analysis"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>EnterpriseReady: Advanced GDPR Analysis</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/gdpr/gdpr-202/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="https://www.replicated.com" target="_blank">Replicated </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+
+  <div class="container" id="breadcrumbs">
+    <div id="tool-tip">
+      <a href="/gdpr"><span style="cursor:pointer;color:#878787">GDPR</span></a>
+      <div class="tool-tip">
+        <ul>
+          <li><a href="/gdpr/">GDPR Home</a></li>
+          <hr />
+          <li><a href="/gdpr/what-is-gdpr">GDPR 101</a></li>
+          <hr />
+          <li><a href="/gdpr/gdpr-202">GDPR 202</a></li>
+          <hr />
+          <li><a href="/gdpr/gdpr-saas">GDPR & SaaS</a></li>
+          <hr />
+          <li><a href="/gdpr/preparing-for-gdpr">Preparing for GDPR</a></li>
+          <hr/>
+          <li><a href="/gdpr/how-to-read-gdpr">How to read GDPR</a></li>
+          <hr/>
+          <li><a href="/gdpr/useful-gdpr-links">Useful GDPR Links</a></li>
+        </ul>
+      </div>
+      </div>
+      <span>/</span> GDPR 202: Controllers, processors and subjects’ rights
+      <div class="pull-right">
+        <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/gdpr/gdpr-202.md">Edit this page</a>
+      </div>
+    </div>
+
+</div>
+
+  <div class="container gdpr" id="article">
+
+
+    <p align="center"><img src="/images/gdpr/headers/gdpr-202.png" /></p>
+
+    
+
+    <h1>GDPR 202: Controllers, processors and subjects’ rights</h1>
+
+    <p>Perhaps you’ve read our introduction to <a href="/gdpr/gdpr-saas">GDPR for SaaS companies</a> and decided you want to learn more, or perhaps you’ve already been thinking about GDPR but haven’t spent a lot of time analyzing what it might mean for your company. Here, we try to take things a little deeper, looking at some of the core concepts of GDPR compliance and how they might apply to SaaS companies, specifically.</p>
+<p>Because there’s still much ambiguity in terms of exactly how certain aspects will be defined and adjudicated in practice, there are places where we present more questions than we do answers. However, it’s nonetheless important to be thinking about these topics and how you’ll address them, both technologically and contractually with your customers, vendors and partners.</p>
+<h2 id="are-you-a-data-controller-or-a-data-processor-the-distinction-matters-a-lot">Are you a data controller or a data processor? The distinction matters a lot.</h2>
+<p>One of the major facets of GDPR is that no company processing personal data is free from liability for its protection and proper usage. The definition of processing encompasses everything from storage to behavioral analysis, so if you’re touching personal data in any way, really, you’ll want to act accordingly:</p>
+<blockquote>
+<p><a href="https://gdpr-info.eu/art-4-gdpr/">From Article 4</a>: “[P]rocessing” means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction</p>
+</blockquote>
+<p>However, your exact role in the personal-data pipeline is critically important because of how the law assigns liability between data controllers and data processors. If you think you might be considered a controller under the GDPR, you’ll want to study the law very carefully. There are many requirements for controllers—especially around getting consent from data subjects, and providing data to / erasing data about data subjects—that are much different and much more laborious than what you might be accustomed to.</p>
+<p>A <a href="https://gdpr-info.eu/art-4-gdpr/">controller is defined</a> as the entity that “determines the purposes and means of the processing of personal data.” More often than not, that’s going to be the company dealing directly with data subjects and collecting the data for its own use, or contracting with other companies to collect data on its behalf. The controller is also going to be the party responsible for obtaining the proper consent from data subjects (for just about every single use of their data); providing information about other companies with which it will be shared; and responding to requests for data records, erasures and other rights afforded by GDPR.</p>
+<p>A <a href="https://gdpr-info.eu/art-4-gdpr/">processor is defined</a> as an entity that processes data on behalf of the controller. Many technology companies also use the term subprocessor to talk about the companies that they use to store or otherwise process personal data, but with which the the controller does not have a contractual relationship. It might be easy to jump to the conclusion that most B2B SaaS vendors will primarily act as processors, but that’s not necessarily the case. In fact, most SaaS providers will almost certainly acting as a controller, at least for data they collect from their users or leads (or EU-based employees).</p>
+<p>Let’s walk through a few examples to, hopefully, help clear up these terms:</p>
+<ul>
+<li>Users logs into her Intuit account to check out her personal budget situation on Mint. Intuit uses Mixpanel (<a href="https://techcrunch.com/2018/02/05/mixpanel-passwords/">which had its own recent personal data situation</a>) to provide detailed website analytics. User is the data subject; Intuit is the controller; Mixpanel is the processor.</li>
+<li>User buys something online using PayPal. PayPal sends the details to Lattice Engines “to develop and optimize predictive models. User is the data subject; PayPal is the controller; Lattice Engines is the processor. (<a href="https://rebecca-ricks.com/paypal-data/">Here’s a visualization</a> of the roughly <a href="https://www.paypal.com/ie/webapps/mpp/ua/third-parties-list">600 processors with which PayPal shares personal data</a>.)</li>
+<li>Your company based in the EU uses Slack for internal messaging. Slack collects users’ names, email addresses, phone numbers, activity logs and more, and stores and analyzes everything on AWS. Users are the data subjects; Slack is likely the controller for that data if it uses that data for internal purposes, but a processor for any personal data entered within messages themselves or shared as documents; your company is the controller for personal data entered via messages or shared as documents, and might be the controller for account info if Slack only stores emails, etc., on your behalf and doesn’t use that info for business processes; AWS is a subprocessor.</li>
+<li>Your company uses the Zendesk integration with Slack and an EU customer creates a ticket. This fires an alert with the ticket body and user’s name into your #support Slack channel. You are the controller; Zendesk and Slack are processors; AWS is a subprocessor. But, wait … hopefully that didn’t trigger an error for Zendesk and accidentally pipe that data into Rollbar, which would then become a subprocessor. Also, if Zendesk logged the IP address of your EU customer who visited their website into Loggly, it is now also a subprocessor.</li>
+</ul>
+<p>As the last examples highlights, things can get pretty messy pretty fast, even for B2B SaaS companies whose businesses, on the surface, don’t have much to do with personal data. Every time you’re touching it, you’re doing so as a controller or processor (or subprocessor), with all the responsibilities each role entails.</p>
+<p>For more on this topic specific to SaaS companies, <a href="https://www.twilio.com/blog/2017/10/gdpr-data-subjects-controllers-processors.html">read this blog post by Twilio</a> laying out its views on this topic and explaining how companies—including Twilio—can be both data controllers and data processors.</p>
+<h3 id="being-a-controller-means-bearing-more-responsibility">Being a controller means bearing more responsibility</h3>
+<p>The distinction between controller and processor matters so much not just because controllers are the one responsible for interacting with data subjects and all that entails, but also because <a href="https://gdpr-info.eu/art-24-gdpr/">controllers are responsible</a> for ensuring that every processor they use complies with GDPR requirements around data privacy and security. Using processors that meet certain certifications or adhere to specific codes of conduct can help controllers meet this obligation, but controllers and processors also must enter into binding contracts around data usage:</p>
+<blockquote>
+<p><a href="https://gdpr-info.eu/art-28-gdpr/">From Article 28</a>: Processing by a processor shall be governed by a contract or other legal act under Union or Member State law, that is binding on the processor with regard to the controller and that sets out the subject-matter and duration of the processing, the nature and purpose of the processing, the type of personal data and categories of data subjects and the obligations and rights of the controller.</p>
+</blockquote>
+<p>Apart from fines [LINK] levied for things you might expect (e.g., negligent security practices or failing to get proper consent), controllers can also be fined for violations related to their contracts with data processors. Furthermore, controllers are on the hook for notifying data subjects of any breaches, wherever they happen across the supply chain.</p>
+<h3 id="being-a-processor-still-means-bearing-responsibility">Being a processor still means bearing responsibility</h3>
+<p>That being said, things are not necessarily any simpler for data processors, which have their own set of rules to follow. For example, processors may not engage any additional processors (if you’re a SaaS company, this includes your IaaS provider) without written consent from the controller. Processors also need to manage their processors contractually and bear responsibility to the controller should their processors mess up:</p>
+<blockquote>
+<p><a href="https://gdpr-info.eu/art-28-gdpr/">From Article 28</a>: Where a processor engages another processor for carrying out specific processing activities on behalf of the controller, the same data protection obligations as set out in the contract or other legal act between the controller and the processor as referred to in paragraph 3 shall be imposed on that other processor by way of a contract or other legal act under Union or Member State law, in particular providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that the processing will meet the requirements of this Regulation. Where that other processor fails to fulfil its data protection obligations, the initial processor shall remain fully liable to the controller for the performance of that other processor&rsquo;s obligations.</p>
+</blockquote>
+<p>And although they’re not directly responsible for providing data records or other information to data subjects, data processors will be required to store and maintain in a format that makes such disclosures possible.</p>
+<h3 id="what-if">What if…</h3>
+<p>There are also gray areas that GDPR doesn’t expressly cover, but which SaaS providers and their customers will certainly want to think about as they engage with other. Here are a couple:</p>
+<ul>
+<li><strong>What if customers share EU personal data without letting you know?</strong> Your customer would almost shoulder the majority of liability in this case, but the GDPR is unclear about proper protocol should a SaaS provider discover protected data on its systems. Does an acknowledgement of the personal data constitute constructive notice, at which point your company is required to act under GDPR requirements even if your customer refuses to?</li>
+<li><strong>How do APIs fit into the picture?</strong> The <a href="https://www.theverge.com/2018/3/21/17147600/mark-zuckerberg-facebook-cambridge-analytica">controversy over Facebook’s API access and data-sharing policies</a> should also give SaaS companies something the think about. Even if you don’t directly share data with third parties without customer consent, customers may use your APIs to integrate with any number of external services that will then process personal data, or just download data themselves onto their laptops. Who owns those relationships? And is providing a means of data-sharing with a potentially unlimited number of other products really a best practice for data security?</li>
+</ul>
+<p>Language in customer contracts or licenses could help protect against this scenario by making users confirm they will only use a product for certain types of data or communication, and by making them assume liability for any use of personal data beyond that scope. You can get an example of how this might look from the Salesforce <a href="https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/data-processing-addendum.pdf">Data Processing Addendum</a> (and many others in our collection of SaaS-company GDPR policies) that covers the various relationships and liabilities among Salesforce, its customers, and its subcontractors with regard to GDPR and other country-specific laws.</p>
+<h2 id="compliance-administratively">Compliance, administratively</h2>
+<p>As noted in the introduction, the GDPR is a vast regulation containing many specific rules to follow, and many guidelines—especially around concepts such as data security (<a href="https://gdpr-info.eu/art-32-gdpr/">Article 32</a>)—that offer suggestions but no prescriptive measures for compliance. Some of the areas you’ll definitely want to assess include:</p>
+<ul>
+<li>How clearly you’re explaining your data-processing activities to data subjects, and whether you’re <strong>obtaining express consent</strong> for each purpose. Note that opt-out consent forms will not fly. (<a href="https://gdpr-info.eu/art-7-gdpr/">Article 7</a>)</li>
+<li><strong>How much data you actually need</strong> to fulfill a specific purpose. The GDPR mandates that companies don’t collect more data than they need, process data more than required or store data longer than necessary. (<a href="https://gdpr-info.eu/art-5-gdpr/">Article 5</a>)</li>
+<li>How anonymized and/or encrypted your user data actually is. Truly <strong>anonymous data</strong> is not subject to GDPR requirements but “pseudonymous” data—that “which could be attributed to a natural person by the use of additional information—is subject to GDPR requirements. (<a href="https://gdpr-info.eu/recitals/no-26/">Recital 26</a>) However, the GDPR still does encourage pseudonymization.</li>
+<li>Whether your company is required to appoint a <strong>representative</strong> located within the EU. (<a href="https://gdpr-info.eu/art-27-gdpr/">Article 27</a>)</li>
+<li>Whether your company is required to appoint a <strong>data protection officer</strong>. (<a href="https://gdpr-info.eu/art-37-gdpr/">Article 37</a>)</li>
+<li>The <strong>specificity of record-keeping</strong> required around how data is used and with whom it will be shared. Controllers and processors with less than 250 employees don’t have to comply with some of the more-stringent requirements, unless their data-processing “is likely to result in a risk to the rights and freedoms of data subjects &hellip; is not occasional, or &hellip; includes special categories of data.” (<a href="https://gdpr-info.eu/art-30-gdpr/">Article 30</a>)</li>
+<li>Whether your relationships with data subjects provide a <strong>legitimate interest</strong> under which personal data may be processed without express consent. (<a href="https://gdpr-info.eu/art-6-gdpr/">Article 6</a>) The law is vague on when this might apply, outside of in the case of emergencies, cybersecurity and other non-standard situations, but does caution that “the existence of a legitimate interest would need careful assessment.” (<a href="https://gdpr-info.eu/recitals/no-47/">Recital 47</a>)</li>
+</ul>
+<p>For a concrete example of GDPR data-minimization in action, here is the partial text of an email that Intercom recently sent to all of its customers:</p>
+<blockquote>
+<p>I’m writing to let you know about an upcoming change to the way we store Visitor data in Intercom, coming into effect on <strong>May 11th, 2018</strong>.</p>
+</blockquote>
+<blockquote>
+<p><strong>What’s changing</strong></p>
+</blockquote>
+<blockquote>
+<p>In preparation for the new EU General Data Protection Regulation (GDPR), we will now be <strong>expiring Visitor data once a Visitor has not been seen for nine months</strong>.
+This means that from <strong>May 11th, 2018</strong>:</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<ul>
+<li>We will automatically delete the IP and location of visitors who have not visited your site in 9 months.</li>
+</ul>
+</blockquote>
+</blockquote>
+<ul>
+<li>If a visitor returns after 9 months they will be treated like a new visitor. There will be no record of previous visitor auto messages or conversations.</li>
+</ul>
+<blockquote>
+<p>This change only impacts <a href="https://via.intercom-mail-100.com/e?ob=3m6TmtvTmKFEMLzPv3TR7XkAtGe%2BjrI67hpE8ghB%2B%2Bp0A7%2FEk0GtMZa8tw0fUm1efsuO%2B0jPjx4DYB%2BHqwe%2BAv6jzFztNFaGpFd90LbVUBRongarCNWW1DUgrBShOxkh3Ec08MTA4B%2FZtFTqSt0EFl3ew2kbg%2FeUtLKGYkptt57YwqRnbQTBnKGxvt22Z206&amp;h=2ce6e789ab7cbc9e9f2d2909b16465667b3683b1-15668737682">Visitor data</a> – all other data is unaffected. Note, while GDPR is an EU regulation, it ultimately affects any business with customers in the EU which is why we are applying these changes globally across our entire customer base.</p>
+</blockquote>
+<h2 id="compliance-technologically">Compliance, technologically</h2>
+<p>Technologically speaking, one of the bigger hurdles to compliance might be designing your data architectures so that you can easily provide information to data subjects should they request it. It’s technically the job of data controllers to supply this information, but where processors are involved, they’ll be required to supply it to controllers.</p>
+<p>Here’s what the GDPR allows for data subjects to demand from controllers (note that clause (h) refers to algorithms, machine learning models and any “automated decision-making”):</p>
+<blockquote>
+<p><a href="https://gdpr-info.eu/art-15-gdpr/">From Article 15</a>:</p>
+</blockquote>
+<blockquote>
+<ol>
+<li>The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and where that is the case, access to the personal data and the following information:</li>
+</ol>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>a. the purposes of the processing;</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>b. the categories of personal data concerned;</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>c. the recipients or categories of recipient to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organisations;</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>d. where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>e. the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing;</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>f. the right to lodge a complaint with a supervisory authority;</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>g. where the personal data are not collected from the data subject, any available information as to their source;</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>h. the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>Where personal data are transferred to a third country or to an international organisation, the data subject shall have the right to be informed of the appropriate safeguards pursuant to Article 46 relating to the transfer.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li>The controller shall provide a copy of the personal data undergoing processing.</li>
+</ol>
+</blockquote>
+<p>(You can also get a sense of the scope in <a href="https://www.linkedin.com/pulse/nightmare-letter-subject-access-request-under-gdpr-karbaliotis/">this admittedly played-up sample letter</a> posted by a PricewaterhouseCoopers consultant on LinkedIn.)</p>
+<p>Any personal data delivered to data subjects must be delivered in “a structured, commonly used and machine-readable format,” in part so that data can easily be transferred from one controller to another should the subject so desire. The GDPR calls this the “right to data portability.” (<a href="https://gdpr-info.eu/art-20-gdpr/">Article 20</a>)</p>
+<p>Data subjects can also demand that controllers <strong>correct inaccurate data</strong> about them (<a href="https://gdpr-info.eu/art-16-gdpr/">Article 16</a>) and, in certain cases, <strong>erase</strong> (<a href="https://gdpr-info.eu/art-17-gdpr/">Article 17</a>) or <strong>restrict</strong> (<a href="https://gdpr-info.eu/art-18-gdpr/">Article 18</a>) the processing of their personal data. Where personal data is being used for <strong>direct marketing</strong>, data subjects can object at any time and controllers must stop processing said data for that purpose. (<a href="https://gdpr-info.eu/art-21-gdpr/">Article 21</a>)</p>
+<p>If these seem like unlikely circumstances, don’t be so sure. Since the EU implemented a right to be forgotten in search results in 2014, <a href="https://www.npr.org/sections/thetwo-way/2018/02/28/589411543/google-received-650-000-right-to-be-forgotten-requests-since-2014">Google claims it has received more than 650,000 requests</a>, to remove more than 2.3 million URLs in all, from its results. It removed about 43 percent of them. In <a href="http://www.zdnet.com/article/beware-marketers-the-consumer-data-collection-blowback-is-just-starting/">a recent survey of U.S. consumers</a>, 69 percent said they don’t believe companies are doing all they can to protect user data, and 93 percent said they should be able to delete their online data when they want to.</p>
+<h2 id="more-reading">More reading</h2>
+<p>Convinced that GDPR will matter to your company and looking for some more guidance on how and where it might apply, or how other SaaS companies are thinking about it? You can check out some of our other pieces on this topic:</p>
+<ol>
+<li><a href="/gdpr/what-is-gdpr">What is GDPR and why should I care?</a></li>
+<li><a href="/gdpr/gdpr-saas">How GDPR might affect the SaaS industry</a></li>
+<li><a href="/gdpr/preparing-for-gdpr">How SaaS providers are preparing for GDPR</a></li>
+<li><a href="/gdpr/how-to-read-gdpr">How to read the full-text GDPR</a></li>
+<li><a href="/gdpr/useful-gdpr-links">Other Useful GDPR Links</a></li>
+</ol>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "8554162",
+                    formId: "cf19513d-014d-4435-b0ad-ac186f0ce56f"
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="//data-2.replicated.com/";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8554162.js"></script>
+
+</body>
+
+</html>
+

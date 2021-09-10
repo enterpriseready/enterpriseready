@@ -1,90 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="700px" height="306px" viewBox="0 0 700 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>Integrations</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="320" y="151" width="60" height="60" rx="5"></rect>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <rect id="path-3" x="560" y="151" width="60" height="60" rx="5"></rect>
-        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
-            <use xlink:href="#path-3"></use>
-        </mask>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Integrations">
-            <g id="Browser">
-                <rect id="Rectangle-8" fill="#DEDEDE" x="0" y="0" width="700" height="306" rx="3"></rect>
-                <g id="Browser-Top" transform="translate(13.000000, 11.000000)">
-                    <circle id="Oval-1" fill="#F76461" cx="3.5" cy="7.5" r="3.5"></circle>
-                    <circle id="Oval-1" fill="#FDBC4F" cx="13.5" cy="7.5" r="3.5"></circle>
-                    <circle id="Oval-1" fill="#40C754" cx="23.5" cy="7.5" r="3.5"></circle>
-                    <rect id="Search-Bar" fill="#FFFFFF" x="137" y="0" width="400" height="15" rx="3"></rect>
-                    <text id="http://enterpriserea" font-family="SourceSansPro-Light, Source Sans Pro" font-size="8" font-weight="300" fill="#85828E">
-                        <tspan x="297.9" y="11">http://enterpriseready.io</tspan>
-                    </text>
-                </g>
-                <g id="Background" transform="translate(0.000000, 35.000000)">
-                    <rect id="Rectangle-2" fill="#FFFFFF" x="5" y="0" width="690" height="271"></rect>
-                    <rect id="Rectangle-2" fill="#F4F4F4" x="695" y="0" width="5" height="271"></rect>
-                    <rect id="Rectangle-2" fill="#F4F4F4" x="0" y="0" width="5" height="271"></rect>
-                </g>
-            </g>
-            <rect id="Rectangle-13" fill="#DEDEDE" x="258" y="180" width="320" height="2"></rect>
-            <rect id="Rectangle-13" fill="#DEDEDE" transform="translate(350.000000, 140.500000) rotate(-270.000000) translate(-350.000000, -140.500000) " x="298.5" y="139.5" width="103" height="2"></rect>
-            <path d="M228,211 C244.568542,211 258,197.568542 258,181 C258,164.431458 244.568542,151 228,151 C211.431458,151 198,164.431458 198,181 C198,197.568542 211.431458,211 228,211 Z" id="Oval-2" stroke="#CE215B" stroke-width="4" fill="#CE215B"></path>
-            <use id="Rectangle-12" stroke="#EB4E48" mask="url(#mask-2)" stroke-width="8" fill="#EB4E48" xlink:href="#path-1"></use>
-            <use id="Rectangle-12" stroke="#DEDEDE" mask="url(#mask-4)" stroke-width="4" stroke-dasharray="3" fill="#FFFFFF" transform="translate(590.000000, 181.000000) rotate(45.000000) translate(-590.000000, -181.000000) " xlink:href="#path-3"></use>
-            <g id="Logo" transform="translate(340.000000, 171.000000)" fill="#FFFFFF">
-                <rect id="Rectangle-4" x="0" y="16" width="12" height="4"></rect>
-                <rect id="Rectangle-7" x="0" y="8" width="4" height="12"></rect>
-                <rect id="Rectangle-4" x="8" y="0" width="12" height="4"></rect>
-                <rect id="Rectangle-7" x="16" y="0" width="4" height="12"></rect>
-            </g>
-            <ellipse id="Oval-2" stroke="#007EE5" stroke-width="4" fill="#007EE5" cx="470" cy="181" rx="30" ry="30"></ellipse>
-            <rect id="Rectangle-13" fill="#DEDEDE" x="358" y="96" width="100" height="2"></rect>
-            <ellipse id="Oval-2" stroke="#DEDEDE" stroke-width="2" stroke-dasharray="3,3" fill="#FFFFFF" cx="473" cy="97" rx="30" ry="30"></ellipse>
-            <ellipse id="Oval-2" stroke="#222222" stroke-width="4" fill="#222222" cx="350" cy="97" rx="30" ry="30"></ellipse>
-            <rect id="Rectangle-15" fill="#F4F4F4" x="151" y="35" width="2" height="266"></rect>
-            <text id="Dropbox" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
-                <tspan x="25" y="86">Dropbox</tspan>
-            </text>
-            <text id="Dropbox" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF">
-                <tspan x="448" y="184">Dropbox</tspan>
-            </text>
-            <text id="Github" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF">
-                <tspan x="332.845703" y="101">Github</tspan>
-            </text>
-            <text id="Slack" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF">
-                <tspan x="213.328125" y="185">Slack</tspan>
-            </text>
-            <text id="New-Relic" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
-                <tspan x="25" y="146">New Relic</tspan>
-            </text>
-            <text id="Github" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
-                <tspan x="25" y="206">Github</tspan>
-            </text>
-            <text id="Slack" font-family="Roboto, sans-serif" font-size="12" font-weight="400" fill="#222222">
-                <tspan x="25" y="266">Slack</tspan>
-            </text>
-            <g id="Group-18" transform="translate(100.000000, 132.000000)">
-                <rect id="Rectangle-14" fill="#DEDEDE" x="0" y="0" width="35" height="20" rx="10"></rect>
-                <circle id="Oval-3" fill="#FFFFFF" cx="10" cy="10" r="6"></circle>
-            </g>
-            <g id="Group-18" transform="translate(100.000000, 192.000000)">
-                <rect id="Rectangle-14" fill="#DEDEDE" x="0" y="0" width="35" height="20" rx="10"></rect>
-                <circle id="Oval-3" fill="#FFFFFF" cx="10" cy="10" r="6"></circle>
-            </g>
-            <g id="Group-18" transform="translate(100.000000, 72.000000)">
-                <rect id="Rectangle-14" fill="#EB4E48" x="0" y="0" width="35" height="20" rx="10"></rect>
-                <circle id="Oval-3" fill="#FFFFFF" cx="25" cy="10" r="6"></circle>
-            </g>
-            <g id="Group-18" transform="translate(100.000000, 252.000000)">
-                <rect id="Rectangle-14" fill="#EB4E48" x="0" y="0" width="35" height="20" rx="10"></rect>
-                <circle id="Oval-3" fill="#FFFFFF" cx="25" cy="10" r="6"></circle>
-            </g>
-        </g>
-    </g>
+<svg width="134" height="114" viewBox="0 0 134 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M104.773 41.4713C102.752 34.0405 98.3566 27.8202 92.4121 23.9367L93.3383 22.5245C99.6364 26.6266 104.284 33.1999 106.406 41.0342L104.773 41.4713Z" fill="#15265F"/>
+<path d="M49.6388 113.341C42.7344 113.341 35.7795 111.189 29.8687 106.717C27.2586 104.75 24.9515 102.397 23.0486 99.7405L24.4126 98.7654C26.2313 101.287 28.4037 103.506 30.8791 105.389C44.57 115.745 64.1548 113.038 74.5282 99.3538L75.8754 100.362C69.4088 108.869 59.5743 113.341 49.6388 113.341Z" fill="#15265F"/>
+<path d="M100.394 113.341C95.3759 113.341 90.3408 112.164 85.8277 109.928C81.3146 107.692 77.3235 104.397 74.2755 100.396L75.6227 99.3874C78.5023 103.187 82.2913 106.314 86.5855 108.432C90.8628 110.55 95.6285 111.66 100.394 111.66C100.411 111.66 100.411 111.66 100.428 111.66C108.747 111.66 116.577 108.432 122.454 102.548C128.332 96.6807 131.582 88.8633 131.582 80.5583C131.582 70.2024 126.445 60.5525 117.84 54.7693L118.783 53.3739C127.86 59.4765 133.266 69.6476 133.266 80.5583C133.266 89.3172 129.847 97.5549 123.65 103.742C117.453 109.928 109.201 113.341 100.428 113.341C100.428 113.341 100.411 113.341 100.394 113.341Z" fill="#15265F"/>
+<path d="M97.4473 36.1588C95.9317 27.753 90.9471 20.255 83.7902 15.5814L84.7164 14.1692C92.2775 19.095 97.5315 26.9965 99.1145 35.8562L97.4473 36.1588Z" fill="#15265F"/>
+<path d="M41.6567 105.692C34.5503 105.692 27.6796 103.405 21.9035 99.0512C19.2933 97.0842 17.0031 94.7306 15.0834 92.0743L16.4474 91.0992C18.2661 93.621 20.4385 95.8401 22.9139 97.7062C29.5488 102.716 37.7499 104.851 45.9846 103.708C54.2193 102.565 61.5278 98.2946 66.5461 91.6708L67.8933 92.6795C62.6056 99.6564 54.8929 104.162 46.2203 105.372C44.7048 105.591 43.1723 105.692 41.6567 105.692Z" fill="#15265F"/>
+<path d="M92.4459 105.675C87.4276 105.675 82.3924 104.498 77.8962 102.262C73.3831 100.026 69.392 96.7312 66.344 92.73L67.6912 91.7213C70.5708 95.5207 74.3598 98.6477 78.6371 100.766C82.9145 102.884 87.6802 103.994 92.4459 103.994C92.4627 103.994 92.4627 103.994 92.4795 103.994C109.656 103.994 123.633 90.0401 123.633 72.8923C123.633 67.7479 122.286 62.5867 119.743 57.9971C117.302 53.5757 113.799 49.7594 109.623 46.9519L110.566 45.5565C114.961 48.5154 118.632 52.5333 121.225 57.1902C123.92 62.0319 125.334 67.4621 125.334 72.8923C125.334 81.6511 121.916 89.8888 115.719 96.0755C109.522 102.262 101.27 105.675 92.4964 105.675C92.4795 105.675 92.4627 105.675 92.4459 105.675Z" fill="#15265F"/>
+<path d="M58.345 66.4029C49.5883 66.4029 41.3536 63.007 35.1733 56.8203C28.9762 50.6336 25.5577 42.4127 25.5409 33.6707V33.6202C25.5409 24.8614 28.9594 16.6237 35.1565 10.437C41.3536 4.25029 49.6051 0.837524 58.3787 0.837524C67.1523 0.837524 75.4038 4.25029 81.6009 10.437C87.798 16.6237 91.2165 24.8614 91.2165 33.6202C91.2165 42.3791 87.798 50.6168 81.6009 56.8035C75.4038 62.9902 67.1523 66.4029 58.3787 66.4029C58.3619 66.4029 58.345 66.4029 58.345 66.4029ZM58.3787 2.51869C50.0598 2.51869 42.2292 5.74652 36.3353 11.6306C30.4413 17.4979 27.208 25.3153 27.208 33.6202V33.6707C27.208 41.9756 30.4581 49.7762 36.3353 55.6435C42.2124 61.4939 50.0261 64.7218 58.3282 64.7218C58.345 64.7218 58.345 64.7218 58.3619 64.7218C75.5386 64.7218 89.5157 50.7681 89.5157 33.6202C89.5157 25.3153 86.2824 17.4979 80.3885 11.6306C74.5282 5.74652 66.6976 2.51869 58.3787 2.51869Z" fill="#F44247"/>
+<path d="M33.3041 97.6557C15.2181 97.6557 0.51684 82.9792 0.5 64.9235V64.873C0.5 56.1142 3.9185 47.8765 10.1156 41.6898C16.3127 35.5031 24.5642 32.0903 33.3378 32.0903C51.4407 32.0903 66.1756 46.8005 66.1756 64.873C66.1756 73.6319 62.7571 81.8696 56.56 88.0563C50.363 94.243 42.1114 97.6557 33.3378 97.6557C33.321 97.6557 33.3041 97.6557 33.3041 97.6557ZM33.321 33.7715C16.1443 33.7715 2.16715 47.7252 2.16715 64.873V64.9235C2.18399 82.0545 16.1443 95.9746 33.2873 95.9746C33.3041 95.9746 33.3041 95.9746 33.321 95.9746C50.4977 95.9746 64.4748 82.0209 64.4748 64.873C64.4748 47.7252 50.4977 33.7715 33.321 33.7715Z" fill="#F44247"/>
+<path d="M84.0428 97.6557C65.9567 97.6557 51.2555 82.9792 51.2386 64.9235V64.873C51.2386 56.1142 54.6572 47.8765 60.8542 41.6898C67.0513 35.5031 75.3029 32.0903 84.0765 32.0903C102.196 32.0903 116.931 46.8005 116.931 64.873C116.931 73.6319 113.513 81.8696 107.316 88.0563C101.118 94.243 92.8669 97.6557 84.0933 97.6557C84.0596 97.6557 84.0596 97.6557 84.0428 97.6557ZM84.0765 33.7715C66.8998 33.7715 52.9226 47.7252 52.9226 64.873V64.9235C52.9395 82.0545 66.8998 95.9746 84.0428 95.9746C84.0596 95.9746 84.0596 95.9746 84.0765 95.9746C92.3954 95.9746 100.226 92.7467 106.12 86.8626C112.014 80.9954 115.247 73.178 115.247 64.873C115.23 47.7252 101.253 33.7715 84.0765 33.7715Z" fill="#F44247"/>
 </svg>

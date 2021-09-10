@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A guide for SaaS products to implement and demonstrate product security in their application to meet the requirements of enterprise buyers.">
+<meta name="og:description" content="A guide for SaaS products to implement and demonstrate product security in their application to meet the requirements of enterprise buyers.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="https://www.enterpriseready.ioimages/twtr/product-security-og.png" itemprop="image"/>
+<meta property="og:title" content="Enterprise Ready SaaS App Guide to Product Security"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Enterprise Ready SaaS App Guide to Product Security</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/features/product-security/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="https://www.replicated.com" target="_blank">Replicated </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+    <div class="container" id="breadcrumbs">
+        <div id="tool-tip">
+            <span style="cursor:pointer;color:#878787">Features</span>
+            <div class="tool-tip">
+                <ul>
+                    <li><a href="/features/product-assortment">Product Assortment</a></li>
+                    <hr />
+                    <li><a href="/features/single-sign-on">Single Sign On</a></li>
+                    <hr />
+                    <li><a href="/features/audit-log">Audit Logs</a></li>
+                    <hr />
+                    <li><a href="/features/role-based-access-control">Role Based Access Control</a></li>
+                    <hr />
+                    <li><a href="/features/change-management">Change Management</a></li>
+                    <hr />
+                    <li><a href="/features/product-security">Product Security</a></li>
+                    <hr />
+                    <li><a href="/features/deployment-options">Deployment Options</a></li>
+                    <hr  />
+                    <li><a href="/features/teams">Team Management</a></li>
+                    <hr  />
+                    <li><a href="/features/integrations">Integrations</a></li>
+                    <hr />
+                    <li><a href="/features/advanced-reporting">Advanced Reporting</a></li>
+                    <hr  />
+                    <li><a href="/features/sla-support">SLA and Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <span>/</span> Product Security
+        <div class="pull-right">
+            <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/features/product-security.md">Edit this page</a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="article">
+    <p align="center"><img src="/images/product-security.svg" /></p>
+
+    <h1>Product Security</h1>
+
+    <p>Security isn&rsquo;t a topic to discuss by itself, it should be part of the conversation around everything discussed on EnterpriseReady. For SaaS companies working with larger enterprise IT buyers it is incredibly important for this to be an area of strength. Most enterprises will provide potential software vendors with long third-party <a href="https://www.vendorsecurityalliance.org/">vendor security questionnaires</a>. These documents generally cover a broad range of security topics including product security, physical office security, employee screening, office network security, business continuity, upstream vendor security, disaster recovery, data security, secure IT policy, asset security and data center security in order to evaluate the overall security posture of an organization.</p>
+<p>For the purpose of this guide we’re going to focus on product related security issues. These be broken into 3 primary categories of development: security, ops security and product security. We also recommend a detailed review of the <a href="https://www.owasp.org/index.php/Category:Control">security controls recommended by OWASP</a>. The <a href="https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project">OWASP Application Security Verification Standard (ASVS)</a> is a more detailed list of security concerns.</p>
+<h2 id="ops">Ops</h2>
+<hr>
+<p><strong>Communication Security</strong><br>
+TLS all the things (including internal server-to-server communication). It&rsquo;s just not acceptable to use unencrypted communication inside your datacenter.</p>
+<p><strong>Data Security</strong><br>
+Encryption, least privilege, deletion, auditing use of privileges. When possible (which should be all of the time), leverage systems to encrypt data while at rest. Store PII (Personally Identifiable Information) in separate systems. Be aware of any compliance and regulatory processes that are specific to your industry and be prepared to explain how you follow them.</p>
+<p><strong>Network Segmentation</strong><br>
+Create private networks by leveraging cloud hosting features such as VPCs and VPN connections when possible. Don&rsquo;t treat your office location as an extension of this network. Anyone who needs to access the production network should have a VPN connection from their own device.</p>
+<p><strong>Public Footprint</strong><br>
+The principle of least privilege can be applied to the openness of systems and servers. By doing so you can reduce the surface area for potential attacks. Servers should not have public IP addresses unless absolutely needed (instead traffic should be routed through a reverse proxy server like Nginx). All unnecessary ports should be blocked. Only allow SSH connections from internal (VPN) connections. Moving the SSH port to a different port isn&rsquo;t a secure solution.</p>
+<p><strong>Take Preventative Action</strong><br>
+There are some external products and services that can help detect when your network has been compromised or if your applications have known vulnerabilities. Some can even assist you to deploy patches or block access to bad actors. A examples of products to evaluate are: <a href="https://www.signalsciences.com">SignalSciences</a>, <a href="https://www.alienvault.com">AlienVault</a>, <a href="https://www.snort.org">Snort</a> or <a href="https://www.tenable.com">Tenable</a>.</p>
+<p><strong>DDOS Prevention</strong><br>
+If you&rsquo;ve prevented rogue traffic from accessing your servers and network, it&rsquo;s still possible for external services to block anyone else from using your service by creating a distributed, denial-of-service attack. To prevent this, it&rsquo;s recommended to use a 3rd party service such as <a href="https://www.cloudflare.com">Cloudflare</a> or <a href="https://www.akamai.com">Akamai</a> who have experience managing DDOS attacks.</p>
+<p><strong>API Rate Limiting</strong>
+Without rate limiting, your API is subject to brute force attacks. Consider enforcing rate limits in an upstream load balancer. It&rsquo;s also recommended that unauthenticated requests have a considerably lower rate limit than authenticated requests.</p>
+<p><strong>Monitoring</strong><br>
+All of the best security measures in place aren&rsquo;t enough if you don&rsquo;t have monitoring in place to know when you&rsquo;ve been compromised. Invest in detailed monitoring that will alert you when unexpected events occur such as SSH connections from new IP addresses, high network throughput, high CPU, new processes running on servers, etc.</p>
+<p><strong>Automation</strong><br>
+Reproducibility is key to ensuring consistent and intended environments by removing opportunity for human error. Without scripted and reproducible deployments, you will end up with a collection of unaudited, artisanally configured servers that could have undetected security vulnerabilities on them.</p>
+<p><strong>Enable and Enforce Two Factor Auth</strong><br>
+For any system that support two-factor authentication, you should require that your own employees and contractors enable this feature. Many products even have a way to enforce it for all members of your team.</p>
+<p><strong>Separation of Roles</strong><br>
+Most large enterprises will require that you have different roles for development, ops, monitoring, etc. It&rsquo;s important to be able to provide this, but there isn&rsquo;t a requirement that a single person cannot be in multiple roles. It should be structured so that a developer who also has SSH access to production servers cannot be assuming both roles simultaneously though.</p>
+<p><strong>Leverage Trusted Images</strong><br>
+If using Docker, enable Content Trust to ensure the image lifecycle is securely managed.</p>
+<h2 id="development">Development</h2>
+<hr>
+<p><strong>Feature Security Design Reviews</strong><br>
+All changes that have a design review should focus on a security review also. If you aren&rsquo;t an expert in security, bring an expert in who can show you where the weak points are and design a way to harden these before writing the new system.</p>
+<p><strong>Product Architecture</strong><br>
+Having a current product architecture document is a prerequisite for being able to think about product security. It&rsquo;s important to keep your product architecture documents current.</p>
+<p><strong>Dev Environments</strong><br>
+Your development environments should be isolated from production and staging systems. Each development environment should not be able to access production databases and resources. Any secrets that are required for your environment should be different in dev than in production or staging.</p>
+<p><strong>Encryption Primitives</strong><br>
+Ensure that encryption methods are not “homegrown”. Use industry defined standards when encrypting data. Also, it&rsquo;s important to know your (potential) buyer. Common standards like RSA and AES are frequently accepted. Some encryption libraries require initialization with a securely seeded random number generator, be sure to read the docs or code for your uuid library to determine if you are responsible for seeding.</p>
+<p><strong>Code Reviews</strong><br>
+Require that all code is reviewed by a separate person than the author. This will help eliminate rogue actors from introducing intentional or unintentional security bugs into your system.</p>
+<p><strong>Application Security Testing</strong><br>
+Leverage Application Security Testing (AST) tools. Interactive (IAST) tools such as Contrast [https://www.contrastsecurity.com] combine multiple techniques and are compatible with modern software pipelines. Static (SAST) tools such as <a href="https://www.checkmarx.com">Checkmarx</a> and <a href="https://www.veracode.com/">Veracode</a> scan source code. Dynamic (DAST) tools simulate attacks using HTTP requests.</p>
+<p><strong>Test Dependencies</strong><br>
+While it&rsquo;s common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like <a href="https://www.snyk.io">Snyk</a> and Contrast [https://www.contrastsecurity.com] are available to help automatically monitor and scan these.</p>
+<p><strong>Secret Management</strong><br>
+Your code should use a vault to store secrets when possible. Consider using <a href="https://www.vaultproject.io/">Hashicorp Vault</a> or <a href="https://www.torus.sh/">Torus.sh</a> for this.</p>
+<p><strong>Application Security</strong><br>
+Read the <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_2017_Project">OWASP Top 10 Vulnerabilities</a> and think about how someone could use each of the top ten vulnerabilities to gain access to your system, databases or network</p>
+<p><strong>Continuous Threat Modeling</strong><br>
+Identify and document your trust boundaries and threat models in your system early. Continue to update these docs as your system evolves. Knowing where the trust boundaries are and where the biggest threat could come from will help you prioritize solutions.</p>
+<h2 id="product">Product</h2>
+<hr>
+<p><strong>Password security</strong><br>
+Many applications require that users sign up and will have to store passwords to allow the user to log in again. You will have to be able to explain the following features around password security:</p>
+<ul>
+<li>How are passwords stored? (bcrypt is a great answer, but make sure it&rsquo;s including a salt.)</li>
+<li>Do you enforce a minimum password strength?</li>
+<li>Do you have a configurable password expiration policy?</li>
+<li>Do you prevent password reuse when changing a password?</li>
+<li>How can a password be reset when needed?</li>
+<li>Can a user enable a second factor login requirement?</li>
+<li>Can an organization enforce 2 factor login for all users?</li>
+</ul>
+<p><strong>API Tokens</strong><br>
+API Tokens are often treated less securely than passwords, but they are just as powerful as a logged in user. Treat tokens with the same level of security as you would passwords.</p>
+<p><strong>IP Allow-listing</strong>
+Restrict the users of an account to only be able to log in from specified IP addresses or ranges (useful for enterprises that require that their users be on a VPN to use any service).</p>
+<p><strong>Sessions</strong><br>
+When an account is deleted or has a password changed, all existing sessions should be deleted.</p>
+<p><strong>Client side</strong><br>
+If your application is using cookies or local/session storage, ensure that all confidential data stored is in server-readable JWT tokens only.</p>
+<p><strong>Secure defaults</strong><br>
+Security shouldn&rsquo;t be a feature a user has to enable or opt into. Enforce secure defaults out of the box.</p>
+<p><strong>Demonstrable security</strong><br>
+Many enterprise buyers will ask you to provide documentation around your security efforts. Be prepared to show any of the following:</p>
+<ul>
+<li><em><strong>Certifications</strong></em> - Achieving SOC2 certification or FedRAMP or PCI compliance (even when irrelevant) can often shortcut the effort to demonstrate security practices to potential customers.</li>
+<li><em><strong>Audits</strong></em> - Trusted 3rd-party audits are a standard requirement for most enterprise customers.</li>
+<li><em><strong>Penetration Test Results</strong></em> - Publish or make available upon request the results of 3rd-party penetration tests.</li>
+<li><em><strong>Security Forms</strong></em> - Many potential customers will require that you fill out their detailed security check list.</li>
+<li><em><strong>White Papers</strong></em>  - Summarize security best pracitces in easy to consume PDFs for customers to share with their security teams.</li>
+</ul>
+<p><strong>Information Security Policy</strong><br>
+Have a written and published Information Security Policy, Incident Response Plan and <a href="https://hackerone.com">Bug Bounty Program</a>. Some good examples to start with are <a href="https://www.datadoghq.com/security/">Datadog</a> or <a href="https://www.dropbox.com/security">Dropbox</a>. It&rsquo;s pretty common to have these hosted on a /security URL.</p>
+<h2 id="examples">Examples</h2>
+<hr>
+<div class="example">
+  <a href=/box/product-security>
+    <img src=/box/images/example.png align="left" style="margin: 0;" />
+  </a>
+  <div class="clearfix"></div>
+  <h3>
+    <a href=/box/product-security>Box Product Security</a>
+  </h3>
+</div>
+
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/product-security.md" target="_blank">Content Contributors</a>
+</h3>
+
+<hr>
+<p><div class="contributors">
+
+  <a href="https://github.com/marccampbell" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/marccampbell.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/brianr" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/brianr.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/guypod" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/guypod.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/dave-cole" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/dave-cole.png?size=40" width="40"> </a>
+
+</div>
+</p>
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "8554162",
+                    formId: "cf19513d-014d-4435-b0ad-ac186f0ce56f"
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="//data-2.replicated.com/";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8554162.js"></script>
+
+</body>
+
+</html>
+
