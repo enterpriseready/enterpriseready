@@ -1,8 +1,8 @@
 <meta name="description" content="{{ with .Params.metadescription }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta name="og:description" content="{{ with .Params.metadescription }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:site" value="@ephemeralenvs"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="twitter:creator" content="@shipyardbuild"/>
 <meta property="og:image" content="{{ .Site.BaseURL }}{{ with .Params.ogimage }}{{ . }}{{ else }}{{ with .Site.Params.ogimage }}{{ . }}{{ end }}{{ end }}" itemprop="image"/>
 <meta property="og:title" content="{{ with .Params.pagetitle }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
