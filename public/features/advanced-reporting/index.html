@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A guide for SaaS products to build advanced reporting functionality into their application that will give enterprise customers the ability to demonstrate value gained from the use of an application.">
+<meta name="og:description" content="A guide for SaaS products to build advanced reporting functionality into their application that will give enterprise customers the ability to demonstrate value gained from the use of an application.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="https://www.enterpriseready.ioimages/twtr/reporting-analytics-og.png" itemprop="image"/>
+<meta property="og:title" content="Enterprise Ready SaaS App Guide to Advanced Reporting"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Enterprise Ready SaaS App Guide to Advanced Reporting</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/features/advanced-reporting/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="https://www.replicated.com" target="_blank">Replicated </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+    <div class="container" id="breadcrumbs">
+        <div id="tool-tip">
+            <span style="cursor:pointer;color:#878787">Features</span>
+            <div class="tool-tip">
+                <ul>
+                    <li><a href="/features/product-assortment">Product Assortment</a></li>
+                    <hr />
+                    <li><a href="/features/single-sign-on">Single Sign On</a></li>
+                    <hr />
+                    <li><a href="/features/audit-log">Audit Logs</a></li>
+                    <hr />
+                    <li><a href="/features/role-based-access-control">Role Based Access Control</a></li>
+                    <hr />
+                    <li><a href="/features/change-management">Change Management</a></li>
+                    <hr />
+                    <li><a href="/features/product-security">Product Security</a></li>
+                    <hr />
+                    <li><a href="/features/deployment-options">Deployment Options</a></li>
+                    <hr  />
+                    <li><a href="/features/teams">Team Management</a></li>
+                    <hr  />
+                    <li><a href="/features/integrations">Integrations</a></li>
+                    <hr />
+                    <li><a href="/features/advanced-reporting">Advanced Reporting</a></li>
+                    <hr  />
+                    <li><a href="/features/sla-support">SLA and Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <span>/</span> Reporting &amp; Analytics
+        <div class="pull-right">
+            <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/features/advanced-reporting.md">Edit this page</a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="article">
+    <p align="center"><img src="/images/advanced-reporting.svg" /></p>
+
+    <h1>Reporting &amp; Analytics</h1>
+
+    <p>Reporting and analytics embedded into enterprise applications can differentiate products and are expected by many enterprise buyers. The more people using your application, the more functionality in reporting they will want. Consider a simple CRM app - if you sell it to small sales teams then only the sales department will want a couple of simple pipeline reports. If you sold it to an enterprise you&rsquo;ll have different tiers of sales managers, lead developers, marketing, finance, support staff and many more. Each of these groups expects different answers.</p>
+<p>A <a href="http://aberdeen.com/research/8815/rr-embedded-business-intelligence/content.aspx">recent survey by Aberdeen Group</a>, shows that 73% of ISVs include reporting and analytics in their software as a basis to differentiate their products and develop competitive advantage. Other reasons include improving end-user experience and increasing average customer value.</p>
+<p>If system logs are for developers and <a href="../audit-log/">audit logs</a> are for admin record keeping then reporting is for business. In other words, data related to the business purpose of the application, not the nuts and bolts.</p>
+<p>Advanced reporting is an important feature for enterprise buyers because it allows them (or the administrator) to prove that the software in itself was effective (justifying the price they paid).  It isn’t enough for software to be effective, it has to be provably effective. The more ways you enable customers to slice and manipulate the data that your application produces, the more likely that they’ll be able to prove effectiveness and derive value from your apps.</p>
+<p>Reporting and analytics can also affect the bottom line, SaaS companies <a href="https://www.oreilly.com/ideas/ditch-the-data-dump"> can charge</a> 8x more per user for an edition that includes advanced analytics, compared to basic reporting. The better the analytics in your app, the better the insights that people glean from them and the better valued the tool.</p>
+<h2 id="types-of-functionality-offered">Types of Functionality Offered</h2>
+<p>Consider adding basic reporting functionality to your entry-level <a href="../product-assortment/">product editions</a> and more advanced analytics functionality to your more advanced editions. Enterprises have more complex data requirements, more types of users and will be more demanding in this respect. The better functionality you provide the better the stories that your customers can tell about using your product.</p>
+<h3 id="data-dumps-and-apis">Data Dumps and APIs</h3>
+<p>At the most basic level you need to offer data dumps and this is different than your standard product API. Operational APIs tend to be transactional while reporting APIs tend to offer data summarised over time. Exporting to CSV/Excel is standard here.</p>
+<p>An example of the most basic data dump functionality is implemented by <a href="/github/reporting">Github Enterprise&rsquo;s Site Admin Reports</a>. They implement an API to download user data in CSV format.</p>
+<h3 id="canned-interactive-reporting-and-dashboards">Canned Interactive Reporting and Dashboards</h3>
+<p>Interactive reporting and dashboards adds on to your canned reports with interactivity and a library or pre-canned widgets. These widgets tend to track KPIs and are arranged in dashboards. This is moving up the data-pipeline - with canned reports the data is generally &ldquo;raw&rdquo; and immutable where interactivity adds a layer of customization. Enterprise tools tend to have many users and allowing customization gives you a higher chance of pleasing more.</p>
+<p>Static reporting means that you are having to generate all possibilities for canned reports - with basic parametrization. Usually this isn&rsquo;t enough to satisfy enterprise customers.</p>
+<h3 id="self-service-authoring-data-exploration-and-analytics">Self-Service Authoring, Data Exploration and Analytics</h3>
+<p>The next level is analytics. Analytics gives your customers the ability to ask their own questions (as opposed to canned reports and dashboards). Analytics generally go deeper than how the product is being used. Instead, analytics gives your customer key insights into their business based on the data that your application collects.</p>
+<p>This feature is important for tools where data is centric to the application and the audience that uses the tool is not technical, for example <a href="/hubspot/reporting">HubSpot</a> implements this features as an add-on.</p>
+<h2 id="typical-features-enterprises-want">Typical Features Enterprises Want</h2>
+<h3 id="export-to-different-formats">Export to different formats</h3>
+<p>No matter what format you provide your data in, someone in your customer&rsquo;s organization will want it in a different format. Exporting outputs to Word, Excel, PowerPoint, PNG are common requests. To provide this you can use libraries that take one format and output to many, like <a href="http://community.jaspersoft.com">JasperReports</a> for Java.</p>
+<h3 id="scheduleemail-reports">Schedule/Email reports</h3>
+<p>Some people may only use your application by consuming the data that it generates. Your reports becomes the &ldquo;GUI&rdquo; of your customer&rsquo;s finance department (for example). In order to satisfy this need some people want to get reports output via email. You&rsquo;ll need an additional screen that allows users to schedule a frequency, select parameters and select a format (you&rsquo;ll need the export functionality mentioned in the previous section). Scheduling with time based parameters means you&rsquo;re going to have to implement relative time logic (like give me data for last 7 days, where last 7 days is relative to when the report runs).</p>
+<h3 id="alerts-on-exceptions">Alerts on exceptions</h3>
+<p>Similar to scheduling, alerting is a schedule that only happens when a specific condition is run. This is an extension to the scheduling functionality above. Note that people will want to select the smallest increment for their alerts (i.e. check for the condition every 30 seconds) - with many users this will obviously slow down your database. You&rsquo;ll then have to add a caching layer for the report result sets. This can add a lot of complexity.</p>
+<h3 id="rowcolumn-level-security-on-data-and-permissions-management-on-reports">Row/Column level security on data and permissions management on reports</h3>
+<p>As previously mentioned, more groups will be using your app and with that comes the requirement to segment data. At a simple level you&rsquo;ll need to implement object level permissions - this type of user can see this report and this one can not. Going beyond that column level security means a report shown to an admin shows all columns but hides a sensitive column when a non-privileged user runs it. Finally, row level community is for reports where users have access to the reports but see different data (manager A only sees his employee&rsquo;s data while manager B only sees her employee&rsquo;s data).</p>
+<h2 id="recommended-approaches">Recommended Approaches</h2>
+<p>After reading all the required capabilities and considering options, this is a classic build-vs-buy decision to add this functionality yourself or embed it from a third party framework. A guide by O&rsquo;Reilly Media titled <a href="http://www.oreilly.com/data/free/embedding-analytics-in-modern-applications.csp">Embedding Analytics into Modern Applications</a> covers several approaches.</p>
+<h2 id="examples">Examples</h2>
+<div class="example">
+  <a href=/github/reporting>
+    <img src=/github/images/example.png align="left" style="margin: 0;" />
+  </a>
+  <div class="clearfix"></div>
+  <h3>
+    <a href=/github/reporting>GitHub Admin Reports</a>
+  </h3>
+</div>
+
+<div class="example">
+  <a href=/hubspot/reporting>
+    <img src=/hubspot/images/dashboard-example.png align="left" style="margin: 0;" />
+  </a>
+  <div class="clearfix"></div>
+  <h3>
+    <a href=/hubspot/reporting>HubSpot Report Authoring</a>
+  </h3>
+</div>
+
+<div class="example">
+  <a href=/fbworkplace/reporting>
+    <img src=/fbworkplace/images/reporting-example.png align="left" style="margin: 0;" />
+  </a>
+  <div class="clearfix"></div>
+  <h3>
+    <a href=/fbworkplace/reporting>FB Workplace Admin Reports</a>
+  </h3>
+</div>
+
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/features/advanced-reporting.md" target="_blank">Content Contributors</a>
+</h3>
+
+<hr>
+<p><div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/ernestoongaro" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/ernestoongaro.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/marccampbell" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/marccampbell.png?size=40" width="40"> </a>
+
+</div>
+</p>
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "8554162",
+                    formId: "cf19513d-014d-4435-b0ad-ac186f0ce56f"
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="//data-2.replicated.com/";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8554162.js"></script>
+
+</body>
+
+</html>
+

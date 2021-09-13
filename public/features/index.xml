@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on EnterpriseReady</title>
+    <link>https://www.enterpriseready.io/features/</link>
+    <description>Recent content in Features on EnterpriseReady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.enterpriseready.io/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audit Logs</title>
+      <link>https://www.enterpriseready.io/features/audit-log/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/audit-log/</guid>
+      <description>Audit logs are the centralized stream of all user activity within a team. Part of the security and compliance program of any large enterprise is designed to control and monitor the access of information within the organization. This drives the need for enterprise buyers to ask for a detailed audit trail of all activity that happens within their account. An audit trail can be used to prevent suspicious activity when it starts (if actively monitored), or to play back account activity during an incident review.</description>
+    </item>
+    
+    <item>
+      <title>Change Management</title>
+      <link>https://www.enterpriseready.io/features/change-management/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/change-management/</guid>
+      <description>The operational procedures of many large enterprise organizations generally encourage adherence to written change management policies. For SaaS vendors embracing these procedures means integrating with change controls. There are two different layers to change management SaaS vendors should consider from a product perspective: 1) application level updates to product made by the SaaS vendor 2) account level updates to settings and configurations.
+Application level change management Enterprises will often set up workflows around your product.</description>
+    </item>
+    
+    <item>
+      <title>Deployment Options</title>
+      <link>https://www.enterpriseready.io/features/deployment-options/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/deployment-options/</guid>
+      <description>As discussed in our overview of the various deployment options that are available to SaaS vendors, many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. Ultimately, you&amp;rsquo;ll want to be able to deliver a version of your application that can be deployed anywhere.</description>
+    </item>
+    
+    <item>
+      <title>Integrations</title>
+      <link>https://www.enterpriseready.io/features/integrations/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/integrations/</guid>
+      <description>This feature guide was contributed by the team at  based on their experience of integrating over 180 different SaaS applications with their product.
+ Enterprises are complex entities composed of a variety of teams and the applications they like to use. These applications generate valuable business data that, when sent to other tools or combined with other data, is far more useful. For these enterprises to reduce organizational communication overhead and maintain business agility, it’s integral for those applications to be able to work together.</description>
+    </item>
+    
+    <item>
+      <title>Product Assortment</title>
+      <link>https://www.enterpriseready.io/features/product-assortment/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/product-assortment/</guid>
+      <description>Product assortment is the method by which SaaS companies create different product packages to appeal to different buyer segments. This is most evident on SaaS pricing pages where plans are listed as “Startup”, “Professional” and “Enterprise.” Often those plans differ in terms of the features offered, the level of support provided, and the price charged for the product or service.
+In general, the features that differentiate the “Startup” and “Enterprise” pricing plans and create product assortment are the same features that define EnterpriseReady.</description>
+    </item>
+    
+    <item>
+      <title>Product Security</title>
+      <link>https://www.enterpriseready.io/features/product-security/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/product-security/</guid>
+      <description>Security isn&amp;rsquo;t a topic to discuss by itself, it should be part of the conversation around everything discussed on EnterpriseReady. For SaaS companies working with larger enterprise IT buyers it is incredibly important for this to be an area of strength. Most enterprises will provide potential software vendors with long third-party vendor security questionnaires. These documents generally cover a broad range of security topics including product security, physical office security, employee screening, office network security, business continuity, upstream vendor security, disaster recovery, data security, secure IT policy, asset security and data center security in order to evaluate the overall security posture of an organization.</description>
+    </item>
+    
+    <item>
+      <title>Reporting &amp; Analytics</title>
+      <link>https://www.enterpriseready.io/features/advanced-reporting/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/advanced-reporting/</guid>
+      <description>Reporting and analytics embedded into enterprise applications can differentiate products and are expected by many enterprise buyers. The more people using your application, the more functionality in reporting they will want. Consider a simple CRM app - if you sell it to small sales teams then only the sales department will want a couple of simple pipeline reports. If you sold it to an enterprise you&amp;rsquo;ll have different tiers of sales managers, lead developers, marketing, finance, support staff and many more.</description>
+    </item>
+    
+    <item>
+      <title>Role Based Access Control</title>
+      <link>https://www.enterpriseready.io/features/role-based-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/role-based-access-control/</guid>
+      <description>Role based access control (RBAC) functionality enables application admins to limit the permissions of some users within a team.
+Many times when SaaS applications first launch team functionality, they start out with all users being fully privileged to access all features. However, for larger customers there are requirements that different members of the team be assigned only the functionality they need to do their job (see the principle of least privilege).</description>
+    </item>
+    
+    <item>
+      <title>Single Sign On</title>
+      <link>https://www.enterpriseready.io/features/single-sign-on/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/single-sign-on/</guid>
+      <description>Single Sign On (SSO) allows your customers to manage their team’s users outside of your built-in user table. SSO centralizes the database of users into a single service that controls authorization to all accounts and applications.
+Enterprises use a large number of services with a large number of end users. It is nearly impossible to manage hundreds, thousands or tens of thousands of users across tens or hundreds of different applications.</description>
+    </item>
+    
+    <item>
+      <title>SLA and Support</title>
+      <link>https://www.enterpriseready.io/features/sla-support/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/sla-support/</guid>
+      <description>SLA (Service Level Agreement) Service level agreements are a common request from enterprise customers, rooted in the twin premises that (1) if they spend a lot of money on a product, they expect a certain level of quality, and (2) that due to the scale of their businesses, unplanned outage can cost them non-trivial amounts of money. Typically, SLAs guarantee a minimum amount of application uptime and/or a maximum wait time for resolving support issues.</description>
+    </item>
+    
+    <item>
+      <title>Team Management</title>
+      <link>https://www.enterpriseready.io/features/teams/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/teams/</guid>
+      <description>Teams describes the functionality that enables modern software to be collaborative and managed. Through Teams, app users invite others to collaboratively use the application with them by creating or linking an account. Apps that don’t have team functionality often require password sharing for multiple users to access the account, which is an obvious security hurdle for most business users.
+The fact that it needs to be included as a critical, EnterpriseReady feature underscores the importance of consumer software with enterprise users (see Gmail, Dropbox, Evernote, 1Password).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EnterpriseReady</title>
+    <link>https://www.enterpriseready.io/</link>
+    <description>Recent content on EnterpriseReady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.enterpriseready.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delivering Software That Enterprises Love with Chef’s Adam Jacob</title>
+      <link>https://www.enterpriseready.io/podcast/01-adam-jacob-chef/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/01-adam-jacob-chef/</guid>
+      <description>In this episode Grant interviews Adam Jacob, founder and CTO of Chef. Adam has been building Chef for over 10 years and during that time he has learned a LOT about how to deliver software that enterprises love. He has an incredible perspective and we were so glad to have him as one of our first guests.
+Adam Jacob is co-founder and CTO of Chef, formerly known as Opscode, a configuration management tool.</description>
+    </item>
+    
+    <item>
+      <title>The Early Days of GitHub with Tom Preston-Werner</title>
+      <link>https://www.enterpriseready.io/podcast/02-tom-preston-werner-github/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/02-tom-preston-werner-github/</guid>
+      <description>In this episode we interview Tom Preston-Werner, founder and former CEO of GitHub. We mainly focus on Tom’s time at GitHub, where he built and scaled one of the most important developer tool companies in the world. However, many might not realize that Github is also one of the most successful enterprise software companies of the modern era. With over half of their revenue coming from large enterprise deals.</description>
+    </item>
+    
+    <item>
+      <title>Product-Market Fit with Segment’s Peter Reinhardt</title>
+      <link>https://www.enterpriseready.io/podcast/03-peter-reinhardt-segment/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/03-peter-reinhardt-segment/</guid>
+      <description>In episode 3 of EnterpriseReady, Grant chats with Peter Reinhardt, co-founder and CEO of Segment, to discuss how finding and maintaining product-market fit helped grow his enterprise-facing company.
+About the Guest Peter Reinhardt is the CEO and founder of Segment, a Customer Data Infrastructure platform for businesses.</description>
+    </item>
+    
+    <item>
+      <title>Open Source with CoreOS’s Alex Polvi</title>
+      <link>https://www.enterpriseready.io/podcast/04-alex-polvi-coreos/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/04-alex-polvi-coreos/</guid>
+      <description>In episode 4 of EnterpriseReady, Grant chats with Alex Polvi, co-founder and CEO of CoreOS, which was recently acquired by Red Hat, to dive into detail about the nuances of building and selling an enterprise product that has an open source core.
+About the Guest Alex Polvi is the Co-founder and CEO of CoreOS, which was recently acquired by Red Hat. Alex got his start in open source when he was in college which led him to doing infrastructure at Mozilla and eventually starting his first company, Cloudkick.</description>
+    </item>
+    
+    <item>
+      <title>Edith Harbaugh of LanchDarkley</title>
+      <link>https://www.enterpriseready.io/podcast/05-edith-harbaugh-launchdarkley/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/05-edith-harbaugh-launchdarkley/</guid>
+      <description>Today we are talking with Edith Harbaugh, the CEO and Co-founder of LaunchDarkly, one of the first “feature flags as a service companies” where they offer a feature management platform aiming to help teams build better software. We’ll get some backstory on how she got into enterprise software and some of the lessons she learned building advanced enterprise features, including an elaborate Role Based Access Control system that ultimately missed the mark on simplicity.</description>
+    </item>
+    
+    <item>
+      <title>Andrew Peterson of Signal Sciences</title>
+      <link>https://www.enterpriseready.io/podcast/06-andrew-peterson-signal-sciences/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/06-andrew-peterson-signal-sciences/</guid>
+      <description>This episode I’m joined by Andrew Peterson, CEO and Co-founder of Signal Sciences an application security company building a nextgen WAF that is deployed throughout the Fortune 500. Before starting Signal Sciences, Andrew and his two co-founders built up scar tissue solving security problems at Etsy, a company known for pioneering many of the devops practices that are common today. This experience gave the unique insights and connections helped to shape their top-down go-to-market approach.</description>
+    </item>
+    
+    <item>
+      <title>Paul Querna of ScaleFT</title>
+      <link>https://www.enterpriseready.io/podcast/07-paul-querna-scaleft/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/07-paul-querna-scaleft/</guid>
+      <description>In this episode of EnterpriseReady we are speaking with Paul Querna, the CTO and Cofounder of ScaleFT, which was acquired by Okta not too long ago. Paul likes to say that ScaleFT is in the business of granting people and machines access to the systems and endpoints they should be reaching. We get some back story on the company’s founding and then we focus on the Zero Trust concepts that ScaleFT evangelized that have their roots in a white paper published by Google that defined a new model for enterprise security, called BeyondCorp.</description>
+    </item>
+    
+    <item>
+      <title>Dave Cole of Tenable</title>
+      <link>https://www.enterpriseready.io/podcast/08-dave-cole-tenable/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/08-dave-cole-tenable/</guid>
+      <description>Welcome back to the EnterpriseReady Podcast! Today our guest is Davle Cole, who at the time of recording was the Chief Product Officer at Tenable, but has recently left to start a stealthy startup in the security space. This episode is long, but that’s because Dave has such a great history of bringing enterprise software to market and there were so many topics for us to dig into. Dave shares his 18 years of experience building world class products in the security space.</description>
+    </item>
+    
+    <item>
+      <title>Zack Blum of Fleetsmith</title>
+      <link>https://www.enterpriseready.io/podcast/09-zach-blum-fleetsmith/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/09-zach-blum-fleetsmith/</guid>
+      <description>Welcome back to the EnterpriseReady podcast, today our guest is Zack Blum, Founder and CEO of Fleetsmith. In the episode we dive into the founding story behind Fleetsmith and then move into how they brought the product to market. Given the nature of the business, the story of Fleetsmith is intertwined with lessons about what all companies should be doing for internal security. We also spend a good bit of time discussing how they’ve implemented user management by leveraging GSuite &amp;amp; Office365, as well as their approach to product assortment.</description>
+    </item>
+    
+    <item>
+      <title>Joel Wallenstrom of Wickr</title>
+      <link>https://www.enterpriseready.io/podcast/10-joel-wallenstrom-wickr/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/10-joel-wallenstrom-wickr/</guid>
+      <description>In this episode of the EnterpriseReady podcast, we sit down Joel W. CEO of Wickr, a secure messaging and communications platform. We learn a bit about Joel’s background in the cyber security industry, with a focus on his time running 3rd party security firms. From there, we dive into the history of Wickr, which started as a consumer, mobile first communications tool on the back of perfect forward secrecy.</description>
+    </item>
+    
+    <item>
+      <title>Bob Tinker of MobileIron</title>
+      <link>https://www.enterpriseready.io/podcast/11-bob-tinker-mobileiron/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/11-bob-tinker-mobileiron/</guid>
+      <description>In this episode of the EnterpriseReady podcast, I sit down with Bob Tinker, co-founder of MobileIron, a company that he served as CEO of, from founding through IPO before stepping down in 2016. Bob recently co-authored a book called Survival to Thrival, in which he lays out the foundations for building and growing an enterprise software company. We focus on several of the frameworks that Bob developed for building a go-to-market playbook, including how to determine your best go to market approach, and how to continuously evolve your company in a fast-changing market.</description>
+    </item>
+    
+    <item>
+      <title>William Morgan of Buoyant</title>
+      <link>https://www.enterpriseready.io/podcast/12-william-morgan-buoyant/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/12-william-morgan-buoyant/</guid>
+      <description>Welcome back to the EnterpriseReady podcast. Today we are talking with William Morgan, CEO, and Founder of Buoyant, a company that primarily focuses on contributing to the open-source ServiceMesh project, Linkerd. Linkerd was born out of William and his co-founder Oliver’s experience building infrastructure at Twitter, where they were responsible for reducing the frequency in which the infamous “Fail whale” surfaced. The opening portion of the episode gives us a unique look into how Twitter eventually scaled their platform with cloud-native technologies and how one of those patterns ultimately became the inspiration for Linkerd.</description>
+    </item>
+    
+    <item>
+      <title>Rahul Vohra of Superhuman</title>
+      <link>https://www.enterpriseready.io/podcast/13-rahul-vohra-superhuman/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/13-rahul-vohra-superhuman/</guid>
+      <description>In this episode of the EnterpriseReady podcast we sit down with Rahul Vohra, founder and CEO of Superhuman. Superhuman recently announced a $33m series B from A16Z which was their first funding announcement despite having raised over $17m previously. I have Rahul give us some details about his fundraising history and strategy which is quite unique. Rahul and I spend a lot of time discussing his experience of building software to solve problems that individuals encounter in the day-to-day work.</description>
+    </item>
+    
+    <item>
+      <title>Michael Pryor of Trello</title>
+      <link>https://www.enterpriseready.io/podcast/14-michael-pryor-trello/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/14-michael-pryor-trello/</guid>
+      <description>In this episode of the entepriseready podcast, we hear from Michael Pryor the founder and CEO of Trello. Micheal has had an incredible career as one of the founders of FogCreek Software which has spun out products such as FogBugz, StackOverflow, Glitch and of course, Trello which was acquired by Atlassian for $425 million dollars back in 2017. We cover a wide range of topics primarily from the perspective of a bottom-up go-to-market approach.</description>
+    </item>
+    
+    <item>
+      <title>Jeff Williams of Contrast Security</title>
+      <link>https://www.enterpriseready.io/podcast/15-jeff-williams-contrast/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/15-jeff-williams-contrast/</guid>
+      <description>In this episode of the EnterpriseReady Podcast we interview Jeff Williams, founder and CTO of ContrastSecurity. We explore Jeff’s early career in cyber security where he worked as a security consultant as the internet started to gain early traction. From there, we dive into his founding role at a security consulting firm where he stayed very involved with the security community through his role as Global Chair of OWASP where he helped create the OWASP Top 10.</description>
+    </item>
+    
+    <item>
+      <title>Spence Green of Lilt</title>
+      <link>https://www.enterpriseready.io/podcast/16-spence-green-lilt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/16-spence-green-lilt/</guid>
+      <description>In episode 16 of EnterpriseReady, Grant speaks with Spence Green, Founder and CEO of Lilt. They discuss language translation services for enterprises and governments, the rigor required to deliver enterprise software, and the internationalization of products.
+About the Guest Spence Green is the Founder and CEO of Lilt, a machine-assisted language translation company. He graduated from Stanford with a PhD in computer science and has published papers on machine translation, language parsing, and mixed-initiative systems and given talks on translator productivity.</description>
+    </item>
+    
+    <item>
+      <title>Ben Hindman of Splash</title>
+      <link>https://www.enterpriseready.io/podcast/17-ben-hindman-splash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/17-ben-hindman-splash/</guid>
+      <description>In episode 17 of EnterpriseReady, Grant joins Ben Hindman, Co-Founder &amp;amp; CEO of Splash. They discuss Ben’s path into enterprise software, the community-driven power of events, and the freemium business model.
+About the Guest Ben Hindman is the Co-Founder &amp;amp; CEO of Splash, the world’s first event marketing software. He was previously National Events Manager at Thrillist in New York.</description>
+    </item>
+    
+    <item>
+      <title>Elizabeth Zalman of strongDM</title>
+      <link>https://www.enterpriseready.io/podcast/18-elizabeth-zalman-strongdm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/18-elizabeth-zalman-strongdm/</guid>
+      <description>In episode 18 of EnterpriseReady, Grant is joined by Elizabeth Zalman, Founder &amp;amp; CEO of strongDM. They discuss enterprise software go-to-market, remote teams, product prioritization frameworks, and SOC 2 certification.
+Elizabeth Zalman is the Co-Founder &amp;amp; CEO of strongDM. Previously she was Co-Founder and CEO of the cross-device profile company Media Armor. After its acquisition, she served as VP of Analytics at the acquirer, Nomi. With over 15 years of experience leading data-driven organizations, she is an expert in analytics, data privacy, and security.</description>
+    </item>
+    
+    <item>
+      <title>API Integrations with Mark Geene of Cloud Elements</title>
+      <link>https://www.enterpriseready.io/podcast/19-mark-geene-cloud-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/19-mark-geene-cloud-elements/</guid>
+      <description>In episode 19 of EnterpriseReady, Grant speaks with Mark Geene, CEO and Co-Founder of Cloud Elements. They discuss Mark’s early days in enterprise, integrations between apps and APIs, and the go-to-market lessons learned along the way.
+About the Guest Mark Geene is the CEO and Co-Founder of Cloud Elements, a cloud API integration service. He was previously Vice President of [TenFold}(https://www.tenfold.com/), and held the same title at Oracle.</description>
+    </item>
+    
+    <item>
+      <title>Executive Visibility with Yvonne Wassenaar, CEO of Puppet</title>
+      <link>https://www.enterpriseready.io/podcast/20-yvonne-wassenaar-puppet/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/20-yvonne-wassenaar-puppet/</guid>
+      <description>In episode 20 of EnterpriseReady, Grant is joined by Yvonne Wassenaar, CEO of Puppet. They discuss her experience serving on boards of enterprise software companies, transitioning from a single product company to multiple products, and the role of professional services.
+Yvonne Wassenaar is a seasoned C-level executive with broad experience scaling, diversifying, and transforming businesses throughout the Americas, Europe, and Asia. She is currently the CEO of Puppet, and an advisor at Snyk.</description>
+    </item>
+    
+    <item>
+      <title>Product and Narrative with Michel Feaster of Usermind</title>
+      <link>https://www.enterpriseready.io/podcast/21-michel-feaster-usermind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/21-michel-feaster-usermind/</guid>
+      <description>In episode 21 of EnterpriseReady, Grant interviews Michel Feaster, CEO and Co-Founder of Usermind. They discuss Michel’s journey from gas station employee to enterprise software CEO, as well as the relationship between product, product marketing, and marketing.
+Michel Feaster is the Co-Founder and CEO of Usermind, responsible for company vision, strategic direction, planning and execution. Michel’s enterprise software career spans almost 20 years with roles in sales, products, strategic marketing and general management.</description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Enterprise with Derek Steer of Mode</title>
+      <link>https://www.enterpriseready.io/podcast/22-derek-steer-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/22-derek-steer-mode/</guid>
+      <description>In episode 22 of EnterpriseReady, Grant chats with Derek Steer, CEO of Mode. Together they pull back the curtain on data science tools, and how enterprise software companies can use data analysis to drive business forward.
+Derek Steer is the CEO of Mode, a data analytics and business intelligence tool. Derek previously held analytics positions at numerous renowned companies including Yammer, Facebook, and Microsoft.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Infrastructure with Abby Kearns of Cloud Foundry Foundation</title>
+      <link>https://www.enterpriseready.io/podcast/23-abby-kearns-cloud-foundry/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/23-abby-kearns-cloud-foundry/</guid>
+      <description>In episode 23 of EnterpriseReady, Grant is joined by Abby Kearns, executive director of Cloud Foundry. They discuss enterprise infrastructure, the future of the cloud, technological ecosystems in China, and open source business models.
+Abby Kearns is the Executive Director at Cloud Foundry Foundation. She’s had an immense technology career spanning operations, product marketing, product management and consulting at a mix of Fortune 500 and startup companies.</description>
+    </item>
+    
+    <item>
+      <title>Enterprise Analytics with John Whaley of UnifyID</title>
+      <link>https://www.enterpriseready.io/podcast/24-john-whaley-unifyid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/24-john-whaley-unifyid/</guid>
+      <description>In episode 24 of EnterpriseReady, Grant joins John Whaley of UnifyID to discuss the process of monetizing university research, how technology enables businesses, and how inherent human behavior threatens security.
+About the Guest John Whaley is the Founder and CEO of UnifyID, an identity platform based on implicit authentication. He previous founded Moka5, and was taught Program Analysis and Optimization as a lecturer at Stanford University.</description>
+    </item>
+    
+    <item>
+      <title>Data Stack Orchestration with Jonathan Ellis of DataStax</title>
+      <link>https://www.enterpriseready.io/podcast/25-jonathan-ellis-datastax/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/25-jonathan-ellis-datastax/</guid>
+      <description>In episode 25 of EnterpriseReady, Grant speaks with Jonathan Ellis of DataStax about Apache Cassandra and the complexity of distributed storage systems, as well as recruiting, interviewing, and hiring executives and engineers.</description>
+    </item>
+    
+    <item>
+      <title>Community Creation with Alex Miller</title>
+      <link>https://www.enterpriseready.io/podcast/26-alex-miller-stackoverflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/26-alex-miller-stackoverflow/</guid>
+      <description>In episode 26 of EnterpriseReady, Grant is joined by Alex Miller, former GM at Stack Overflow. They discuss Alex’s background, what Stack Overflow Enterprise does, Alex’s four constituencies of enterprise software, and much more.
+About the Guest Alex Miller is the former General Manager of Stack Overflow, where he previously held the titles of Vice President of Operations and Chief of Staff. He was previously a concert and event producer, behind TechCrunch50, Open Angel Forum, and This Week in Startups, among others.</description>
+    </item>
+    
+    <item>
+      <title>Continuous Intelligence with Christian Beedgen of Sumo Logic</title>
+      <link>https://www.enterpriseready.io/podcast/27-christian-beedgen-sumo-logic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/27-christian-beedgen-sumo-logic/</guid>
+      <description>In episode 27 of EnterpriseReady, Grant speaks with Christian Beedgen, CTO &amp;amp; Co-Founder of Sumo Logic. They discuss Christian’s background, security analytics, the challenges faced by first generation on-prem software companies, and the evolving security landscape.
+Christian Beedgen is the CTO &amp;amp; Co-Founder of Sumo Logic, a secure, cloud-native, machine data analytics service. He was previously Chief Architect at ArcSight.</description>
+    </item>
+    
+    <item>
+      <title>Intentionality First with Enterprise Advisor Adam Gross</title>
+      <link>https://www.enterpriseready.io/podcast/28-adam-gross-heroku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/28-adam-gross-heroku/</guid>
+      <description>In episode 28 of EnterpriseReady, Grant speaks with Adam Gross, seasoned enterprise investor and advisor. They discuss the inevitability of platform change, how software deployment has evolved, and how the enterprise application ecosystem might develop in years to come.
+Adam Gross is an enterprise investor and advisor. He was previously the CEO of Heroku, SVP of Marketing and Sales at Dropbox, and VP of Platform and Developer Marketing at Salesforce.</description>
+    </item>
+    
+    <item>
+      <title>Achieving Ubiquity with Mitchell Hashimoto of HashiCorp</title>
+      <link>https://www.enterpriseready.io/podcast/29-mitchell-hashimoto-hashicorp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/29-mitchell-hashimoto-hashicorp/</guid>
+      <description>In episode 29 of EnterpriseReady, Grant speaks with Mitchell Hashimoto of HashiCorp. They discuss Hashicorp’s founding story, fundraising tactics and pricing models, and monetizing open source projects.
+Mitchell Hashimoto is the founder and CTO of HashiCorp. He also created Vagrant, Packer, Serf, Consul, Terraform, Vault, and Nomad.</description>
+    </item>
+    
+    <item>
+      <title>On-Call Management with Alex Solomon of PagerDuty</title>
+      <link>https://www.enterpriseready.io/podcast/30-alex-solomon-pagerduty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/30-alex-solomon-pagerduty/</guid>
+      <description>In episode 30 of EnterpriseReady, Grant speaks with Alex Solomon of PagerDuty. They dive deep into product assortment, incident response management, on-call alerting, and company culture insights.
+Alex Solomon is the CTO and Co-Founder of PagerDuty. Prior to PagerDuty, he was a software development engineer at Amazon.</description>
+    </item>
+    
+    <item>
+      <title>Monoliths and Microservices with Rob Zuber of CircleCI</title>
+      <link>https://www.enterpriseready.io/podcast/31-rob-zuber-circle-ci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/31-rob-zuber-circle-ci/</guid>
+      <description>In episode 31 of EnterpriseReady, Grant speaks with Rob Zuber, CTO at CircleCI. They discuss Rob’s expansive range of disciplines and the perspectives he’s gained on topics like fundraising, hiring, mentoring, scaling, and delivering value to customers.
+About the Guest Rob Zuber is a startup expert and the CTO of CircleCI. He previously co-founded Distiller, Copious, and YooHoot.</description>
+    </item>
+    
+    <item>
+      <title>Mike Gregoire of Brighton Park Capital</title>
+      <link>https://www.enterpriseready.io/podcast/32-mike-gregoire-brighton-park-capital/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/32-mike-gregoire-brighton-park-capital/</guid>
+      <description>In episode 32 of EnterpriseReady, Grant speaks with Mike Gregoire of Brighton Park Capital. They discuss strategies for growing through a recession, the changing role of modern enterprise salespeople, and the internal metrics Mike uses when evaluating acquisitions.
+About the guest Mike Gregoire is a Partner at Brighton Park Capital and is a member of the Investment Committee. Previously, Mike was the Chairman and CEO of CA Technologies and Chairman and CEO of Taleo Corporation.</description>
+    </item>
+    
+    <item>
+      <title>Shishir Mehrotra of Coda</title>
+      <link>https://www.enterpriseready.io/podcast/33-shishir-mehrotra-coda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/33-shishir-mehrotra-coda/</guid>
+      <description>In episode 33 of EnterpriseReady, Grant is joined by Shishir Mehrotra of Coda. They discuss important lessons for building and launching products, as well as Shishir’s role as a technology leader at YouTube in it’s pivotal early years, just after the Google acquisition.
+About the guest Shishir Mehrotra is the Co-Founder and CEO of Coda, a cloud-based document editor. He was previously the Director of Product Management at YouTube, and in years prior, Shishir was the Director of Program Management at Microsoft.</description>
+    </item>
+    
+    <item>
+      <title>Gene Kim of Tripwire</title>
+      <link>https://www.enterpriseready.io/podcast/34-gene-kim-tripwire/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/34-gene-kim-tripwire/</guid>
+      <description>In this episode, Grant interviews Gene Kim, Co-founder and former CTO of Tripwire. A giant in the world of DevOps, Kim is the author of the successful books, The Unicorn Project (2019), The Phoenix Project (2013), and The DevOps Handbook (2016). Listen as Gene and Grant discuss how enterprise organizations should structure their internal development priorities, the rise of the DevOps ecosystem, and why software engineers shouldn’t be railroaded into learning complex systems like Kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>Karthik Ranganathan of Yugabyte</title>
+      <link>https://www.enterpriseready.io/podcast/35-karthik-ranganathan-yugabyte/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/35-karthik-ranganathan-yugabyte/</guid>
+      <description>In episode 35 of EnterpriseReady, Grant speaks with Karthik Ranganathan of Yugabyte. They discuss Karthik’s enterprise journey, the fruits of maintaining a customer-driven ethos in business, and building modern databases. All this, and much more, are discussed in our latest episode of the EnterpriseReady Podcast.
+About the Guest Karthik Ranganathan is the Founder &amp;amp; CTO of Yugabyte, the company behind the open source YugabyteDB, a high-performance distributed SQL database for global, internet-scale applications.</description>
+    </item>
+    
+    <item>
+      <title>Shannon Williams of SUSE</title>
+      <link>https://www.enterpriseready.io/podcast/36-shannon-williams-suse/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/podcast/36-shannon-williams-suse/</guid>
+      <description>In episode 36 of EnterpriseReady, Grant speaks with Shannon Williams of SUSE. They unpack Shannon’s many years working with cloud-native and open source communities, his pioneering of Infrastructure as a Service, and the future of open source.
+About the Guest With over 20 years of experience working in startups, Shannon Williams is currently Chief Revenue Officer of SUSE. He is also a governing board member at the CNCF, and previously co-founded Rancher Labs.</description>
+    </item>
+    
+    <item>
+      <title>Expensify Integrations</title>
+      <link>https://www.enterpriseready.io/expensify/integrations/</link>
+      <pubDate>Sat, 28 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/expensify/integrations/</guid>
+      <description>Expensify is an expense reporting tool that started by targeting SMBs and startups, but has grown with its customers (which includes the likes of Uber, Square, Snapchat, Stripe, GitHub, Docker and Zendesk) into a nearly complete enterprise ready application.
+Product Assortment with Integrations As part of its evolution, Expensify now integrates into a variety of accounting products. However, recognizing that those accounting products generally target different types of buyers, they&amp;rsquo;ve decided to create product assortment by feature-gating various integrations.</description>
+    </item>
+    
+    <item>
+      <title>FB Workplace Admin Reports</title>
+      <link>https://www.enterpriseready.io/fbworkplace/reporting/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/fbworkplace/reporting/</guid>
+      <description>Facebook launched its Workplace product into private beta at the end of 2016. The product is targeted at large organizations who are looking for a user friendly &amp;amp; familiar application for knowledge sharing and communication. Out of the gate, the product includes several enterprise ready features including team management, product security, advanced SSO, minimal RBAC, and detailed reports. We&amp;rsquo;ll review the reporting functionality and assess its enterprise readiness.
+The good Like many of the features of Workplace, it is evident that this was built to meet the internal needs of Facebook (the company/organization).</description>
+    </item>
+    
+    <item>
+      <title>GitHub Admin Reports</title>
+      <link>https://www.enterpriseready.io/github/reporting/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/github/reporting/</guid>
+      <description>GitHub offers their Enterprise customers additional features for reporting that are not available in standard editions. Because GitHub is a tool for code management, the intended audience is almost always technical, so GitHub have the advantage of being able to offer their data access in fairly complex ways like APIs. A tool that is geared towards teachers would not get away with offering most of data access in the form of APIs and would likely have to spend more development cycles providing reports.</description>
+    </item>
+    
+    <item>
+      <title>HubSpot Report Authoring</title>
+      <link>https://www.enterpriseready.io/hubspot/reporting/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/hubspot/reporting/</guid>
+      <description>HubSpot&amp;rsquo;s products are about end-to-end demand generation and lead management. Marketing is a role that requires a lot of analytics and marketing people tend to be less technical. This means that in order to provide data to eyeballs the ability to let users define their own reports and analytics is critical.
+Product Assortment The three plans that HubSpot offers (Basic, Pro, Enterprise) are interesting to study from an analytics assortment point of view - clearly some thought went into how the plans are designed.</description>
+    </item>
+    
+    <item>
+      <title>Acknowledgements</title>
+      <link>https://www.enterpriseready.io/blog/acknowledgements/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/blog/acknowledgements/</guid>
+      <description>EnterpriseReady was inspired by several works and communities that came before us including: 12factor.net, UserOnboard, SaaStr, Hiten Shah, EnterpriseSales.nyc, the Heavybit Library.
+Several key individuals contributed thoughts that initiated the creation of the guide including Tom Preston-Werner, Rob Witoff &amp;amp; Adam Jacob.
+Special thanks to those who reviewed &amp;amp; edited as this neared publication:
+Dave Cole of Tenable.
+Guy Podjarny of Snyk.
+Erik Gustavson &amp;amp; Scott Kriz of Bitium.
+Andrew Peterson of Signal Sciences.</description>
+    </item>
+    
+    <item>
+      <title>Defining Hybrid SaaS</title>
+      <link>https://www.enterpriseready.io/blog/defining-hybrid-saas/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/blog/defining-hybrid-saas/</guid>
+      <description>Work in progress I think that a broad definition of Hybrid Cloud is&amp;hellip; you run a consumer website&amp;hellip; you host your application in a data center where you control the servers, but you have the ability to &amp;ldquo;burst&amp;rdquo; onto a public cloud for excess capacity. This feels less relevant for software you purchase. This is possible with privately hosted SaaS applications but not that common.
+When it comes to hybrid cloud for running enterprise software, it is first important to define these four terms:</description>
+    </item>
+    
+    <item>
+      <title>Defining Hybrid SaaS</title>
+      <link>https://www.enterpriseready.io/blog/evolution-of-enterprise-software/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/blog/evolution-of-enterprise-software/</guid>
+      <description>Work in progress I think that a broad definition of Hybrid Cloud is&amp;hellip; you run a consumer website&amp;hellip; you host your application in a data center where you control the servers, but you have the ability to &amp;ldquo;burst&amp;rdquo; onto a public cloud for excess capacity. This feels less relevant for software you purchase. This is possible with privately hosted SaaS applications but not that common.
+When it comes to hybrid cloud for running enterprise software, it is first important to define these four terms:</description>
+    </item>
+    
+    <item>
+      <title>Deployment Models</title>
+      <link>https://www.enterpriseready.io/blog/deployment-models/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/blog/deployment-models/</guid>
+      <description>The evolution of enterprise software has changed the landscape for how applications are adopted and deployed. Below are the most common methods for delivering applications to customers.
+Multi-tenant (vendor managed) Most SaaS applications today are built to be deployed as a multi-tenant application that is managed and operated by the application vendor. This deployment model was pioneered by Salesforce as “on-demand” and has led to the modern software landscape we’re familiar with today.</description>
+    </item>
+    
+    <item>
+      <title>Box Product Security</title>
+      <link>https://www.enterpriseready.io/box/product-security/</link>
+      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/box/product-security/</guid>
+      <description>Box is a file sharing and collaboration tool that has built its business on enabling enterprise companies to transition away from legacy shared drive systems, to the cloud-hosted Box platform. Along the way Box has faced a never-ending string of objections from potential buyers in the areas of security. As a result, Box has continued to create demonstrable security practices and the marketing campaigns to promote their objectives.
+Box focuses heavily on Security as a core feature of their product, this can be seen clearly in their security page:</description>
+    </item>
+    
+    <item>
+      <title>A guide to reading the full-text GDPR</title>
+      <link>https://www.enterpriseready.io/gdpr/how-to-read-gdpr/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/gdpr/how-to-read-gdpr/</guid>
+      <description>TL;DR of the TL;DR
+  The official full text PDF of the GDPR is a 261 page beast. However, as we describe below, for SaaS companies who want to understand how this regulation impacts their product, they should read the 34 page abridged version of the GDPR we&amp;rsquo;ve compiled.
+ Approaching the GDPR There has been a lot of advice written about how companies, developers and the technology industry, in general, should approach GDPR.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Reporting &amp; Analytics</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/advanced-reporting-analytics/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/advanced-reporting-analytics/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>Asana Teams</title>
+      <link>https://www.enterpriseready.io/asana/teams/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/asana/teams/</guid>
+      <description>Asana is one of the premier project management tools amongst the sea of PM applications. Asana’s application is designed to help teams improve communication, organization and collaboration. This makes it a great service to analyze for Team functionality.
+We know any product that introduces Team functionality is trying to promote collaboration, but let’s see what Teams look like when the entire mission of the product is collaboration.
+Asana’s Project feature is where users live and breath.</description>
+    </item>
+    
+    <item>
+      <title>Audit Logs</title>
+      <link>https://www.enterpriseready.io/features/audit-log/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/audit-log/</guid>
+      <description>Audit logs are the centralized stream of all user activity within a team. Part of the security and compliance program of any large enterprise is designed to control and monitor the access of information within the organization. This drives the need for enterprise buyers to ask for a detailed audit trail of all activity that happens within their account. An audit trail can be used to prevent suspicious activity when it starts (if actively monitored), or to play back account activity during an incident review.</description>
+    </item>
+    
+    <item>
+      <title>Breakdown Request</title>
+      <link>https://www.enterpriseready.io/breakdown-request/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/breakdown-request/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Change Management</title>
+      <link>https://www.enterpriseready.io/features/change-management/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/change-management/</guid>
+      <description>The operational procedures of many large enterprise organizations generally encourage adherence to written change management policies. For SaaS vendors embracing these procedures means integrating with change controls. There are two different layers to change management SaaS vendors should consider from a product perspective: 1) application level updates to product made by the SaaS vendor 2) account level updates to settings and configurations.
+Application level change management Enterprises will often set up workflows around your product.</description>
+    </item>
+    
+    <item>
+      <title>Contributors</title>
+      <link>https://www.enterpriseready.io/contributors/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/contributors/</guid>
+      <description>EnterpriseReady was created for the people who build SaaS products, that&amp;rsquo;s why it was important to get contributors from the teams who are building the leading SaaS products. We&amp;rsquo;ve all experienced the bumpy road to finding enterprise adoption, a lot of the bumps were making our applications more Enterprise Ready. Enterprise Ready is the culmination of all of our efforts to help more SaaS vendors find success in the Enterprise.</description>
+    </item>
+    
+    <item>
+      <title>Deployment Best Practices</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/deployment-best-practices/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/deployment-best-practices/</guid>
+      <description>“Deployment Best Practices” examines the challenges and opportunities that arise as the unprecedented portability of applications meets enterprises’ heterogeneous deployment needs across verticals. Beginning with a discussion of how deployment practices have evolved for each of their teams, the panelists in this video assess how product functionality can be built to accommodate multiple states of cloud adoption (on-prem, cloud SaaS, hybrid cloud) in customers’ environments.
+Deployments must often balance agile feature integrations with stable overall functionality, all while satisfying an enterprise’s particular installation parameters.</description>
+    </item>
+    
+    <item>
+      <title>Deployment Options</title>
+      <link>https://www.enterpriseready.io/features/deployment-options/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/deployment-options/</guid>
+      <description>As discussed in our overview of the various deployment options that are available to SaaS vendors, many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. Ultimately, you&amp;rsquo;ll want to be able to deliver a version of your application that can be deployed anywhere.</description>
+    </item>
+    
+    <item>
+      <title>GDPR 202: Controllers, processors and subjects’ rights</title>
+      <link>https://www.enterpriseready.io/gdpr/gdpr-202/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/gdpr/gdpr-202/</guid>
+      <description>Perhaps you’ve read our introduction to GDPR for SaaS companies and decided you want to learn more, or perhaps you’ve already been thinking about GDPR but haven’t spent a lot of time analyzing what it might mean for your company. Here, we try to take things a little deeper, looking at some of the core concepts of GDPR compliance and how they might apply to SaaS companies, specifically.
+Because there’s still much ambiguity in terms of exactly how certain aspects will be defined and adjudicated in practice, there are places where we present more questions than we do answers.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Deployment Options</title>
+      <link>https://www.enterpriseready.io/github/deployment-options/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/github/deployment-options/</guid>
+      <description>GitHub offers their application to customers with a few different deployment options. The vast majority of GitHub&amp;rsquo;s customers run on GitHub.com (in terms of quantity, but not necessarily in terms of revenue), this is the multi-tenant, cloud hosted version of their application. Individuals sign up for accounts and then are added to organizations when they join a new company. Organizations will generally have a mix of private and public repos with varying access based on the users role.</description>
+    </item>
+    
+    <item>
+      <title>Google Apps Audit Log</title>
+      <link>https://www.enterpriseready.io/google/audit-log/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/google/audit-log/</guid>
+      <description>Google Apps for Work provides a robust audit trail to both Standard and Unlimited accounts. By default, the feature is only available to Admins. Non-admin users have no way to view their personal audit history. Google categorizes their audit trail as a type of report, so it is available under the Reports menu.
+For the Standard Plan, audit logs are available for Admin activities, Logins, Calendar activities, Tokens, Groups, and Email log search.</description>
+    </item>
+    
+    <item>
+      <title>Google Apps Product Assortment</title>
+      <link>https://www.enterpriseready.io/google/product-assortment/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/google/product-assortment/</guid>
+      <description>Google Apps for Work is the business focused version of the popular and free to consumers, Google Apps products shown below:
+All of these products can be used for free by just creating a Gmail account, however the free version lacks all of the EnterpriseReady features.
+Unlike many other SaaS applications, there is no upgrade path from the free version to a paid account. In order to use Google Apps for Work a company administrator must register an organization and either buy or prove ownership of a domain name they’d like to use with the service.</description>
+    </item>
+    
+    <item>
+      <title>HashiCorp SLA and Support</title>
+      <link>https://www.enterpriseready.io/hashicorp/sla-support/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/hashicorp/sla-support/</guid>
+      <description>HashiCorp sells a portfolio of popular infrastructure automation and security products, including Terraform, Vault, Consul and Nomad. It also offers open source versions of these products and others (Vagrant and Packer), and it ties support levels directly to the tier of product that’s being used.
+HashiCorp keeps its product tiers simple, so it’s easy to see what level of support you’ll get with each. As you can see with Terraform, for example, the free open source version doesn’t have any HashiCorp-provided support (beyond the community and documentation, that is), while Pro and Premium offer Silver- and Gold-level support, respectively.</description>
+    </item>
+    
+    <item>
+      <title>Heroku Teams</title>
+      <link>https://www.enterpriseready.io/heroku/teams/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/heroku/teams/</guid>
+      <description>Team functionality drives collaboration, which is why Heroku introduced Teams for people to build and collaborate on apps together.
+User Centric vs. Team Centric? User Centric. Enterprise Ready classifies Team functionality into to camps, User Centric vs. Team Centric. You can read more in depth on this concept but quickly it’s the model for how applications group users to create teams. Applications like Github follow the User Centric approach, everybody on Github has their own user account that gets assigned to organizations.</description>
+    </item>
+    
+    <item>
+      <title>High-Availability &amp; Support in the Enterprise</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/high-availability-support/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/high-availability-support/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>How GDPR might affect the SaaS industry</title>
+      <link>https://www.enterpriseready.io/gdpr/gdpr-saas/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/gdpr/gdpr-saas/</guid>
+      <description>Beyond the additional technical, contractual and ethical changes required to comply with GDPR (for more info, see our introduction to GDPR and our explanation of some key concepts), it’s unclear exactly how the sweeping new European Union will play out in practice. For example, on the most foundational level, nobody is quite sure how strictly certain requirements will be enforced, or how harsh the actual penalties will be.
+However, it seems plausible that one of the unintended consequences of GDPR could be a contraction in the market for SaaS in the EU.</description>
+    </item>
+    
+    <item>
+      <title>How SaaS providers are preparing for GDPR</title>
+      <link>https://www.enterpriseready.io/gdpr/preparing-for-gdpr/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/gdpr/preparing-for-gdpr/</guid>
+      <description>Sometimes the best way to get a sense of something—especially something as complex as GDPR—is to see how your peers are thinking about it. Here’s a collection of documents that some of the most-successful cloud and SaaS providers have put together to explain how they plan to comply with the law; the requirements they have in place for customers and subprocessors; and also their lists of subprocessors that handle personal data.</description>
+    </item>
+    
+    <item>
+      <title>HubSpot Role Based Access Control</title>
+      <link>https://www.enterpriseready.io/hubspot/role-based-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/hubspot/role-based-access-control/</guid>
+      <description>HubSpot introduced roles &amp;amp; permissions about 4 years ago. In doing so, they enabled their customers to provide role based access control to application functionality.
+What they do well: Documentation: They’ve done a nice job of clearly documenting the permissions assigned to each role.
+Integration with user invitation flow As an account admin you select the role of the user as step 2 of the invite flow:
+Sane defaults Account permissions that would potentially give the user full access are separated from the standard roles and are defaulted to non-admin status (reducing the likelihood of just moving ahead with defaults and making many admins).</description>
+    </item>
+    
+    <item>
+      <title>Integrating into the Enterprise</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/integrating-the-enterprise/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/integrating-the-enterprise/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>Integrations</title>
+      <link>https://www.enterpriseready.io/features/integrations/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/integrations/</guid>
+      <description>This feature guide was contributed by the team at  based on their experience of integrating over 180 different SaaS applications with their product.
+ Enterprises are complex entities composed of a variety of teams and the applications they like to use. These applications generate valuable business data that, when sent to other tools or combined with other data, is far more useful. For these enterprises to reduce organizational communication overhead and maintain business agility, it’s integral for those applications to be able to work together.</description>
+    </item>
+    
+    <item>
+      <title>Intercom Role Based Access Control</title>
+      <link>https://www.enterpriseready.io/intercom/role-based-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/intercom/role-based-access-control/</guid>
+      <description>Intercom is an application to communicate with your customers. Because so many people within an organization would need access to an application like this it was important that Intercom introduced Role Based Access Controls or user permissions.
+Types of Permissions: For each team member Intercom allows you to choose whether they have access to things like app settings, billing, user data, or native to the Intercom app the ability to send / edit manual messages and auto messages.</description>
+    </item>
+    
+    <item>
+      <title>Navigating Enterprise Needs</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/navigating-enterprise-needs/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/navigating-enterprise-needs/</guid>
+      <description>Supplementing our discussions on how to most effectively build enterprise-ready software, “Navigating Enterprise Needs” turns its focus on the infrastructural requirements that enterprises themselves bring to purchasing negotiations. In this video, three enterprise CTOs analyze how you can best approach enterprise customers and accommodate their unique implementations of a product.
+A buyer&amp;rsquo;s level of technical investment in the purchasing process can often depend on how dispersed or centralized their team(s) using new software might be, as well as how directly that software will impact their product architecture.</description>
+    </item>
+    
+    <item>
+      <title>Other useful GDPR links</title>
+      <link>https://www.enterpriseready.io/gdpr/useful-gdpr-links/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/gdpr/useful-gdpr-links/</guid>
+      <description>We’re not the only people reading, writing and thinking about GDPR. Aside from our collection of SaaS-company GDPR policies and documentation, here is a collection of links to other places where you’ll find some insightful discussion on the forthcoming law.
+European Commission FAQ
+A Stripe guide to the European privacy and data protection changes (Stripe):
+Hacker news posts on GDPR
+GDPR: Data subjects, controllers and processors, oh my! (Twilio)
+Countdown to GDPR (Workday)</description>
+    </item>
+    
+    <item>
+      <title>Product Assortment</title>
+      <link>https://www.enterpriseready.io/features/product-assortment/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/product-assortment/</guid>
+      <description>Product assortment is the method by which SaaS companies create different product packages to appeal to different buyer segments. This is most evident on SaaS pricing pages where plans are listed as “Startup”, “Professional” and “Enterprise.” Often those plans differ in terms of the features offered, the level of support provided, and the price charged for the product or service.
+In general, the features that differentiate the “Startup” and “Enterprise” pricing plans and create product assortment are the same features that define EnterpriseReady.</description>
+    </item>
+    
+    <item>
+      <title>Product Security</title>
+      <link>https://www.enterpriseready.io/features/product-security/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/product-security/</guid>
+      <description>Security isn&amp;rsquo;t a topic to discuss by itself, it should be part of the conversation around everything discussed on EnterpriseReady. For SaaS companies working with larger enterprise IT buyers it is incredibly important for this to be an area of strength. Most enterprises will provide potential software vendors with long third-party vendor security questionnaires. These documents generally cover a broad range of security topics including product security, physical office security, employee screening, office network security, business continuity, upstream vendor security, disaster recovery, data security, secure IT policy, asset security and data center security in order to evaluate the overall security posture of an organization.</description>
+    </item>
+    
+    <item>
+      <title>Reporting &amp; Analytics</title>
+      <link>https://www.enterpriseready.io/features/advanced-reporting/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/advanced-reporting/</guid>
+      <description>Reporting and analytics embedded into enterprise applications can differentiate products and are expected by many enterprise buyers. The more people using your application, the more functionality in reporting they will want. Consider a simple CRM app - if you sell it to small sales teams then only the sales department will want a couple of simple pipeline reports. If you sold it to an enterprise you&amp;rsquo;ll have different tiers of sales managers, lead developers, marketing, finance, support staff and many more.</description>
+    </item>
+    
+    <item>
+      <title>Role Based Access Control</title>
+      <link>https://www.enterpriseready.io/features/role-based-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/role-based-access-control/</guid>
+      <description>Role based access control (RBAC) functionality enables application admins to limit the permissions of some users within a team.
+Many times when SaaS applications first launch team functionality, they start out with all users being fully privileged to access all features. However, for larger customers there are requirements that different members of the team be assigned only the functionality they need to do their job (see the principle of least privilege).</description>
+    </item>
+    
+    <item>
+      <title>SaaS Feature Table</title>
+      <link>https://www.enterpriseready.io/blog/saas-feature-table/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/blog/saas-feature-table/</guid>
+      <description>Company Team Mgmt SSO RBAC Audit Log Support+ Security+ Change Mgmt Reporting+ Integrations+ Deployment     Slack All Enterprise Standard Plus Plus All - Enterprise Tiers Cloud   Salesforce Sales Cloud All Enterprise Pro All Unlimited All Unlimited Enterprise Enterprise Cloud   Github Orgs Enterprise Orgs Orgs - - Enterprise Enterprise All Private/Cloud   Zendesk All Pro Enterprise Enterprise Pro All Enterprise Enterprise Team Cloud   G Suite Standard Standard Standard Unlimited Standard Unlimited - Unlimited All Cloud   Asana All Premium Premium - Premium All - Premium All Cloud   Heroku Enterprise Enterprise Enterprise - Enterprise All - Enterprise All Cloud   Jira All Server All All - All Server All Varies Private/Cloud   New Relic All Pro Pro - Pro Pro - All Pro Cloud   Mixpanel All Enterprise Enterprise - Enterprise Enterprise - Startup Business Cloud   Intercom All - Standard - - All All Standard Standard Cloud   Hubspot All - Pro - - All - Enterprise Pro Cloud   Box Starter Business Starter Business Enterprise Starter - Business Enterprise Cloud   Dropbox Business Business Business Business - Pro - - Pro Cloud   Huddle All Enterprise All All Enterprise All - Enterprise Enterprise Private/Cloud   Quip All Business Business Enterprise Enterprise Enterprise - - All Cloud   Twilio Standard Enterprise Standard Enterprise Standard Standard Enterprise Enterprise Standard Cloud   Evernote Business Business - - Business - - All Cloud    HipChat All Server - - - Server Server - All Private/Cloud   Swiftype Basic - - Business Premium Premium - Business Standard Cloud   Trello Business Class Enterprise Free - Enterprise Enterprise - Yes Free Cloud   Pagerduty Standard Standard - - Enterprise - - Standard Standard Cloud   npm Orgs Enterprise Orgs Enterprise - Enterprise Enterprise Org Enterprise Private/Cloud   Cloudflare All - Enterprise - Enterprise Business - - Enterprise Cloud   Sumologic Free Enterprise - Free Enterprise Enterprise -  Professional Cloud   Docusign Standard Enterprise Enterprise Personal Business Premium Free Personal Personal Personal Cloud   RecruiterBox All Enterprise - Enterprise Pro - - Pro Pro Cloud   ReadMe All Enterprise - Enterprise Enterprise - Enterprise - - Private/Cloud   StatusPage Hobby Startup Startup Hobby - Business -  Yes Cloud   Hootsuite Team Team Team - Business Free - Professional Free Cloud   Optimizely Standard Premium Professional Premium Standard Premium -  Standard Cloud   Segment Team - Business - Business - - - Developer Cloud   Frontapp Team Enterprise - - - - - Premium Team Cloud   Unbounce All All All Enterprise Enterprise All All - All Cloud   Domo All Enterprise Enterprise - Pro Enterprise - Tiers Tiers Cloud   Scalr All Enterprise - Enterprise - - Enterprise - All Private/Cloud   Hellosign Business Free Business Free - Business - Business All Cloud   Expensify Team Corporate Team - Enterprise All - Corp Tiered Cloud   Insightly All - Professional - Professional All - All All Cloud   Invision App Team Enterprise Enterprise - - Tiers - - Enterprise Cloud   Teamwork All Enterprise - - Enterprise Enterprise - Enterprise All Cloud   [Pipedrive] (https://www.</description>
+    </item>
+    
+    <item>
+      <title>Security &amp; Establishing Customer Trust</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/security-customer-trust/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/security-customer-trust/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>Segment Integrations</title>
+      <link>https://www.enterpriseready.io/segment/integrations/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/segment/integrations/</guid>
+      <description>Segment is an enterprise SaaS solution that helps companies simplify their analytics. In 2011, the founders came across an engineering pain of writing redundant tracking code to send customer behavioral events to Google Analytics, MixPanel, and KISSmetrics. A few months later, analytics.js, an analytics wrapper library, was conceived.
+It became evident the value of having the same, consistent customer data across all the tools that rely on them. Now, Segment supports over 200 different marketing and analytics tools, as well as data warehousing services such as Redshift and BigQuery.</description>
+    </item>
+    
+    <item>
+      <title>Single Sign On</title>
+      <link>https://www.enterpriseready.io/features/single-sign-on/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/single-sign-on/</guid>
+      <description>Single Sign On (SSO) allows your customers to manage their team’s users outside of your built-in user table. SSO centralizes the database of users into a single service that controls authorization to all accounts and applications.
+Enterprises use a large number of services with a large number of end users. It is nearly impossible to manage hundreds, thousands or tens of thousands of users across tens or hundreds of different applications.</description>
+    </item>
+    
+    <item>
+      <title>SLA and Support</title>
+      <link>https://www.enterpriseready.io/features/sla-support/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/sla-support/</guid>
+      <description>SLA (Service Level Agreement) Service level agreements are a common request from enterprise customers, rooted in the twin premises that (1) if they spend a lot of money on a product, they expect a certain level of quality, and (2) that due to the scale of their businesses, unplanned outage can cost them non-trivial amounts of money. Typically, SLAs guarantee a minimum amount of application uptime and/or a maximum wait time for resolving support issues.</description>
+    </item>
+    
+    <item>
+      <title>Slack GDPR</title>
+      <link>https://www.enterpriseready.io/slack/gdpr/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/slack/gdpr/</guid>
+      <description>Slack was quite proactive in preparing for the European Commission’s enactment of the General Data Protection Regulation (GDPR), seemingly doing everything that is required to comply with the law and also to inform customers about how Slack will help them comply. This is includes table-stakes efforts such as creating a dedicated GDPR website and entering into Data Processing Addenda with both its customers and its vendors.
+In order to reassure customers that their data will be safe with Slack, and that their use of Slack complies with GDPR guidelines, Slack also uses its GDPR website to highlight its security certifications and practices, as well as its certification under both the EU-US Privacy Shield and Swiss-US Privacy Shield frameworks.</description>
+    </item>
+    
+    <item>
+      <title>Slack Product Assortment</title>
+      <link>https://www.enterpriseready.io/slack/product-assortment/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/slack/product-assortment/</guid>
+      <description>Slack leverages vertical product assortment to create different packages that meet the needs of different customer segments. The packages are primarily defined by the features they add. Just like most SaaS applications, those features generally fall into the EnterpriseReady feature categories as illustrated below.
+The Free tier limits the quantity of integrations, searchable messages and file storage space. If any threshold is hit then the price bumps up to $8 per user per month.</description>
+    </item>
+    
+    <item>
+      <title>Slack Single Sign On</title>
+      <link>https://www.enterpriseready.io/slack/sso/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/slack/sso/</guid>
+      <description>Slack supports a variety of different login options: standard user-based login, OAuth login with Google Accounts, or SAML login. Slack also has managed to provide a good process to converting an account from one login system to another.
+On the administration page of a Slack team, there is an option to select Google Apps or SAML. It should be noted that Slack has different pricing tiers and the middle tier allows you to access the Google Apps login option, and you must be on the highest tier to access the SAML option.</description>
+    </item>
+    
+    <item>
+      <title>Slack SLA and Support</title>
+      <link>https://www.enterpriseready.io/slack/sla-support/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/slack/sla-support/</guid>
+      <description>Slack has done a remarkable job keeping up with its fast growth, and that extends to how the company has implemented its customer support and SLA offerings. Generally speaking, Slack handles support exactly how you might think it would: the more money you pay, the higher level of support you get. In the Slack for Teams product, free plans get standard support, mid-tier plans get priority support, and the highest tier (called Plus) receives 24/7 support.</description>
+    </item>
+    
+    <item>
+      <title>Square Role Based Access Control</title>
+      <link>https://www.enterpriseready.io/square/role-based-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/square/role-based-access-control/</guid>
+      <description>Square isn’t the typical enterprise software company that we look to for great implementation of EnterpriseReady features. Their flagship product is a Point of Sale (PoS) targeted for small and medium sized businesses. You’ll probably find one of these at your local coffee shop or food truck. But they’ve since built a suite of software products that aim to go beyond just helping merchants accept a credit card, including their Employee Management product that provides time cards and other HR type features.</description>
+    </item>
+    
+    <item>
+      <title>Team Management</title>
+      <link>https://www.enterpriseready.io/features/teams/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/features/teams/</guid>
+      <description>Teams describes the functionality that enables modern software to be collaborative and managed. Through Teams, app users invite others to collaboratively use the application with them by creating or linking an account. Apps that don’t have team functionality often require password sharing for multiple users to access the account, which is an obvious security hurdle for most business users.
+The fact that it needs to be included as a critical, EnterpriseReady feature underscores the importance of consumer software with enterprise users (see Gmail, Dropbox, Evernote, 1Password).</description>
+    </item>
+    
+    <item>
+      <title>User Centric vs. Team Centric Approaches</title>
+      <link>https://www.enterpriseready.io/blog/user-centric-v-team-centric/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/blog/user-centric-v-team-centric/</guid>
+      <description>GitHub and Gmail each had significant traction with individual users before their products were widely adopted by enterprises. They each took slightly different approaches to how teams would be implemented as a result.
+GitHub Teams GitHub started by allowing individual users to create organizations through which they can invite existing GitHub users. For GitHub, if your company uses their hosted private repos, then your personal account is granted access to your company’s organization.</description>
+    </item>
+    
+    <item>
+      <title>User Management &amp; Access Control</title>
+      <link>https://www.enterpriseready.io/devguild-enterprise-ready-products/user-management-access-control/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/devguild-enterprise-ready-products/user-management-access-control/</guid>
+      <description>This was published on Nov. 29, 2018.</description>
+    </item>
+    
+    <item>
+      <title>What is GDPR and why should I care?</title>
+      <link>https://www.enterpriseready.io/gdpr/what-is-gdpr/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/gdpr/what-is-gdpr/</guid>
+      <description>The European Union’s General Data Protection Regulation (GDPR) takes effect on May 25, 2018, and is rife with provisions that will impact the way in which SaaS vendors and their customers interact with each other. While it might be a big win for private citizens seeking some sovereignty over their personal information, it will undoubtedly make life at least a little trickier for every company doing business in the EU, employing EU citizens, handling the personal data of European citizens or doing business with companies who do business in the EU.</description>
+    </item>
+    
+    <item>
+      <title>Zendesk Audit Log</title>
+      <link>https://www.enterpriseready.io/zendesk/audit-log/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/zendesk/audit-log/</guid>
+      <description>The Zendesk audit log is available only to Enterprise level customers. It includes the basic audit logging features in that it tracks Who, What, When and Where. However, it lacks many of the features that make audit logs a critical enterprise ready feature.
+The Good: Retroactive Audit Record The first thing you’ll notice if you enable it for an active account is that it does have a historical record of the audit events from the accounts inception (no matter what account type you started with).</description>
+    </item>
+    
+    <item>
+      <title>Zendesk Change Management</title>
+      <link>https://www.enterpriseready.io/zendesk/change-management/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/zendesk/change-management/</guid>
+      <description>Zendesk enables customers who purchase the enterprise plan to leverage their Sandbox feature for change management.
+The good Admin users are all permissioned to access the new account automatically (though if you use some type of SSO for authentication you’ll need to use the reset password flow in order to login).
+It is easy to create a sandbox environment from their UI. Just click a button and you can create a new environment or reset it back to its original settings.</description>
+    </item>
+    
+    <item>
+      <title>Zendesk Product Assortment</title>
+      <link>https://www.enterpriseready.io/zendesk/product-assortment/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/zendesk/product-assortment/</guid>
+      <description>They also include a detailed breakdown which we can analyze:
+This was published on Nov. 22, 2016.
+  Content Contributors         Is a feature of your app EnterpriseReady? We&#39;d love to work with you to breakdown your implementation and share it with the EnterpriseReady community.
+Request a breakdown
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.enterpriseready.io/gdpr/gdpr-abridged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enterpriseready.io/gdpr/gdpr-abridged/</guid>
+      <description>EnterpriseReady.io - GDPR Text for SaaS Companies (Abridged)  CHAPTER I General provisions
+Article 1 Subject-matter and objectives
+ This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data. This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data. The free movement of personal data within the Union shall be neither restricted nor prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data.</description>
+    </item>
+    
+  </channel>
+</rss>

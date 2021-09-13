@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+
+<head>
+    <meta charset="utf-8">
+    {{ partial "meta.html" . }}
+    {{ partial "favicon.html" . }}
+    {{ .Scratch.Add "title" "" }}{{ .Scratch.Set "title" .Title}}
+    <title>{{ with .Params.pagetitle }}{{ . }}{{ else }}{{ with .Title }}{{ . }}{{ end }}{{ end }}</title>
+    {{ partial "style.html" . }}
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body class="" data-url="{{ .RelPermalink }}">
+    <div class="header-section">
+        <div class="container" id="inner-nav">
+
+            <nav class="navbar navbar-expand-lg" style="background-color: #141C34">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/"><img src="/images/enterprise-ready-logo.svg" width="60" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-bs-target="#mobile-collapse" data-target="#mobile-collapse" aria-controls="test"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mobile-collapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <div id="feature-guides-hover" class="dropdown">
+                                    <a class="nav-link active dropbtn" aria-current="page" href="../#features">Feature
+                                        guides</a>
+                                    <div class="dropdown-content">
+                                        <div class="dropdown-features">
+                                            <div class="dropdown-column">
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/product-assortment"><img
+                                                            src="/images/product_icon_menu.svg" />Product Assortment</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/role-based-access-control/"><img
+                                                            src="/images/role_based_access_icon_menu.svg" />Role based
+                                                        access control</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/deployment-options/"><img
+                                                            src="/images/deployment_options_icon_menu.svg" />Deployment
+                                                        options</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/advanced-reporting/"><img
+                                                            src="/images/reporting_icon_menu.svg" />Reporting and
+                                                        analytics</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-column">
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/single-sign-on"><img
+                                                            src="/images/sign-on-_icon_menu.svg" />Single sign-on</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/change-management/"><img
+                                                            src="/images/change_management_icon_menu.svg" />Change
+                                                        management</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/teams/"><img
+                                                            src="/images/team_management_icon_menu.svg" />Team
+                                                        management</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/sla-support/"><img
+                                                            src="/images/SLA_icon_menu.svg" />SLA and support</a>
+                                                </div>
+
+                                            </div>
+                                            <div class="dropdown-column">
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/audit-log/"><img
+                                                            src="/images/sign-on-_icon_menu.svg" />Audit logs</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/product-security/"><img
+                                                            src="/images/security_icon_menu.svg" />Product security</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../features/integrations/"><img
+                                                            src="/images/integrations_icon_menu.svg" />Integrations</a>
+                                                </div>
+                                                <div id="dropdown-feature">
+                                                    <a href="../gdpr/"><img src="/images/GDPR_icon_menu.svg" />GDPR</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li {{ if eq .RelPermalink "/assessment/" }}id="assessment-active"{{ end }} class="nav-item">
+                                <a id="assessment-hover" class="nav-link" href="/assessment">Assessment</a>
+                            </li>
+                            <li {{ if eq .RelPermalink "/podcast/" }}id="podcast-active"{{ end }} class="nav-item">
+                                <a id="podcast-hover" class="nav-link" href="/podcast">Podcast</a>
+                            </li>
+                            <li {{ if eq .RelPermalink "/about/" }}id="about-active"{{ end }} class="nav-item">
+                                <a id="about-hover" class="nav-link" href="/about">About</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text">
+                            Contributed by <a id="disguise-link" href="https://www.replicated.com"
+                                target="_blank">REPLICATED</a>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</body>
+
+
+<div>
+    <div class="assessment-hero-section">
+        <div class="assessment-hero-content">
+            <div class="assessment-main-content">
+                <h1>Is your app EnterpriseReady?</h1>
+                <p>Take this self-assessment to find out how ready your application is for enterprise adoption.</p>
+                <div class="assessment-content-buttons">
+                    <a href="https://www.enterprisegrade.io" class="button button-primary" target="_blank"
+                        style="width: 270px">Take
+                        Assessment</a>
+    
+                    <a href="https://www.enterprisegrade.io/#examples" class="button button-secondary" target="_blank"
+                        style="width: 270px">See Examples</a>
+                </div>
+            </div>
+            <img src="/images/assessment-checklist.svg" />
+        </div>
+    </div>
+
+        <div class="assessment-section">
+            <div class="assessment-info">
+                <h1>The assessment</h1>
+                <p>At EnterpriseReady.io, we've identified common features that set enterprise software apart. This
+                    12-question
+                    self-assessment gives you a framework to analyze your current implementation of those features and
+                    provides
+                    feedback
+                    on how to improve features that matter most to enterprise customers.
+                </p>
+                <p><strong>Benchmark your application on the 12 most common enterprise features</strong></p>
+                <div class="assessment-benchmark-features">
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Team Management</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Role-based Access Control</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Audit Logging</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Deployment Options</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Single Sign-On</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Product Assortment</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Support/SLA</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Integrations</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Change Management</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Security</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>Reporting</p>
+                    </div>
+                    <div class="assessment-features">
+                        <img src="/images/checkmark.svg">
+                        <p>GDPR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="assessment-breakdown-section">
+            <div class="assessment-breakdown-content">
+                <h3>Get a comprehensive breakdown of your scores</h3>
+                <p>Results give you an overall assessment of your enterprise readiness. See how your application stacks up
+                    against the features that are most important to enterprise customers. Receive instructions on how to level
+                    up the features that matter most.</p>
+            </div>
+            <div class="results-wrapper">
+                <div class="results-example flex-auto"></div>
+                <div class="results-info" id="letter-grade">
+                    <h3>Letter Grade</h3>
+                    <p>Receive an overall grade on where your application stands against all the enterprise-ready features.</p>
+                </div>
+                <div class="results-info" id="category-breakdown">
+                    <h3>Category Breakdown</h3>
+                    <p>Understand how you scored on each question and receive instructions on how to improve each feature.</p>
+                </div>
+                <div class="results-info" id="share-results">
+                    <h3>Share Results</h3>
+                    <p>Share your full results privately with your team, or share your overall grade publicly with the world.</p>
+                </div>
+            </div>
+            <a href="https://www.enterprisegrade.io/assessment/" class="button button-primary" target="_blank"
+                style="width: 270px; margin: 0 auto; text-align: center;">Get your results</a>
+        </div>
+</div>
+
+
+{{ partial "footer.html" . }}
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>

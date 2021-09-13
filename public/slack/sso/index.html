@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A detailed analysis of the way that Slack implements Single Sign-On (SSO) with SAML in order to meet the needs of enterprise customers.">
+<meta name="og:description" content="A detailed analysis of the way that Slack implements Single Sign-On (SSO) with SAML in order to meet the needs of enterprise customers.">
+<meta name="twitter:site" value="@enterpriseready"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:creator" content="@replicatedhq"/>
+<meta property="og:image" content="https://www.enterpriseready.iohttps://www.enterpriseready.io/images/enterprise-ready-logo.png" itemprop="image"/>
+<meta property="og:title" content="Slack SSO - Enterprise Ready Feature Breakdown"/>
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Slack SSO - Enterprise Ready Feature Breakdown</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/featherlight.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/featherlight.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+  <body class="" data-url="/slack/sso/">
+<div class="container" id="inner-nav">
+
+    <div id="menu"><a href="#">Menu</a></div>
+    <script>
+        $(document).ready(function() {
+            $("#menu").click(function() {
+                $(".mobile_menu").slideToggle("fast", function() {
+
+                });
+            });
+        });
+    </script>
+
+
+    <div class="menu">
+        <ul>
+          <li><a href="/#features">The Feature Guides</a></li>
+          <li>|</li>
+          <li><a href="/#examples">Example Implementations</a></li>
+          <li>|</li>
+          <li><a href="/#background">Project Background</a></li>
+          <li>|</li>
+          <li>Contributed by <a class="disguise-link" href="https://www.replicated.com" target="_blank">Replicated </a></li>
+        </ul>
+    </div>
+
+    <p class="logo">
+        <a href="/"><img src="/images/enterprise-ready-logo.png" width="50" /></a>
+    </p>
+
+
+    <div class="mobile_menu">
+        <ul>
+            <li style="font-size:16px;color:#BD422D">Menu</li>
+            <li>
+                <hr/>
+            </li>
+            <li><a href="/#features">The Feature Guides</a></li>
+            <li><a href="/#examples">Example Implementations</a></li>
+            <li><a href="/#background">Project Background</a></li>
+            <li>Contributed by <a href="https://www.replicated.com" target="_blank">Replicated</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="second-nav">
+<div class="container" id="breadcrumbs">
+  <div id="tool-tip">
+    <a href="/features/single-sign-on">single sign on</a>
+    </div>
+    <span>/</span> slack
+    <div class="pull-right">
+      <a class="edit-button" href="https://github.com/enterpriseready/enterpriseready/edit/master/content/slack/sso.md">Edit this page</a>
+    </div>
+  </div>
+</div>
+
+  <div class="container feather" id="article">
+
+    <h1>Slack Single Sign On</h1>
+
+    <p>Slack supports a variety of different login options: standard user-based login, OAuth login with Google Accounts, or SAML login. Slack also has managed to provide a good process to converting an account from one login system to another.</p>
+<p>On the administration page of a Slack team, there is an option to select Google Apps or SAML. It should be noted that Slack has different pricing tiers and the middle tier allows you to access the Google Apps login option, and you must be on the highest tier to access the SAML option.</p>
+<p><img src="/slack/images/slack-authentication.png" alt="Slack Enable Alternate Authentication"></p>
+<h2 id="google-apps-authentication">Google Apps Authentication</h2>
+<p>When visiting this page from an account that is using standard (username/password) authentication, and attempting to enable Google Apps auth, there are a few options. Everything has good defaults, but before enabling Google Apps authentication, the administrator has a chance to review and change these settings:</p>
+<p><img src="/slack/images/google-apps-auth.png" alt="Slack Google Apps Authentication Options"></p>
+<p>Some of these items are very powerful:</p>
+<p><strong>Allow users to change their username:</strong> Some products, like Slack, the username is a very integral part of the product. Other applications may not really care too much about the internal username. Slack has decided to recognize this and allow individual users to customize their username without having to ask an admin to change anything in the Google Account.</p>
+<p><strong>Google auth for your team must be used by:</strong> Slack has decided to not make this an all-or-nothing option. Again, recognizing the typical use of their own product, they&rsquo;ve decided that you can enforce Google Apps login for everyone, just for your own team, or make it completely optional.  This is a product decision you should consider for your own product. But it is important that a single login source can be enforced in large, enterprise deployments.</p>
+<p>The bottom of that screen also has a comment that says <em>Binding emails will be sent to your team members in order to have them configure SSO with their Slack accounts</em>. This is a great feature that should be implemented in any product. The path to enable SAML isn&rsquo;t always at the beginning, when a product is first adopted. Often, there will be history and users and content created. Allowing users of your application to transfer their history to the new login credentials is probably a requirement.</p>
+<h2 id="saml-authentication">SAML Authentication</h2>
+<p>In addition to Google Apps, Slack supports pure SAML authentication. When starting to configure SAML login, there are a few options. While SAML is a standard, having easy-to-use buttons to enable some of the most popular SAML providers is a nice feature. If a Slack team wants to use Azure for login, they can select the Azure button, or selecting the Custom SAML 2.0 option will still work.</p>
+<p><img src="/slack/images/saml-options.png" alt="Slack SAML Options"></p>
+<p>In this walkthorugh, I&rsquo;m going to set up a Slack account to authenticate against a OneLogin service. Enabling it for Slack presents the following screen:</p>
+<p><img src="/slack/images/one-login-options.png" alt="Slack OneLogin"></p>
+<p>There are a few fields, but Slack does a good job helping the administrator know what to put into each. Compare that screenshot from the Slack site to the screenshot on the OneLogin Administrator page:</p>
+<p><img src="/slack/images/one-login-config.png" alt="OneLogin"></p>
+<p>Slack does a good job by naming these fields as similar to the OneLogin names as possible. And they provide hints/placeholder text in the fields that closely resemble the actual contents that you would expect to enter.</p>
+<p>After saving this and configuring users on the OneLogin service to have access, the signin process in the Slack client now goes through OneLogin:</p>
+<p><img src="/slack/images/one-login-login.png" alt="Signin"></p>
+<p><em>This was published on Nov. 22, 2016.</em></p>
+<div class="clear"></div>
+<h3>
+  <a href="https://github.com/enterpriseready/enterpriseready/blob/master/content/slack/sso.md" target="_blank">Content Contributors</a>
+</h3>
+
+<hr>
+<p><div class="contributors">
+
+  <a href="https://github.com/grantmiller" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/grantmiller.png?size=40" width="40"> </a>
+
+</div>
+
+<div class="contributors">
+
+  <a href="https://github.com/marccampbell" target="_blank"><img alt="" class="avatar" height="40" src="https://github.com/marccampbell.png?size=40" width="40"> </a>
+
+</div>
+</p>
+<div class="clear"></div>
+<div id='breakdown-request'>
+  <br/>
+  <hr />
+  <h3 class="section-header" align="center">Is a feature of your app EnterpriseReady?</h3>
+  <p align="center">We'd love to work with you to breakdown your implementation and share it with the EnterpriseReady community.</p>
+  <p align="center"><a href="/breakdown-request" class="button button-secondary">Request a breakdown</a></p>
+</div>
+
+
+    </div>
+
+<hr />
+<div class="subscribe-wrapper">
+    <div class="container" id="subscribe">
+        <h3 align="center" class="section-header">Subscribe for the latest EnterpriseReady tips.</h3>
+        <div class="row">
+            <div class="three columns">
+                &nbsp;
+            </div>
+            <div class="seven columns">
+                
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "8554162",
+                    formId: "cf19513d-014d-4435-b0ad-ac186f0ce56f"
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-wrapper">
+    <div class="container" id="footer">
+        <p align="center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" class="cc-image" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+        </a>
+            Contributed by <a class="replicated-logo" href="https://www.replicated.com" target="_blank"></a></p>
+
+        <br/>
+        <p align="center">Replicated is modernizing on-prem software for the the cloud-native era. <a class="hiring" href="https://www.replicated.com/careers">We're hiring!</a></p>
+
+    </div>
+</div>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61420213-5', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+    ! function(e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function() {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    
+    twq('init', 'nxrcn');
+    twq('track', 'PageView');
+</script>
+
+
+
+<script type="text/javascript">
+    _linkedin_partner_id = "434996";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function() {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=434996&fmt=gif" />
+</noscript>
+
+
+
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="//data-2.replicated.com/";
+    _paq.push(['setTrackerUrl', u+'data/']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+
+
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8554162.js"></script>
+
+</body>
+
+</html>
+
