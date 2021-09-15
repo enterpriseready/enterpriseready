@@ -598,7 +598,9 @@ span.why {
     font-size: 16px;
 }
 #article h1 {
-    text-align: left;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 #article h1, #article h2 {
     padding-top: 2.5rem;
