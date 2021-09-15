@@ -3,10 +3,10 @@ date = "2021-08-13T00:00:00Z"
 title = "Ephemeral Environments Across Your Team"
 featuresslug = "collaboration"
 type = "feature"
-hero = ""
+hero = "/images/headers/collab.png"
 metadescription = ""
 pagetitle = "Ephemeral Environments Across Your Team"
-ogimage = "images/article-icons/team.png"
+ogimage = "/images/headers/collab.png"
 +++
 
 From enabling a sales engineer to demo a new feature, to helping a product person give feedback, ephemeral environments allow your teams to collaborate across your application lifecycle. Since ephemeral environments are lightweight and easily shareable, they simplify many of the barriers that plague cross-team communications, resulting in a faster, smoother workflow.

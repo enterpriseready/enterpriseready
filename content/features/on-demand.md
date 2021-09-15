@@ -3,10 +3,10 @@ date = "2021-08-13T00:00:00Z"
 title = "Environments On Demand"
 featuresslug = "ondemand"
 type = "feature"
-hero = ""
+hero = "/images/headers/ondemand.png"
 metadescription = ""
 pagetitle = "Environments On Demand"
-ogimage = "images/article-icons/team.png"
+ogimage = "/images/headers/ondemand.png"
 +++
 
 Ephemeral environments, when set up the right way, function independently of your infrastructure team or any one person in charge. They prevent blocks by allowing your teams to collaborate asynchronously.

@@ -3,10 +3,10 @@ date = "2021-08-13T00:00:00Z"
 title = "Ephemeral Environments And The Ideal Dev Workflow"
 featuresslug = "devworkflow"
 type = "feature"
-hero = ""
+hero = "/images/headers/workflow.png"
 metadescription = ""
 pagetitle = "Ephemeral Environments And The Ideal Dev Workflow"
-ogimage = "images/article-icons/team.png"
+ogimage = "/images/headers/workflow.png"
 +++
 
 For development teams to be successful, they need to have a well-defined developer workflow

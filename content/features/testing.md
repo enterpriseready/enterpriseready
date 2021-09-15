@@ -3,10 +3,10 @@ date = "2021-08-13T00:00:00Z"
 title = "Ephemeral Environments And Testing"
 featuresslug = "testing"
 type = "feature"
-hero = ""
+hero = "/images/headers/testing.png"
 metadescription = ""
 pagetitle = "Ephemeral Environments And Testing"
-ogimage = "images/article-icons/team.png"
+ogimage = "/images/headers/testing.png"
 +++
 
 In application development, testing your app prior to release is critical. If production breaks, it costs you money. Ephemeral environments save you time and money by providing an easy platform for running automated tests on your apps prior to release.

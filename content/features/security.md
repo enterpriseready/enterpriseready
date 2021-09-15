@@ -3,10 +3,10 @@ date = "2021-08-13T00:00:00Z"
 title = "Ephemeral Environments And Security"
 featuresslug = "security"
 type = "feature"
-hero = ""
+hero = "/images/headers/security.png"
 metadescription = ""
 pagetitle = "Ephemeral Environments And Security"
-ogimage = "images/article-icons/team.png"
+ogimage = "/images/headers/security.png"
 +++
 
 

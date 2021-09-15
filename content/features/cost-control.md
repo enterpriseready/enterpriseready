@@ -3,10 +3,10 @@ date = "2021-08-13T00:00:00Z"
 title = "Ephemeral Environments And Cost Control"
 featuresslug = "costcontrol"
 type = "feature"
-hero = ""
+hero = "/images/headers/cost.png"
 metadescription = ""
 pagetitle = "Ephemeral Environments And Cost Control"
-ogimage = "images/article-icons/team.png"
+ogimage = "/images/headers/cost.png"
 +++
 
 In order for ephemeral environments to be a productive and worthwhile tool for your organization, they won't accumulate any unreasonable costs or consume excess resources. Using scalable ephemeral environments will keep your costs at bay, as computing resources will be allocated dynamically based on the load required. This way, your organization will only pay for the cloud resources that they use.
@@ -30,7 +30,7 @@ In order for ephemeral environments to be a productive and worthwhile tool for y
 - ephemeral environments are easily spun up and destroyed, which means they only need to last as long as your team may need them
 - you still will need to clean up your environments
 - it is best practice to automatically turn environments off when no longer in use to reduce cloud costs
-- if this process is automated, your DevOps team won't need to intervene 
+- if this process is automated, your DevOps team won't need to intervene
 
 
 
