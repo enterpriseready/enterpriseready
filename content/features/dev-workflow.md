@@ -4,12 +4,12 @@ title = "Ephemeral Environments And The Ideal Dev Workflow"
 featuresslug = "devworkflow"
 type = "feature"
 hero = "/images/headers/workflow.png"
-metadescription = ""
+metadescription = "Ephemeral environments provide a place for dev teams to write, share, and test code"
 pagetitle = "Ephemeral Environments And The Ideal Dev Workflow"
 ogimage = "/images/headers/workflow.png"
 +++
 
-For development teams to be successful, they need to have a well-defined developer workflow
+For development teams to be successful, they need to have a well-defined developer workflow.
 This involves having a place to write, share, and test code. Ephemeral environments are an effective solution for all of these workflow stages when used intelligently.
 
 ## Local development

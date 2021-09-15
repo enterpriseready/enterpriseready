@@ -4,7 +4,7 @@ title = "Ephemeral Environments Across Your Team"
 featuresslug = "collaboration"
 type = "feature"
 hero = "/images/headers/collab.png"
-metadescription = ""
+metadescription = "Use ephemeral environments simplify to many of the barriers that plague cross-team communications, resulting in a faster, smoother workflow"
 pagetitle = "Ephemeral Environments Across Your Team"
 ogimage = "/images/headers/collab.png"
 +++

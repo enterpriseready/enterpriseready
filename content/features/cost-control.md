@@ -4,7 +4,7 @@ title = "Ephemeral Environments And Cost Control"
 featuresslug = "costcontrol"
 type = "feature"
 hero = "/images/headers/cost.png"
-metadescription = ""
+metadescription = "Use scalable ephemeral environments to keep your cloud costs at bay"
 pagetitle = "Ephemeral Environments And Cost Control"
 ogimage = "/images/headers/cost.png"
 +++

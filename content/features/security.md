@@ -4,7 +4,7 @@ title = "Ephemeral Environments And Security"
 featuresslug = "security"
 type = "feature"
 hero = "/images/headers/security.png"
-metadescription = ""
+metadescription = "Follow a few general rules and best-practices to implement security for your ephemeral environments, ensuring all your environments are accessed solely by your team and any trusted visitors"
 pagetitle = "Ephemeral Environments And Security"
 ogimage = "/images/headers/security.png"
 +++

@@ -4,7 +4,7 @@ title = "Environments On Demand"
 featuresslug = "ondemand"
 type = "feature"
 hero = "/images/headers/ondemand.png"
-metadescription = ""
+metadescription = "Enable asynchronous cross-team communication with ephemeral environments"
 pagetitle = "Environments On Demand"
 ogimage = "/images/headers/ondemand.png"
 +++

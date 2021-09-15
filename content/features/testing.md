@@ -4,7 +4,7 @@ title = "Ephemeral Environments And Testing"
 featuresslug = "testing"
 type = "feature"
 hero = "/images/headers/testing.png"
-metadescription = ""
+metadescription = "Ephemeral environments save you time and money by providing an easy platform for running automated tests on your apps prior to release"
 pagetitle = "Ephemeral Environments And Testing"
 ogimage = "/images/headers/testing.png"
 +++
