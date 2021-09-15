@@ -1,30 +1,46 @@
 +++
 date = "2021-08-13T00:00:00Z"
-title = "Ephemeral Environments And Your Team"
+title = "Ephemeral Environments Across Your Team"
 featuresslug = "collaboration"
 type = "feature"
-hero = ""
-metadescription = ""
-pagetitle = "Ephemeral Environments And Your Team"
-ogimage = "images/article-icons/team.png"
+hero = "/images/headers/collab.png"
+metadescription = "Use ephemeral environments simplify to many of the barriers that plague cross-team communications, resulting in a faster, smoother workflow"
+pagetitle = "Ephemeral Environments Across Your Team"
+ogimage = "/images/headers/collab.png"
 +++
 
-A major benefit of ephemeral environments is how convenient they make sharing and collaborating across your team.
+From enabling a sales engineer to demo a new feature, to helping a product person give feedback, ephemeral environments allow your teams to collaborate across your application lifecycle. Since ephemeral environments are lightweight and easily shareable, they simplify many of the barriers that plague cross-team communications, resulting in a faster, smoother workflow.
 
-## Cross-Team Communications
-Since ephemeral environments are lightweight and easily shareable, they simplify cross-team communications, resulting in a faster, smoother dev pipeline.
 
-### Developer-Developer
-During code reviews, developers may need to tear down their local environments in order to build another dev's environment. With ephemeral environments, developers can run the code and feature branches entirely in an environment without destroying their local environment.
+## Developers Working With Developers
+During the code review process, developers will look at peers' code and test any new features. In order to do this, they need to tear down their local environments in order to build another developer's environment. However, with ephemeral environments:
+- when a developer needs feedback on a WIP, they can share a remote link to fellow coworkers
+- developers can get feedback on any given feature branch
+- nobody has to wait on builds or blocks
+- developers don't have to destroy their local setup and interfere with their workflow
+- code review is now possible in asynchronous manner
 
-### Developer-Product
-When developers create a feature, they'll want to run it past someone on the product team. This can be done through a call or screenshare, however that won't allow the product team member to interact with the app. With ephemeral environments, developers can send the product person a direct link to the WIP environment and gather relevant, full-scope feedback.
+## Developers Working With Product Team
+After developers create a new feature, they'll want to run it past someone on the product team, as they often need feedback and may have additional questions. However, when working on an assigned ticket, developers may also require someone on the product team to review the WIP feature. With ephemeral environments:
+- developers don't need to set up screenshares or meetings
+- developers can send the product person a direct link to the WIP environment
+- product can provide relevant, full-scope feedback at their own convenience
+- developers and QA can collaborate asynchronously and independently
 
-### Developer-QA
-After a feature passes a code review, QA can immediately interact with the new feature and provide feedback. This allows QA to find problems and bugs early on, prior to a merge, so the devs can quickly address and fix accordingly.
+## QA Working With Developers
+QA reviews features before they reach production, and communicates with developers the results of their assessments. Ephemeral environments provide a tighter feedback loop, for example:
+- QA can immediately interact with a new feature after it passes a code review
+- QA finds problems and bugs early on, prior to a merge, so developers can quickly address
+- QA makes sure no regressions get introduced by a new feature
+- nobody is blocked by waiting for a single staging environment to free up
+- we can employ multiple environments and parallelize QA's ability to assess multiple features at once
 
-### Developer-Customer
-If a customer has a certain app in mind and requests a demo, developers can build a sample app and send them a link to a live ephemeral environment. This way, customers can interact with their app and get a sense of its appearance and approximate performance.
+
+## Sales Working With Developers
+Sales will need to demo features to potential customers. However, they may run into blocks if a demo environment is use or in a state of repair. Additionally, a customer may request to see a new feature in action, but the team may not have a steady way to host it. Ephemeral environments help by:
+- allowing each sales engineer as many demo environments as they need
+- fewer blocks from waiting for other demo environments to free up
+- giving sales engineers a way to share beta features with potential customers
 
 ----
 ### Content Contributors
