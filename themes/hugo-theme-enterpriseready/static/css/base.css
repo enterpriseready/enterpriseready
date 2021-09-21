@@ -1516,7 +1516,7 @@ span.ar {
 /* Subscribe */
 
 .subscribe-wrapper {
-  padding: 90px 0 90px;
+  padding: 90px 0 100px;
   background-color:#F44247;
   color: #F8F6EF;
 }
@@ -1532,7 +1532,7 @@ span.ar {
 
 @media (max-width: 550px) {
   .subscribe-wrapper {
-    padding: 60px 0 60px;
+    padding: 60px 0 80px;
   }
   .subscribe-wrapper h3 {
     font-weight: 500;
@@ -1561,6 +1561,63 @@ span.ar {
     padding: 0px 20px !important;
   }
 }
+
+.legal-consent-container {
+  position: absolute;
+  bottom: -70px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+  font-size: 8px !important;
+  width: 100% !important;
+  max-width: 400px !important;
+}
+
+.legal-consent-container.hs_submit, .input {
+  width: 100% !important;
+  max-width: 400px !important;
+}
+
+.legal-consent-container .inputs-list {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.legal-consent-container label {
+  color: #F8F6EF;
+  display: flex;
+  align-items: center;
+}
+
+.legal-consent-container label p {
+  color: #F8F6EF !important;
+  font-size: 14px;
+}
+
+.legal-consent-container label a {
+  color: #004E86 !important;
+}
+
+.legal-consent-container span {
+  color: white;
+}
+
+.hs-form-booleancheckbox {
+  color: white !important;
+  padding-left: 0px;;
+}
+
+@media (max-width: 600px) {
+  .legal-consent-container label p {
+    color: #F8F6EF !important;
+    font-size: 12px;
+  }
+  .legal-consent-container {
+    max-width: 280px !important;
+  }
+}
+
 
 #subscribe {
   display: flex;
