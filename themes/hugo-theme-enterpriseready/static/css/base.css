@@ -1387,7 +1387,7 @@ span.ar {
 }
 
 #google-tab.nav-link.active {
-  background-image: url("../images/google-active.png");
+  background-image: url("../images/google-active.svg");
   height: 46px;
   width: 132px;
 }
