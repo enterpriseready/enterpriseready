@@ -1608,7 +1608,7 @@ span.ar {
   padding-left: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .legal-consent-container {
     bottom: -60px;
   }
