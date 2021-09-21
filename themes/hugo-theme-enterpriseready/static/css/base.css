@@ -1516,7 +1516,7 @@ span.ar {
 /* Subscribe */
 
 .subscribe-wrapper {
-  padding: 90px 0 100px;
+  padding: 90px 0 90px;
   background-color:#F44247;
   color: #F8F6EF;
 }
@@ -1564,19 +1564,19 @@ span.ar {
 
 .legal-consent-container {
   position: absolute;
-  bottom: -70px;
+  bottom: -40px;
   left: 0; 
   right: 0; 
   margin-left: auto; 
   margin-right: auto;
   font-size: 8px !important;
   width: 100% !important;
-  max-width: 400px !important;
+  max-width: 600px !important;
 }
 
 .legal-consent-container.hs_submit, .input {
   width: 100% !important;
-  max-width: 400px !important;
+  max-width: 600px !important;
 }
 
 .legal-consent-container .inputs-list {
@@ -1596,7 +1596,7 @@ span.ar {
 }
 
 .legal-consent-container label a {
-  color: #004E86 !important;
+  color: #F8F6EF !important;
 }
 
 .legal-consent-container span {
@@ -1605,10 +1605,13 @@ span.ar {
 
 .hs-form-booleancheckbox {
   color: white !important;
-  padding-left: 0px;;
+  padding-left: 40px;
 }
 
 @media (max-width: 600px) {
+  .legal-consent-container {
+    bottom: -60px;
+  }
   .legal-consent-container label p {
     color: #F8F6EF !important;
     font-size: 12px;
@@ -1616,6 +1619,11 @@ span.ar {
   .legal-consent-container {
     max-width: 280px !important;
   }
+
+  .hs-form-booleancheckbox {
+    padding-left: 0px;
+  }
+  
 }
 
 
