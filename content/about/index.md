@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "Enterprise Ready | About"
 type = "about"
 +++
 
