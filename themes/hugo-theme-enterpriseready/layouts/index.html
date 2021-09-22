@@ -292,12 +292,14 @@
                     </div>
                 </div>
                 <div class="fixed-width-podcast">
-                    <h3><a href="/podcast/35-karthik-ranganathan-yugabyte/">EP<span style="color: #e2dfd4">35</span><img
+                    {{ range ( where .Site.RegularPages "Type" "podcast" | last 1 ) }}
+                    <h3><a href="{{ .Permalink }}">EP<span style="color: #e2dfd4">{{ .Weight }}</span><img
                                 src="../images/Polygon 1.svg" height="22px"
                                 style="vertical-align:-2px;padding-left: 10px;" /></a></h3>
-                    <p>Karthik Ranganathan of Yugabyte discusses building EnterpriseReady databases.</p>
+                    <p>{{ .Description }}</p>
                     <p><a href="/podcast" id="podcast-small">EnterpriseReady <span
                                 style="color: #e2dfd4">Podcast</span></a></p>
+                                {{end}}
                 </div>
             </div>
         </div>
