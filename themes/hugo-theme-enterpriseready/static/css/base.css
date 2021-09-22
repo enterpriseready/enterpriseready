@@ -1633,6 +1633,11 @@ span.ar {
   margin-bottom: 0px !important;
 }
 
+.no-list.hs-error-msgs.inputs-list li label a {
+  color: #F8F6EF !important;
+}
+
+
 .hs-main-font-element p {
   color: #F8F6EF !important;
   z-index: -10 !important;
