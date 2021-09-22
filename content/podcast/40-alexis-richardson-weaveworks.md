@@ -6,7 +6,7 @@ pagetitle = "Alexis Richardson of Weaveworks - EnterpriseReady Podcast | BUILDIN
 ogimage = "/podcast/images/podcast_og.png"
 image = "/podcast/images/episodes/alexis-weaveworks.jpg"
 weight = "40"
-description = "Alexis Richardson of Weaveworks discusses insights on brand revitalization"
+description = "Alexis Richardson of Weaveworks discusses insights on brand revitalization."
 +++
 
 {{< soundcloud soundcloud-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1113245341&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" >}}
