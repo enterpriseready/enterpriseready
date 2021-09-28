@@ -17,6 +17,17 @@
     <script src="//code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="/js/base.js"></script>
     <script type="text/javascript" src="/js/featherlight.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEVF7KNQ8L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZEVF7KNQ8L');
+    </script>
+    <!-- end of gtag.js -->
 </head>
 
 <body>
@@ -79,26 +90,26 @@
         <div id="twtr-scroll">
             <div id="twtr-content">
                 <a href="" target="_blank">
-                    <div class="twtr-card">
+                    <div class="twtr-card" id="david">
                         <img src="/images/social/david-aronchick.png" align='left' />
                         <p style="padding-top:30px;">When developing software, bugs are an eventuality. We use ephemeral environments to isolate their blast radius.</p>
-                        <p>David Aronchick, Google and Microsoft</p>
+                        <p>David Aronchick - Google, Microsoft</p>
                     </div>
                 </a>
 
                 <a href="" target="_blank">
-                    <div class="twtr-card">
+                    <div class="twtr-card" id="james">
                         <img src="/images/social/james-lindenbaum.png" align='left'/>
                         <p style="padding-top:30px;">If all of your environments, from local to production, aren't ephemeral, you are doing it wrong.</p>
-                        <p>James Lindenbaum, Co-founder @ Heroku</p>
+                        <p style="padding-top:5px;">James Lindenbaum - Co-founder @ Heroku</p>
                     </div>
                 </a>
 
                 <a href="" target="_blank">
-                    <div class="twtr-card">
+                    <div class="twtr-card" id="peter">
                         <img src="/images/social/peter-norton.png" align='left' />
                         <p style="padding-top:20px;">Iterating on our infrastructure is a critical part to our application development. The best way to test those changes safely is by using ephemeral environments.</p>
-                        <p>Peter Norton, Knewton and Librato</p>
+                        <p>Peter Norton - Knewton, Librato</p>
                     </div>
                 </a>
 
