@@ -363,6 +363,10 @@ li {
   padding-left: 25px;
  }
 
+li:first-letter {
+  text-transform: capitalize;
+}
+
 @media (max-width: 550px) {
 li {
   font-size: 12px;
