@@ -6,27 +6,3 @@
   HUGO_VERSION = "0.82.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
-
-[[redirects]]
-  from = "/podcast/adam-jacob-chef/"
-  to = "https://enterpriseready.io/podcast/01-adam-jacob-chef/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/podcast/tom-preston-werner-github/"
-  to = "https://enterpriseready.io/podcast/02-tom-preston-werner-github/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/podcast/peter-reinhardt-segment/"
-  to = "https://enterpriseready.io/podcast/03-peter-reinhardt-segment/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/podcast/alex-polvi-coreos/"
-  to = "https://enterpriseready.io/podcast/04-alex-polvi-coreos/"
-  status = 301
-  force = true
