@@ -1047,6 +1047,7 @@ margin-right: 10px;
   overflow: hidden;
   font-size: 12px;
   padding: 15px 20px 5px;
+  position: relative;
 }
 
 .twtr-card:hover {
@@ -1080,8 +1081,10 @@ margin-right: 10px;
     font-size: 12px!important;
   }
   .twtr-card p:nth-child(3){
-    padding-top: 20px!important;
     font-size: 14px!important;
+    bottom: 20px !important;
+    left: 20px !important;
+    position: absolute;
   }
 
 
@@ -1106,6 +1109,9 @@ margin-right: 10px;
   text-transform: uppercase;
   color: #35A7FF;
   font-size: 16px;
+  bottom: 20px;
+  left: 130px;
+  position: absolute;
 }
 
 .hiring {
