@@ -346,6 +346,11 @@ input[type="submit"]:hover {
   width: 400px !important;
 }
 
+.hs_email input[type="email"] {
+  padding: 8px 15px;
+  font-size: 20px !important;
+}
+
 /* Larger than mobile */
 @media (max-width: 500px) {
   .hs_email, .input {
@@ -354,6 +359,11 @@ input[type="submit"]:hover {
 
   .hs_submit, .input {
     width: 120px !important;
+  }
+
+  .hs_email input[type="email"] {
+    padding: 8px 10px;
+    font-size: 15px !important;
   }
 }
 
