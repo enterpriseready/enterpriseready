@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 
 /* Base Styles */
@@ -3346,4 +3347,118 @@ margin-right: 10px;
   right: 0;
   top: 900px;
 }
+
+
+
+
+/*--- Hubspot Cookie Banner Override ---*/
+body div#hs-eu-cookie-confirmation {
+	max-height: 80px !important;
+	position: fixed !important;
+	top: auto !important;
+  bottom: 0px !important;
+	left: 0px !important;
+	text-align: center!important;
+	border: none !important;
+	z-index: 1000000 !important;
+	box-shadow: none !important;
+	border-top: 1px solid #BEBEBE !important;
+}
+body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-cookie-settings-button {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 15px !important;
+	color: #555 !important;
+	text-decoration: underline !important;
+	}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner {
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	max-width: 1200px !important;
+	padding: 10px 15px !important;
+  background-color: transparent !important;
+	background-image: url('../images/cookie.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: top 15px left 40px !important;
+	background-size: 40px 40px !important;
+	text-align: center!important;
+}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-eu-policy-wording {
+	margin-bottom: 0px !important;	
+	margin-left: 80px !important;
+}
+body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner p {
+  font-family: 'Open Sans', sans-serif !important;;
+	font-size: 15px!important;
+	color: #585858 !important;
+	line-height: 24px!important;
+	text-align: center!important;
+	margin-bottom: 0px !important;
+ }
+body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a {
+	color: #4DB9C0 !important;
+	font-size: 15px !important;
+	text-decoration: underline !important;
+}
+body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en-cookie-confirmation-buttons-area {
+  text-align: center!important;
+	margin: 0px !important;
+}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en-cookie-confirmation-buttons-area {
+  margin-top: 0px !important;
+}
+body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button {
+  background: #B7F3D3!important;
+  border: 1px solid #B7F3D3!important;
+  box-shadow: none;
+	margin-left: 20px !important;
+  font-family: 'Poppins', sans-serif!important;
+	color: #2F2F2F !important;
+	font-size: 16px!important;
+	font-weight: 500!important;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button:hover {
+  background: #38CC97 !important;
+  box-shadow: none;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+ }
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-decline-button {
+	display: none !important;
+}
+@media (max-width: 1150px) {
+	body div#hs-eu-cookie-confirmation {
+		max-height: 450px !important;
+		height: auto;
+		padding: 20px 20px !important;
+		text-align: center!important;
+	}
+	div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner {
+		flex-direction: column !important;
+	}
+	div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner {
+		background-image: none !important;
+	}
+	div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner p {
+		text-align: left !important;
+	}
+	div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-eu-policy-wording {
+		margin-bottom: 20px !important;	
+		margin-left: 0px !important;
+	}
+}
+@media (max-width: 350px) {
+	body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button {
+	  margin-left: 0px !important;
+	}
+}
+
 
