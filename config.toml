@@ -9,6 +9,7 @@ theme = "hugo-theme-enterpriseready"
 [params]
   description = "EnterpriseReady"
   ogimage = "https://www.enterpriseready.io/images/enterprise-ready-logo.png"
+  gtm = "GTM-PRNN269"
   copyright = "Replicated, Inc."
   edit_link = "https://github.com/enterpriseready/enterpriseready/edit/master/docs/"
   search = true
