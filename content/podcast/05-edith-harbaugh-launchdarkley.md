@@ -1,6 +1,6 @@
 +++
 date = "2016-10-25T00:00:00Z"
-title = "Edith Harbaugh of LanchDarkley"
+title = "Edith Harbaugh of LaunchDarkley"
 type = "podcast"
 hero = ""
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
