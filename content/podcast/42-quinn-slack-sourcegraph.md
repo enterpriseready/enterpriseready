@@ -6,7 +6,7 @@ pagetitle = "Quinn Slack of Sourcegraph - EnterpriseReady Podcast | BUILDING the
 ogimage = "/podcast/images/ogimages/episode-42-og.png"
 image = "/podcast/images/episodes/quinn-slack.jpg"
 weight = "42"
-description = "Quinn Slack of Sourcegraph discusses insights on finding perfect product-market fit, and the pain points large orgs face when managing massive codebases."
+description = "Quinn Slack of Sourcegraph discusses the pain points large orgs face when managing massive codebases."
 +++
 
 {{< soundcloud soundcloud-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1149130855&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" >}}
