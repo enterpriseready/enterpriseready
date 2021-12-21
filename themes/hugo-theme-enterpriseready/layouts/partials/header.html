@@ -6,7 +6,6 @@
     {{ partial "meta.html" . }}
     {{ partial "favicon.html" . }}
     {{ partial "gtm-header.html" . }}
-    {{ partial "qualified-header.html" . }}
     {{ .Scratch.Add "title" "" }}{{ .Scratch.Set "title" .Title}}
     <title>{{ with .Params.pagetitle }}{{ . }}{{ else }}{{ with .Title }}{{ . }}{{ end }}{{ end }}</title>
     {{ partial "style.html" . }}

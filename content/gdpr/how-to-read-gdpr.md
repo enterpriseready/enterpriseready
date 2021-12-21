@@ -9,6 +9,8 @@ ogimage = "images/gdpr/headers/how-to-read-gdpr.png"
 
 +++
 
+> **TL;DR of the TL;DR**
+
 > The official full text PDF of the GDPR is a 261 page beast. However, as we describe below, for SaaS companies who want to understand how this regulation impacts their product, they should read the [34 page abridged version of the GDPR](/GDPR-abridged-text-for-SaaS-Cos.pdf) we've compiled.
 
 
