@@ -6,7 +6,7 @@ pagetitle = "Building Opinionated Software with Job van der Voort of Remote - En
 ogimage = "/podcast/images/ogimages/episode-44-og.png"
 image = "/podcast/images/episodes/jon-van.jpg"
 weight = "44"
-description = "Grant and Job discuss Job's pivot from neuroscience to startups, his experience building opinionated software at GitLab, and the future of remote work."
+description = "Job van der Voort discusses his experience building opinionated software at GitLab and the future of remote work."
 +++
 
 {{< soundcloud soundcloud-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181825173&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" >}}
