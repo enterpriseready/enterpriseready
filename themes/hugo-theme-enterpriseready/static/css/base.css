@@ -1045,8 +1045,6 @@ a.muted:active {
 #twtr-content {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
   padding: 0px;
   margin: 0px;
   margin-top: 10px;
