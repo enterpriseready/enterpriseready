@@ -4,7 +4,7 @@ type = "podcast"
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
 pagetitle = "Ed Anuff of DataStax - EnterpriseReady Podcast | BUILDING the world’s best enterprise software"
 ogimage = "/podcast/images/ogimages/episode-45-og.png"
-image = "/podcast/images/episodes/ed-anuff.jpeg"
+image = "/podcast/images/episodes/ed-anuff.jpg"
 weight = "45"
 description = "Ed Anuff of DataStax discusses onboarding engineering, the carrying costs of legacy software, and building true consumer trust."
 +++
