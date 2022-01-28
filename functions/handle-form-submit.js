@@ -11,8 +11,6 @@ const fetchJsonp = url => {
 
 const verifyUrl = 'https://www.google.com/recaptcha/api/siteverify'
 
-// TODO: double check this Pardot url. Note that it's inentionally missing the last two segments
-// because the function is made to work with multiple forms.
 const submitUrl = 'https://go.replicated.com/l/948072'
 
 // Handle both reCAPTCHA validation and form submission server side to ensure

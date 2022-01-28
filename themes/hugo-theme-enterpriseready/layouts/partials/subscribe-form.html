@@ -40,8 +40,7 @@
         const requestParams = { email: emailInput.value }
         const submitUrl = '/.netlify/functions/handle-form-submit';
 
-        // TODO: Replace formPath with actual last two segments of Pardot form path
-        const formPath = '2025-01-01/2zl5ab';
+        const formPath = '2022-01-04/2zltq9';
 
         axios.post(submitUrl, { token, requestParams, formPath })
             .then(() => {
