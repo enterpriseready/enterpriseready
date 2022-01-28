@@ -615,17 +615,6 @@
 
     {{ partial "subscribe-form.html" }}
 
-    <script type="text/javascript">
-        function submitForm(event) {
-            event.preventDefault();
-            console.log(event);
-            const requestParams = event.target.elements.email.value;
-            axios.post('https://replicated.com/.netlify/functions/handle-form-submit', { requestParams })
-        }
-    </script>
-
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
     <div class="footer-wrapper">
         <div class="container" id="footer">
             <p>
