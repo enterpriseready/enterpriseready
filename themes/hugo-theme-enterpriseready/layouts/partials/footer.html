@@ -1,31 +1,6 @@
     </div>
 
-    <div class="subscribe-wrapper">
-        <div class="container" id="subscribe">
-            <h3>Subscribe for the latest EnterpriseReady tips.</h3>
-            <form onsubmit="submitForm(event)" class="subscribe-form">
-                <div class="subscribe-email-container">
-                    <input type="email" id="email" name="email" placeholder="you@youremail.com" required>
-                    <input type="submit" value="SUBSCRIBE" id="subscribe-button">
-                </div>
-                <div class="subscribe-checkbox-container">
-                    <input type="checkbox" id="checkbox" name="checkbox" class="subscribe-checkbox">
-                    <label for="checkbox" class="text-sm max-w-sm font-open-sans">I agree to receive communications from Replicated. View our <a href="https://replicated.com/privacy">Privacy Policy</a>.*</label>
-                </div>
-            </form> 
-        </div>
-    </div>
-
-    <script type="text/javascript">
-        function submitForm(event) {
-            event.preventDefault();
-            console.log(event);
-            const requestParams = event.target.elements.email.value;
-            axios.post('https://replicated.com/.netlify/functions/handle-form-submit', { requestParams })
-        }
-    </script>
-
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    {{ partial "subscribe-form.html" }}
 
     <div class="footer-wrapper">
         <div class="container" id="footer">

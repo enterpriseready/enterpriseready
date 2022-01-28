@@ -613,65 +613,7 @@
         </div>
     </div>
 
-    <div class="subscribe-wrapper">
-        <div class="container" id="subscribe">
-            <h3>Subscribe for the latest EnterpriseReady tips.</h3>
-            <h3 id="subscribe-thanks" hidden>Thanks for subscribing!</h4>
-            <form id="subscribe-form" class="subscribe-form">
-                <div class="subscribe-email-container">
-                    <input type="email" id="email" name="email" placeholder="you@youremail.com" required>
-                    <input type="submit" value="SUBSCRIBE" id="subscribe-button">
-                    <div class="g-recaptcha" data-size="invisible" data-sitekey="6Ld5mkAeAAAAACRo3Kii2aL9f92emWSMJuume4sF" data-callback="handleRecaptchaSuccess"></div>
-                </div>
-                <div class="subscribe-checkbox-container">
-                    <input required type="checkbox" id="checkbox" name="checkbox" class="subscribe-checkbox">
-                    <label for="checkbox" class="text-sm max-w-sm font-open-sans">I agree to receive communications from Replicated. View our <a href="https://replicated.com/privacy">Privacy Policy</a>.*</label>
-                </div>
-                <div class="subscribe-checkbox-container">
-                    <label>
-                        This site uses reCAPTCHA to fight spam. The Google
-                        <a className="text-teal-400" href="https://policies.google.com/privacy">Privacy Policy</a>
-                        and
-                        <a className="text-teal-400" href="https://policies.google.com/terms">Terms of Service</a>
-                        apply.
-                    </label>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <script type="text/javascript">
-        const subscribeForm = document.getElementById('subscribe-form')
-        const thanksMessage = document.getElementById('subscribe-thanks')
-        const emailInput = document.getElementById('email')
-        subscribeForm.onsubmit = handleSubmit
-
-        function handleSubmit(event) {
-            event.preventDefault()
-            grecaptcha.execute()
-        }
-
-        function handleRecaptchaSuccess(token) {
-            const requestParams = { email: emailInput.value }
-            const submitUrl = '/.netlify/functions/handle-form-submit';
-
-            // TODO: Replace formPath with actual last two segments of Pardot form path
-            const formPath = '2025-01-01/2zl5ab';
-
-            axios.post(submitUrl, { token, requestParams, formPath })
-                .then(() => {
-                    thanksMessage.removeAttribute('hidden')
-                    subscribeForm.setAttribute('hidden', '')
-                })
-                .catch((err) => {
-                    console.error(err)
-                    // handle errors here if you like, but careful what you log
-                    // as errors may reveal info about our backend
-                })
-        }
-    </script>
-
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    {{ partial "subscribe-form.html" }}
 
     <div class="footer-wrapper">
         <div class="container" id="footer">
