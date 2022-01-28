@@ -26,6 +26,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <meta name="google-site-verification" content="mG4BE6bMefzVKJpT18rPznHY0MmsR-xmL9pXUziFAPU" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     {{ partial "qualified-header.html" . }}
 </head>
 
@@ -612,21 +613,7 @@
         </div>
     </div>
 
-    <div class="subscribe-wrapper">
-        <div class="container" id="subscribe">
-            <h3>Subscribe for the latest EnterpriseReady tips.</h3>
-            <form onsubmit="submitForm(event)" class="subscribe-form">
-                <div class="subscribe-email-container">
-                    <input type="email" id="email" name="email" placeholder="you@youremail.com" required>
-                    <input type="submit" value="SUBSCRIBE" id="subscribe-button">
-                </div>
-                <div class="subscribe-checkbox-container">
-                    <input type="checkbox" id="checkbox" name="checkbox" class="subscribe-checkbox">
-                    <label for="checkbox" class="text-sm max-w-sm font-open-sans">I agree to receive communications from Replicated. View our <a href="https://replicated.com/privacy">Privacy Policy</a>.*</label>
-                </div>
-            </form> 
-        </div>
-    </div>
+    {{ partial "subscribe-form.html" }}
 
     <script type="text/javascript">
         function submitForm(event) {
