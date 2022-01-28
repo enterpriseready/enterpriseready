@@ -28,12 +28,12 @@
 <script type="text/javascript">
     const subscribeForm = document.getElementById('subscribe-form')
     const thanksMessage = document.getElementById('subscribe-thanks')
+    const subscribeButton = document.getElementById('subscribe-button')
     const emailInput = document.getElementById('email')
     subscribeForm.onsubmit = handleSubmit
 
     function handleSubmit(event) {
         event.preventDefault()
-        grecaptcha.execute()
     }
 
     function handleRecaptchaSuccess(token) {
@@ -48,7 +48,6 @@
                 subscribeForm.setAttribute('hidden', '')
             })
             .catch((err) => {
-                console.error(err)
                 // handle errors here if you like, but careful what you log
                 // as errors may reveal info about our backend
             })
@@ -56,3 +55,4 @@
 </script>
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
