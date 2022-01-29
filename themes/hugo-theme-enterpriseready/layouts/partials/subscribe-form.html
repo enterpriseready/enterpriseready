@@ -34,6 +34,7 @@
 
     function handleSubmit(event) {
         event.preventDefault()
+        grecaptcha.execute()
     }
 
     function handleRecaptchaSuccess(token) {
