@@ -1,2 +1,8 @@
 logs
 .DS_Store
+
+# Local Netlify folder
+.netlify
+
+node_modules
+public

@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-
 /* Base Styles */
 
 * {
@@ -1529,6 +1528,7 @@ span.ar {
   font-weight: normal;
   font-size: 34px;
   line-height: 40px;
+  text-align: center;
 }
 
 @media (max-width: 550px) {
@@ -1694,10 +1694,10 @@ span.ar {
   align-items: center;
 }
 
-#subscribe input[type="email"] {
+/* #subscribe input[type="email"] {
     width: 400px;
     height: 62px;
-}
+} */
 @media (max-width: 600px) {
     #email-cf19513d-014d-4435-b0ad-ac186f0ce56f {
         width: 160px !important;
@@ -3461,4 +3461,92 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-declin
 	}
 }
 
+/* Subscribe Form Styling */
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+.subscribe-form label {
+  font-weight: 400;
+}
+
+.subscribe-email-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.subscribe-checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.subscribe-checkbox-container a {
+  color: #F8F6EF;
+}
+
+.subscribe-checkbox-container a:hover {
+  color: #F8F6EF;
+}
+
+.subscribe-checkbox {
+  margin-right: 10px;
+}
+
+#subscribe-button {
+  color: #11172B !important;
+  background-color: #FAE7E7 !important;
+  border: 0px;
+  border-color: #FAE7E7;
+  border-radius: 0px 0 12px 0;
+  text-transform: uppercase;
+  line-height: 35px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  height: 62px;
+}
+
+@media (max-width: 550px) {
+  #subscribe-button {
+    font-size: 12px !important;
+    padding: 0px 20px !important;
+  }
+}
+
+.subscribe-form input[type="email"] {
+  width: 400px;
+  height: 62px;
+  font-size: 20px;
+  padding: 8px 15px;
+}
+
+@media (max-width: 400px) {
+
+  .subscribe-form input[type="email"] {
+    width: 100%;
+    height: 62px;
+    font-size: 15px;
+    padding: 8px 12px
+  }
+}
+
+#subscribe-thanks {
+  font-size: 18px
+}
+
+/* Hide Recaptcha */
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
 

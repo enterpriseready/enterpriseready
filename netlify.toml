@@ -1,6 +1,12 @@
+[dev]
+  framework = "hugo"
+
 [build]
   publish = "public"
   command = "hugo --gc --minify"
+
+[functions]
+  directory = "functions"
 
 [context.production.environment]
   HUGO_VERSION = "0.88.1"

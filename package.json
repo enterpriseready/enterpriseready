@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^0.25.0",
+    "jsonp-client": "^1.2.2"
+  },
+  "private": "true"
+}
