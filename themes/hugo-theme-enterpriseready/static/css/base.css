@@ -3550,3 +3550,48 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-declin
   visibility: hidden;
 }
 
+  /* Cookie banner */
+
+  #pi_tracking_opt_in_yes {
+    visibility: hidden;
+  }
+
+  #pi_tracking_opt_in_yes:after {
+    content: 'ACCCEPT';
+    visibility: visible;
+    display: block;
+    background: #B7F3D3!important;
+    border: 1px solid #B7F3D3!important;
+    box-shadow: none;
+    margin-left: 20px !important;
+    font-family: 'Poppins', sans-serif!important;
+    color: #2F2F2F !important;
+    font-size: 16px!important;
+    font-weight: 600!important;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 7px 16px!important;
+    text-decoration: none!important;
+  }
+
+  #pi_tracking_opt_in_no {
+    visibility: hidden;
+  }
+
+  #pi_tracking_opt_in_no:after {
+    visibility: visible;
+    content: 'Decline';
+    text-decoration: underline;
+  }
+
+  #pi_tracking_opt_in_div {
+    background-image: url(/images/cookie.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: top 15px left 40px !important;
+    background-size: 40px 40px !important;
+    padding-left: 100px !important;
+  }
+
+  #pi_tracking_opt_in_div a:link {
+    color: #777;
+  }
