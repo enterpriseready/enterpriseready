@@ -3476,12 +3476,6 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-declin
   font-weight: 400;
 }
 
-@media (max-width: 550px) {
-  .subscribe-form label {
-
-  }
-}
-
 .subscribe-email-container {
   display: flex;
   justify-content: center;
@@ -3544,6 +3538,10 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-declin
     font-size: 15px;
     padding: 8px 12px
   }
+}
+
+#subscribe-thanks {
+  font-size: 18px
 }
 
 /* Hide Recaptcha */
