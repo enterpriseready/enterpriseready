@@ -28,6 +28,7 @@
 <script type="text/javascript">
     const subscribeForm = document.getElementById('subscribe-form')
     const thanksMessage = document.getElementById('subscribe-thanks')
+    const subscribeButton = document.getElementById('subscribe-button')
     const emailInput = document.getElementById('email')
     subscribeForm.onsubmit = handleSubmit
 
@@ -37,7 +38,7 @@
     }
 
     function handleRecaptchaSuccess(token) {
-        const requestParams = { email: emailInput.value }
+        const requestParams = `email=${encodeURIComponent(emailInput.value)}`
         const submitUrl = '/.netlify/functions/handle-form-submit';
 
         const formPath = '2022-01-04/2zltq9';
@@ -48,7 +49,6 @@
                 subscribeForm.setAttribute('hidden', '')
             })
             .catch((err) => {
-                console.error(err)
                 // handle errors here if you like, but careful what you log
                 // as errors may reveal info about our backend
             })
@@ -56,3 +56,4 @@
 </script>
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

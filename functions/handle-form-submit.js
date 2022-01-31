@@ -17,7 +17,7 @@ const submitUrl = 'https://go.replicated.com/l/948072'
 // reCAPTCHA requirement is fully enforced
 exports.handler = async (event, context) => {
   const { token, requestParams, formPath } = JSON.parse(event.body)
-
+  
   // First, verify the reCAPTCHA token, error out if it fails
   const verifyParams = {
     secret: process.env.RECAPTCHA_SECRET_KEY,
