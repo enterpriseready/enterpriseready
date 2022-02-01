@@ -3557,7 +3557,7 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-declin
   }
 
   #pi_tracking_opt_in_yes:after {
-    content: 'ACCCEPT';
+    content: 'ACCEPT';
     visibility: visible;
     display: block;
     background: #B7F3D3!important;
