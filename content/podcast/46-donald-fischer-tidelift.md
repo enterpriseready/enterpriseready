@@ -9,8 +9,7 @@ weight = "46"
 description = "Open Source Management with Donald Fischer of Tidelift."
 +++
 
-{{< soundcloud soundcloud-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1203854464&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" >}}
-
+{{< soundcloud soundcloud-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1212938596&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" >}}
 
 \
 In episode 46 of EnterpriseReady, Grant speaks with Donald Fischer of Tidelift. Donald shares lessons from his early career journey in product and venture capital, and together they discuss the importance of supporting open source creators at scale.
