@@ -227,7 +227,7 @@ a.disguise-link:hover {
 }
 
 .masthead-wrapper .container {
-  max-width: 740px;
+  max-width: 900px;
 }
 
 /* Main */
@@ -589,7 +589,7 @@ a.muted:active {
   margin-left: 15px;
 }
 #article ul li {
-  list-style: disc;
+  list-style: square;
   font-size: 16px;
 }
 #article ol li {
@@ -656,7 +656,7 @@ a.muted:active {
     padding: 0 5%;
   }
   .article-feature {
-    width: 90%;
+    width: 100%;
     margin: 10px 0px 20px;
     padding: 5%;
   }
@@ -1140,4 +1140,10 @@ a.muted:active {
 }
 .contributed-footer {
   font-family: "Recursive", medium;
+  font-size: 18px !important;
+}
+.banner-announce {
+  background-color: #bc4752;
+  padding: 15px;
+  text-align: center;
 }

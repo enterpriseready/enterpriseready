@@ -344,7 +344,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: decimal inside; }
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -355,7 +355,7 @@ ul ol,
 ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
+}
 li {
   margin-bottom: 1rem;
   font-weight: 400;
