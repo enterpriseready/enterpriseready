@@ -1,4 +1,5 @@
 /* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700&display=swap');
 
 * {
   list-style: none;
@@ -99,7 +100,7 @@ a.disguise-link {
 }
 
 a.disguise-link:hover {
-  color: #35a7ff;
+  color: #3735ea;
 }
 
 #menu {
@@ -524,10 +525,10 @@ a.muted:active {
   margin-left: 3px;
   margin-bottom: 3px;
   background: url("../images/white-logo.png");
-  background-size: 135px 30px;
+  background-size: 135px 27px;
   background-repeat: no-repeat;
   width: 135px;
-  height: 30px;
+  height: 27px;
 }
 
 #footer .cc-image {
@@ -971,6 +972,8 @@ a.muted:active {
 
 #tool-tip {
   float: left;
+  font-size: 16px;
+  font-family: "Recursive", medium;
 }
 .tool-tip {
   border: 1px solid #dedede;
@@ -981,7 +984,8 @@ a.muted:active {
   z-index: 1;
 }
 .tool-tip ul li {
-  padding: 10px 15px 0px;
+  padding: 10px 50px 5px 10px;
+  font-size: 16px;
 }
 .tool-tip ul li:last-child {
   border: none;
@@ -1088,6 +1092,7 @@ a.muted:active {
     bottom: 20px !important;
     left: 20px !important;
     position: absolute;
+    font-family: "Recursive", medium;
   }
 }
 
@@ -1107,11 +1112,13 @@ a.muted:active {
 
 .twtr-card p:nth-child(3) {
   text-transform: uppercase;
-  color: #35a7ff;
+  color: #3735ea;
   font-size: 16px;
   bottom: 20px;
   left: 130px;
   position: absolute;
+  font-family: "Recursive", medium;
+
 }
 
 .hiring {
@@ -1124,4 +1131,13 @@ a.muted:active {
 .hiring:hover {
   background-color: #bc4752;
   color: white;
+}
+
+.contributed-text {
+  text-align: center;
+  width: 100px;
+  line-height: 2rem;
+}
+.contributed-footer {
+  font-family: "Recursive", medium;
 }
