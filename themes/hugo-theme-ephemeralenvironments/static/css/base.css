@@ -518,17 +518,6 @@ a.muted:active {
   font-weight: 400;
 }
 
-#footer a.replicated-logo {
-  display: inline-block;
-  vertical-align: -9px;
-  margin-left: 3px;
-  background: url("../images/white-logo.png");
-  background-size: 110px 26px;
-  background-repeat: no-repeat;
-  width: 110px;
-  height: 26px;
-}
-
 #footer a.shipyard-logo {
   display: inline-block;
   vertical-align: -9px;
