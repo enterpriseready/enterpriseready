@@ -8,7 +8,7 @@ theme = "hugo-theme-ephemeralenvironments"
 
 [params]
   description = "EphemeralEnvironments.io"
-  ogimage = "/images/ephemeral-logo.png"
+  ogimage = "/images/ephemeralenvironments.png"
   copyright = "Shipyard Build, Inc."
   edit_link = "https://github.com/ephemeralenvironments/ephemeralenvironments/edit/master/docs/"
   search = true
