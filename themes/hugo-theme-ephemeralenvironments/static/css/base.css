@@ -1147,3 +1147,37 @@ a.muted:active {
   padding: 15px;
   text-align: center;
 }
+
+.subscription-box {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+
+}
+.subscription-box input {
+  width: 70%;
+  margin-right:1%;
+  margin-left: 3%;
+}
+.subscription-box button {
+  width: 20%;
+  padding: 0 3px 0 3px !important;
+  color: white;
+}
+
+.subscription-form fieldset {
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-bottom: 20%;
+    margin-top: 40%;
+    margin-left: 40%;
+}
+
+.subscription-form label, input, button {
+    font-size: inherit;
+    margin: 0.1em 0.2em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
