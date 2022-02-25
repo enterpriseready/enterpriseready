@@ -1,0 +1,11 @@
+name = "EphemeralEnvironments"
+license = "Apache 2.0"
+min_version = 0.16
+
+[author]
+  name = "Shipyard Build, Inc."
+  homepage = "https://www.shipyard.build"
+
+[original]
+  name = "Mathieu Cornic"
+  homepage = "http://matcornic.github.io/"

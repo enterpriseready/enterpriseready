@@ -1,19 +1,17 @@
-baseurl = "https://www.enterpriseready.io"
+baseurl = "https://www.ephemeralenvironments.io"
 languageCode = "en-us"
-title = "EnterpriseReady"
-theme = "hugo-theme-enterpriseready"
+title = "EphemeralEnvironments.io"
+theme = "hugo-theme-ephemeralenvironments"
 
 [taxonomies]
   feature = "features"
 
 [params]
-  description = "EnvironmentReady"
-  ogimage = "/images/ephemeral-logo.png"
+  description = "EphemeralEnvironments.io"
+  ogimage = "/images/ephemeralenvironments.png"
   copyright = "Shipyard Build, Inc."
-  edit_link = "https://github.com/enterpriseready/enterpriseready/edit/master/docs/"
+  edit_link = "https://github.com/ephemeralenvironments/ephemeralenvironments/edit/master/docs/"
   search = true
   contributor ="Shipyard"
   contributorurl = "https://www.shipyard.build"
-  matomo_host = "data-2.replicated.com"
-  matomo_site = "4"
   image = "/images/ephemeral-logo.png"

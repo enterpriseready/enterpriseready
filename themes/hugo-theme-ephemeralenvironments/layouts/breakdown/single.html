@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+<div class="second-nav">
+<div class="container" id="breadcrumbs">
+  <div id="tool-tip">
+    <a href="/features/{{ .Params.featureslug }}">{{ .Params.feature }}</a>
+    </div>
+    <span>/</span> {{ .Params.company }}
+    <div class="pull-right">
+      <a class="edit-button" href="https://github.com/ephemeralenvironments/ephemeralenvironments/edit/master/content/{{ .File.Path }}">Edit this page</a>
+    </div>
+  </div>
+</div>
+
+  <div class="container feather" id="article">
+
+    <h1>{{.Title}}</h1>
+
+    {{ .Content }}
+    {{ partial "footer.html" . }}
