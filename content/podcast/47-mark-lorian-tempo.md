@@ -4,9 +4,9 @@ type = "podcast"
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
 pagetitle = "Mark Lorion of Tempo - EnterpriseReady Podcast | BUILDING the world’s best enterprise software"
 ogimage = "/podcast/images/ogimages/episode-47-og.png"
-image = "/podcast/images/episodes/mark-lorian.png"
+image = "/podcast/images/episodes/mark-lorion.png"
 weight = "47"
-description = "Mark Lorian discusses the importance of seeking customer data at the source and deep insights on enterprise marketing."
+description = "Mark Lorion discusses the importance of seeking customer data at the source and deep insights on enterprise marketing."
 +++
 
 {{< soundcloud soundcloud-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1228995412&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" >}}
