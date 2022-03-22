@@ -35,17 +35,18 @@ You will need to consider changes to your system in the following areas:
 1. A custom login page for teams. This can be difficult because "regular" users will continue to log in on the login page, but SAML users will need to know about a custom page for their own team to log in. One common solution is to have an internal table of redirect URLs for SAML users and to replace your login screen with a form that only collects email address. Once your API has the email address, you can make a decision about whether to prompt for the password or to redirect this user to a custom SAML login page.  
 1. Admin accounts. Consider allowing admins to maintain the ability to login with a username and password. This can be useful to ensure that they don’t lose access to their account due to misconfiguration.  
 
-Once you've decided to support SAML, it's important to test your implementation with all of the common IdPs and SPs ([Bitium](https://www.bitium.com), [Centrify](https://www.centrify.com/), [Okta](https://www.okta.com), [OneLogin](https://www.onelogin.com), [Ping Identity](https://www.pingidentity.com), AD, LDAP). In addition to testing, provide your customer with specific integration instructions for connecting the IdP to your application.
+Once you've decided to support SAML, it's important to test your implementation with all of the common IdPs and SPs ([SecureAuth](https://www.secureauth.com), [JumpCloud](https://jumpcloud.com), [Centrify](https://www.centrify.com/), [Okta](https://www.okta.com), [OneLogin](https://www.onelogin.com), [Ping Identity](https://www.pingidentity.com), AD, LDAP). In addition to testing, provide your customer with specific integration instructions for connecting the IdP to your application.
 
-To get started developing, you should set up several different IdPs services to use and test with. Pick commonly used IdPs that are easy to set up. Some good starting points are to create a Windows server on AWS, GCE or Azure and install Active Directory. Initially, it might make sense to just start with a mock Identity Provider like the one freely available at https://idp.bitium.com. Once your application works against this mock IdP, then start testing it on Active Directory, FreeIPA, 389, OpenLDAP, and others.
+To get started developing, you should set up several different IdPs services to use and test with. Pick commonly used IdPs that are easy to set up. A good starting point is to create a free [Okta Developer](https://developer.okta.com/) account and create a SAML application there. Other good starting points are to create a Windows server on AWS, GCE or Azure and install Active Directory.
 
-There are some services to help jumpstart you so you don't have to understand, parse or write anything in XML also. Consider using Bitium's [BASE](https://www.bitium.com/site/product/base/) service to get started. It can connect to any IdP and allows you to start making the product changes to your own site immediately, without having to look for and build SAML libraries.
+Initially, it might make sense to just start with a mock Identity Provider like the ones freely available at [Mock SAML](https://mocksaml.com) or [SAMLTest](https://samltest.id). Once your application works against this mock IdP, then start testing it on Active Directory, FreeIPA, 389, OpenLDAP, and others. OneLogin provides [free SAML tools](https://www.samltool.com/online_tools.php) to help you whilst building your integration, including certificates, signing, parsers for SAML data and addons for Firefox and Chrome which ease debugging SAML issues whilst building and testing.
 
-Additionally, you should consider integrating with OAuth Federation flows for Google Apps, Slack, Salesforce, GitHub and other flows. There are some services ([Auth0](https://www.auth0.com)) to help implement multiple OAuth provides without writing additional code.
+There are some services to help jumpstart you so you don't have to understand, parse or write anything in XML also. Consider using [BoxyHQ's](https://boxyhq.com) free and open source [SAML Jackson](https://github.com/boxyhq/jackson) service to get started. It can connect to any IdP and wraps SAML login as an OAuth 2.0 flow allowing you to start making the product changes to your own site immediately, without having to look for and build SAML libraries.
+
+Additionally, you should consider integrating with OAuth Federation flows for Google Apps, Slack, Salesforce, GitHub and other flows. There are some services ([Auth0](https://www.auth0.com)) to help implement multiple OAuth providers without writing additional code.
 
 ### Converting from standard to SAML login
 Your users don't want to lose their history when their login is changed from a plain user-based login to a SAML login. It's important to think about how to manage this binding. In our review of [Slack's SAML Integration](/slack/sso), there's a good example of how this could work.
-
 
 ### Deep linking
 The SAML spec supports authentication on deep-linked content through the RelayState parameter. Ensure that your application communicates & honors this when it is received after authentication.
@@ -67,3 +68,4 @@ While most end users will be familiar with their SSO platform of choice, it can 
 {{< contributors username="marccampbell" >}}
 {{< contributors username="scottkriz" >}}
 {{< contributors username="goosetav" >}}
+{{< contributors username="deepakprabhakara" >}}
