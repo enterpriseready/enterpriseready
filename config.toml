@@ -15,3 +15,10 @@ theme = "hugo-theme-ephemeralenvironments"
   contributor ="Shipyard"
   contributorurl = "https://www.shipyard.build"
   image = "/images/ephemeral-logo.png"
+
+
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
