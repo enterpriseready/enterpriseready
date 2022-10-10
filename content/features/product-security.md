@@ -37,7 +37,7 @@ If you've prevented rogue traffic from accessing your servers and network, it's 
 Without rate limiting, your API is subject to brute force attacks. Consider enforcing rate limits in an upstream load balancer. It's also recommended that unauthenticated requests have a considerably lower rate limit than authenticated requests.
 
 **Monitoring**  
-All of the best security measures in place aren't enough if you don't have monitoring in place to know when you've been compromised. Invest in detailed monitoring that will alert you when unexpected events occur such as SSH connections from new IP addresses, high network throughput, high CPU, new processes running on servers, etc.
+All of the best security measures in place aren't enough if you don't have monitoring in place to know when you've been compromised. Invest in detailed monitoring that will alert you when unexpected events occur such as SSH connections from new IP addresses, high network throughput, high CPU, new processes running on servers, etc. 
 
 **Automation**  
 Reproducibility is key to ensuring consistent and intended environments by removing opportunity for human error. Without scripted and reproducible deployments, you will end up with a collection of unaudited, artisanally configured servers that could have undetected security vulnerabilities on them.
@@ -49,7 +49,7 @@ For any system that support two-factor authentication, you should require that y
 Most large enterprises will require that you have different roles for development, ops, monitoring, etc. It's important to be able to provide this, but there isn't a requirement that a single person cannot be in multiple roles. It should be structured so that a developer who also has SSH access to production servers cannot be assuming both roles simultaneously though.
 
 **Leverage Trusted Images**  
-If using Docker, enable Content Trust to ensure the image lifecycle is securely managed.
+If using Docker, enable Content Trust to ensure the image lifecycle is securely managed. Use hardened images provided by the cloud provider, or if manually built, use a well-known configuration standard in the industry, such as [CIS configuration standards](https://www.cisecurity.org/cis-benchmarks/).
 
 ## Development
 ----  
@@ -60,7 +60,7 @@ All changes that have a design review should focus on a security review also. If
 Having a current product architecture document is a prerequisite for being able to think about product security. It's important to keep your product architecture documents current.
 
 **Dev Environments**  
-Your development environments should be isolated from production and staging systems. Each development environment should not be able to access production databases and resources. Any secrets that are required for your environment should be different in dev than in production or staging.
+Your development environments should be isolated from production and staging systems. Each development environment should not be able to access production databases and resources. Production data should not be used for testing and development purposes. Any secrets that are required for your environment should be different in dev than in production or staging.
 
 **Encryption Primitives**  
 Ensure that encryption methods are not “homegrown”. Use industry defined standards when encrypting data. Also, it's important to know your (potential) buyer. Common standards like RSA and AES are frequently accepted. Some encryption libraries require initialization with a securely seeded random number generator, be sure to read the docs or code for your uuid library to determine if you are responsible for seeding.
@@ -109,6 +109,10 @@ If your application is using cookies or local/session storage, ensure that all c
 
 **Secure defaults**  
 Security shouldn't be a feature a user has to enable or opt into. Enforce secure defaults out of the box.
+
+**Logging controls**
+Log all security-relevant events at a minimum. A log entry should at least answer the following questions: Who? What? Where? When?
+All event logs must be sent to remote log aggregation servers to ensure that logs are not deleted or tampered, and protected from unauthorized access.
 
 **Demonstrable security**  
 Many enterprise buyers will ask you to provide documentation around your security efforts. Be prepared to show any of the following:  
