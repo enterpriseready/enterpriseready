@@ -1,8 +1,9 @@
 <meta name="description" content="{{ with .Params.metadescription }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta name="og:description" content="{{ with .Params.metadescription }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta name="twitter:site" value="@ephemeralenvs"/>
-<meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:creator" content="@shipyardbuild"/>
-<meta property="og:image" content="{{ .Site.BaseURL }}{{ with .Params.ogimage }}{{ . }}{{ else }}{{ with .Site.Params.ogimage }}{{ . }}{{ end }}{{ end }}" itemprop="image"/>
+<meta name="twitter:card" content="{{ .Site.BaseURL }}/images/ephemeralenvironments-preview.png">
+<meta name="og:description" content="Learn how ephemeral environments can help you and your team">
+<meta property="og:image" content="{{ .Site.BaseURL }}/images/ephemeralenvironments-preview.png" itemprop="image" />
 <meta property="og:title" content="{{ with .Params.pagetitle }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
