@@ -1,15 +1,45 @@
 <div class="container">
 <div class="subscribe-ee">
-  <form action="" method="post" data-netlify="true" name="subscribe">
+  <form id="subscribe-form" method="post" data-netlify="true" name="subscribe">
 
     <div class="subscription-box">
+      <h3 id="thanks" hidden>Thank you for subscribing!</h3>
       <fieldset>
-        <h3 class="" style="text-align:center; padding-top: 20px;padding-bottom:10px;">Subscribe to the EphemeralEnvironments.io newsletter</h3>
-        <input type="text" name="EMAIL" placeholder="Your email" required>
-        <button class="read-more">Submit</button>
+        <h3 id="submission-status" style="text-align:center; padding-top: 20px;padding-bottom:10px;">Subscribe to the EphemeralEnvironments.io newsletter</h3>
+        <input id="email" type="email" name="EMAIL" placeholder="Your email" required>
+        <button id="submit-btn" class="read-more">Submit</button>
       </fieldset>
 
     </div>
   </form>
 </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+  var userEmail = document.getElementById('email');
+  var submitButton = document.getElementById('submit-btn');
+
+  document.getElementById("subscribe-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+    var form = event.target;
+    userEmail.style.display = "none";
+    submitButton.style.display = "none";
+    // Display submission status
+    var submissionStatus = document.getElementById("submission-status");          
+    // Submit the form using Axios
+    axios.post("/", new FormData(form))
+      .then(function(response) {
+        if (response.status === 200) {
+          submissionStatus.textContent = "Thanks for subscribing!";
+          form.reset(); // Clear the form fields
+        } else {
+          submissionStatus.textContent = "Please try again later";
+        }
+      })
+      .catch(function(error) {
+        submissionStatus.textContent = "An error occurred. Please try again later.";
+      });
+  });
+</script>
