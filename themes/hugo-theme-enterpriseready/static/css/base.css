@@ -701,7 +701,7 @@ h3.section-header.sub {
 }
 
 .features-intro p {
-  color: #9B9B9B;
+  color: #3c3c3c;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -827,7 +827,7 @@ h3.section-header.sub {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
-  color: #9B9B9B;
+  color: #3c3c3c;
   margin-bottom: 25px;
 }
 
@@ -1239,7 +1239,7 @@ span.ar {
   font-weight: normal;
   font-size: 22px;
   line-height: 34px;
-  color: #9B9B9B;
+  color: #3c3c3c;
   margin-bottom: 50px;
   margin-top: 30px;
 }
@@ -2680,7 +2680,7 @@ margin-right: 10px;
   font-weight: normal;
   font-size: 22px;
   line-height: 34px;
-  color: #9B9B9B;
+  color: #3c3c3c;
   margin-bottom: 40px;
 }
 
@@ -3042,7 +3042,7 @@ margin-right: 10px;
 }
 
 #why p {
-  color:#9B9B9B;
+  color:#3c3c3c;
 }
 
 @media (max-width: 1170px) { 
@@ -3281,7 +3281,7 @@ margin-right: 10px;
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
-  color: #9B9B9B;
+  color: #3c3c3c;
   margin: 0 40px 0px 40px;
 }
 
@@ -3328,7 +3328,7 @@ margin-right: 10px;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #9B9B9B;
+  color: #3c3c3c;
   max-width: 280px;
   text-align: left;
 }
@@ -3347,8 +3347,6 @@ margin-right: 10px;
   right: 0;
   top: 900px;
 }
-
-
 
 
 /*--- Hubspot Cookie Banner Override ---*/

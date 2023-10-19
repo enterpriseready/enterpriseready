@@ -11,12 +11,12 @@ ogimage = "images/twtr/deployment-options-og.png"
 
 As discussed in our overview of the various [deployment options that are available to SaaS vendors](/blog/deployment-models), many large enterprises will ask for a private instance of an application. They might be looking for a single tenant instance that you host and manage. Or they might be looking for a full on-prem, air-gapped server installation… or anything in between. Ultimately, you'll want to be able to deliver a version of your application that can be deployed anywhere.  
 
-The reason enterprises ask for this can vary. For many industry verticals like financial services, legal, health care, governments and industrial the reasons often come down to security and compliance. Other application categories like developer tools, ops, data science, BI or security tools are built around an integration with internal systems that are already running on private networks.
+The reason enterprises ask for this can vary. For many industry verticals like financial services, legal, health care, governments and industrial the reasons often come down to security and compliance. Other application categories like AI, developer tools, ops, data science, BI or security tools are built around an integration with internal systems that are already running on private networks or require massive amounts of data.
 
 Much of the prevailing wisdom about supporting both a multi-tenant SaaS version and an enterprise installable version of your application suggests it is too hard as it splits your internal attention from the primary product. However, we think that the development and ops landscape has changed enough in the last ten years to reconsider that line of thinking. Thanks to the evolution of devops & the emergence of containers, applications are more portable now than ever before.  As a result, while legacy SaaS providers are stuck managing their aging cloud deployments, modern SaaS applications can leverage this newfound portability to offer enterprise customers the choice of their preferred deployment option.  
 
-## Enterprise Development
-One of the key challenges for SaaS vendors who are also going to deploy on-prem is to manage the development of these offerings as a single product.  
+## Enterprise Software Distribution Lifecycle
+One of the key challenges for SaaS vendors who are also going to deploy on-prem is to manage the distribution lifecycle of these offerings as a single product.  
 
 The key methods that will allow you to do so effectively are as follows:  
 
@@ -24,20 +24,23 @@ The key methods that will allow you to do so effectively are as follows:
 
 **Leverage release channels** - Enterprise versions will likely not be automatically deployed to your customers at the same cadence that you update your public cloud version. As a result, it is important that just as you have dev, test and production environments, you should introduce enterprise release channels also.  
 
-## Application Delivery
-There is a lot to consider when delivering a version that your customers can install and manage on their own. Particularly, they’ll be looking for something that can run on their preferred OS (likely Red Hat Enterprise Linux or Centos). Common options for delivering private instances are as follows:  
+**Compatibility Testing** - End customer environments are increasingly consistent, but it is still very important to test your application on customer representative environments as enterprise environments are often uniquely configured.
 
-**Java App** - For applications written in Java, vendors like Atlassian have provided customers with a `.jar` file. Customers are expected to install the JVM, spin up Tomcat or another web server and provide their own configured database (such as MySQL, Postgres or MS SQL).  
+## Application Packaging
+There is a lot to consider when delivering a version that your customers can install and manage on their own. The two main factors that come into consideration are 1) the complexity of the underlying ISV's application 2) the end customer's  familiarity with the most common modern application packaging (mainly Kubernetes & Helm).
+![](/images/app-packaging.png)
 
-**deb/rpm/.exe Package** - Often used to deploy components. Configuration is generally managed through config files externally. Updates are delivered through each package manager. If you go down this route, check out [PackageCloud.io](https://www.packagecloud.io).  
+ The result is that most commercial software vendors need to provide a few options for customer installation (to meet their end customer's needs). Below are the most common options that modern ISVs provide:
 
-**VM Images** - For vendors who would offer their enterprise version as an “appliance”, the VM route wraps up the application along with all of it’s dependencies including the host OS into a machine image (`.ova` or as an AMI for [distribution in AWS](https://aws.amazon.com/marketplace/)).  
+ **Helm Charts or Kubernetes Manifest** - For complex applications with a large number of microservices that need to be orchestrated and scheduled across `n` number of machines, delivering the full application automation in addition to the artifacts is the right approach. For the past few years, many modern applications have been architected with Kubernetes (k8s) as the native deployment target (i.e. cloud-native architecture), and as such, it has seen significant adoption by both enterprises and vendors. By delivering Kubernetes-based applications, commercial vendors can be confident that the end customer installations will be highly available, scalable and compatible with a wide ecosystem of tools and knowledge. [Helm](https://helm.sh) has become the standard for Kubernetes packaging and many enterprises will prefer that commercial vendors provide them with a Helm chart.
 
-**Docker Images** - [Docker](https://www.docker.com) offers an unprecedented level of application portability, and as such, it can be very useful for deploying enterprise applications into unfamiliar environments. Customers manage the host OS and therefore are responsible for OS patches and updates. Docker images are versioned with tags and offer native support for mounting volumes. Both of these features make application updates less painful than other solutions.
+**Fully Packaged App & Env** - For vendors who would offer their enterprise version as an “appliance”, the Virtual Machine (VM) route wraps up the application along with all of it’s dependencies including the host OS into a machine image (`.ova` or as an AMI for [distribution in AWS](https://aws.amazon.com/marketplace/)). This generally reduces the amount of configuration and management that an IT admin will need to perform in order to operate the application, however it often lacks the flexibility for enhanced controls that many advanced organizations require. For complex applications that require Kubernetes, ISVs will likely need to offer an embedded Kubernetes installer with their application to create an appliance like experience for enterprise customers who are less familiar with Kubernetes.
 
-**Kubernetes Manifest** - Docker images are great, but for complex applications with a large number of microservices that need to be orchestrated and scheduled across `n` number of machines, delivering the full application automation in addition to the artifacts is the right approach. For the past few years, many modern applications have been architected with Kubernetes (k8s) as the native deployment target (i.e. cloud-native architecture), and as such, it has seen significant adoption by both enterprises and vendors. By delivering Kubernetes manifests, application vendors can be confident that the end customer installations will be highly available with zero-downtime updates. Applications can package up various components as Helm charts, or raw Kubernetes manifests, but treat this artifact as the base that an enterprise can provide an overlay on top of using Kustomize.
+ **Docker Images** - For simple applications, providing a single Docker or container image offers application portability, and as such, it can be very useful for deploying enterprise applications into unfamiliar environments. Customers manage the host OS & orchestration and therefore are responsible for patches and updates. 
 
-[Replicated](https://www.replicated.com) continues to focus on supplying the tools that make it easier for SaaS and software vendors to distribute their cloud-native applications as Kubernetes applications or Docker Swarm applications to enterprise customers.  
+ **Binary** - Some applications are simple enough (and built with a compiled language like GO o Java) that they're most easily distributed as a binary. These applications often require less configuration and are ready to run on most environments with few dependencies.
+
+[Replicated](https://www.replicated.com) continues to focus on supplying the tools that make it easier for SaaS and software vendors to distribute their cloud-native applications as Kubernetes applications to enterprise customers.  
 
 ## Private Instance Features
 In any buyer managed private instance there are key features that are important to incorporate for enterprise buyers. First and foremost, these enterprise buyers will generally require many of the features that comprise EnterpriseReady ([RBAC](/features/role-based-access-control), [audit logs](/features/audit-log), [advanced reporting](/features/advanced-reporting), [change management](/features/change-management), etc). Second they will need features that allow them to manage the application lifecycle, including installation, configuration, updates, backups, and more. Finally, it's important to think about how you are going to support a buyer-managed private instance when something isn't working well. Ideally you will have SSH access to the servers, but many large enterprise buyers can't or won't be able to provide this. Troubleshooting a system that you don't have direct access to is a new skill to learn.
@@ -47,6 +50,7 @@ In any buyer managed private instance there are key features that are important 
 **System requirements enforcement** - To help prevent errors during installation, it can be super helpful to provide tools that can validate that the resources provided meet your hardware, network and environment requirements.  
 
 **Licensing** - Each instance should be installed from a unique license that includes metadata about the instance including license expiration, as well as any features enabled/disabled.  
+
 **Settings console** - A console for managing instance level settings such as hostname, SSL/TLS certs, SMTP information, external integrations and any other configuration option your customer will need to supply.  
 
 **Database configuration** - Many enterprise will actually prefer to bring their own instance of MySQL, Elastic Search, Redis etc. They often have on-staff DBAs who would prefer to leverage their own instances of those components. As a result, it is important to expose the configuration options to allow your application to leverage those external resources.  
@@ -55,7 +59,7 @@ In any buyer managed private instance there are key features that are important 
 
 **Update management** - Most private instance are capable of making outbound internet requests to check for updates. For instances unable to check the public internet, monitoring a local file path for the presence of manually transferred update packages can be useful.  
 
-**Instance reports** - The enterprise IT admin managing the application will have different reporting requirements than many smaller customers. Provide info for usage as well as common instance data like CPU & Memory usage.  
+**Instance monitoring** - The enterprise IT admin managing the application will have different reporting requirements than many smaller customers. Provide info for usage as well as common instance data like CPU & Memory usage.  
 
 **Support enablement** - It is optimal for customers to be able to leverage tools to self-diagnose potential issues or at least automate the generation of the files that you'll need to support them.  
 
