@@ -43,7 +43,7 @@ Initially, it might make sense to just start with a mock Identity Provider like 
 
 There are some services to help jumpstart you so you don't have to understand, parse or write anything in XML also. Consider using [BoxyHQ's](https://boxyhq.com) free and open source [SAML Jackson](https://github.com/boxyhq/jackson) service to get started. It can connect to any IdP and wraps SAML login as an OAuth 2.0 flow allowing you to start making the product changes to your own site immediately, without having to look for and build SAML libraries.
 
-Additionally, you should consider integrating with OAuth Federation flows for Google Apps, Slack, Salesforce, GitHub and other flows. There are some services ([Auth0](https://www.auth0.com)) to help implement multiple OAuth providers without writing additional code.
+Additionally, you should consider integrating with OAuth Federation flows for Google Apps, Slack, Salesforce, GitHub and other flows. There are some services like [Auth0](https://www.auth0.com) (Managed) or [SuperTokens](https://supertokens.com) (Self hosted or Managed) to help implement multiple OAuth providers without writing additional code.
 
 ### Converting from standard to SAML login
 Your users don't want to lose their history when their login is changed from a plain user-based login to a SAML login. It's important to think about how to manage this binding. In our review of [Slack's SAML Integration](/slack/sso), there's a good example of how this could work.
