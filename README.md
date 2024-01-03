@@ -1,6 +1,7 @@
 # EphemeralEnvironments.io
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-EphemeralEnvironments.io is a resource for organizations who want to incorporate ephemeral environments into their dev workflows.
+[EphemeralEnvironments.io](https://ephemeralenvironments.io) is a resource for organizations who want to incorporate ephemeral environments into their dev workflows.
 
 We've compiled a number of feature guides outlining best practices for setting up and using ephemeral environments, based on interviews with industry experts.
 
