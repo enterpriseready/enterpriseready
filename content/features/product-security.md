@@ -69,7 +69,7 @@ Ensure that encryption methods are not “homegrown”. Use industry defined sta
 Require that all code is reviewed by a separate person than the author. This will help eliminate rogue actors from introducing intentional or unintentional security bugs into your system.
 
 **Application Security Testing**  
-Leverage Application Security Testing (AST) tools. Interactive (IAST) tools such as Contrast [https://www.contrastsecurity.com] combine multiple techniques and are compatible with modern software pipelines. Static (SAST) tools such as [Checkmarx](https://www.checkmarx.com) and [Veracode](https://www.veracode.com/) scan source code. Dynamic (DAST) tools simulate attacks using HTTP requests.
+Leverage Application Security Testing (AST) tools. Interactive (IAST) tools such as [Contrast Security](https://www.contrastsecurity.com) combine multiple techniques and are compatible with modern software pipelines. Static (SAST) tools such as [Checkmarx](https://www.checkmarx.com) and [Veracode](https://www.veracode.com/) scan source code. Dynamic (DAST) tools such as [Probely](https://probely.com) and [Bright](https://brightsec.com/) simulate attacks using HTTP requests and test the application end-to-end.
 
 **Test Dependencies**  
 While it's common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like [Snyk](https://www.snyk.io) and Contrast [https://www.contrastsecurity.com] are available to help automatically monitor and scan these.
