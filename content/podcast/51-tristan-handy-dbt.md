@@ -1,4 +1,5 @@
 +++
+date = "2025-05-07T00:00:00Z"
 title = "Tristan Handy"
 type = "podcast"
 metadescription = "The EnterpriseReady Podcast is a show aiming to change the enterprise software narrative from how to sell to the enterprise, to how to build for the enterprise."
@@ -6,7 +7,7 @@ pagetitle = "Tristan Handy - EnterpriseReady Podcast | BUILDING the world’s be
 ogimage = "/podcast/images/ogimages/episode-50-og.png"
 image = "/podcast/images/episodes/tristan-handy.jpg"
 weight = "51"
-description = "Tristan Handy, CEO of dbt Labs, shares the journey of building dbt from a consulting tool into a category-defining data transformation platform, while reflecting on the evolution of the modern data stack, open-source business models, and the future of analytics engineering in an AI-driven world."
+description = "Tristan Handy, CEO of dbt Labs, shares the journey of building dbt while reflecting on the future of analytics engineering in an AI-driven world."
 +++
 
 
@@ -18,4 +19,4 @@ In episode 51 of EnterpriseReady, Grant speaks with Tristan Handy of DBT Labs. H
 
 ## About the Guest 
 
-[Tristan Handy](https://x.com/jthandy) is a data practitioner turned entrepreneur with a passion for empowering analytics teams. He is the Co-Founder & CEO of [DBT Labs](https://www.getdbt.com/).
+[Tristan Handy](https://x.com/jthandy) is a data practitioner turned entrepreneur with a passion for empowering analytics teams. He is the Co-Founder & CEO of [dbt Labs](https://www.getdbt.com/).
