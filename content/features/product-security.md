@@ -71,8 +71,8 @@ Require that all code is reviewed by a separate person than the author. This wil
 **Application Security Testing**  
 Leverage Application Security Testing (AST) tools. Interactive (IAST) tools such as Contrast [https://www.contrastsecurity.com] combine multiple techniques and are compatible with modern software pipelines. Static (SAST) tools such as [Checkmarx](https://www.checkmarx.com) and [Veracode](https://www.veracode.com/) scan source code. Dynamic (DAST) tools simulate attacks using HTTP requests.
 
-**Test Dependencies**  
-While it's common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like [Snyk](https://www.snyk.io) and Contrast [https://www.contrastsecurity.com] are available to help automatically monitor and scan these.
+**Zero CVE Open Source Images**  
+While it's common to think about vulnerabilities in your own code, most software today is based on open source and has a lot of dependencies. Scanning regularly with tools like Grype and Trivy can help provide visibility to these CVES. Additionally, we recommend using the Zero CVE Images from [SecureBuild](https://securebuild.com) to reduce the CVE count in your container images.
 
 **Secret Management**  
 Your code should use a vault to store secrets when possible. Consider using [Hashicorp Vault](https://www.vaultproject.io/) or [Torus.sh](https://www.torus.sh/) for this.
