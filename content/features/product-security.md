@@ -28,7 +28,7 @@ Create private networks by leveraging cloud hosting features such as VPCs and VP
 The principle of least privilege can be applied to the openness of systems and servers. By doing so you can reduce the surface area for potential attacks. Servers should not have public IP addresses unless absolutely needed (instead traffic should be routed through a reverse proxy server like Nginx). All unnecessary ports should be blocked. Only allow SSH connections from internal (VPN) connections. Moving the SSH port to a different port isn't a secure solution.
 
 **Take Preventative Action**  
-There are some external products and services that can help detect when your network has been compromised or if your applications have known vulnerabilities. Some can even assist you to deploy patches or block access to bad actors. A examples of products to evaluate are: [SignalSciences](https://www.signalsciences.com), [AlienVault](https://www.alienvault.com), [Snort](https://www.snort.org) or [Tenable](https://www.tenable.com).
+There are some external products and services that can help detect when your network has been compromised or if your applications have known vulnerabilities. Some can even assist you to deploy patches or block access to bad actors. 
 
 **DDOS Prevention**  
 If you've prevented rogue traffic from accessing your servers and network, it's still possible for external services to block anyone else from using your service by creating a distributed, denial-of-service attack. To prevent this, it's recommended to use a 3rd party service such as [Cloudflare](https://www.cloudflare.com) or [Akamai](https://www.akamai.com) who have experience managing DDOS attacks.
@@ -49,7 +49,7 @@ For any system that support two-factor authentication, you should require that y
 Most large enterprises will require that you have different roles for development, ops, monitoring, etc. It's important to be able to provide this, but there isn't a requirement that a single person cannot be in multiple roles. It should be structured so that a developer who also has SSH access to production servers cannot be assuming both roles simultaneously though.
 
 **Leverage Trusted Images**  
-If using Docker, enable Content Trust to ensure the image lifecycle is securely managed.
+If using Docker, enable Content Trust to ensure the image lifecycle is securely managed. Several providers now also offer Zero-CVE images with SLAs for CVE remediation that can dramatically reduce the overhead of managing open source components and base images. Check out [SecureBuild](https://securebuild.com) as they provide OSS partners with 70% of the revenue from direct image subscriptions.
 
 ## Development
 ----  
@@ -72,7 +72,7 @@ Require that all code is reviewed by a separate person than the author. This wil
 Leverage Application Security Testing (AST) tools. Interactive (IAST) tools such as Contrast [https://www.contrastsecurity.com] combine multiple techniques and are compatible with modern software pipelines. Static (SAST) tools such as [Checkmarx](https://www.checkmarx.com) and [Veracode](https://www.veracode.com/) scan source code. Dynamic (DAST) tools simulate attacks using HTTP requests.
 
 **Test Dependencies**  
-While it's common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like [Snyk](https://www.snyk.io) and Contrast [https://www.contrastsecurity.com] are available to help automatically monitor and scan these.
+While it's common to think about vulnerabilities in your own code, most software today has a lot of dependencies. You should remember to check for vulnerabilities in all of your dependencies also. Depending on the language you are using, tools like [Snyk](https://www.snyk.io) are available to help automatically monitor and scan these.
 
 **Secret Management**  
 Your code should use a vault to store secrets when possible. Consider using [Hashicorp Vault](https://www.vaultproject.io/) or [Torus.sh](https://www.torus.sh/) for this.
