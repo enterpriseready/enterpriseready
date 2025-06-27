@@ -36,7 +36,7 @@ In addition to contractual and community support, your company can go a long way
 
 Your enterprise customers will also expect some visibility into your **product roadmap**. They want to be able to influence the features you’ll be adding in order to ensure that you continue to meet their changing needs. However, you’ll usually want to preface any such discussion with a safe-harbor statement (if it’s in a presentation) or other means of communicating that although this is the general direction, you are not promising to deliver anything specific by any specific time frame. Some companies do build features at customers’ requests, but that type of deal must be formalized in a contract.
 
-Many enterprise customers will also eventually ask for things like **business insurance, source code escrow and indemnification**. Like SLAs, these aren’t really product features, but they’re important to understand because they’ll come up in enterprise contract negotiations and they can be addressed to some degree by how the product is built.
+Many enterprise customers will also eventually ask for things like business insurance, source code escrow and indemnification. Like SLAs, these aren’t really product features, but they’re important to understand because they’ll come up in enterprise contract negotiations and they can be addressed to some degree by how the product is built. Replicated collaborated with Common Paper to create a standard [Software License Agreement](https://commonpaper.com/standards/software-license-agreement) that has been used to close millions of dollars of enterprise deals.  It's released under a Creative Commons license and free to customize and use. 
 
 
 ## Examples
