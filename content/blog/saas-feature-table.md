@@ -9,6 +9,7 @@ pagetitle = "Top 50 SaaS companies feature comparison by plan"
 | Company	| Team Mgmt | SSO | RBAC | Audit Log | Support+ | Security+ | Change Mgmt | Reporting+ | Integrations+ | Deployment |
 |---------|-----------|-----|------|-----------|--------------|----------|-------------|-----------|--------------|--------------------|
 | [Slack](https://slack.com/pricing) | All	| Enterprise | Standard | Plus | Plus | All | - | Enterprise | Tiers | Cloud |
+| [Orangescrum](https://www.orangescrum.com/pricing) | -	| All | All | All | All | - | All | All | All | Private/Cloud |
 | [Salesforce Sales Cloud](https://goo.gl/qp2AnG) | All | Enterprise | Pro | All | Unlimited | All | Unlimited | Enterprise | Enterprise | Cloud |
 | [Github](https://github.com/business/features) | Orgs | Enterprise | Orgs | Orgs | - | - | Enterprise | Enterprise | All | Private/Cloud |
 | [Zendesk](https://goo.gl/CdHk4B) | All	| Pro	| Enterprise | Enterprise	| Pro	| All	| Enterprise | Enterprise | Team | Cloud |
