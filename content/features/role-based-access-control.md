@@ -45,7 +45,7 @@ Let’s illustrate these with an example application that will be familiar to mo
 
 ### Resource Types
 
-Every application has a set of “nouns”: in the example we’ve chosen, an ATS has _candidates**, **jobs_, and _reports_. These are the **resource** **types** that the application manages.
+Every application has a set of “nouns”: in the example we’ve chosen, an ATS has _candidates_, _jobs_, and _reports_. These are the **resource types** that the application manages.
 
 ### Permissions
 
